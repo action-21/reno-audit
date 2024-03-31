@@ -1,0 +1,861 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table name="tv_generateur_combustion_ch">
+    <row>
+        <id>1</id>
+        <enum_type_generateur_ch_id>85|127</enum_type_generateur_ch_id>
+        <pn_min></pn_min>
+        <pn_max></pn_max>
+        <pn></pn>
+        <rpn><![CDATA[84 + 2 * logPn]]></rpn>
+        <rpint><![CDATA[80 + 3 * logPn]]></rpint>
+        <qp0><![CDATA[4]]></qp0>
+        <pveil>240</pveil>
+    </row>
+    <row>
+        <id>2</id>
+        <enum_type_generateur_ch_id>86|128</enum_type_generateur_ch_id>
+        <pn_min></pn_min>
+        <pn_max></pn_max>
+        <pn></pn>
+        <rpn><![CDATA[84 + 2 * logPn]]></rpn>
+        <rpint><![CDATA[80 + 3 * logPn]]></rpint>
+        <qp0><![CDATA[2]]></qp0>
+        <pveil>150</pveil>
+    </row>
+    <row>
+        <id>3</id>
+        <enum_type_generateur_ch_id>87|129</enum_type_generateur_ch_id>
+        <pn_min></pn_min>
+        <pn_max></pn_max>
+        <pn></pn>
+        <rpn><![CDATA[84 + 2 * logPn]]></rpn>
+        <rpint><![CDATA[80 + 3 * logPn]]></rpint>
+        <qp0><![CDATA[1.5]]></qp0>
+        <pveil>150</pveil>
+    </row>
+    <row>
+        <id>4</id>
+        <enum_type_generateur_ch_id>88|130</enum_type_generateur_ch_id>
+        <pn_min></pn_min>
+        <pn_max></pn_max>
+        <pn></pn>
+        <rpn><![CDATA[84 + 2 * logPn]]></rpn>
+        <rpint><![CDATA[80 + 3 * logPn]]></rpint>
+        <qp0><![CDATA[1.2]]></qp0>
+        <pveil>120</pveil>
+    </row>
+    <row>
+        <id>5</id>
+        <enum_type_generateur_ch_id>89|131</enum_type_generateur_ch_id>
+        <pn_min></pn_min>
+        <pn_max></pn_max>
+        <pn></pn>
+        <rpn><![CDATA[84 + 2 * logPn]]></rpn>
+        <rpint><![CDATA[80 + 3 * logPn]]></rpint>
+        <qp0><![CDATA[1]]></qp0>
+        <pveil></pveil>
+    </row>
+    <row>
+        <id>6</id>
+        <enum_type_generateur_ch_id>90|132</enum_type_generateur_ch_id>
+        <pn_min></pn_min>
+        <pn_max></pn_max>
+        <pn></pn>
+        <rpn><![CDATA[84 + 2 * logPn]]></rpn>
+        <rpint><![CDATA[80 + 3 * logPn]]></rpint>
+        <qp0><![CDATA[Pn * (E + F * logPn) / 100]]></qp0>
+        <pveil></pveil>
+    </row>
+    <row>
+        <id>7</id>
+        <enum_type_generateur_ch_id>91|133</enum_type_generateur_ch_id>
+        <pn_min></pn_min>
+        <pn_max></pn_max>
+        <pn></pn>
+        <rpn><![CDATA[87.5 + 1.5 * logPn]]></rpn>
+        <rpint><![CDATA[87.5 + 1.5 * logPn]]></rpint>
+        <qp0><![CDATA[1.2]]></qp0>
+        <pveil>120</pveil>
+    </row>
+    <row>
+        <id>8</id>
+        <enum_type_generateur_ch_id>92|134</enum_type_generateur_ch_id>
+        <pn_min></pn_min>
+        <pn_max></pn_max>
+        <pn></pn>
+        <rpn><![CDATA[87.5 + 1.5 * logPn]]></rpn>
+        <rpint><![CDATA[87.5 + 1.5 * logPn]]></rpint>
+        <qp0><![CDATA[1]]></qp0>
+        <pveil></pveil>
+    </row>
+    <row>
+        <id>9</id>
+        <enum_type_generateur_ch_id>93|135</enum_type_generateur_ch_id>
+        <pn_min></pn_min>
+        <pn_max></pn_max>
+        <pn></pn>
+        <rpn><![CDATA[87.5 + 1.5 * logPn]]></rpn>
+        <rpint><![CDATA[87.5 + 1.5 * logPn]]></rpint>
+        <qp0><![CDATA[Pn * (E + F * logPn) / 100]]></qp0>
+        <pveil></pveil>
+    </row>
+    <row>
+        <id>10</id>
+        <enum_type_generateur_ch_id>94|136</enum_type_generateur_ch_id>
+        <pn_min></pn_min>
+        <pn_max></pn_max>
+        <pn></pn>
+        <rpn><![CDATA[91 + logPn]]></rpn>
+        <rpint><![CDATA[97 + logPn]]></rpint>
+        <qp0><![CDATA[1]]></qp0>
+        <pveil>150</pveil>
+    </row>
+    <row>
+        <id>11</id>
+        <enum_type_generateur_ch_id>95|137</enum_type_generateur_ch_id>
+        <pn_min></pn_min>
+        <pn_max></pn_max>
+        <pn></pn>
+        <rpn><![CDATA[91 + logPn]]></rpn>
+        <rpint><![CDATA[97 + logPn]]></rpint>
+        <qp0><![CDATA[1]]></qp0>
+        <pveil>120</pveil>
+    </row>
+    <row>
+        <id>12</id>
+        <enum_type_generateur_ch_id>96|138|148|160</enum_type_generateur_ch_id>
+        <pn_min></pn_min>
+        <pn_max></pn_max>
+        <pn></pn>
+        <rpn><![CDATA[91 + logPn]]></rpn>
+        <rpint><![CDATA[97 + logPn]]></rpint>
+        <qp0><![CDATA[1]]></qp0>
+        <pveil></pveil>
+    </row>
+    <row>
+        <id>13</id>
+        <enum_type_generateur_ch_id>97|139|149|161</enum_type_generateur_ch_id>
+        <pn_min></pn_min>
+        <pn_max><![CDATA[<= 70 kW]]></pn_max>
+        <pn></pn>
+        <rpn><![CDATA[91 + 3 * logPn]]></rpn>
+        <rpint><![CDATA[103 + 2.5 * logPn]]></rpint>
+        <qp0><![CDATA[0.5]]></qp0>
+        <pveil></pveil>
+    </row>
+    <row>
+        <id>14</id>
+        <enum_type_generateur_ch_id>97|139|149|161</enum_type_generateur_ch_id>
+        <pn_min><![CDATA[> 70]]></pn_min>
+        <pn_max><![CDATA[<= 400 kW]]></pn_max>
+        <pn></pn>
+        <rpn><![CDATA[94 + logPn]]></rpn>
+        <rpint><![CDATA[105 + 0.5 * logPn]]></rpint>
+        <qp0><![CDATA[0.3]]></qp0>
+        <pveil></pveil>
+    </row>
+    <row>
+        <id>15</id>
+        <enum_type_generateur_ch_id>97|139|149|161</enum_type_generateur_ch_id>
+        <pn_min><![CDATA[> 400]]></pn_min>
+        <pn_max></pn_max>
+        <pn>400</pn>
+        <rpn><![CDATA[96.6]]></rpn>
+        <rpint><![CDATA[106.3]]></rpint>
+        <qp0><![CDATA[0.3]]></qp0>
+        <pveil></pveil>
+    </row>
+    <row>
+        <id>16</id>
+        <enum_type_generateur_ch_id>75|119</enum_type_generateur_ch_id>
+        <pn_min></pn_min>
+        <pn_max></pn_max>
+        <pn></pn>
+        <rpn><![CDATA[84 + 2 * logPn]]></rpn>
+        <rpint><![CDATA[80 + 3 * logPn]]></rpint>
+        <qp0><![CDATA[4]]></qp0>
+        <pveil></pveil>
+    </row>
+    <row>
+        <id>17</id>
+        <enum_type_generateur_ch_id>76|119</enum_type_generateur_ch_id>
+        <pn_min></pn_min>
+        <pn_max></pn_max>
+        <pn></pn>
+        <rpn><![CDATA[84 + 2 * logPn]]></rpn>
+        <rpint><![CDATA[80 + 3 * logPn]]></rpint>
+        <qp0><![CDATA[3]]></qp0>
+        <pveil></pveil>
+    </row>
+    <row>
+        <id>18</id>
+        <enum_type_generateur_ch_id>77|119</enum_type_generateur_ch_id>
+        <pn_min></pn_min>
+        <pn_max></pn_max>
+        <pn></pn>
+        <rpn><![CDATA[84 + 2 * logPn]]></rpn>
+        <rpint><![CDATA[80 + 3 * logPn]]></rpint>
+        <qp0><![CDATA[2]]></qp0>
+        <pveil></pveil>
+    </row>
+    <row>
+        <id>19</id>
+        <enum_type_generateur_ch_id>78|119</enum_type_generateur_ch_id>
+        <pn_min></pn_min>
+        <pn_max></pn_max>
+        <pn></pn>
+        <rpn><![CDATA[84 + 2 * logPn]]></rpn>
+        <rpint><![CDATA[80 + 3 * logPn]]></rpint>
+        <qp0><![CDATA[1]]></qp0>
+        <pveil></pveil>
+    </row>
+    <row>
+        <id>20</id>
+        <enum_type_generateur_ch_id>79|119</enum_type_generateur_ch_id>
+        <pn_min></pn_min>
+        <pn_max></pn_max>
+        <pn></pn>
+        <rpn><![CDATA[84 + 2 * logPn]]></rpn>
+        <rpint><![CDATA[80 + 3 * logPn]]></rpint>
+        <qp0><![CDATA[1]]></qp0>
+        <pveil></pveil>
+    </row>
+    <row>
+        <id>21</id>
+        <enum_type_generateur_ch_id>80|119</enum_type_generateur_ch_id>
+        <pn_min></pn_min>
+        <pn_max></pn_max>
+        <pn></pn>
+        <rpn><![CDATA[84 + 2 * logPn]]></rpn>
+        <rpint><![CDATA[80 + 3 * logPn]]></rpint>
+        <qp0><![CDATA[Pn * (E + F * logPn) / 100]]></qp0>
+        <pveil></pveil>
+    </row>
+    <row>
+        <id>22</id>
+        <enum_type_generateur_ch_id>81</enum_type_generateur_ch_id>
+        <pn_min></pn_min>
+        <pn_max></pn_max>
+        <pn></pn>
+        <rpn><![CDATA[87.5 + 1.5 * logPn]]></rpn>
+        <rpint><![CDATA[87.5 + 1.5 * logPn]]></rpint>
+        <qp0><![CDATA[1]]></qp0>
+        <pveil></pveil>
+    </row>
+    <row>
+        <id>23</id>
+        <enum_type_generateur_ch_id>82</enum_type_generateur_ch_id>
+        <pn_min></pn_min>
+        <pn_max></pn_max>
+        <pn></pn>
+        <rpn><![CDATA[87.5 + 1.5 * logPn]]></rpn>
+        <rpint><![CDATA[87.5 + 1.5 * logPn]]></rpint>
+        <qp0><![CDATA[Pn * (E + F * logPn) / 100]]></qp0>
+        <pveil></pveil>
+    </row>
+    <row>
+        <id>24</id>
+        <enum_type_generateur_ch_id>83|150</enum_type_generateur_ch_id>
+        <pn_min></pn_min>
+        <pn_max></pn_max>
+        <pn></pn>
+        <rpn><![CDATA[91 + logPn]]></rpn>
+        <rpint><![CDATA[97 + logPn]]></rpint>
+        <qp0><![CDATA[1]]></qp0>
+        <pveil></pveil>
+    </row>
+    <row>
+        <id>25</id>
+        <enum_type_generateur_ch_id>84|151</enum_type_generateur_ch_id>
+        <pn_min></pn_min>
+        <pn_max><![CDATA[<= 70 kW]]></pn_max>
+        <pn></pn>
+        <rpn><![CDATA[91 + 3 * logPn]]></rpn>
+        <rpint><![CDATA[98 + 3 * logPn]]></rpint>
+        <qp0><![CDATA[0.5]]></qp0>
+        <pveil></pveil>
+    </row>
+    <row>
+        <id>26</id>
+        <enum_type_generateur_ch_id>84</enum_type_generateur_ch_id>
+        <pn_min><![CDATA[> 70]]></pn_min>
+        <pn_max><![CDATA[<= 400 kW]]></pn_max>
+        <pn></pn>
+        <rpn><![CDATA[94 + logPn]]></rpn>
+        <rpint><![CDATA[100 + logPn]]></rpint>
+        <qp0><![CDATA[0.6]]></qp0>
+        <pveil></pveil>
+    </row>
+    <row>
+        <id>27</id>
+        <enum_type_generateur_ch_id>84</enum_type_generateur_ch_id>
+        <pn_min><![CDATA[> 400]]></pn_min>
+        <pn_max></pn_max>
+        <pn>400</pn>
+        <rpn><![CDATA[96.6]]></rpn>
+        <rpint><![CDATA[102.6]]></rpint>
+        <qp0><![CDATA[0.3]]></qp0>
+        <pveil></pveil>
+    </row>
+    <row>
+        <id>28</id>
+        <enum_type_generateur_ch_id>55|62|120</enum_type_generateur_ch_id>
+        <pn_min></pn_min>
+        <pn_max><![CDATA[<= 70 kW]]></pn_max>
+        <pn></pn>
+        <rpn><![CDATA[47 + 6 * logPn]]></rpn>
+        <rpint><![CDATA[48 + 6 * logPn]]></rpint>
+        <qp0><![CDATA[0.08 * Pn * (Pn ^ -0.27)]]></qp0>
+        <pveil></pveil>
+    </row>
+    <row>
+        <id>29</id>
+        <enum_type_generateur_ch_id>55|62|120</enum_type_generateur_ch_id>
+        <pn_min><![CDATA[> 70]]></pn_min>
+        <pn_max><![CDATA[<= 400 kW]]></pn_max>
+        <pn>70</pn>
+        <rpn><![CDATA[58]]></rpn>
+        <rpint><![CDATA[59]]></rpint>
+        <qp0><![CDATA[180]]></qp0>
+        <pveil></pveil>
+    </row>
+    <row>
+        <id>30</id>
+        <enum_type_generateur_ch_id>55|62|120</enum_type_generateur_ch_id>
+        <pn_min><![CDATA[> 400]]></pn_min>
+        <pn_max></pn_max>
+        <pn>70</pn>
+        <rpn><![CDATA[58]]></rpn>
+        <rpint><![CDATA[59]]></rpint>
+        <qp0><![CDATA[110]]></qp0>
+        <pveil></pveil>
+    </row>
+    <row>
+        <id>31</id>
+        <enum_type_generateur_ch_id>56|63|121|48</enum_type_generateur_ch_id>
+        <pn_min></pn_min>
+        <pn_max><![CDATA[<= 70 kW]]></pn_max>
+        <pn></pn>
+        <rpn><![CDATA[47 + 6 * logPn]]></rpn>
+        <rpint><![CDATA[48+6 * logPn]]></rpint>
+        <qp0><![CDATA[0.07 * Pn* (Pn ^ -0.3)]]></qp0>
+        <pveil></pveil>
+    </row>
+    <row>
+        <id>32</id>
+        <enum_type_generateur_ch_id>56|63|121|48</enum_type_generateur_ch_id>
+        <pn_min><![CDATA[> 70]]></pn_min>
+        <pn_max><![CDATA[<= 400 kW]]></pn_max>
+        <pn>70</pn>
+        <rpn><![CDATA[58]]></rpn>
+        <rpint><![CDATA[59]]></rpint>
+        <qp0><![CDATA[140]]></qp0>
+        <pveil></pveil>
+    </row>
+    <row>
+        <id>33</id>
+        <enum_type_generateur_ch_id>56|63|121|48</enum_type_generateur_ch_id>
+        <pn_min><![CDATA[> 400]]></pn_min>
+        <pn_max></pn_max>
+        <pn>70</pn>
+        <rpn><![CDATA[58]]></rpn>
+        <rpint><![CDATA[59]]></rpint>
+        <qp0><![CDATA[80]]></qp0>
+        <pveil></pveil>
+    </row>
+    <row>
+        <id>34</id>
+        <enum_type_generateur_ch_id>57|64|122</enum_type_generateur_ch_id>
+        <pn_min></pn_min>
+        <pn_max><![CDATA[<= 70 kW]]></pn_max>
+        <pn></pn>
+        <rpn><![CDATA[47 + 6 * logPn]]></rpn>
+        <rpint><![CDATA[48+6 * logPn]]></rpint>
+        <qp0><![CDATA[0.085 * Pn * (Pn ^ -0.4)]]></qp0>
+        <pveil></pveil>
+    </row>
+    <row>
+        <id>35</id>
+        <enum_type_generateur_ch_id>57|64|122</enum_type_generateur_ch_id>
+        <pn_min><![CDATA[> 70]]></pn_min>
+        <pn_max><![CDATA[<= 400 kW]]></pn_max>
+        <pn>70</pn>
+        <rpn><![CDATA[58]]></rpn>
+        <rpint><![CDATA[59]]></rpint>
+        <qp0><![CDATA[110]]></qp0>
+        <pveil></pveil>
+    </row>
+    <row>
+        <id>36</id>
+        <enum_type_generateur_ch_id>57|64|122</enum_type_generateur_ch_id>
+        <pn_min><![CDATA[> 400]]></pn_min>
+        <pn_max></pn_max>
+        <pn>70</pn>
+        <rpn><![CDATA[58]]></rpn>
+        <rpint><![CDATA[59]]></rpint>
+        <qp0><![CDATA[50]]></qp0>
+        <pveil></pveil>
+    </row>
+    <row>
+        <id>37</id>
+        <enum_type_generateur_ch_id>58|65|123|49</enum_type_generateur_ch_id>
+        <pn_min></pn_min>
+        <pn_max><![CDATA[<= 70 kW]]></pn_max>
+        <pn></pn>
+        <rpn><![CDATA[57 + 6 * logPn]]></rpn>
+        <rpint><![CDATA[58+6 * logPn]]></rpint>
+        <qp0><![CDATA[0.085 * Pn * (Pn ^ -0.4)]]></qp0>
+        <pveil></pveil>
+    </row>
+    <row>
+        <id>38</id>
+        <enum_type_generateur_ch_id>58|65|123|49</enum_type_generateur_ch_id>
+        <pn_min><![CDATA[> 70]]></pn_min>
+        <pn_max><![CDATA[<= 400 kW]]></pn_max>
+        <pn>70</pn>
+        <rpn><![CDATA[68]]></rpn>
+        <rpint><![CDATA[69]]></rpint>
+        <qp0><![CDATA[110]]></qp0>
+        <pveil></pveil>
+    </row>
+    <row>
+        <id>39</id>
+        <enum_type_generateur_ch_id>58|65|123|49</enum_type_generateur_ch_id>
+        <pn_min><![CDATA[> 400]]></pn_min>
+        <pn_max></pn_max>
+        <pn>70</pn>
+        <rpn><![CDATA[68]]></rpn>
+        <rpint><![CDATA[69]]></rpint>
+        <qp0><![CDATA[50]]></qp0>
+        <pveil></pveil>
+    </row>
+    <row>
+        <id>40</id>
+        <enum_type_generateur_ch_id>59|66|124|154|157</enum_type_generateur_ch_id>
+        <pn_min></pn_min>
+        <pn_max><![CDATA[<= 70 kW]]></pn_max>
+        <pn></pn>
+        <rpn><![CDATA[67 + 6 * logPn]]></rpn>
+        <rpint><![CDATA[68+6 * logPn]]></rpint>
+        <qp0><![CDATA[0.085 * Pn * (Pn ^ -0.4)]]></qp0>
+        <pveil></pveil>
+    </row>
+    <row>
+        <id>41</id>
+        <enum_type_generateur_ch_id>59|66|124|154|157</enum_type_generateur_ch_id>
+        <pn_min><![CDATA[> 70]]></pn_min>
+        <pn_max><![CDATA[<= 400 kW]]></pn_max>
+        <pn>70</pn>
+        <rpn><![CDATA[78]]></rpn>
+        <rpint><![CDATA[79]]></rpint>
+        <qp0><![CDATA[110]]></qp0>
+        <pveil></pveil>
+    </row>
+    <row>
+        <id>42</id>
+        <enum_type_generateur_ch_id>59|66|124|154|157</enum_type_generateur_ch_id>
+        <pn_min><![CDATA[> 400]]></pn_min>
+        <pn_max></pn_max>
+        <pn>70</pn>
+        <rpn><![CDATA[78]]></rpn>
+        <rpint><![CDATA[79]]></rpint>
+        <qp0><![CDATA[50]]></qp0>
+        <pveil></pveil>
+    </row>
+    <row>
+        <id>43</id>
+        <enum_type_generateur_ch_id>60|67|125|155|158</enum_type_generateur_ch_id>
+        <pn_min></pn_min>
+        <pn_max><![CDATA[<= 70 kW]]></pn_max>
+        <pn></pn>
+        <rpn><![CDATA[80 + 2 * logPn]]></rpn>
+        <rpint><![CDATA[77+3 * logPn]]></rpint>
+        <qp0><![CDATA[0.085 * Pn * (Pn ^ -0.4)]]></qp0>
+        <pveil></pveil>
+    </row>
+    <row>
+        <id>44</id>
+        <enum_type_generateur_ch_id>60|67|125|155|158</enum_type_generateur_ch_id>
+        <pn_min><![CDATA[> 70]]></pn_min>
+        <pn_max><![CDATA[<= 400 kW]]></pn_max>
+        <pn>70</pn>
+        <rpn><![CDATA[84]]></rpn>
+        <rpint><![CDATA[83]]></rpint>
+        <qp0><![CDATA[110]]></qp0>
+        <pveil></pveil>
+    </row>
+    <row>
+        <id>45</id>
+        <enum_type_generateur_ch_id>60|67|125|155|158</enum_type_generateur_ch_id>
+        <pn_min><![CDATA[> 400]]></pn_min>
+        <pn_max></pn_max>
+        <pn>70</pn>
+        <rpn><![CDATA[84]]></rpn>
+        <rpint><![CDATA[83]]></rpint>
+        <qp0><![CDATA[50]]></qp0>
+        <pveil></pveil>
+    </row>
+    <row>
+        <id>46</id>
+        <enum_type_generateur_ch_id>61|68|126|156|159</enum_type_generateur_ch_id>
+        <pn_min></pn_min>
+        <pn_max><![CDATA[<= 20 kW]]></pn_max>
+        <pn></pn>
+        <rpn><![CDATA[89 + 2 * logPn]]></rpn>
+        <rpint><![CDATA[84+2 * logPn]]></rpint>
+        <qp0><![CDATA[0.085 * Pn * (Pn ^ -0.4)]]></qp0>
+        <pveil></pveil>
+    </row>
+    <row>
+        <id>47</id>
+        <enum_type_generateur_ch_id>61|68|126|156|159</enum_type_generateur_ch_id>
+        <pn_min><![CDATA[> 20]]></pn_min>
+        <pn_max><![CDATA[<= 70 kW]]></pn_max>
+        <pn></pn>
+        <rpn><![CDATA[90 + 2 * logPn]]></rpn>
+        <rpint><![CDATA[85+2 * logPn]]></rpint>
+        <qp0><![CDATA[0.085 * Pn * (Pn ^ -0.4)]]></qp0>
+        <pveil></pveil>
+    </row>
+    <row>
+        <id>48</id>
+        <enum_type_generateur_ch_id>61|68|126|156|159</enum_type_generateur_ch_id>
+        <pn_min><![CDATA[> 70]]></pn_min>
+        <pn_max><![CDATA[<= 400 kW]]></pn_max>
+        <pn>70</pn>
+        <rpn><![CDATA[94]]></rpn>
+        <rpint><![CDATA[89]]></rpint>
+        <qp0><![CDATA[110]]></qp0>
+        <pveil></pveil>
+    </row>
+    <row>
+        <id>49</id>
+        <enum_type_generateur_ch_id>61|68|126|156|159</enum_type_generateur_ch_id>
+        <pn_min><![CDATA[> 400]]></pn_min>
+        <pn_max></pn_max>
+        <pn>70</pn>
+        <rpn><![CDATA[94]]></rpn>
+        <rpint><![CDATA[89]]></rpint>
+        <qp0><![CDATA[50]]></qp0>
+        <pveil></pveil>
+    </row>
+    <row>
+        <id>50</id>
+        <enum_type_generateur_ch_id>69</enum_type_generateur_ch_id>
+        <pn_min></pn_min>
+        <pn_max><![CDATA[<= 70 kW]]></pn_max>
+        <pn></pn>
+        <rpn><![CDATA[47 + 6 * logPn]]></rpn>
+        <rpint><![CDATA[48+6 * logPn]]></rpint>
+        <qp0><![CDATA[0.08 * Pn * (Pn ^ -0.27)]]></qp0>
+        <pveil></pveil>
+    </row>
+    <row>
+        <id>51</id>
+        <enum_type_generateur_ch_id>69</enum_type_generateur_ch_id>
+        <pn_min><![CDATA[> 70]]></pn_min>
+        <pn_max><![CDATA[<= 400 kW]]></pn_max>
+        <pn>70</pn>
+        <rpn><![CDATA[58]]></rpn>
+        <rpint><![CDATA[59]]></rpint>
+        <qp0><![CDATA[180]]></qp0>
+        <pveil></pveil>
+    </row>
+    <row>
+        <id>52</id>
+        <enum_type_generateur_ch_id>69</enum_type_generateur_ch_id>
+        <pn_min><![CDATA[> 400]]></pn_min>
+        <pn_max></pn_max>
+        <pn>70</pn>
+        <rpn><![CDATA[58]]></rpn>
+        <rpint><![CDATA[59]]></rpint>
+        <qp0><![CDATA[110]]></qp0>
+        <pveil></pveil>
+    </row>
+    <row>
+        <id>53</id>
+        <enum_type_generateur_ch_id>70|140</enum_type_generateur_ch_id>
+        <pn_min></pn_min>
+        <pn_max><![CDATA[<= 70 kW]]></pn_max>
+        <pn></pn>
+        <rpn><![CDATA[47 + 6 * logPn]]></rpn>
+        <rpint><![CDATA[48+6 * logPn]]></rpint>
+        <qp0><![CDATA[0.08 * Pn * (Pn ^ -0.3)]]></qp0>
+        <pveil></pveil>
+    </row>
+    <row>
+        <id>54</id>
+        <enum_type_generateur_ch_id>70|140</enum_type_generateur_ch_id>
+        <pn_min><![CDATA[> 70]]></pn_min>
+        <pn_max><![CDATA[<= 400 kW]]></pn_max>
+        <pn>70</pn>
+        <rpn><![CDATA[58]]></rpn>
+        <rpint><![CDATA[59]]></rpint>
+        <qp0><![CDATA[140]]></qp0>
+        <pveil></pveil>
+    </row>
+    <row>
+        <id>55</id>
+        <enum_type_generateur_ch_id>70|140</enum_type_generateur_ch_id>
+        <pn_min><![CDATA[> 400]]></pn_min>
+        <pn_max></pn_max>
+        <pn>70</pn>
+        <rpn><![CDATA[58]]></rpn>
+        <rpint><![CDATA[59]]></rpint>
+        <qp0><![CDATA[80]]></qp0>
+        <pveil></pveil>
+    </row>
+    <row>
+        <id>56</id>
+        <enum_type_generateur_ch_id>71</enum_type_generateur_ch_id>
+        <pn_min></pn_min>
+        <pn_max><![CDATA[<= 70 kW]]></pn_max>
+        <pn></pn>
+        <rpn><![CDATA[57 + 6 * logPn]]></rpn>
+        <rpint><![CDATA[58+6 * logPn]]></rpint>
+        <qp0><![CDATA[0.085 * Pn * (Pn ^ -0.4)]]></qp0>
+        <pveil></pveil>
+    </row>
+    <row>
+        <id>57</id>
+        <enum_type_generateur_ch_id>71</enum_type_generateur_ch_id>
+        <pn_min><![CDATA[> 70]]></pn_min>
+        <pn_max><![CDATA[<= 400 kW]]></pn_max>
+        <pn>70</pn>
+        <rpn><![CDATA[68]]></rpn>
+        <rpint><![CDATA[69]]></rpint>
+        <qp0><![CDATA[110]]></qp0>
+        <pveil></pveil>
+    </row>
+    <row>
+        <id>58</id>
+        <enum_type_generateur_ch_id>71</enum_type_generateur_ch_id>
+        <pn_min><![CDATA[> 400]]></pn_min>
+        <pn_max></pn_max>
+        <pn>70</pn>
+        <rpn><![CDATA[68]]></rpn>
+        <rpint><![CDATA[69]]></rpint>
+        <qp0><![CDATA[50]]></qp0>
+        <pveil></pveil>
+    </row>
+    <row>
+        <id>59</id>
+        <enum_type_generateur_ch_id>72|141</enum_type_generateur_ch_id>
+        <pn_min></pn_min>
+        <pn_max><![CDATA[<= 70 kW]]></pn_max>
+        <pn></pn>
+        <rpn><![CDATA[67 + 6 * logPn]]></rpn>
+        <rpint><![CDATA[68+6 * logPn]]></rpint>
+        <qp0><![CDATA[0.085 * Pn * (Pn ^ -0.4)]]></qp0>
+        <pveil></pveil>
+    </row>
+    <row>
+        <id>60</id>
+        <enum_type_generateur_ch_id>72|141</enum_type_generateur_ch_id>
+        <pn_min><![CDATA[> 70]]></pn_min>
+        <pn_max><![CDATA[<= 400 kW]]></pn_max>
+        <pn>70</pn>
+        <rpn><![CDATA[78]]></rpn>
+        <rpint><![CDATA[79]]></rpint>
+        <qp0><![CDATA[110]]></qp0>
+        <pveil></pveil>
+    </row>
+    <row>
+        <id>61</id>
+        <enum_type_generateur_ch_id>72|141</enum_type_generateur_ch_id>
+        <pn_min><![CDATA[> 400]]></pn_min>
+        <pn_max></pn_max>
+        <pn>70</pn>
+        <rpn><![CDATA[78]]></rpn>
+        <rpint><![CDATA[79]]></rpint>
+        <qp0><![CDATA[50]]></qp0>
+        <pveil></pveil>
+    </row>
+    <row>
+        <id>62</id>
+        <enum_type_generateur_ch_id>73|152</enum_type_generateur_ch_id>
+        <pn_min></pn_min>
+        <pn_max><![CDATA[<= 70 kW]]></pn_max>
+        <pn></pn>
+        <rpn><![CDATA[80 + 2 * logPn]]></rpn>
+        <rpint><![CDATA[77 + 3 * logPn]]></rpint>
+        <qp0><![CDATA[0.085 * Pn * (Pn ^ -0.4)]]></qp0>
+        <pveil></pveil>
+    </row>
+    <row>
+        <id>63</id>
+        <enum_type_generateur_ch_id>73|152</enum_type_generateur_ch_id>
+        <pn_min><![CDATA[> 70]]></pn_min>
+        <pn_max><![CDATA[<= 400 kW]]></pn_max>
+        <pn>70</pn>
+        <rpn><![CDATA[84]]></rpn>
+        <rpint><![CDATA[83]]></rpint>
+        <qp0><![CDATA[110]]></qp0>
+        <pveil></pveil>
+    </row>
+    <row>
+        <id>64</id>
+        <enum_type_generateur_ch_id>73|152</enum_type_generateur_ch_id>
+        <pn_min><![CDATA[> 400]]></pn_min>
+        <pn_max></pn_max>
+        <pn>70</pn>
+        <rpn><![CDATA[84]]></rpn>
+        <rpint><![CDATA[83]]></rpint>
+        <qp0><![CDATA[50]]></qp0>
+        <pveil></pveil>
+    </row>
+    <row>
+        <id>65</id>
+        <enum_type_generateur_ch_id>74|153</enum_type_generateur_ch_id>
+        <pn_min></pn_min>
+        <pn_max><![CDATA[<= 20 kW]]></pn_max>
+        <pn></pn>
+        <rpn><![CDATA[91 + 2 * logPn]]></rpn>
+        <rpint><![CDATA[88 + 2 * logPn]]></rpint>
+        <qp0><![CDATA[0.085 * Pn * (Pn ^ -0.4)]]></qp0>
+        <pveil></pveil>
+    </row>
+    <row>
+        <id>66</id>
+        <enum_type_generateur_ch_id>74|153</enum_type_generateur_ch_id>
+        <pn_min><![CDATA[> 20]]></pn_min>
+        <pn_max><![CDATA[<= 70 kW]]></pn_max>
+        <pn></pn>
+        <rpn><![CDATA[92 + 2 * logPn]]></rpn>
+        <rpint><![CDATA[89 + 2 * logPn]]></rpint>
+        <qp0><![CDATA[0.085 * Pn * (Pn ^ -0.4)]]></qp0>
+        <pveil></pveil>
+    </row>
+    <row>
+        <id>67</id>
+        <enum_type_generateur_ch_id>74|153</enum_type_generateur_ch_id>
+        <pn_min><![CDATA[> 70]]></pn_min>
+        <pn_max><![CDATA[<= 400 kW]]></pn_max>
+        <pn>70</pn>
+        <rpn><![CDATA[96]]></rpn>
+        <rpint><![CDATA[93]]></rpint>
+        <qp0><![CDATA[110]]></qp0>
+        <pveil></pveil>
+    </row>
+    <row>
+        <id>68</id>
+        <enum_type_generateur_ch_id>74|153</enum_type_generateur_ch_id>
+        <pn_min><![CDATA[> 400]]></pn_min>
+        <pn_max></pn_max>
+        <pn>70</pn>
+        <rpn><![CDATA[96]]></rpn>
+        <rpint><![CDATA[93]]></rpint>
+        <qp0><![CDATA[50]]></qp0>
+        <pveil></pveil>
+    </row>
+    <row>
+        <id>69</id>
+        <enum_type_generateur_ch_id>50</enum_type_generateur_ch_id>
+        <pn_min></pn_min>
+        <pn_max><![CDATA[<= 300]]></pn_max>
+        <pn></pn>
+        <rpn><![CDATA[77]]></rpn>
+        <rpint><![CDATA[74]]></rpint>
+        <qp0><![CDATA[Pn * (1.75 - 0.55 * logPn)]]></qp0>
+        <pveil></pveil>
+    </row>
+    <row>
+        <id>70</id>
+        <enum_type_generateur_ch_id>50</enum_type_generateur_ch_id>
+        <pn_min><![CDATA[> 300]]></pn_min>
+        <pn_max></pn_max>
+        <pn>300</pn>
+        <rpn><![CDATA[77]]></rpn>
+        <rpint><![CDATA[74]]></rpint>
+        <qp0><![CDATA[Pn * (1.75 - 0.55 * logPn)]]></qp0>
+        <pveil></pveil>
+    </row>
+    <row>
+        <id>71</id>
+        <enum_type_generateur_ch_id>51</enum_type_generateur_ch_id>
+        <pn_min></pn_min>
+        <pn_max><![CDATA[<= 300]]></pn_max>
+        <pn></pn>
+        <rpn><![CDATA[84]]></rpn>
+        <rpint><![CDATA[77]]></rpint>
+        <qp0><![CDATA[Pn * (1.75 - 0.55 * logPn)]]></qp0>
+        <pveil></pveil>
+    </row>
+    <row>
+        <id>72</id>
+        <enum_type_generateur_ch_id>51</enum_type_generateur_ch_id>
+        <pn_min><![CDATA[> 300]]></pn_min>
+        <pn_max></pn_max>
+        <pn>300</pn>
+        <rpn><![CDATA[84]]></rpn>
+        <rpint><![CDATA[77]]></rpint>
+        <qp0><![CDATA[Pn * (1.75 - 0.55 * logPn)]]></qp0>
+        <pveil></pveil>
+    </row>
+    <row>
+        <id>73</id>
+        <enum_type_generateur_ch_id>52</enum_type_generateur_ch_id>
+        <pn_min></pn_min>
+        <pn_max><![CDATA[<= 300]]></pn_max>
+        <pn></pn>
+        <rpn><![CDATA[90]]></rpn>
+        <rpint><![CDATA[83]]></rpint>
+        <qp0><![CDATA[Pn * (1.75 - 0.55 * logPn)]]></qp0>
+        <pveil></pveil>
+    </row>
+    <row>
+        <id>74</id>
+        <enum_type_generateur_ch_id>52</enum_type_generateur_ch_id>
+        <pn_min><![CDATA[> 300]]></pn_min>
+        <pn_max></pn_max>
+        <pn>300</pn>
+        <rpn><![CDATA[90]]></rpn>
+        <rpint><![CDATA[83]]></rpint>
+        <qp0><![CDATA[Pn * (1.75 - 0.55 * logPn)]]></qp0>
+        <pveil></pveil>
+    </row>
+    <row>
+        <id>75</id>
+        <enum_type_generateur_ch_id>53</enum_type_generateur_ch_id>
+        <pn_min></pn_min>
+        <pn_max><![CDATA[<= 5]]></pn_max>
+        <pn></pn>
+        <rpn><![CDATA[70]]></rpn>
+        <rpint></rpint>
+        <qp0><![CDATA[0]]></qp0>
+        <pveil></pveil>
+    </row>
+    <row>
+        <id>76</id>
+        <enum_type_generateur_ch_id>53</enum_type_generateur_ch_id>
+        <pn_min><![CDATA[> 5]]></pn_min>
+        <pn_max></pn_max>
+        <pn></pn>
+        <rpn><![CDATA[73]]></rpn>
+        <rpint></rpint>
+        <qp0><![CDATA[0]]></qp0>
+        <pveil></pveil>
+    </row>
+    <row>
+        <id>77</id>
+        <enum_type_generateur_ch_id>54</enum_type_generateur_ch_id>
+        <pn_min></pn_min>
+        <pn_max><![CDATA[<= 5]]></pn_max>
+        <pn></pn>
+        <rpn><![CDATA[80]]></rpn>
+        <rpint></rpint>
+        <qp0><![CDATA[0]]></qp0>
+        <pveil></pveil>
+    </row>
+    <row>
+        <id>78</id>
+        <enum_type_generateur_ch_id>54</enum_type_generateur_ch_id>
+        <pn_min><![CDATA[> 5]]></pn_min>
+        <pn_max></pn_max>
+        <pn></pn>
+        <rpn><![CDATA[82]]></rpn>
+        <rpint></rpint>
+        <qp0><![CDATA[0]]></qp0>
+        <pveil></pveil>
+    </row>
+</table>

@@ -1,0 +1,7 @@
+{% set date = date('now') %}
+{% set data = data is iterable ? data|map(item => item.normalize()) : data.normalize() %}
+{% set difference = date('now').diff(date(date)).format('%f microsecondes') %}
+
+<h5>{{ title }}</h5>
+<p>Durée d'exécution : {{ difference }}</p>
+<pre>{{ data|json_encode(constant('JSON_PRETTY_PRINT') b-or constant('JSON_HEX_QUOT')) }}</pre>

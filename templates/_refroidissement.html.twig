@@ -1,0 +1,82 @@
+<section>
+	<h5 class="h5">Besoins</h3>
+
+	<table class="table align-middle text-center">
+        <thead>
+            <tr class="align-middle">
+                <th rowspan="2">Mois</th>
+                <th colspan="2">Apports (kWh)</th>
+                <th colspan="2">Besoin (kWh)</th>
+                <th colspan="2">Consommation (kWh)</th>
+                <th colspan="2">Nombre d'heures de refroidissement</th>
+                <th colspan="2">Températures extérieures</th>
+            </tr>
+            <tr>
+                <th>Conventionnel</th>
+                <th>Dépensier</th>
+                <th>Conventionnel</th>
+                <th>Dépensier</th>
+                <th>Conventionnel</th>
+                <th>Dépensier</th>
+                <th>Conventionnel</th>
+                <th>Dépensier</th>
+                <th>Conventionnel</th>
+                <th>Dépensier</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for i in 1..12 %}
+                <tr>
+                    <td>{{ i }}</td>
+                    <td>{{ (data.a_fr_j(i) / 1000)|format_number }}</td>
+                    <td>{{ (data.a_fr_j(i, true) / 1000)|format_number }}</td>
+                    <td>{{ data.b_fr_j(i)|format_number }}</td>
+                    <td>{{ data.b_fr_j(i, true)|format_number }}</td>
+                    <td>{{ data.c_fr_j(i)|format_number }}</td>
+                    <td>{{ data.c_fr_j(i, true)|format_number }}</td>
+                    <td>{{ data.nref_fr_j(i)|format_number }}</td>
+                    <td>{{ data.nref_fr_j(i, true)|format_number }}</td>
+                    <td>{{ data.text_moy_fr_j(i)|format_number }}</td>
+                    <td>{{ data.text_moy_fr_j(i, true)|format_number }}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+		<tfoot>
+			<tr>
+				<td><strong>Total</strong></td>
+				<td><strong>{{ (data.a_fr() / 1000)|format_number }}</strong></td>
+				<td><strong>{{ (data.a_fr(true) / 1000)|format_number }}</strong></td>
+				<td><strong>{{ data.b_fr()|format_number }}</strong></td>
+				<td><strong>{{ data.b_fr(true)|format_number }}</strong></td>
+				<td><strong>{{ data.c_fr()|format_number }}</strong></td>
+				<td><strong>{{ data.c_fr(true)|format_number }}</strong></td>
+				<td><strong>{{ data.nref_fr()|format_number }}</strong></td>
+				<td><strong>{{ data.nref_fr(true)|format_number }}</strong></td>
+				<td><strong>{{ data.text_moy_fr()|format_number }}</strong></td>
+				<td><strong>{{ data.text_moy_fr(true)|format_number }}</strong></td>
+			</tr>
+		</tfoot>
+    </table>
+
+    <h5 class="h5">Données intermédiaires</h3>
+
+    <table class="table text-center">
+        <thead>
+            <tr class="align-middle">
+                <th rowspan="2">EER</th>
+                <th colspan="2">Consommation (kWh/m²/an)</th>
+            </tr>
+            <tr>
+                <th>Conventionnel</th>
+                <th>Dépensier</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>{{ data.climatisations.eer()|format_number  }}</td>
+                <td>{{ data.c_fr_m2()|format_number  }}</td>
+                <td>{{ data.c_fr_m2(true)|format_number  }}</td>
+            </tr>
+        </tbody>
+    </table>
+</section>

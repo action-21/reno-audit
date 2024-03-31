@@ -1,0 +1,945 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table name="tv_umur0">
+    <row id="1">
+        <enum_materiaux_structure_mur_id>1</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min></epaisseur_structure_min>
+        <epaisseur_structure_max></epaisseur_structure_max>
+        <umur0>2.50</umur0>
+    </row>
+    <row id="2">
+        <enum_materiaux_structure_mur_id>2</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min></epaisseur_structure_min>
+        <epaisseur_structure_max>20</epaisseur_structure_max>
+        <umur0>3.20</umur0>
+    </row>
+    <row id="3">
+        <enum_materiaux_structure_mur_id>2</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>25</epaisseur_structure_min>
+        <epaisseur_structure_max>25</epaisseur_structure_max>
+        <umur0>2.85</umur0>
+    </row>
+    <row id="4">
+        <enum_materiaux_structure_mur_id>2</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>30</epaisseur_structure_min>
+        <epaisseur_structure_max>30</epaisseur_structure_max>
+        <umur0>2.65</umur0>
+    </row>
+    <row id="5">
+        <enum_materiaux_structure_mur_id>2</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>35</epaisseur_structure_min>
+        <epaisseur_structure_max>35</epaisseur_structure_max>
+        <umur0>2.45</umur0>
+    </row>
+    <row id="6">
+        <enum_materiaux_structure_mur_id>2</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>40</epaisseur_structure_min>
+        <epaisseur_structure_max>40</epaisseur_structure_max>
+        <umur0>2.30</umur0>
+    </row>
+    <row id="7">
+        <enum_materiaux_structure_mur_id>2</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>45</epaisseur_structure_min>
+        <epaisseur_structure_max>45</epaisseur_structure_max>
+        <umur0>2.15</umur0>
+    </row>
+    <row id="8">
+        <enum_materiaux_structure_mur_id>2</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>50</epaisseur_structure_min>
+        <epaisseur_structure_max>50</epaisseur_structure_max>
+        <umur0>2.05</umur0>
+    </row>
+    <row id="9">
+        <enum_materiaux_structure_mur_id>2</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>55</epaisseur_structure_min>
+        <epaisseur_structure_max>55</epaisseur_structure_max>
+        <umur0>1.90</umur0>
+    </row>
+    <row id="10">
+        <enum_materiaux_structure_mur_id>2</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>60</epaisseur_structure_min>
+        <epaisseur_structure_max>60</epaisseur_structure_max>
+        <umur0>1.80</umur0>
+    </row>
+    <row id="11">
+        <enum_materiaux_structure_mur_id>2</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>65</epaisseur_structure_min>
+        <epaisseur_structure_max>65</epaisseur_structure_max>
+        <umur0>1.75</umur0>
+    </row>
+    <row id="12">
+        <enum_materiaux_structure_mur_id>2</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>70</epaisseur_structure_min>
+        <epaisseur_structure_max>70</epaisseur_structure_max>
+        <umur0>1.65</umur0>
+    </row>
+    <row id="13">
+        <enum_materiaux_structure_mur_id>2</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>75</epaisseur_structure_min>
+        <epaisseur_structure_max>75</epaisseur_structure_max>
+        <umur0>1.55</umur0>
+    </row>
+    <row id="14">
+        <enum_materiaux_structure_mur_id>2</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>80</epaisseur_structure_min>
+        <epaisseur_structure_max></epaisseur_structure_max>
+        <umur0>1.50</umur0>
+    </row>
+    <row id="15">
+        <enum_materiaux_structure_mur_id>3</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>50</epaisseur_structure_min>
+        <epaisseur_structure_max>50</epaisseur_structure_max>
+        <umur0>1.9</umur0>
+    </row>
+    <row id="16">
+        <enum_materiaux_structure_mur_id>3</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>55</epaisseur_structure_min>
+        <epaisseur_structure_max>55</epaisseur_structure_max>
+        <umur0>1.75</umur0>
+    </row>
+    <row id="17">
+        <enum_materiaux_structure_mur_id>3</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>60</epaisseur_structure_min>
+        <epaisseur_structure_max>60</epaisseur_structure_max>
+        <umur0>1.6</umur0>
+    </row>
+    <row id="18">
+        <enum_materiaux_structure_mur_id>3</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>65</epaisseur_structure_min>
+        <epaisseur_structure_max>65</epaisseur_structure_max>
+        <umur0>1.5</umur0>
+    </row>
+    <row id="19">
+        <enum_materiaux_structure_mur_id>3</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>70</epaisseur_structure_min>
+        <epaisseur_structure_max>70</epaisseur_structure_max>
+        <umur0>1.45</umur0>
+    </row>
+    <row id="20">
+        <enum_materiaux_structure_mur_id>3</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>75</epaisseur_structure_min>
+        <epaisseur_structure_max>75</epaisseur_structure_max>
+        <umur0>1.3</umur0>
+    </row>
+    <row id="21">
+        <enum_materiaux_structure_mur_id>3</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>80</epaisseur_structure_min>
+        <epaisseur_structure_max></epaisseur_structure_max>
+        <umur0>1.25</umur0>
+    </row>
+    <row id="22">
+        <enum_materiaux_structure_mur_id>4</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min></epaisseur_structure_min>
+        <epaisseur_structure_max>40</epaisseur_structure_max>
+        <umur0>1.75</umur0>
+    </row>
+    <row id="23">
+        <enum_materiaux_structure_mur_id>4</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>45</epaisseur_structure_min>
+        <epaisseur_structure_max>45</epaisseur_structure_max>
+        <umur0>1.65</umur0>
+    </row>
+    <row id="24">
+        <enum_materiaux_structure_mur_id>4</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>50</epaisseur_structure_min>
+        <epaisseur_structure_max>50</epaisseur_structure_max>
+        <umur0>1.55</umur0>
+    </row>
+    <row id="25">
+        <enum_materiaux_structure_mur_id>4</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>55</epaisseur_structure_min>
+        <epaisseur_structure_max>55</epaisseur_structure_max>
+        <umur0>1.45</umur0>
+    </row>
+    <row id="26">
+        <enum_materiaux_structure_mur_id>4</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>60</epaisseur_structure_min>
+        <epaisseur_structure_max>60</epaisseur_structure_max>
+        <umur0>1.35</umur0>
+    </row>
+    <row id="27">
+        <enum_materiaux_structure_mur_id>4</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>65</epaisseur_structure_min>
+        <epaisseur_structure_max>65</epaisseur_structure_max>
+        <umur0>1.25</umur0>
+    </row>
+    <row id="28">
+        <enum_materiaux_structure_mur_id>4</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>70</epaisseur_structure_min>
+        <epaisseur_structure_max>70</epaisseur_structure_max>
+        <umur0>1.2</umur0>
+    </row>
+    <row id="29">
+        <enum_materiaux_structure_mur_id>4</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>75</epaisseur_structure_min>
+        <epaisseur_structure_max>75</epaisseur_structure_max>
+        <umur0>1.15</umur0>
+    </row>
+    <row id="30">
+        <enum_materiaux_structure_mur_id>4</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>80</epaisseur_structure_min>
+        <epaisseur_structure_max></epaisseur_structure_max>
+        <umur0>1.1</umur0>
+    </row>
+    <row id="31">
+        <enum_materiaux_structure_mur_id>5</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min></epaisseur_structure_min>
+        <epaisseur_structure_max>8</epaisseur_structure_max>
+        <umur0>3</umur0>
+    </row>
+    <row id="32">
+        <enum_materiaux_structure_mur_id>5</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>10</epaisseur_structure_min>
+        <epaisseur_structure_max>10</epaisseur_structure_max>
+        <umur0>2.7</umur0>
+    </row>
+    <row id="33">
+        <enum_materiaux_structure_mur_id>5</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>13</epaisseur_structure_min>
+        <epaisseur_structure_max>13</epaisseur_structure_max>
+        <umur0>2.35</umur0>
+    </row>
+    <row id="34">
+        <enum_materiaux_structure_mur_id>5</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>18</epaisseur_structure_min>
+        <epaisseur_structure_max>18</epaisseur_structure_max>
+        <umur0>1.98</umur0>
+    </row>
+    <row id="35">
+        <enum_materiaux_structure_mur_id>5</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>24</epaisseur_structure_min>
+        <epaisseur_structure_max>24</epaisseur_structure_max>
+        <umur0>1.65</umur0>
+    </row>
+    <row id="36">
+        <enum_materiaux_structure_mur_id>5</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>32</epaisseur_structure_min>
+        <epaisseur_structure_max></epaisseur_structure_max>
+        <umur0>1.35</umur0>
+    </row>
+    <row id="37">
+        <enum_materiaux_structure_mur_id>6</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min></epaisseur_structure_min>
+        <epaisseur_structure_max></epaisseur_structure_max>
+        <umur0>1.70</umur0>
+    </row>
+    <row id="38">
+        <enum_materiaux_structure_mur_id>7</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min></epaisseur_structure_min>
+        <epaisseur_structure_max>10</epaisseur_structure_max>
+        <umur0>1.6</umur0>
+    </row>
+    <row id="39">
+        <enum_materiaux_structure_mur_id>7</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>15</epaisseur_structure_min>
+        <epaisseur_structure_max>15</epaisseur_structure_max>
+        <umur0>1.2</umur0>
+    </row>
+    <row id="40">
+        <enum_materiaux_structure_mur_id>7</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>20</epaisseur_structure_min>
+        <epaisseur_structure_max>20</epaisseur_structure_max>
+        <umur0>0.95</umur0>
+    </row>
+    <row id="41">
+        <enum_materiaux_structure_mur_id>7</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>25</epaisseur_structure_min>
+        <epaisseur_structure_max></epaisseur_structure_max>
+        <umur0>0.8</umur0>
+    </row>
+    <row id="42">
+        <enum_materiaux_structure_mur_id>8</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min></epaisseur_structure_min>
+        <epaisseur_structure_max>9</epaisseur_structure_max>
+        <umur0>3.9</umur0>
+    </row>
+    <row id="43">
+        <enum_materiaux_structure_mur_id>8</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>12</epaisseur_structure_min>
+        <epaisseur_structure_max>12</epaisseur_structure_max>
+        <umur0>3.45</umur0>
+    </row>
+    <row id="44">
+        <enum_materiaux_structure_mur_id>8</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>15</epaisseur_structure_min>
+        <epaisseur_structure_max>15</epaisseur_structure_max>
+        <umur0>3.05</umur0>
+    </row>
+    <row id="45">
+        <enum_materiaux_structure_mur_id>8</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>19</epaisseur_structure_min>
+        <epaisseur_structure_max>19</epaisseur_structure_max>
+        <umur0>2.75</umur0>
+    </row>
+    <row id="46">
+        <enum_materiaux_structure_mur_id>8</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>23</epaisseur_structure_min>
+        <epaisseur_structure_max>23</epaisseur_structure_max>
+        <umur0>2.5</umur0>
+    </row>
+    <row id="47">
+        <enum_materiaux_structure_mur_id>8</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>28</epaisseur_structure_min>
+        <epaisseur_structure_max>28</epaisseur_structure_max>
+        <umur0>2.25</umur0>
+    </row>
+    <row id="48">
+        <enum_materiaux_structure_mur_id>8</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>34</epaisseur_structure_min>
+        <epaisseur_structure_max>34</epaisseur_structure_max>
+        <umur0>2</umur0>
+    </row>
+    <row id="49">
+        <enum_materiaux_structure_mur_id>8</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>45</epaisseur_structure_min>
+        <epaisseur_structure_max>45</epaisseur_structure_max>
+        <umur0>1.65</umur0>
+    </row>
+    <row id="50">
+        <enum_materiaux_structure_mur_id>8</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>55</epaisseur_structure_min>
+        <epaisseur_structure_max>55</epaisseur_structure_max>
+        <umur0>1.45</umur0>
+    </row>
+    <row id="51">
+        <enum_materiaux_structure_mur_id>8</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>60</epaisseur_structure_min>
+        <epaisseur_structure_max>60</epaisseur_structure_max>
+        <umur0>1.35</umur0>
+    </row>
+    <row id="52">
+        <enum_materiaux_structure_mur_id>8</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>70</epaisseur_structure_min>
+        <epaisseur_structure_max></epaisseur_structure_max>
+        <umur0>1.2</umur0>
+    </row>
+    <row id="53">
+        <enum_materiaux_structure_mur_id>9</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min></epaisseur_structure_min>
+        <epaisseur_structure_max>20</epaisseur_structure_max>
+        <umur0>2</umur0>
+    </row>
+    <row id="54">
+        <enum_materiaux_structure_mur_id>9</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>25</epaisseur_structure_min>
+        <epaisseur_structure_max>25</epaisseur_structure_max>
+        <umur0>1.85</umur0>
+    </row>
+    <row id="55">
+        <enum_materiaux_structure_mur_id>9</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>30</epaisseur_structure_min>
+        <epaisseur_structure_max>30</epaisseur_structure_max>
+        <umur0>1.65</umur0>
+    </row>
+    <row id="56">
+        <enum_materiaux_structure_mur_id>9</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>35</epaisseur_structure_min>
+        <epaisseur_structure_max>35</epaisseur_structure_max>
+        <umur0>1.55</umur0>
+    </row>
+    <row id="57">
+        <enum_materiaux_structure_mur_id>9</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>45</epaisseur_structure_min>
+        <epaisseur_structure_max>45</epaisseur_structure_max>
+        <umur0>1.35</umur0>
+    </row>
+    <row id="58">
+        <enum_materiaux_structure_mur_id>9</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>50</epaisseur_structure_min>
+        <epaisseur_structure_max>50</epaisseur_structure_max>
+        <umur0>1.25</umur0>
+    </row>
+    <row id="59">
+        <enum_materiaux_structure_mur_id>9</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>60</epaisseur_structure_min>
+        <epaisseur_structure_max></epaisseur_structure_max>
+        <umur0>1.2</umur0>
+    </row>
+    <row id="60">
+        <enum_materiaux_structure_mur_id>10</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min></epaisseur_structure_min>
+        <epaisseur_structure_max>15</epaisseur_structure_max>
+        <umur0>2.15</umur0>
+    </row>
+    <row id="61">
+        <enum_materiaux_structure_mur_id>10</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>18</epaisseur_structure_min>
+        <epaisseur_structure_max>18</epaisseur_structure_max>
+        <umur0>2.05</umur0>
+    </row>
+    <row id="62">
+        <enum_materiaux_structure_mur_id>10</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>20</epaisseur_structure_min>
+        <epaisseur_structure_max>20</epaisseur_structure_max>
+        <umur0>2</umur0>
+    </row>
+    <row id="63">
+        <enum_materiaux_structure_mur_id>10</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>23</epaisseur_structure_min>
+        <epaisseur_structure_max>23</epaisseur_structure_max>
+        <umur0>1.85</umur0>
+    </row>
+    <row id="64">
+        <enum_materiaux_structure_mur_id>10</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>25</epaisseur_structure_min>
+        <epaisseur_structure_max>25</epaisseur_structure_max>
+        <umur0>1.7</umur0>
+    </row>
+    <row id="65">
+        <enum_materiaux_structure_mur_id>10</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>28</epaisseur_structure_min>
+        <epaisseur_structure_max>28</epaisseur_structure_max>
+        <umur0>1.68</umur0>
+    </row>
+    <row id="66">
+        <enum_materiaux_structure_mur_id>10</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>33</epaisseur_structure_min>
+        <epaisseur_structure_max>33</epaisseur_structure_max>
+        <umur0>1.65</umur0>
+    </row>
+    <row id="67">
+        <enum_materiaux_structure_mur_id>10</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>38</epaisseur_structure_min>
+        <epaisseur_structure_max>38</epaisseur_structure_max>
+        <umur0>1.55</umur0>
+    </row>
+    <row id="68">
+        <enum_materiaux_structure_mur_id>10</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>43</epaisseur_structure_min>
+        <epaisseur_structure_max></epaisseur_structure_max>
+        <umur0>1.4</umur0>
+    </row>
+    <row id="69">
+        <enum_materiaux_structure_mur_id>11</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min></epaisseur_structure_min>
+        <epaisseur_structure_max>20</epaisseur_structure_max>
+        <umur0>2.9</umur0>
+    </row>
+    <row id="70">
+        <enum_materiaux_structure_mur_id>11</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>23</epaisseur_structure_min>
+        <epaisseur_structure_max>23</epaisseur_structure_max>
+        <umur0>2.75</umur0>
+    </row>
+    <row id="71">
+        <enum_materiaux_structure_mur_id>11</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>25</epaisseur_structure_min>
+        <epaisseur_structure_max>25</epaisseur_structure_max>
+        <umur0>2.6</umur0>
+    </row>
+    <row id="72">
+        <enum_materiaux_structure_mur_id>11</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>28</epaisseur_structure_min>
+        <epaisseur_structure_max>28</epaisseur_structure_max>
+        <umur0>2.5</umur0>
+    </row>
+    <row id="73">
+        <enum_materiaux_structure_mur_id>11</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>30</epaisseur_structure_min>
+        <epaisseur_structure_max>30</epaisseur_structure_max>
+        <umur0>2.4</umur0>
+    </row>
+    <row id="74">
+        <enum_materiaux_structure_mur_id>11</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>33</epaisseur_structure_min>
+        <epaisseur_structure_max>33</epaisseur_structure_max>
+        <umur0>2.3</umur0>
+    </row>
+    <row id="75">
+        <enum_materiaux_structure_mur_id>11</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>35</epaisseur_structure_min>
+        <epaisseur_structure_max>35</epaisseur_structure_max>
+        <umur0>2.2</umur0>
+    </row>
+    <row id="76">
+        <enum_materiaux_structure_mur_id>11</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>38</epaisseur_structure_min>
+        <epaisseur_structure_max>38</epaisseur_structure_max>
+        <umur0>2.1</umur0>
+    </row>
+    <row id="77">
+        <enum_materiaux_structure_mur_id>11</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>40</epaisseur_structure_min>
+        <epaisseur_structure_max></epaisseur_structure_max>
+        <umur0>2.05</umur0>
+    </row>
+    <row id="78">
+        <enum_materiaux_structure_mur_id>12</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min></epaisseur_structure_min>
+        <epaisseur_structure_max>20</epaisseur_structure_max>
+        <umur0>2.8</umur0>
+    </row>
+    <row id="79">
+        <enum_materiaux_structure_mur_id>12</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>23</epaisseur_structure_min>
+        <epaisseur_structure_max>23</epaisseur_structure_max>
+        <umur0>2.65</umur0>
+    </row>
+    <row id="80">
+        <enum_materiaux_structure_mur_id>12</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>25</epaisseur_structure_min>
+        <epaisseur_structure_max></epaisseur_structure_max>
+        <umur0>2.3</umur0>
+    </row>
+    <row id="81">
+        <enum_materiaux_structure_mur_id>13</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min></epaisseur_structure_min>
+        <epaisseur_structure_max>20</epaisseur_structure_max>
+        <umur0>2.9</umur0>
+    </row>
+    <row id="82">
+        <enum_materiaux_structure_mur_id>13</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>22.5</epaisseur_structure_min>
+        <epaisseur_structure_max>22.5</epaisseur_structure_max>
+        <umur0>2.75</umur0>
+    </row>
+    <row id="83">
+        <enum_materiaux_structure_mur_id>13</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>25</epaisseur_structure_min>
+        <epaisseur_structure_max>25</epaisseur_structure_max>
+        <umur0>2.65</umur0>
+    </row>
+    <row id="84">
+        <enum_materiaux_structure_mur_id>13</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>28</epaisseur_structure_min>
+        <epaisseur_structure_max>28</epaisseur_structure_max>
+        <umur0>2.5</umur0>
+    </row>
+    <row id="85">
+        <enum_materiaux_structure_mur_id>13</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>30</epaisseur_structure_min>
+        <epaisseur_structure_max>30</epaisseur_structure_max>
+        <umur0>2.4</umur0>
+    </row>
+    <row id="86">
+        <enum_materiaux_structure_mur_id>13</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>35</epaisseur_structure_min>
+        <epaisseur_structure_max>35</epaisseur_structure_max>
+        <umur0>2.2</umur0>
+    </row>
+    <row id="87">
+        <enum_materiaux_structure_mur_id>13</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>40</epaisseur_structure_min>
+        <epaisseur_structure_max>40</epaisseur_structure_max>
+        <umur0>2.05</umur0>
+    </row>
+    <row id="88">
+        <enum_materiaux_structure_mur_id>13</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>45</epaisseur_structure_min>
+        <epaisseur_structure_max></epaisseur_structure_max>
+        <umur0>1.9</umur0>
+    </row>
+    <row id="89">
+        <enum_materiaux_structure_mur_id>14</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min></epaisseur_structure_min>
+        <epaisseur_structure_max>20</epaisseur_structure_max>
+        <umur0>2.75</umur0>
+    </row>
+    <row id="90">
+        <enum_materiaux_structure_mur_id>14</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>22.5</epaisseur_structure_min>
+        <epaisseur_structure_max>22.5</epaisseur_structure_max>
+        <umur0>2.5</umur0>
+    </row>
+    <row id="91">
+        <enum_materiaux_structure_mur_id>14</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>25</epaisseur_structure_min>
+        <epaisseur_structure_max>25</epaisseur_structure_max>
+        <umur0>2.4</umur0>
+    </row>
+    <row id="92">
+        <enum_materiaux_structure_mur_id>14</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>28</epaisseur_structure_min>
+        <epaisseur_structure_max>28</epaisseur_structure_max>
+        <umur0>2.25</umur0>
+    </row>
+    <row id="93">
+        <enum_materiaux_structure_mur_id>14</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>30</epaisseur_structure_min>
+        <epaisseur_structure_max>30</epaisseur_structure_max>
+        <umur0>2.15</umur0>
+    </row>
+    <row id="94">
+        <enum_materiaux_structure_mur_id>14</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>35</epaisseur_structure_min>
+        <epaisseur_structure_max>35</epaisseur_structure_max>
+        <umur0>1.95</umur0>
+    </row>
+    <row id="95">
+        <enum_materiaux_structure_mur_id>14</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>40</epaisseur_structure_min>
+        <epaisseur_structure_max>40</epaisseur_structure_max>
+        <umur0>1.8</umur0>
+    </row>
+    <row id="96">
+        <enum_materiaux_structure_mur_id>15</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>30</epaisseur_structure_min>
+        <epaisseur_structure_max>30</epaisseur_structure_max>
+        <umur0>0.47</umur0>
+    </row>
+    <row id="97">
+        <enum_materiaux_structure_mur_id>15</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>37.5</epaisseur_structure_min>
+        <epaisseur_structure_max>37.5</epaisseur_structure_max>
+        <umur0>0.4</umur0>
+    </row>
+    <row id="98">
+        <enum_materiaux_structure_mur_id>16</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>15</epaisseur_structure_min>
+        <epaisseur_structure_max>15</epaisseur_structure_max>
+        <umur0>0.9</umur0>
+    </row>
+    <row id="99">
+        <enum_materiaux_structure_mur_id>16</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>17.5</epaisseur_structure_min>
+        <epaisseur_structure_max>17.5</epaisseur_structure_max>
+        <umur0>0.79</umur0>
+    </row>
+    <row id="100">
+        <enum_materiaux_structure_mur_id>16</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>20</epaisseur_structure_min>
+        <epaisseur_structure_max>20</epaisseur_structure_max>
+        <umur0>0.7</umur0>
+    </row>
+    <row id="101">
+        <enum_materiaux_structure_mur_id>16</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>22.5</epaisseur_structure_min>
+        <epaisseur_structure_max>22.5</epaisseur_structure_max>
+        <umur0>0.63</umur0>
+    </row>
+    <row id="102">
+        <enum_materiaux_structure_mur_id>16</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>25</epaisseur_structure_min>
+        <epaisseur_structure_max>25</epaisseur_structure_max>
+        <umur0>0.57</umur0>
+    </row>
+    <row id="103">
+        <enum_materiaux_structure_mur_id>16</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>27.5</epaisseur_structure_min>
+        <epaisseur_structure_max>27.5</epaisseur_structure_max>
+        <umur0>0.53</umur0>
+    </row>
+    <row id="104">
+        <enum_materiaux_structure_mur_id>16</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>30</epaisseur_structure_min>
+        <epaisseur_structure_max>30</epaisseur_structure_max>
+        <umur0>0.49</umur0>
+    </row>
+    <row id="105">
+        <enum_materiaux_structure_mur_id>16</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>32.5</epaisseur_structure_min>
+        <epaisseur_structure_max>32.5</epaisseur_structure_max>
+        <umur0>0.45</umur0>
+    </row>
+    <row id="106">
+        <enum_materiaux_structure_mur_id>16</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>35</epaisseur_structure_min>
+        <epaisseur_structure_max>35</epaisseur_structure_max>
+        <umur0>0.42</umur0>
+    </row>
+    <row id="107">
+        <enum_materiaux_structure_mur_id>16</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>37.5</epaisseur_structure_min>
+        <epaisseur_structure_max>37.5</epaisseur_structure_max>
+        <umur0>0.4</umur0>
+    </row>
+    <row id="108">
+        <enum_materiaux_structure_mur_id>17</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>15</epaisseur_structure_min>
+        <epaisseur_structure_max>15</epaisseur_structure_max>
+        <umur0>0.69</umur0>
+    </row>
+    <row id="109">
+        <enum_materiaux_structure_mur_id>17</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>17.5</epaisseur_structure_min>
+        <epaisseur_structure_max>17.5</epaisseur_structure_max>
+        <umur0>0.6</umur0>
+    </row>
+    <row id="110">
+        <enum_materiaux_structure_mur_id>17</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>20</epaisseur_structure_min>
+        <epaisseur_structure_max>20</epaisseur_structure_max>
+        <umur0>0.53</umur0>
+    </row>
+    <row id="111">
+        <enum_materiaux_structure_mur_id>17</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>22.5</epaisseur_structure_min>
+        <epaisseur_structure_max>22.5</epaisseur_structure_max>
+        <umur0>0.48</umur0>
+    </row>
+    <row id="112">
+        <enum_materiaux_structure_mur_id>17</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>25</epaisseur_structure_min>
+        <epaisseur_structure_max>25</epaisseur_structure_max>
+        <umur0>0.43</umur0>
+    </row>
+    <row id="113">
+        <enum_materiaux_structure_mur_id>17</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>27.5</epaisseur_structure_min>
+        <epaisseur_structure_max>27.5</epaisseur_structure_max>
+        <umur0>0.4</umur0>
+    </row>
+    <row id="114">
+        <enum_materiaux_structure_mur_id>17</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>30</epaisseur_structure_min>
+        <epaisseur_structure_max>30</epaisseur_structure_max>
+        <umur0>0.36</umur0>
+    </row>
+    <row id="115">
+        <enum_materiaux_structure_mur_id>17</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>32.5</epaisseur_structure_min>
+        <epaisseur_structure_max>32.5</epaisseur_structure_max>
+        <umur0>0.3</umur0>
+    </row>
+    <row id="116">
+        <enum_materiaux_structure_mur_id>17</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>35</epaisseur_structure_min>
+        <epaisseur_structure_max>35</epaisseur_structure_max>
+        <umur0>0.28</umur0>
+    </row>
+    <row id="117">
+        <enum_materiaux_structure_mur_id>17</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>37.5</epaisseur_structure_min>
+        <epaisseur_structure_max>37.5</epaisseur_structure_max>
+        <umur0>0.22</umur0>
+    </row>
+    <row id="118">
+        <enum_materiaux_structure_mur_id>18</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>10</epaisseur_structure_min>
+        <epaisseur_structure_max>10</epaisseur_structure_max>
+        <umur0>0.45</umur0>
+    </row>
+    <row id="119">
+        <enum_materiaux_structure_mur_id>18</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>15</epaisseur_structure_min>
+        <epaisseur_structure_max>15</epaisseur_structure_max>
+        <umur0>0.35</umur0>
+    </row>
+    <row id="120">
+        <enum_materiaux_structure_mur_id>18</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>20</epaisseur_structure_min>
+        <epaisseur_structure_max>20</epaisseur_structure_max>
+        <umur0>0.26</umur0>
+    </row>
+    <row id="121">
+        <enum_materiaux_structure_mur_id>18</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>25</epaisseur_structure_min>
+        <epaisseur_structure_max>25</epaisseur_structure_max>
+        <umur0>0.21</umur0>
+    </row>
+    <row id="122">
+        <enum_materiaux_structure_mur_id>18</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>30</epaisseur_structure_min>
+        <epaisseur_structure_max>30</epaisseur_structure_max>
+        <umur0>0.17</umur0>
+    </row>
+    <row id="123">
+        <enum_materiaux_structure_mur_id>18</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>35</epaisseur_structure_min>
+        <epaisseur_structure_max>35</epaisseur_structure_max>
+        <umur0>0.15</umur0>
+    </row>
+    <row id="124">
+        <enum_materiaux_structure_mur_id>18</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>40</epaisseur_structure_min>
+        <epaisseur_structure_max>40</epaisseur_structure_max>
+        <umur0>0.13</umur0>
+    </row>
+    <row id="125">
+        <enum_materiaux_structure_mur_id>18</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>45</epaisseur_structure_min>
+        <epaisseur_structure_max></epaisseur_structure_max>
+        <umur0>0.11</umur0>
+    </row>
+    <row id="126">
+        <enum_materiaux_structure_mur_id>19</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min></epaisseur_structure_min>
+        <epaisseur_structure_max>15</epaisseur_structure_max>
+        <umur0>0.9</umur0>
+    </row>
+    <row id="127">
+        <enum_materiaux_structure_mur_id>19</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>20</epaisseur_structure_min>
+        <epaisseur_structure_max>20</epaisseur_structure_max>
+        <umur0>0.48</umur0>
+    </row>
+    <row id="128">
+        <enum_materiaux_structure_mur_id>19</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>25</epaisseur_structure_min>
+        <epaisseur_structure_max></epaisseur_structure_max>
+        <umur0>0.45</umur0>
+    </row>
+    <row id="129">
+        <enum_materiaux_structure_mur_id>20</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>0</epaisseur_structure_min>
+        <epaisseur_structure_max>0</epaisseur_structure_max>
+        <umur0>3.33</umur0>
+    </row>
+    <row id="130">
+        <enum_materiaux_structure_mur_id>24</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>10</epaisseur_structure_min>
+        <epaisseur_structure_max>10</epaisseur_structure_max>
+        <umur0>0.52</umur0>
+    </row>
+    <row id="131">
+        <enum_materiaux_structure_mur_id>24</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>15</epaisseur_structure_min>
+        <epaisseur_structure_max>15</epaisseur_structure_max>
+        <umur0>0.41</umur0>
+    </row>
+    <row id="132">
+        <enum_materiaux_structure_mur_id>24</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>20</epaisseur_structure_min>
+        <epaisseur_structure_max>20</epaisseur_structure_max>
+        <umur0>0.3</umur0>
+    </row>
+    <row id="133">
+        <enum_materiaux_structure_mur_id>24</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>25</epaisseur_structure_min>
+        <epaisseur_structure_max>25</epaisseur_structure_max>
+        <umur0>0.24</umur0>
+    </row>
+    <row id="134">
+        <enum_materiaux_structure_mur_id>24</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>30</epaisseur_structure_min>
+        <epaisseur_structure_max>30</epaisseur_structure_max>
+        <umur0>0.2</umur0>
+    </row>
+    <row id="135">
+        <enum_materiaux_structure_mur_id>24</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>35</epaisseur_structure_min>
+        <epaisseur_structure_max>35</epaisseur_structure_max>
+        <umur0>0.17</umur0>
+    </row>
+    <row id="136">
+        <enum_materiaux_structure_mur_id>24</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>40</epaisseur_structure_min>
+        <epaisseur_structure_max>40</epaisseur_structure_max>
+        <umur0>0.15</umur0>
+    </row>
+    <row id="137">
+        <enum_materiaux_structure_mur_id>24</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>45</epaisseur_structure_min>
+        <epaisseur_structure_max></epaisseur_structure_max>
+        <umur0>0.13</umur0>
+    </row>
+    <row id="138">
+        <enum_materiaux_structure_mur_id>25</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min></epaisseur_structure_min>
+        <epaisseur_structure_max>8</epaisseur_structure_max>
+        <umur0>3</umur0>
+    </row>
+    <row id="139">
+        <enum_materiaux_structure_mur_id>25</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>10</epaisseur_structure_min>
+        <epaisseur_structure_max>10</epaisseur_structure_max>
+        <umur0>2.7</umur0>
+    </row>
+    <row id="140">
+        <enum_materiaux_structure_mur_id>25</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>13</epaisseur_structure_min>
+        <epaisseur_structure_max>13</epaisseur_structure_max>
+        <umur0>2.35</umur0>
+    </row>
+    <row id="141">
+        <enum_materiaux_structure_mur_id>25</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>18</epaisseur_structure_min>
+        <epaisseur_structure_max>18</epaisseur_structure_max>
+        <umur0>1.98</umur0>
+    </row>
+    <row id="142">
+        <enum_materiaux_structure_mur_id>25</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>24</epaisseur_structure_min>
+        <epaisseur_structure_max>24</epaisseur_structure_max>
+        <umur0>1.65</umur0>
+    </row>
+    <row id="143">
+        <enum_materiaux_structure_mur_id>25</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>32</epaisseur_structure_min>
+        <epaisseur_structure_max></epaisseur_structure_max>
+        <umur0>1.35</umur0>
+    </row>
+    <row id="144">
+        <enum_materiaux_structure_mur_id>26</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>10</epaisseur_structure_min>
+        <epaisseur_structure_max>10</epaisseur_structure_max>
+        <umur0>0.65</umur0>
+    </row>
+    <row id="145">
+        <enum_materiaux_structure_mur_id>26</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>15</epaisseur_structure_min>
+        <epaisseur_structure_max>15</epaisseur_structure_max>
+        <umur0>0.45</umur0>
+    </row>
+    <row id="146">
+        <enum_materiaux_structure_mur_id>26</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>20</epaisseur_structure_min>
+        <epaisseur_structure_max>20</epaisseur_structure_max>
+        <umur0>0.34</umur0>
+    </row>
+    <row id="147">
+        <enum_materiaux_structure_mur_id>26</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>25</epaisseur_structure_min>
+        <epaisseur_structure_max>25</epaisseur_structure_max>
+        <umur0>0.28</umur0>
+    </row>
+    <row id="148">
+        <enum_materiaux_structure_mur_id>26</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>30</epaisseur_structure_min>
+        <epaisseur_structure_max>30</epaisseur_structure_max>
+        <umur0>0.23</umur0>
+    </row>
+    <row id="149">
+        <enum_materiaux_structure_mur_id>26</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>35</epaisseur_structure_min>
+        <epaisseur_structure_max>35</epaisseur_structure_max>
+        <umur0>0.2</umur0>
+    </row>
+    <row id="150">
+        <enum_materiaux_structure_mur_id>26</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>40</epaisseur_structure_min>
+        <epaisseur_structure_max>40</epaisseur_structure_max>
+        <umur0>0.18</umur0>
+    </row>
+    <row id="151">
+        <enum_materiaux_structure_mur_id>26</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>45</epaisseur_structure_min>
+        <epaisseur_structure_max></epaisseur_structure_max>
+        <umur0>0.16</umur0>
+    </row>
+    <row id="152">
+        <enum_materiaux_structure_mur_id>27</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min></epaisseur_structure_min>
+        <epaisseur_structure_max>8</epaisseur_structure_max>
+        <umur0>1.70</umur0>
+    </row>
+    <row id="153">
+        <enum_materiaux_structure_mur_id>27</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>10</epaisseur_structure_min>
+        <epaisseur_structure_max>10</epaisseur_structure_max>
+        <umur0>1.70</umur0>
+    </row>
+    <row id="154">
+        <enum_materiaux_structure_mur_id>27</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>13</epaisseur_structure_min>
+        <epaisseur_structure_max>13</epaisseur_structure_max>
+        <umur0>1.70</umur0>
+    </row>
+    <row id="155">
+        <enum_materiaux_structure_mur_id>27</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>18</epaisseur_structure_min>
+        <epaisseur_structure_max>18</epaisseur_structure_max>
+        <umur0>1.70</umur0>
+    </row>
+    <row id="156">
+        <enum_materiaux_structure_mur_id>27</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>24</epaisseur_structure_min>
+        <epaisseur_structure_max>24</epaisseur_structure_max>
+        <umur0>1.70</umur0>
+    </row>
+    <row id="157">
+        <enum_materiaux_structure_mur_id>27</enum_materiaux_structure_mur_id>
+        <epaisseur_structure_min>32</epaisseur_structure_min>
+        <epaisseur_structure_max></epaisseur_structure_max>
+        <umur0>1.70</umur0>
+    </row>
+</table>

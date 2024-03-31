@@ -1,0 +1,1610 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table name="tv_sw">
+    <row id="1">
+        <enum_type_baie_id>1</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>1</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id></enum_type_pose_id>
+        <vitrage_vir></vitrage_vir>
+        <enum_type_vitrage_id></enum_type_vitrage_id>
+        <sw>0.4</sw>
+    </row>
+    <row id="2">
+        <enum_type_baie_id>2</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>1</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id></enum_type_pose_id>
+        <vitrage_vir></vitrage_vir>
+        <enum_type_vitrage_id></enum_type_vitrage_id>
+        <sw>0.4</sw>
+    </row>
+    <row id="3">
+        <enum_type_baie_id>3</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>2</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id></enum_type_pose_id>
+        <vitrage_vir></vitrage_vir>
+        <enum_type_vitrage_id></enum_type_vitrage_id>
+        <sw>0.4</sw>
+    </row>
+    <row id="4">
+        <enum_type_baie_id>4</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>3</enum_type_materiaux_menuiserie_id>
+        <enum_type_materiaux_menuiserie_id>4</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>1</enum_type_pose_id>
+        <vitrage_vir>0</vitrage_vir>
+        <enum_type_vitrage_id>1</enum_type_vitrage_id>
+        <sw>0.58</sw>
+    </row>
+    <row id="5">
+        <enum_type_baie_id>4</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>3</enum_type_materiaux_menuiserie_id>
+        <enum_type_materiaux_menuiserie_id>4</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>1</enum_type_pose_id>
+        <vitrage_vir>0</vitrage_vir>
+        <enum_type_vitrage_id>2</enum_type_vitrage_id>
+        <enum_type_vitrage_id>4</enum_type_vitrage_id>
+        <sw>0.52</sw>
+    </row>
+    <row id="6">
+        <enum_type_baie_id>4</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>3</enum_type_materiaux_menuiserie_id>
+        <enum_type_materiaux_menuiserie_id>4</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>1</enum_type_pose_id>
+        <vitrage_vir>1</vitrage_vir>
+        <enum_type_vitrage_id>2</enum_type_vitrage_id>
+        <enum_type_vitrage_id>4</enum_type_vitrage_id>
+        <sw>0.45</sw>
+    </row>
+    <row id="7">
+        <enum_type_baie_id>4</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>3</enum_type_materiaux_menuiserie_id>
+        <enum_type_materiaux_menuiserie_id>4</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>1</enum_type_pose_id>
+        <vitrage_vir>0</vitrage_vir>
+        <enum_type_vitrage_id>3</enum_type_vitrage_id>
+        <sw>0.46</sw>
+    </row>
+    <row id="8">
+        <enum_type_baie_id>4</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>3</enum_type_materiaux_menuiserie_id>
+        <enum_type_materiaux_menuiserie_id>4</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>1</enum_type_pose_id>
+        <vitrage_vir>1</vitrage_vir>
+        <enum_type_vitrage_id>3</enum_type_vitrage_id>
+        <sw>0.41</sw>
+    </row>
+    <row id="9">
+        <enum_type_baie_id>5</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>3</enum_type_materiaux_menuiserie_id>
+        <enum_type_materiaux_menuiserie_id>4</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>1</enum_type_pose_id>
+        <vitrage_vir>0</vitrage_vir>
+        <enum_type_vitrage_id>1</enum_type_vitrage_id>
+        <sw>0.58</sw>
+    </row>
+    <row id="10">
+        <enum_type_baie_id>5</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>3</enum_type_materiaux_menuiserie_id>
+        <enum_type_materiaux_menuiserie_id>4</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>1</enum_type_pose_id>
+        <vitrage_vir>0</vitrage_vir>
+        <enum_type_vitrage_id>2</enum_type_vitrage_id>
+        <enum_type_vitrage_id>4</enum_type_vitrage_id>
+        <sw>0.52</sw>
+    </row>
+    <row id="11">
+        <enum_type_baie_id>5</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>3</enum_type_materiaux_menuiserie_id>
+        <enum_type_materiaux_menuiserie_id>4</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>1</enum_type_pose_id>
+        <vitrage_vir>1</vitrage_vir>
+        <enum_type_vitrage_id>2</enum_type_vitrage_id>
+        <enum_type_vitrage_id>4</enum_type_vitrage_id>
+        <sw>0.45</sw>
+    </row>
+    <row id="12">
+        <enum_type_baie_id>5</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>3</enum_type_materiaux_menuiserie_id>
+        <enum_type_materiaux_menuiserie_id>4</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>1</enum_type_pose_id>
+        <vitrage_vir>0</vitrage_vir>
+        <enum_type_vitrage_id>3</enum_type_vitrage_id>
+        <sw>0.46</sw>
+    </row>
+    <row id="13">
+        <enum_type_baie_id>5</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>3</enum_type_materiaux_menuiserie_id>
+        <enum_type_materiaux_menuiserie_id>4</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>1</enum_type_pose_id>
+        <vitrage_vir>1</vitrage_vir>
+        <enum_type_vitrage_id>3</enum_type_vitrage_id>
+        <sw>0.41</sw>
+    </row>
+    <row id="14">
+        <enum_type_baie_id>6</enum_type_baie_id>
+        <enum_type_baie_id>7</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>3</enum_type_materiaux_menuiserie_id>
+        <enum_type_materiaux_menuiserie_id>4</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>1</enum_type_pose_id>
+        <vitrage_vir>0</vitrage_vir>
+        <enum_type_vitrage_id>1</enum_type_vitrage_id>
+        <sw>0.62</sw>
+    </row>
+    <row id="15">
+        <enum_type_baie_id>6</enum_type_baie_id>
+        <enum_type_baie_id>7</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>3</enum_type_materiaux_menuiserie_id>
+        <enum_type_materiaux_menuiserie_id>4</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>1</enum_type_pose_id>
+        <vitrage_vir>0</vitrage_vir>
+        <enum_type_vitrage_id>2</enum_type_vitrage_id>
+        <enum_type_vitrage_id>4</enum_type_vitrage_id>
+        <sw>0.55</sw>
+    </row>
+    <row id="16">
+        <enum_type_baie_id>6</enum_type_baie_id>
+        <enum_type_baie_id>7</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>3</enum_type_materiaux_menuiserie_id>
+        <enum_type_materiaux_menuiserie_id>4</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>1</enum_type_pose_id>
+        <vitrage_vir>1</vitrage_vir>
+        <enum_type_vitrage_id>2</enum_type_vitrage_id>
+        <enum_type_vitrage_id>4</enum_type_vitrage_id>
+        <sw>0.48</sw>
+    </row>
+    <row id="17">
+        <enum_type_baie_id>6</enum_type_baie_id>
+        <enum_type_baie_id>7</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>3</enum_type_materiaux_menuiserie_id>
+        <enum_type_materiaux_menuiserie_id>4</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>1</enum_type_pose_id>
+        <vitrage_vir>0</vitrage_vir>
+        <enum_type_vitrage_id>3</enum_type_vitrage_id>
+        <sw>0.49</sw>
+    </row>
+    <row id="18">
+        <enum_type_baie_id>6</enum_type_baie_id>
+        <enum_type_baie_id>7</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>3</enum_type_materiaux_menuiserie_id>
+        <enum_type_materiaux_menuiserie_id>4</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>1</enum_type_pose_id>
+        <vitrage_vir>1</vitrage_vir>
+        <enum_type_vitrage_id>3</enum_type_vitrage_id>
+        <sw>0.44</sw>
+    </row>
+    <row id="19">
+        <enum_type_baie_id>8</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>3</enum_type_materiaux_menuiserie_id>
+        <enum_type_materiaux_menuiserie_id>4</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>1</enum_type_pose_id>
+        <vitrage_vir>0</vitrage_vir>
+        <enum_type_vitrage_id>1</enum_type_vitrage_id>
+        <sw>0.53</sw>
+    </row>
+    <row id="20">
+        <enum_type_baie_id>8</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>3</enum_type_materiaux_menuiserie_id>
+        <enum_type_materiaux_menuiserie_id>4</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>1</enum_type_pose_id>
+        <vitrage_vir>0</vitrage_vir>
+        <enum_type_vitrage_id>2</enum_type_vitrage_id>
+        <enum_type_vitrage_id>4</enum_type_vitrage_id>
+        <sw>0.48</sw>
+    </row>
+    <row id="21">
+        <enum_type_baie_id>8</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>3</enum_type_materiaux_menuiserie_id>
+        <enum_type_materiaux_menuiserie_id>4</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>1</enum_type_pose_id>
+        <vitrage_vir>1</vitrage_vir>
+        <enum_type_vitrage_id>2</enum_type_vitrage_id>
+        <enum_type_vitrage_id>4</enum_type_vitrage_id>
+        <sw>0.41</sw>
+    </row>
+    <row id="22">
+        <enum_type_baie_id>8</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>3</enum_type_materiaux_menuiserie_id>
+        <enum_type_materiaux_menuiserie_id>4</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>1</enum_type_pose_id>
+        <vitrage_vir>0</vitrage_vir>
+        <enum_type_vitrage_id>3</enum_type_vitrage_id>
+        <sw>0.42</sw>
+    </row>
+    <row id="23">
+        <enum_type_baie_id>8</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>3</enum_type_materiaux_menuiserie_id>
+        <enum_type_materiaux_menuiserie_id>4</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>1</enum_type_pose_id>
+        <vitrage_vir>1</vitrage_vir>
+        <enum_type_vitrage_id>3</enum_type_vitrage_id>
+        <sw>0.38</sw>
+    </row>
+    <row id="24">
+        <enum_type_baie_id>4</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>5</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>1</enum_type_pose_id>
+        <vitrage_vir>0</vitrage_vir>
+        <enum_type_vitrage_id>1</enum_type_vitrage_id>
+        <sw>0.54</sw>
+    </row>
+    <row id="25">
+        <enum_type_baie_id>4</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>5</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>1</enum_type_pose_id>
+        <vitrage_vir>0</vitrage_vir>
+        <enum_type_vitrage_id>2</enum_type_vitrage_id>
+        <enum_type_vitrage_id>4</enum_type_vitrage_id>
+        <sw>0.48</sw>
+    </row>
+    <row id="26">
+        <enum_type_baie_id>4</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>5</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>1</enum_type_pose_id>
+        <vitrage_vir>1</vitrage_vir>
+        <enum_type_vitrage_id>2</enum_type_vitrage_id>
+        <enum_type_vitrage_id>4</enum_type_vitrage_id>
+        <sw>0.42</sw>
+    </row>
+    <row id="27">
+        <enum_type_baie_id>4</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>5</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>1</enum_type_pose_id>
+        <vitrage_vir>0</vitrage_vir>
+        <enum_type_vitrage_id>3</enum_type_vitrage_id>
+        <sw>0.43</sw>
+    </row>
+    <row id="28">
+        <enum_type_baie_id>4</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>5</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>1</enum_type_pose_id>
+        <vitrage_vir>1</vitrage_vir>
+        <enum_type_vitrage_id>3</enum_type_vitrage_id>
+        <sw>0.39</sw>
+    </row>
+    <row id="29">
+        <enum_type_baie_id>5</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>5</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>1</enum_type_pose_id>
+        <vitrage_vir>0</vitrage_vir>
+        <enum_type_vitrage_id>1</enum_type_vitrage_id>
+        <sw>0.6</sw>
+    </row>
+    <row id="30">
+        <enum_type_baie_id>5</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>5</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>1</enum_type_pose_id>
+        <vitrage_vir>0</vitrage_vir>
+        <enum_type_vitrage_id>2</enum_type_vitrage_id>
+        <enum_type_vitrage_id>4</enum_type_vitrage_id>
+        <sw>0.54</sw>
+    </row>
+    <row id="31">
+        <enum_type_baie_id>5</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>5</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>1</enum_type_pose_id>
+        <vitrage_vir>1</vitrage_vir>
+        <enum_type_vitrage_id>2</enum_type_vitrage_id>
+        <enum_type_vitrage_id>4</enum_type_vitrage_id>
+        <sw>0.46</sw>
+    </row>
+    <row id="32">
+        <enum_type_baie_id>5</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>5</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>1</enum_type_pose_id>
+        <vitrage_vir>0</vitrage_vir>
+        <enum_type_vitrage_id>3</enum_type_vitrage_id>
+        <sw>0.47</sw>
+    </row>
+    <row id="33">
+        <enum_type_baie_id>5</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>5</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>1</enum_type_pose_id>
+        <vitrage_vir>1</vitrage_vir>
+        <enum_type_vitrage_id>3</enum_type_vitrage_id>
+        <sw>0.43</sw>
+    </row>
+    <row id="34">
+        <enum_type_baie_id>6</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>5</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>1</enum_type_pose_id>
+        <vitrage_vir>0</vitrage_vir>
+        <enum_type_vitrage_id>1</enum_type_vitrage_id>
+        <sw>0.64</sw>
+    </row>
+    <row id="35">
+        <enum_type_baie_id>6</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>5</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>1</enum_type_pose_id>
+        <vitrage_vir>0</vitrage_vir>
+        <enum_type_vitrage_id>2</enum_type_vitrage_id>
+        <enum_type_vitrage_id>4</enum_type_vitrage_id>
+        <sw>0.57</sw>
+    </row>
+    <row id="36">
+        <enum_type_baie_id>6</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>5</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>1</enum_type_pose_id>
+        <vitrage_vir>1</vitrage_vir>
+        <enum_type_vitrage_id>2</enum_type_vitrage_id>
+        <enum_type_vitrage_id>4</enum_type_vitrage_id>
+        <sw>0.49</sw>
+    </row>
+    <row id="37">
+        <enum_type_baie_id>6</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>5</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>1</enum_type_pose_id>
+        <vitrage_vir>0</vitrage_vir>
+        <enum_type_vitrage_id>3</enum_type_vitrage_id>
+        <sw>0.51</sw>
+    </row>
+    <row id="38">
+        <enum_type_baie_id>6</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>5</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>1</enum_type_pose_id>
+        <vitrage_vir>1</vitrage_vir>
+        <enum_type_vitrage_id>3</enum_type_vitrage_id>
+        <sw>0.45</sw>
+    </row>
+    <row id="39">
+        <enum_type_baie_id>7</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>5</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>1</enum_type_pose_id>
+        <vitrage_vir>0</vitrage_vir>
+        <enum_type_vitrage_id>1</enum_type_vitrage_id>
+        <sw>0.57</sw>
+    </row>
+    <row id="40">
+        <enum_type_baie_id>7</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>5</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>1</enum_type_pose_id>
+        <vitrage_vir>0</vitrage_vir>
+        <enum_type_vitrage_id>2</enum_type_vitrage_id>
+        <enum_type_vitrage_id>4</enum_type_vitrage_id>
+        <sw>0.51</sw>
+    </row>
+    <row id="41">
+        <enum_type_baie_id>7</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>5</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>1</enum_type_pose_id>
+        <vitrage_vir>1</vitrage_vir>
+        <enum_type_vitrage_id>2</enum_type_vitrage_id>
+        <enum_type_vitrage_id>4</enum_type_vitrage_id>
+        <sw>0.44</sw>
+    </row>
+    <row id="42">
+        <enum_type_baie_id>7</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>5</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>1</enum_type_pose_id>
+        <vitrage_vir>0</vitrage_vir>
+        <enum_type_vitrage_id>3</enum_type_vitrage_id>
+        <sw>0.45</sw>
+    </row>
+    <row id="43">
+        <enum_type_baie_id>7</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>5</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>1</enum_type_pose_id>
+        <vitrage_vir>1</vitrage_vir>
+        <enum_type_vitrage_id>3</enum_type_vitrage_id>
+        <sw>0.4</sw>
+    </row>
+    <row id="44">
+        <enum_type_baie_id>8</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>5</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>1</enum_type_pose_id>
+        <vitrage_vir>0</vitrage_vir>
+        <enum_type_vitrage_id>1</enum_type_vitrage_id>
+        <sw>0.5</sw>
+    </row>
+    <row id="45">
+        <enum_type_baie_id>8</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>5</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>1</enum_type_pose_id>
+        <vitrage_vir>0</vitrage_vir>
+        <enum_type_vitrage_id>2</enum_type_vitrage_id>
+        <enum_type_vitrage_id>4</enum_type_vitrage_id>
+        <sw>0.45</sw>
+    </row>
+    <row id="46">
+        <enum_type_baie_id>8</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>5</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>1</enum_type_pose_id>
+        <vitrage_vir>1</vitrage_vir>
+        <enum_type_vitrage_id>2</enum_type_vitrage_id>
+        <enum_type_vitrage_id>4</enum_type_vitrage_id>
+        <sw>0.39</sw>
+    </row>
+    <row id="47">
+        <enum_type_baie_id>8</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>5</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>1</enum_type_pose_id>
+        <vitrage_vir>0</vitrage_vir>
+        <enum_type_vitrage_id>3</enum_type_vitrage_id>
+        <sw>0.4</sw>
+    </row>
+    <row id="48">
+        <enum_type_baie_id>8</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>5</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>1</enum_type_pose_id>
+        <vitrage_vir>1</vitrage_vir>
+        <enum_type_vitrage_id>3</enum_type_vitrage_id>
+        <sw>0.36</sw>
+    </row>
+    <row id="49">
+        <enum_type_baie_id>4</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>6</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>1</enum_type_pose_id>
+        <vitrage_vir>0</vitrage_vir>
+        <enum_type_vitrage_id>1</enum_type_vitrage_id>
+        <sw>0.59</sw>
+    </row>
+    <row id="50">
+        <enum_type_baie_id>4</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>6</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>1</enum_type_pose_id>
+        <vitrage_vir>0</vitrage_vir>
+        <enum_type_vitrage_id>2</enum_type_vitrage_id>
+        <enum_type_vitrage_id>4</enum_type_vitrage_id>
+        <sw>0.53</sw>
+    </row>
+    <row id="51">
+        <enum_type_baie_id>4</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>6</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>1</enum_type_pose_id>
+        <vitrage_vir>1</vitrage_vir>
+        <enum_type_vitrage_id>2</enum_type_vitrage_id>
+        <enum_type_vitrage_id>4</enum_type_vitrage_id>
+        <sw>0.46</sw>
+    </row>
+    <row id="52">
+        <enum_type_baie_id>4</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>6</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>1</enum_type_pose_id>
+        <vitrage_vir>0</vitrage_vir>
+        <enum_type_vitrage_id>3</enum_type_vitrage_id>
+        <sw>0.47</sw>
+    </row>
+    <row id="53">
+        <enum_type_baie_id>4</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>6</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>1</enum_type_pose_id>
+        <vitrage_vir>1</vitrage_vir>
+        <enum_type_vitrage_id>3</enum_type_vitrage_id>
+        <sw>0.42</sw>
+    </row>
+    <row id="54">
+        <enum_type_baie_id>5</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>6</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>1</enum_type_pose_id>
+        <vitrage_vir>0</vitrage_vir>
+        <enum_type_vitrage_id>1</enum_type_vitrage_id>
+        <sw>0.65</sw>
+    </row>
+    <row id="55">
+        <enum_type_baie_id>5</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>6</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>1</enum_type_pose_id>
+        <vitrage_vir>0</vitrage_vir>
+        <enum_type_vitrage_id>2</enum_type_vitrage_id>
+        <enum_type_vitrage_id>4</enum_type_vitrage_id>
+        <sw>0.58</sw>
+    </row>
+    <row id="56">
+        <enum_type_baie_id>5</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>6</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>1</enum_type_pose_id>
+        <vitrage_vir>1</vitrage_vir>
+        <enum_type_vitrage_id>2</enum_type_vitrage_id>
+        <enum_type_vitrage_id>4</enum_type_vitrage_id>
+        <sw>0.5</sw>
+    </row>
+    <row id="57">
+        <enum_type_baie_id>5</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>6</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>1</enum_type_pose_id>
+        <vitrage_vir>0</vitrage_vir>
+        <enum_type_vitrage_id>3</enum_type_vitrage_id>
+        <sw>0.52</sw>
+    </row>
+    <row id="58">
+        <enum_type_baie_id>5</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>6</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>1</enum_type_pose_id>
+        <vitrage_vir>1</vitrage_vir>
+        <enum_type_vitrage_id>3</enum_type_vitrage_id>
+        <sw>0.46</sw>
+    </row>
+    <row id="59">
+        <enum_type_baie_id>6</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>6</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>1</enum_type_pose_id>
+        <vitrage_vir>0</vitrage_vir>
+        <enum_type_vitrage_id>1</enum_type_vitrage_id>
+        <sw>0.7</sw>
+    </row>
+    <row id="60">
+        <enum_type_baie_id>6</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>6</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>1</enum_type_pose_id>
+        <vitrage_vir>0</vitrage_vir>
+        <enum_type_vitrage_id>2</enum_type_vitrage_id>
+        <enum_type_vitrage_id>4</enum_type_vitrage_id>
+        <sw>0.62</sw>
+    </row>
+    <row id="61">
+        <enum_type_baie_id>6</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>6</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>1</enum_type_pose_id>
+        <vitrage_vir>1</vitrage_vir>
+        <enum_type_vitrage_id>2</enum_type_vitrage_id>
+        <enum_type_vitrage_id>4</enum_type_vitrage_id>
+        <sw>0.54</sw>
+    </row>
+    <row id="62">
+        <enum_type_baie_id>6</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>6</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>1</enum_type_pose_id>
+        <vitrage_vir>0</vitrage_vir>
+        <enum_type_vitrage_id>3</enum_type_vitrage_id>
+        <sw>0.55</sw>
+    </row>
+    <row id="63">
+        <enum_type_baie_id>6</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>6</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>1</enum_type_pose_id>
+        <vitrage_vir>1</vitrage_vir>
+        <enum_type_vitrage_id>3</enum_type_vitrage_id>
+        <sw>0.5</sw>
+    </row>
+    <row id="64">
+        <enum_type_baie_id>7</enum_type_baie_id>
+        <enum_type_baie_id>8</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>6</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>1</enum_type_pose_id>
+        <vitrage_vir>0</vitrage_vir>
+        <enum_type_vitrage_id>1</enum_type_vitrage_id>
+        <sw>0.63</sw>
+    </row>
+    <row id="65">
+        <enum_type_baie_id>7</enum_type_baie_id>
+        <enum_type_baie_id>8</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>6</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>1</enum_type_pose_id>
+        <vitrage_vir>0</vitrage_vir>
+        <enum_type_vitrage_id>2</enum_type_vitrage_id>
+        <enum_type_vitrage_id>4</enum_type_vitrage_id>
+        <sw>0.56</sw>
+    </row>
+    <row id="66">
+        <enum_type_baie_id>7</enum_type_baie_id>
+        <enum_type_baie_id>8</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>6</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>1</enum_type_pose_id>
+        <vitrage_vir>1</vitrage_vir>
+        <enum_type_vitrage_id>2</enum_type_vitrage_id>
+        <enum_type_vitrage_id>4</enum_type_vitrage_id>
+        <sw>0.48</sw>
+    </row>
+    <row id="67">
+        <enum_type_baie_id>7</enum_type_baie_id>
+        <enum_type_baie_id>8</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>6</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>1</enum_type_pose_id>
+        <vitrage_vir>0</vitrage_vir>
+        <enum_type_vitrage_id>3</enum_type_vitrage_id>
+        <sw>0.5</sw>
+    </row>
+    <row id="68">
+        <enum_type_baie_id>7</enum_type_baie_id>
+        <enum_type_baie_id>8</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>6</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>1</enum_type_pose_id>
+        <vitrage_vir>1</vitrage_vir>
+        <enum_type_vitrage_id>3</enum_type_vitrage_id>
+        <sw>0.45</sw>
+    </row>
+    <row id="69">
+        <enum_type_baie_id>4</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>7</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>1</enum_type_pose_id>
+        <vitrage_vir>0</vitrage_vir>
+        <enum_type_vitrage_id>1</enum_type_vitrage_id>
+        <sw>0.61</sw>
+    </row>
+    <row id="70">
+        <enum_type_baie_id>4</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>7</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>1</enum_type_pose_id>
+        <vitrage_vir>0</vitrage_vir>
+        <enum_type_vitrage_id>2</enum_type_vitrage_id>
+        <enum_type_vitrage_id>4</enum_type_vitrage_id>
+        <sw>0.55</sw>
+    </row>
+    <row id="71">
+        <enum_type_baie_id>4</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>7</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>1</enum_type_pose_id>
+        <vitrage_vir>1</vitrage_vir>
+        <enum_type_vitrage_id>2</enum_type_vitrage_id>
+        <enum_type_vitrage_id>4</enum_type_vitrage_id>
+        <sw>0.48</sw>
+    </row>
+    <row id="72">
+        <enum_type_baie_id>4</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>7</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>1</enum_type_pose_id>
+        <vitrage_vir>0</vitrage_vir>
+        <enum_type_vitrage_id>3</enum_type_vitrage_id>
+        <sw>0.49</sw>
+    </row>
+    <row id="73">
+        <enum_type_baie_id>4</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>7</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>1</enum_type_pose_id>
+        <vitrage_vir>1</vitrage_vir>
+        <enum_type_vitrage_id>3</enum_type_vitrage_id>
+        <sw>0.44</sw>
+    </row>
+    <row id="74">
+        <enum_type_baie_id>5</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>7</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>1</enum_type_pose_id>
+        <vitrage_vir>0</vitrage_vir>
+        <enum_type_vitrage_id>1</enum_type_vitrage_id>
+        <sw>0.67</sw>
+    </row>
+    <row id="75">
+        <enum_type_baie_id>5</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>7</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>1</enum_type_pose_id>
+        <vitrage_vir>0</vitrage_vir>
+        <enum_type_vitrage_id>2</enum_type_vitrage_id>
+        <enum_type_vitrage_id>4</enum_type_vitrage_id>
+        <sw>0.6</sw>
+    </row>
+    <row id="76">
+        <enum_type_baie_id>5</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>7</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>1</enum_type_pose_id>
+        <vitrage_vir>1</vitrage_vir>
+        <enum_type_vitrage_id>2</enum_type_vitrage_id>
+        <enum_type_vitrage_id>4</enum_type_vitrage_id>
+        <sw>0.52</sw>
+    </row>
+    <row id="77">
+        <enum_type_baie_id>5</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>7</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>1</enum_type_pose_id>
+        <vitrage_vir>0</vitrage_vir>
+        <enum_type_vitrage_id>3</enum_type_vitrage_id>
+        <sw>0.53</sw>
+    </row>
+    <row id="78">
+        <enum_type_baie_id>5</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>7</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>1</enum_type_pose_id>
+        <vitrage_vir>1</vitrage_vir>
+        <enum_type_vitrage_id>3</enum_type_vitrage_id>
+        <sw>0.48</sw>
+    </row>
+    <row id="79">
+        <enum_type_baie_id>6</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>7</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>1</enum_type_pose_id>
+        <vitrage_vir>0</vitrage_vir>
+        <enum_type_vitrage_id>1</enum_type_vitrage_id>
+        <sw>0.71</sw>
+    </row>
+    <row id="80">
+        <enum_type_baie_id>6</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>7</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>1</enum_type_pose_id>
+        <vitrage_vir>0</vitrage_vir>
+        <enum_type_vitrage_id>2</enum_type_vitrage_id>
+        <enum_type_vitrage_id>4</enum_type_vitrage_id>
+        <sw>0.64</sw>
+    </row>
+    <row id="81">
+        <enum_type_baie_id>6</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>7</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>1</enum_type_pose_id>
+        <vitrage_vir>1</vitrage_vir>
+        <enum_type_vitrage_id>2</enum_type_vitrage_id>
+        <enum_type_vitrage_id>4</enum_type_vitrage_id>
+        <sw>0.55</sw>
+    </row>
+    <row id="82">
+        <enum_type_baie_id>6</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>7</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>1</enum_type_pose_id>
+        <vitrage_vir>0</vitrage_vir>
+        <enum_type_vitrage_id>3</enum_type_vitrage_id>
+        <sw>0.56</sw>
+    </row>
+    <row id="83">
+        <enum_type_baie_id>6</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>7</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>1</enum_type_pose_id>
+        <vitrage_vir>1</vitrage_vir>
+        <enum_type_vitrage_id>3</enum_type_vitrage_id>
+        <sw>0.51</sw>
+    </row>
+    <row id="84">
+        <enum_type_baie_id>7</enum_type_baie_id>
+        <enum_type_baie_id>8</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>7</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>1</enum_type_pose_id>
+        <vitrage_vir>0</vitrage_vir>
+        <enum_type_vitrage_id>1</enum_type_vitrage_id>
+        <sw>0.64</sw>
+    </row>
+    <row id="85">
+        <enum_type_baie_id>7</enum_type_baie_id>
+        <enum_type_baie_id>8</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>7</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>1</enum_type_pose_id>
+        <vitrage_vir>0</vitrage_vir>
+        <enum_type_vitrage_id>2</enum_type_vitrage_id>
+        <enum_type_vitrage_id>4</enum_type_vitrage_id>
+        <sw>0.58</sw>
+    </row>
+    <row id="86">
+        <enum_type_baie_id>7</enum_type_baie_id>
+        <enum_type_baie_id>8</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>7</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>1</enum_type_pose_id>
+        <vitrage_vir>1</vitrage_vir>
+        <enum_type_vitrage_id>2</enum_type_vitrage_id>
+        <enum_type_vitrage_id>4</enum_type_vitrage_id>
+        <sw>0.5</sw>
+    </row>
+    <row id="87">
+        <enum_type_baie_id>7</enum_type_baie_id>
+        <enum_type_baie_id>8</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>7</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>1</enum_type_pose_id>
+        <vitrage_vir>0</vitrage_vir>
+        <enum_type_vitrage_id>3</enum_type_vitrage_id>
+        <sw>0.52</sw>
+    </row>
+    <row id="88">
+        <enum_type_baie_id>7</enum_type_baie_id>
+        <enum_type_baie_id>8</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>7</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>1</enum_type_pose_id>
+        <vitrage_vir>1</vitrage_vir>
+        <enum_type_vitrage_id>3</enum_type_vitrage_id>
+        <sw>0.47</sw>
+    </row>
+    <row id="89">
+        <enum_type_baie_id>4</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>3</enum_type_materiaux_menuiserie_id>
+        <enum_type_materiaux_menuiserie_id>4</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>2</enum_type_pose_id>
+        <enum_type_pose_id>3</enum_type_pose_id>
+        <vitrage_vir>0</vitrage_vir>
+        <enum_type_vitrage_id>1</enum_type_vitrage_id>
+        <sw>0.52</sw>
+    </row>
+    <row id="90">
+        <enum_type_baie_id>4</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>3</enum_type_materiaux_menuiserie_id>
+        <enum_type_materiaux_menuiserie_id>4</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>2</enum_type_pose_id>
+        <enum_type_pose_id>3</enum_type_pose_id>
+        <vitrage_vir>0</vitrage_vir>
+        <enum_type_vitrage_id>2</enum_type_vitrage_id>
+        <enum_type_vitrage_id>4</enum_type_vitrage_id>
+        <sw>0.47</sw>
+    </row>
+    <row id="91">
+        <enum_type_baie_id>4</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>3</enum_type_materiaux_menuiserie_id>
+        <enum_type_materiaux_menuiserie_id>4</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>2</enum_type_pose_id>
+        <enum_type_pose_id>3</enum_type_pose_id>
+        <vitrage_vir>1</vitrage_vir>
+        <enum_type_vitrage_id>2</enum_type_vitrage_id>
+        <enum_type_vitrage_id>4</enum_type_vitrage_id>
+        <sw>0.4</sw>
+    </row>
+    <row id="92">
+        <enum_type_baie_id>4</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>3</enum_type_materiaux_menuiserie_id>
+        <enum_type_materiaux_menuiserie_id>4</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>2</enum_type_pose_id>
+        <enum_type_pose_id>3</enum_type_pose_id>
+        <vitrage_vir>0</vitrage_vir>
+        <enum_type_vitrage_id>3</enum_type_vitrage_id>
+        <sw>0.41</sw>
+    </row>
+    <row id="93">
+        <enum_type_baie_id>4</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>3</enum_type_materiaux_menuiserie_id>
+        <enum_type_materiaux_menuiserie_id>4</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>2</enum_type_pose_id>
+        <enum_type_pose_id>3</enum_type_pose_id>
+        <vitrage_vir>1</vitrage_vir>
+        <enum_type_vitrage_id>3</enum_type_vitrage_id>
+        <sw>0.37</sw>
+    </row>
+    <row id="94">
+        <enum_type_baie_id>5</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>3</enum_type_materiaux_menuiserie_id>
+        <enum_type_materiaux_menuiserie_id>4</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>2</enum_type_pose_id>
+        <enum_type_pose_id>3</enum_type_pose_id>
+        <vitrage_vir>0</vitrage_vir>
+        <enum_type_vitrage_id>1</enum_type_vitrage_id>
+        <sw>0.52</sw>
+    </row>
+    <row id="95">
+        <enum_type_baie_id>5</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>3</enum_type_materiaux_menuiserie_id>
+        <enum_type_materiaux_menuiserie_id>4</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>2</enum_type_pose_id>
+        <enum_type_pose_id>3</enum_type_pose_id>
+        <vitrage_vir>0</vitrage_vir>
+        <enum_type_vitrage_id>2</enum_type_vitrage_id>
+        <enum_type_vitrage_id>4</enum_type_vitrage_id>
+        <sw>0.47</sw>
+    </row>
+    <row id="96">
+        <enum_type_baie_id>5</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>3</enum_type_materiaux_menuiserie_id>
+        <enum_type_materiaux_menuiserie_id>4</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>2</enum_type_pose_id>
+        <enum_type_pose_id>3</enum_type_pose_id>
+        <vitrage_vir>1</vitrage_vir>
+        <enum_type_vitrage_id>2</enum_type_vitrage_id>
+        <enum_type_vitrage_id>4</enum_type_vitrage_id>
+        <sw>0.4</sw>
+    </row>
+    <row id="97">
+        <enum_type_baie_id>5</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>3</enum_type_materiaux_menuiserie_id>
+        <enum_type_materiaux_menuiserie_id>4</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>2</enum_type_pose_id>
+        <enum_type_pose_id>3</enum_type_pose_id>
+        <vitrage_vir>0</vitrage_vir>
+        <enum_type_vitrage_id>3</enum_type_vitrage_id>
+        <sw>0.41</sw>
+    </row>
+    <row id="98">
+        <enum_type_baie_id>5</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>3</enum_type_materiaux_menuiserie_id>
+        <enum_type_materiaux_menuiserie_id>4</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>2</enum_type_pose_id>
+        <enum_type_pose_id>3</enum_type_pose_id>
+        <vitrage_vir>1</vitrage_vir>
+        <enum_type_vitrage_id>3</enum_type_vitrage_id>
+        <sw>0.37</sw>
+    </row>
+    <row id="99">
+        <enum_type_baie_id>6</enum_type_baie_id>
+        <enum_type_baie_id>7</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>3</enum_type_materiaux_menuiserie_id>
+        <enum_type_materiaux_menuiserie_id>4</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>2</enum_type_pose_id>
+        <enum_type_pose_id>3</enum_type_pose_id>
+        <vitrage_vir>0</vitrage_vir>
+        <enum_type_vitrage_id>1</enum_type_vitrage_id>
+        <sw>0.56</sw>
+    </row>
+    <row id="100">
+        <enum_type_baie_id>6</enum_type_baie_id>
+        <enum_type_baie_id>7</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>3</enum_type_materiaux_menuiserie_id>
+        <enum_type_materiaux_menuiserie_id>4</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>2</enum_type_pose_id>
+        <enum_type_pose_id>3</enum_type_pose_id>
+        <vitrage_vir>0</vitrage_vir>
+        <enum_type_vitrage_id>2</enum_type_vitrage_id>
+        <enum_type_vitrage_id>4</enum_type_vitrage_id>
+        <sw>0.5</sw>
+    </row>
+    <row id="101">
+        <enum_type_baie_id>6</enum_type_baie_id>
+        <enum_type_baie_id>7</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>3</enum_type_materiaux_menuiserie_id>
+        <enum_type_materiaux_menuiserie_id>4</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>2</enum_type_pose_id>
+        <enum_type_pose_id>3</enum_type_pose_id>
+        <vitrage_vir>1</vitrage_vir>
+        <enum_type_vitrage_id>2</enum_type_vitrage_id>
+        <enum_type_vitrage_id>4</enum_type_vitrage_id>
+        <sw>0.43</sw>
+    </row>
+    <row id="102">
+        <enum_type_baie_id>6</enum_type_baie_id>
+        <enum_type_baie_id>7</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>3</enum_type_materiaux_menuiserie_id>
+        <enum_type_materiaux_menuiserie_id>4</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>2</enum_type_pose_id>
+        <enum_type_pose_id>3</enum_type_pose_id>
+        <vitrage_vir>0</vitrage_vir>
+        <enum_type_vitrage_id>3</enum_type_vitrage_id>
+        <sw>0.44</sw>
+    </row>
+    <row id="103">
+        <enum_type_baie_id>6</enum_type_baie_id>
+        <enum_type_baie_id>7</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>3</enum_type_materiaux_menuiserie_id>
+        <enum_type_materiaux_menuiserie_id>4</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>2</enum_type_pose_id>
+        <enum_type_pose_id>3</enum_type_pose_id>
+        <vitrage_vir>1</vitrage_vir>
+        <enum_type_vitrage_id>3</enum_type_vitrage_id>
+        <sw>0.4</sw>
+    </row>
+    <row id="104">
+        <enum_type_baie_id>8</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>3</enum_type_materiaux_menuiserie_id>
+        <enum_type_materiaux_menuiserie_id>4</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>2</enum_type_pose_id>
+        <enum_type_pose_id>3</enum_type_pose_id>
+        <vitrage_vir>0</vitrage_vir>
+        <enum_type_vitrage_id>1</enum_type_vitrage_id>
+        <sw>0.48</sw>
+    </row>
+    <row id="105">
+        <enum_type_baie_id>8</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>3</enum_type_materiaux_menuiserie_id>
+        <enum_type_materiaux_menuiserie_id>4</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>2</enum_type_pose_id>
+        <enum_type_pose_id>3</enum_type_pose_id>
+        <vitrage_vir>0</vitrage_vir>
+        <enum_type_vitrage_id>2</enum_type_vitrage_id>
+        <enum_type_vitrage_id>4</enum_type_vitrage_id>
+        <sw>0.43</sw>
+    </row>
+    <row id="106">
+        <enum_type_baie_id>8</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>3</enum_type_materiaux_menuiserie_id>
+        <enum_type_materiaux_menuiserie_id>4</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>2</enum_type_pose_id>
+        <enum_type_pose_id>3</enum_type_pose_id>
+        <vitrage_vir>1</vitrage_vir>
+        <enum_type_vitrage_id>2</enum_type_vitrage_id>
+        <enum_type_vitrage_id>4</enum_type_vitrage_id>
+        <sw>0.37</sw>
+    </row>
+    <row id="107">
+        <enum_type_baie_id>8</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>3</enum_type_materiaux_menuiserie_id>
+        <enum_type_materiaux_menuiserie_id>4</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>2</enum_type_pose_id>
+        <enum_type_pose_id>3</enum_type_pose_id>
+        <vitrage_vir>0</vitrage_vir>
+        <enum_type_vitrage_id>3</enum_type_vitrage_id>
+        <sw>0.38</sw>
+    </row>
+    <row id="108">
+        <enum_type_baie_id>8</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>3</enum_type_materiaux_menuiserie_id>
+        <enum_type_materiaux_menuiserie_id>4</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>2</enum_type_pose_id>
+        <enum_type_pose_id>3</enum_type_pose_id>
+        <vitrage_vir>1</vitrage_vir>
+        <enum_type_vitrage_id>3</enum_type_vitrage_id>
+        <sw>0.34</sw>
+    </row>
+    <row id="109">
+        <enum_type_baie_id>4</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>5</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>2</enum_type_pose_id>
+        <enum_type_pose_id>3</enum_type_pose_id>
+        <vitrage_vir>0</vitrage_vir>
+        <enum_type_vitrage_id>1</enum_type_vitrage_id>
+        <sw>0.49</sw>
+    </row>
+    <row id="110">
+        <enum_type_baie_id>4</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>5</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>2</enum_type_pose_id>
+        <enum_type_pose_id>3</enum_type_pose_id>
+        <vitrage_vir>0</vitrage_vir>
+        <enum_type_vitrage_id>2</enum_type_vitrage_id>
+        <enum_type_vitrage_id>4</enum_type_vitrage_id>
+        <sw>0.44</sw>
+    </row>
+    <row id="111">
+        <enum_type_baie_id>4</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>5</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>2</enum_type_pose_id>
+        <enum_type_pose_id>3</enum_type_pose_id>
+        <vitrage_vir>1</vitrage_vir>
+        <enum_type_vitrage_id>2</enum_type_vitrage_id>
+        <enum_type_vitrage_id>4</enum_type_vitrage_id>
+        <sw>0.38</sw>
+    </row>
+    <row id="112">
+        <enum_type_baie_id>4</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>5</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>2</enum_type_pose_id>
+        <enum_type_pose_id>3</enum_type_pose_id>
+        <vitrage_vir>0</vitrage_vir>
+        <enum_type_vitrage_id>3</enum_type_vitrage_id>
+        <sw>0.39</sw>
+    </row>
+    <row id="113">
+        <enum_type_baie_id>4</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>5</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>2</enum_type_pose_id>
+        <enum_type_pose_id>3</enum_type_pose_id>
+        <vitrage_vir>1</vitrage_vir>
+        <enum_type_vitrage_id>3</enum_type_vitrage_id>
+        <sw>0.35</sw>
+    </row>
+    <row id="114">
+        <enum_type_baie_id>5</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>5</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>2</enum_type_pose_id>
+        <enum_type_pose_id>3</enum_type_pose_id>
+        <vitrage_vir>0</vitrage_vir>
+        <enum_type_vitrage_id>1</enum_type_vitrage_id>
+        <sw>0.54</sw>
+    </row>
+    <row id="115">
+        <enum_type_baie_id>5</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>5</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>2</enum_type_pose_id>
+        <enum_type_pose_id>3</enum_type_pose_id>
+        <vitrage_vir>0</vitrage_vir>
+        <enum_type_vitrage_id>2</enum_type_vitrage_id>
+        <enum_type_vitrage_id>4</enum_type_vitrage_id>
+        <sw>0.48</sw>
+    </row>
+    <row id="116">
+        <enum_type_baie_id>5</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>5</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>2</enum_type_pose_id>
+        <enum_type_pose_id>3</enum_type_pose_id>
+        <vitrage_vir>1</vitrage_vir>
+        <enum_type_vitrage_id>2</enum_type_vitrage_id>
+        <enum_type_vitrage_id>4</enum_type_vitrage_id>
+        <sw>0.41</sw>
+    </row>
+    <row id="117">
+        <enum_type_baie_id>5</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>5</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>2</enum_type_pose_id>
+        <enum_type_pose_id>3</enum_type_pose_id>
+        <vitrage_vir>0</vitrage_vir>
+        <enum_type_vitrage_id>3</enum_type_vitrage_id>
+        <sw>0.43</sw>
+    </row>
+    <row id="118">
+        <enum_type_baie_id>5</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>5</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>2</enum_type_pose_id>
+        <enum_type_pose_id>3</enum_type_pose_id>
+        <vitrage_vir>1</vitrage_vir>
+        <enum_type_vitrage_id>3</enum_type_vitrage_id>
+        <sw>0.38</sw>
+    </row>
+    <row id="119">
+        <enum_type_baie_id>6</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>5</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>2</enum_type_pose_id>
+        <enum_type_pose_id>3</enum_type_pose_id>
+        <vitrage_vir>0</vitrage_vir>
+        <enum_type_vitrage_id>1</enum_type_vitrage_id>
+        <sw>0.57</sw>
+    </row>
+    <row id="120">
+        <enum_type_baie_id>6</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>5</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>2</enum_type_pose_id>
+        <enum_type_pose_id>3</enum_type_pose_id>
+        <vitrage_vir>0</vitrage_vir>
+        <enum_type_vitrage_id>2</enum_type_vitrage_id>
+        <enum_type_vitrage_id>4</enum_type_vitrage_id>
+        <sw>0.51</sw>
+    </row>
+    <row id="121">
+        <enum_type_baie_id>6</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>5</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>2</enum_type_pose_id>
+        <enum_type_pose_id>3</enum_type_pose_id>
+        <vitrage_vir>1</vitrage_vir>
+        <enum_type_vitrage_id>2</enum_type_vitrage_id>
+        <enum_type_vitrage_id>4</enum_type_vitrage_id>
+        <sw>0.44</sw>
+    </row>
+    <row id="122">
+        <enum_type_baie_id>6</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>5</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>2</enum_type_pose_id>
+        <enum_type_pose_id>3</enum_type_pose_id>
+        <vitrage_vir>0</vitrage_vir>
+        <enum_type_vitrage_id>3</enum_type_vitrage_id>
+        <sw>0.45</sw>
+    </row>
+    <row id="123">
+        <enum_type_baie_id>6</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>5</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>2</enum_type_pose_id>
+        <enum_type_pose_id>3</enum_type_pose_id>
+        <vitrage_vir>1</vitrage_vir>
+        <enum_type_vitrage_id>3</enum_type_vitrage_id>
+        <sw>0.41</sw>
+    </row>
+    <row id="124">
+        <enum_type_baie_id>7</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>5</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>2</enum_type_pose_id>
+        <enum_type_pose_id>3</enum_type_pose_id>
+        <vitrage_vir>0</vitrage_vir>
+        <enum_type_vitrage_id>1</enum_type_vitrage_id>
+        <sw>0.51</sw>
+    </row>
+    <row id="125">
+        <enum_type_baie_id>7</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>5</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>2</enum_type_pose_id>
+        <enum_type_pose_id>3</enum_type_pose_id>
+        <vitrage_vir>0</vitrage_vir>
+        <enum_type_vitrage_id>2</enum_type_vitrage_id>
+        <enum_type_vitrage_id>4</enum_type_vitrage_id>
+        <sw>0.46</sw>
+    </row>
+    <row id="126">
+        <enum_type_baie_id>7</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>5</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>2</enum_type_pose_id>
+        <enum_type_pose_id>3</enum_type_pose_id>
+        <vitrage_vir>1</vitrage_vir>
+        <enum_type_vitrage_id>2</enum_type_vitrage_id>
+        <enum_type_vitrage_id>4</enum_type_vitrage_id>
+        <sw>0.39</sw>
+    </row>
+    <row id="127">
+        <enum_type_baie_id>7</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>5</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>2</enum_type_pose_id>
+        <enum_type_pose_id>3</enum_type_pose_id>
+        <vitrage_vir>0</vitrage_vir>
+        <enum_type_vitrage_id>3</enum_type_vitrage_id>
+        <sw>0.4</sw>
+    </row>
+    <row id="128">
+        <enum_type_baie_id>7</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>5</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>2</enum_type_pose_id>
+        <enum_type_pose_id>3</enum_type_pose_id>
+        <vitrage_vir>1</vitrage_vir>
+        <enum_type_vitrage_id>3</enum_type_vitrage_id>
+        <sw>0.36</sw>
+    </row>
+    <row id="129">
+        <enum_type_baie_id>8</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>5</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>2</enum_type_pose_id>
+        <enum_type_pose_id>3</enum_type_pose_id>
+        <vitrage_vir>0</vitrage_vir>
+        <enum_type_vitrage_id>1</enum_type_vitrage_id>
+        <sw>0.45</sw>
+    </row>
+    <row id="130">
+        <enum_type_baie_id>8</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>5</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>2</enum_type_pose_id>
+        <enum_type_pose_id>3</enum_type_pose_id>
+        <vitrage_vir>0</vitrage_vir>
+        <enum_type_vitrage_id>2</enum_type_vitrage_id>
+        <enum_type_vitrage_id>4</enum_type_vitrage_id>
+        <sw>0.4</sw>
+    </row>
+    <row id="131">
+        <enum_type_baie_id>8</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>5</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>2</enum_type_pose_id>
+        <enum_type_pose_id>3</enum_type_pose_id>
+        <vitrage_vir>1</vitrage_vir>
+        <enum_type_vitrage_id>2</enum_type_vitrage_id>
+        <enum_type_vitrage_id>4</enum_type_vitrage_id>
+        <sw>0.35</sw>
+    </row>
+    <row id="132">
+        <enum_type_baie_id>8</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>5</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>2</enum_type_pose_id>
+        <enum_type_pose_id>3</enum_type_pose_id>
+        <vitrage_vir>0</vitrage_vir>
+        <enum_type_vitrage_id>3</enum_type_vitrage_id>
+        <sw>0.36</sw>
+    </row>
+    <row id="133">
+        <enum_type_baie_id>8</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>5</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>2</enum_type_pose_id>
+        <enum_type_pose_id>3</enum_type_pose_id>
+        <vitrage_vir>1</vitrage_vir>
+        <enum_type_vitrage_id>3</enum_type_vitrage_id>
+        <sw>0.32</sw>
+    </row>
+    <row id="134">
+        <enum_type_baie_id>4</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>6</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>2</enum_type_pose_id>
+        <enum_type_pose_id>3</enum_type_pose_id>
+        <vitrage_vir>0</vitrage_vir>
+        <enum_type_vitrage_id>1</enum_type_vitrage_id>
+        <sw>0.53</sw>
+    </row>
+    <row id="135">
+        <enum_type_baie_id>4</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>6</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>2</enum_type_pose_id>
+        <enum_type_pose_id>3</enum_type_pose_id>
+        <vitrage_vir>0</vitrage_vir>
+        <enum_type_vitrage_id>2</enum_type_vitrage_id>
+        <enum_type_vitrage_id>4</enum_type_vitrage_id>
+        <sw>0.48</sw>
+    </row>
+    <row id="136">
+        <enum_type_baie_id>4</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>6</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>2</enum_type_pose_id>
+        <enum_type_pose_id>3</enum_type_pose_id>
+        <vitrage_vir>1</vitrage_vir>
+        <enum_type_vitrage_id>2</enum_type_vitrage_id>
+        <enum_type_vitrage_id>4</enum_type_vitrage_id>
+        <sw>0.41</sw>
+    </row>
+    <row id="137">
+        <enum_type_baie_id>4</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>6</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>2</enum_type_pose_id>
+        <enum_type_pose_id>3</enum_type_pose_id>
+        <vitrage_vir>0</vitrage_vir>
+        <enum_type_vitrage_id>3</enum_type_vitrage_id>
+        <sw>0.42</sw>
+    </row>
+    <row id="138">
+        <enum_type_baie_id>4</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>6</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>2</enum_type_pose_id>
+        <enum_type_pose_id>3</enum_type_pose_id>
+        <vitrage_vir>1</vitrage_vir>
+        <enum_type_vitrage_id>3</enum_type_vitrage_id>
+        <sw>0.38</sw>
+    </row>
+    <row id="139">
+        <enum_type_baie_id>5</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>6</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>2</enum_type_pose_id>
+        <enum_type_pose_id>3</enum_type_pose_id>
+        <vitrage_vir>0</vitrage_vir>
+        <enum_type_vitrage_id>1</enum_type_vitrage_id>
+        <sw>0.58</sw>
+    </row>
+    <row id="140">
+        <enum_type_baie_id>5</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>6</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>2</enum_type_pose_id>
+        <enum_type_pose_id>3</enum_type_pose_id>
+        <vitrage_vir>0</vitrage_vir>
+        <enum_type_vitrage_id>2</enum_type_vitrage_id>
+        <enum_type_vitrage_id>4</enum_type_vitrage_id>
+        <sw>0.52</sw>
+    </row>
+    <row id="141">
+        <enum_type_baie_id>5</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>6</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>2</enum_type_pose_id>
+        <enum_type_pose_id>3</enum_type_pose_id>
+        <vitrage_vir>1</vitrage_vir>
+        <enum_type_vitrage_id>2</enum_type_vitrage_id>
+        <enum_type_vitrage_id>4</enum_type_vitrage_id>
+        <sw>0.45</sw>
+    </row>
+    <row id="142">
+        <enum_type_baie_id>5</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>6</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>2</enum_type_pose_id>
+        <enum_type_pose_id>3</enum_type_pose_id>
+        <vitrage_vir>0</vitrage_vir>
+        <enum_type_vitrage_id>3</enum_type_vitrage_id>
+        <sw>0.46</sw>
+    </row>
+    <row id="143">
+        <enum_type_baie_id>5</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>6</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>2</enum_type_pose_id>
+        <enum_type_pose_id>3</enum_type_pose_id>
+        <vitrage_vir>1</vitrage_vir>
+        <enum_type_vitrage_id>3</enum_type_vitrage_id>
+        <sw>0.42</sw>
+    </row>
+    <row id="144">
+        <enum_type_baie_id>6</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>6</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>2</enum_type_pose_id>
+        <enum_type_pose_id>3</enum_type_pose_id>
+        <vitrage_vir>0</vitrage_vir>
+        <enum_type_vitrage_id>1</enum_type_vitrage_id>
+        <sw>0.63</sw>
+    </row>
+    <row id="145">
+        <enum_type_baie_id>6</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>6</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>2</enum_type_pose_id>
+        <enum_type_pose_id>3</enum_type_pose_id>
+        <vitrage_vir>0</vitrage_vir>
+        <enum_type_vitrage_id>2</enum_type_vitrage_id>
+        <enum_type_vitrage_id>4</enum_type_vitrage_id>
+        <sw>0.56</sw>
+    </row>
+    <row id="146">
+        <enum_type_baie_id>6</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>6</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>2</enum_type_pose_id>
+        <enum_type_pose_id>3</enum_type_pose_id>
+        <vitrage_vir>1</vitrage_vir>
+        <enum_type_vitrage_id>2</enum_type_vitrage_id>
+        <enum_type_vitrage_id>4</enum_type_vitrage_id>
+        <sw>0.48</sw>
+    </row>
+    <row id="147">
+        <enum_type_baie_id>6</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>6</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>2</enum_type_pose_id>
+        <enum_type_pose_id>3</enum_type_pose_id>
+        <vitrage_vir>0</vitrage_vir>
+        <enum_type_vitrage_id>3</enum_type_vitrage_id>
+        <sw>0.5</sw>
+    </row>
+    <row id="148">
+        <enum_type_baie_id>6</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>6</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>2</enum_type_pose_id>
+        <enum_type_pose_id>3</enum_type_pose_id>
+        <vitrage_vir>1</vitrage_vir>
+        <enum_type_vitrage_id>3</enum_type_vitrage_id>
+        <sw>0.45</sw>
+    </row>
+    <row id="149">
+        <enum_type_baie_id>7</enum_type_baie_id>
+        <enum_type_baie_id>8</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>6</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>2</enum_type_pose_id>
+        <enum_type_pose_id>3</enum_type_pose_id>
+        <vitrage_vir>0</vitrage_vir>
+        <enum_type_vitrage_id>1</enum_type_vitrage_id>
+        <sw>0.56</sw>
+    </row>
+    <row id="150">
+        <enum_type_baie_id>7</enum_type_baie_id>
+        <enum_type_baie_id>8</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>6</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>2</enum_type_pose_id>
+        <enum_type_pose_id>3</enum_type_pose_id>
+        <vitrage_vir>0</vitrage_vir>
+        <enum_type_vitrage_id>2</enum_type_vitrage_id>
+        <enum_type_vitrage_id>4</enum_type_vitrage_id>
+        <sw>0.51</sw>
+    </row>
+    <row id="151">
+        <enum_type_baie_id>7</enum_type_baie_id>
+        <enum_type_baie_id>8</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>6</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>2</enum_type_pose_id>
+        <enum_type_pose_id>3</enum_type_pose_id>
+        <vitrage_vir>1</vitrage_vir>
+        <enum_type_vitrage_id>2</enum_type_vitrage_id>
+        <enum_type_vitrage_id>4</enum_type_vitrage_id>
+        <sw>0.44</sw>
+    </row>
+    <row id="152">
+        <enum_type_baie_id>7</enum_type_baie_id>
+        <enum_type_baie_id>8</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>6</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>2</enum_type_pose_id>
+        <enum_type_pose_id>3</enum_type_pose_id>
+        <vitrage_vir>0</vitrage_vir>
+        <enum_type_vitrage_id>3</enum_type_vitrage_id>
+        <sw>0.45</sw>
+    </row>
+    <row id="153">
+        <enum_type_baie_id>7</enum_type_baie_id>
+        <enum_type_baie_id>8</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>6</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>2</enum_type_pose_id>
+        <enum_type_pose_id>3</enum_type_pose_id>
+        <vitrage_vir>1</vitrage_vir>
+        <enum_type_vitrage_id>3</enum_type_vitrage_id>
+        <sw>0.4</sw>
+    </row>
+    <row id="154">
+        <enum_type_baie_id>4</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>7</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>2</enum_type_pose_id>
+        <enum_type_pose_id>3</enum_type_pose_id>
+        <vitrage_vir>0</vitrage_vir>
+        <enum_type_vitrage_id>1</enum_type_vitrage_id>
+        <sw>0.55</sw>
+    </row>
+    <row id="155">
+        <enum_type_baie_id>4</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>7</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>2</enum_type_pose_id>
+        <enum_type_pose_id>3</enum_type_pose_id>
+        <vitrage_vir>0</vitrage_vir>
+        <enum_type_vitrage_id>2</enum_type_vitrage_id>
+        <enum_type_vitrage_id>4</enum_type_vitrage_id>
+        <sw>0.49</sw>
+    </row>
+    <row id="156">
+        <enum_type_baie_id>4</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>7</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>2</enum_type_pose_id>
+        <enum_type_pose_id>3</enum_type_pose_id>
+        <vitrage_vir>1</vitrage_vir>
+        <enum_type_vitrage_id>2</enum_type_vitrage_id>
+        <enum_type_vitrage_id>4</enum_type_vitrage_id>
+        <sw>0.43</sw>
+    </row>
+    <row id="157">
+        <enum_type_baie_id>4</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>7</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>2</enum_type_pose_id>
+        <enum_type_pose_id>3</enum_type_pose_id>
+        <vitrage_vir>0</vitrage_vir>
+        <enum_type_vitrage_id>3</enum_type_vitrage_id>
+        <sw>0.44</sw>
+    </row>
+    <row id="158">
+        <enum_type_baie_id>4</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>7</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>2</enum_type_pose_id>
+        <enum_type_pose_id>3</enum_type_pose_id>
+        <vitrage_vir>1</vitrage_vir>
+        <enum_type_vitrage_id>3</enum_type_vitrage_id>
+        <sw>0.4</sw>
+    </row>
+    <row id="159">
+        <enum_type_baie_id>5</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>7</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>2</enum_type_pose_id>
+        <enum_type_pose_id>3</enum_type_pose_id>
+        <vitrage_vir>0</vitrage_vir>
+        <enum_type_vitrage_id>1</enum_type_vitrage_id>
+        <sw>0.6</sw>
+    </row>
+    <row id="160">
+        <enum_type_baie_id>5</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>7</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>2</enum_type_pose_id>
+        <enum_type_pose_id>3</enum_type_pose_id>
+        <vitrage_vir>0</vitrage_vir>
+        <enum_type_vitrage_id>2</enum_type_vitrage_id>
+        <enum_type_vitrage_id>4</enum_type_vitrage_id>
+        <sw>0.54</sw>
+    </row>
+    <row id="161">
+        <enum_type_baie_id>5</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>7</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>2</enum_type_pose_id>
+        <enum_type_pose_id>3</enum_type_pose_id>
+        <vitrage_vir>1</vitrage_vir>
+        <enum_type_vitrage_id>2</enum_type_vitrage_id>
+        <enum_type_vitrage_id>4</enum_type_vitrage_id>
+        <sw>0.47</sw>
+    </row>
+    <row id="162">
+        <enum_type_baie_id>5</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>7</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>2</enum_type_pose_id>
+        <enum_type_pose_id>3</enum_type_pose_id>
+        <vitrage_vir>0</vitrage_vir>
+        <enum_type_vitrage_id>3</enum_type_vitrage_id>
+        <sw>0.48</sw>
+    </row>
+    <row id="163">
+        <enum_type_baie_id>5</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>7</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>2</enum_type_pose_id>
+        <enum_type_pose_id>3</enum_type_pose_id>
+        <vitrage_vir>1</vitrage_vir>
+        <enum_type_vitrage_id>3</enum_type_vitrage_id>
+        <sw>0.43</sw>
+    </row>
+    <row id="164">
+        <enum_type_baie_id>6</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>7</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>2</enum_type_pose_id>
+        <enum_type_pose_id>3</enum_type_pose_id>
+        <vitrage_vir>0</vitrage_vir>
+        <enum_type_vitrage_id>1</enum_type_vitrage_id>
+        <sw>0.64</sw>
+    </row>
+    <row id="165">
+        <enum_type_baie_id>6</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>7</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>2</enum_type_pose_id>
+        <enum_type_pose_id>3</enum_type_pose_id>
+        <vitrage_vir>0</vitrage_vir>
+        <enum_type_vitrage_id>2</enum_type_vitrage_id>
+        <enum_type_vitrage_id>4</enum_type_vitrage_id>
+        <sw>0.57</sw>
+    </row>
+    <row id="166">
+        <enum_type_baie_id>6</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>7</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>2</enum_type_pose_id>
+        <enum_type_pose_id>3</enum_type_pose_id>
+        <vitrage_vir>1</vitrage_vir>
+        <enum_type_vitrage_id>2</enum_type_vitrage_id>
+        <enum_type_vitrage_id>4</enum_type_vitrage_id>
+        <sw>0.49</sw>
+    </row>
+    <row id="167">
+        <enum_type_baie_id>6</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>7</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>2</enum_type_pose_id>
+        <enum_type_pose_id>3</enum_type_pose_id>
+        <vitrage_vir>0</vitrage_vir>
+        <enum_type_vitrage_id>3</enum_type_vitrage_id>
+        <sw>0.51</sw>
+    </row>
+    <row id="168">
+        <enum_type_baie_id>6</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>7</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>2</enum_type_pose_id>
+        <enum_type_pose_id>3</enum_type_pose_id>
+        <vitrage_vir>1</vitrage_vir>
+        <enum_type_vitrage_id>3</enum_type_vitrage_id>
+        <sw>0.46</sw>
+    </row>
+    <row id="169">
+        <enum_type_baie_id>7</enum_type_baie_id>
+        <enum_type_baie_id>8</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>7</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>2</enum_type_pose_id>
+        <enum_type_pose_id>3</enum_type_pose_id>
+        <vitrage_vir>0</vitrage_vir>
+        <enum_type_vitrage_id>1</enum_type_vitrage_id>
+        <sw>0.58</sw>
+    </row>
+    <row id="170">
+        <enum_type_baie_id>7</enum_type_baie_id>
+        <enum_type_baie_id>8</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>7</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>2</enum_type_pose_id>
+        <enum_type_pose_id>3</enum_type_pose_id>
+        <vitrage_vir>0</vitrage_vir>
+        <enum_type_vitrage_id>2</enum_type_vitrage_id>
+        <enum_type_vitrage_id>4</enum_type_vitrage_id>
+        <sw>0.52</sw>
+    </row>
+    <row id="171">
+        <enum_type_baie_id>7</enum_type_baie_id>
+        <enum_type_baie_id>8</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>7</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>2</enum_type_pose_id>
+        <enum_type_pose_id>3</enum_type_pose_id>
+        <vitrage_vir>1</vitrage_vir>
+        <enum_type_vitrage_id>2</enum_type_vitrage_id>
+        <enum_type_vitrage_id>4</enum_type_vitrage_id>
+        <sw>0.45</sw>
+    </row>
+    <row id="172">
+        <enum_type_baie_id>7</enum_type_baie_id>
+        <enum_type_baie_id>8</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>7</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>2</enum_type_pose_id>
+        <enum_type_pose_id>3</enum_type_pose_id>
+        <vitrage_vir>0</vitrage_vir>
+        <enum_type_vitrage_id>3</enum_type_vitrage_id>
+        <sw>0.46</sw>
+    </row>
+    <row id="173">
+        <enum_type_baie_id>7</enum_type_baie_id>
+        <enum_type_baie_id>8</enum_type_baie_id>
+        <enum_type_materiaux_menuiserie_id>7</enum_type_materiaux_menuiserie_id>
+        <enum_type_pose_id>2</enum_type_pose_id>
+        <enum_type_pose_id>3</enum_type_pose_id>
+        <vitrage_vir>1</vitrage_vir>
+        <enum_type_vitrage_id>3</enum_type_vitrage_id>
+        <sw>0.42</sw>
+    </row>
+</table>

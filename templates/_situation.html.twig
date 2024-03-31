@@ -1,0 +1,30 @@
+<section>
+    <h5 class="h5">Données intermédiaires</h3>
+
+    <table class="table text-center">
+        <thead>
+            <tr class="align-middle">
+                <th>Zone climatique</th>
+                <th>Altitude</th>
+                <th>Période de construction</th>
+                <th>Surface habitable<br/>(m²)</th>
+                <th>Surface moyenne<br/>(m²)</th>
+                <th>Nombre de logements</th>
+                <th>Ratio applicable<br/>(%)</th>
+                <th>Nombre d'adultes équivalents</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>{{ data.situation.tr_zone_climatique.lib() }}</td>
+                <td>{{ data.situation.tr_classe_altitude.lib() }}</td>
+                <td>{{ data.situation.tr_periode_construction.lib() }}</td>
+                <td>{{ data.situation.surface_reference()|format_number }}</td>
+                <td>{{ data.situation.sh_moy()|format_number }}</td>
+                <td>{{ data.situation.n_logement()|format_number }}</td>
+                <td>{{ data.situation.ratio_virtualisation()|format_number }}</td>
+                <td>{{ data.situation.nad_eq()|format_number }}</td>
+            </tr>
+        </tbody>
+    </table>
+</section>

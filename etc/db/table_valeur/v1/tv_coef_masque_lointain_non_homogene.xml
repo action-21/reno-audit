@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table name="tv_coef_masque_lointain_non_homogene">
+    <row>
+        <id>1</id>
+        <enum_secteur_masque_id>1</enum_secteur_masque_id>
+        <enum_orientation_id>1|2</enum_orientation_id>
+        <hauteur_alpha_min></hauteur_alpha_min>
+        <hauteur_alpha_max><![CDATA[< 15]]></hauteur_alpha_max>
+        <omb>0</omb>
+    </row>
+    <row>
+        <id>2</id>
+        <enum_secteur_masque_id>1</enum_secteur_masque_id>
+        <enum_orientation_id>1|2</enum_orientation_id>
+        <hauteur_alpha_min><![CDATA[>= 15]]></hauteur_alpha_min>
+        <hauteur_alpha_max><![CDATA[< 30]]></hauteur_alpha_max>
+        <omb>4</omb>
+    </row>
+    <row>
+        <id>3</id>
+        <enum_secteur_masque_id>1</enum_secteur_masque_id>
+        <enum_orientation_id>1|2</enum_orientation_id>
+        <hauteur_alpha_min><![CDATA[>= 30]]></hauteur_alpha_min>
+        <hauteur_alpha_max><![CDATA[< 60]]></hauteur_alpha_max>
+        <omb>13</omb>
+    </row>
+    <row>
+        <id>4</id>
+        <enum_secteur_masque_id>1</enum_secteur_masque_id>
+        <enum_orientation_id>1|2</enum_orientation_id>
+        <hauteur_alpha_min><![CDATA[>= 60]]></hauteur_alpha_min>
+        <hauteur_alpha_max><![CDATA[< 90]]></hauteur_alpha_max>
+        <omb>15</omb>
+    </row>
+    <row>
+        <id>5</id>
+        <enum_secteur_masque_id>2</enum_secteur_masque_id>
+        <enum_orientation_id>1|2</enum_orientation_id>
+        <hauteur_alpha_min></hauteur_alpha_min>
+        <hauteur_alpha_max><![CDATA[< 15]]></hauteur_alpha_max>
+        <omb>0</omb>
+    </row>
+    <row>
+        <id>6</id>
+        <enum_secteur_masque_id>2</enum_secteur_masque_id>
+        <enum_orientation_id>1|2</enum_orientation_id>
+        <hauteur_alpha_min><![CDATA[>= 15]]></hauteur_alpha_min>
+        <hauteur_alpha_max><![CDATA[< 30]]></hauteur_alpha_max>
+        <omb>14</omb>
+    </row>
+    <row>
+        <id>7</id>
+        <enum_secteur_masque_id>2</enum_secteur_masque_id>
+        <enum_orientation_id>1|2</enum_orientation_id>
+        <hauteur_alpha_min><![CDATA[>= 30]]></hauteur_alpha_min>
+        <hauteur_alpha_max><![CDATA[< 60]]></hauteur_alpha_max>
+        <omb>35</omb>
+    </row>
+    <row>
+        <id>8</id>
+        <enum_secteur_masque_id>2</enum_secteur_masque_id>
+        <enum_orientation_id>1|2</enum_orientation_id>
+        <hauteur_alpha_min><![CDATA[>= 60]]></hauteur_alpha_min>
+        <hauteur_alpha_max><![CDATA[< 90]]></hauteur_alpha_max>
+        <omb>40</omb>
+    </row>
+    <row>
+        <id>9</id>
+        <enum_secteur_masque_id>3</enum_secteur_masque_id>
+        <enum_orientation_id>3|4</enum_orientation_id>
+        <hauteur_alpha_min></hauteur_alpha_min>
+        <hauteur_alpha_max><![CDATA[< 15]]></hauteur_alpha_max>
+        <omb>0</omb>
+    </row>
+    <row>
+        <id>10</id>
+        <enum_secteur_masque_id>3</enum_secteur_masque_id>
+        <enum_orientation_id>3|4</enum_orientation_id>
+        <hauteur_alpha_min><![CDATA[>= 15]]></hauteur_alpha_min>
+        <hauteur_alpha_max><![CDATA[< 30]]></hauteur_alpha_max>
+        <omb>14</omb>
+    </row>
+    <row>
+        <id>11</id>
+        <enum_secteur_masque_id>3</enum_secteur_masque_id>
+        <enum_orientation_id>3|4</enum_orientation_id>
+        <hauteur_alpha_min><![CDATA[>= 30]]></hauteur_alpha_min>
+        <hauteur_alpha_max><![CDATA[< 60]]></hauteur_alpha_max>
+        <omb>27</omb>
+    </row>
+    <row>
+        <id>12</id>
+        <enum_secteur_masque_id>3</enum_secteur_masque_id>
+        <enum_orientation_id>3|4</enum_orientation_id>
+        <hauteur_alpha_min><![CDATA[>= 60]]></hauteur_alpha_min>
+        <hauteur_alpha_max><![CDATA[< 90]]></hauteur_alpha_max>
+        <omb>30</omb>
+    </row>
+    <row>
+        <id>13</id>
+        <enum_secteur_masque_id>4</enum_secteur_masque_id>
+        <enum_orientation_id>3|4</enum_orientation_id>
+        <hauteur_alpha_min></hauteur_alpha_min>
+        <hauteur_alpha_max><![CDATA[< 15]]></hauteur_alpha_max>
+        <omb>0</omb>
+    </row>
+    <row>
+        <id>14</id>
+        <enum_secteur_masque_id>4</enum_secteur_masque_id>
+        <enum_orientation_id>3|4</enum_orientation_id>
+        <hauteur_alpha_min><![CDATA[>= 15]]></hauteur_alpha_min>
+        <hauteur_alpha_max><![CDATA[< 30]]></hauteur_alpha_max>
+        <omb>17</omb>
+    </row>
+    <row>
+        <id>15</id>
+        <enum_secteur_masque_id>4</enum_secteur_masque_id>
+        <enum_orientation_id>3|4</enum_orientation_id>
+        <hauteur_alpha_min><![CDATA[>= 30]]></hauteur_alpha_min>
+        <hauteur_alpha_max><![CDATA[< 60]]></hauteur_alpha_max>
+        <omb>40</omb>
+    </row>
+    <row>
+        <id>16</id>
+        <enum_secteur_masque_id>4</enum_secteur_masque_id>
+        <enum_orientation_id>3|4</enum_orientation_id>
+        <hauteur_alpha_min><![CDATA[>= 60]]></hauteur_alpha_min>
+        <hauteur_alpha_max><![CDATA[< 90]]></hauteur_alpha_max>
+        <omb>45</omb>
+    </row>
+    <row>
+        <id>17</id>
+        <enum_secteur_masque_id>5</enum_secteur_masque_id>
+        <enum_orientation_id>3|4</enum_orientation_id>
+        <hauteur_alpha_min></hauteur_alpha_min>
+        <hauteur_alpha_max><![CDATA[< 15]]></hauteur_alpha_max>
+        <omb>0</omb>
+    </row>
+    <row>
+        <id>18</id>
+        <enum_secteur_masque_id>5</enum_secteur_masque_id>
+        <enum_orientation_id>3|4</enum_orientation_id>
+        <hauteur_alpha_min><![CDATA[>= 15]]></hauteur_alpha_min>
+        <hauteur_alpha_max><![CDATA[< 30]]></hauteur_alpha_max>
+        <omb>5</omb>
+    </row>
+    <row>
+        <id>19</id>
+        <enum_secteur_masque_id>5</enum_secteur_masque_id>
+        <enum_orientation_id>3|4</enum_orientation_id>
+        <hauteur_alpha_min><![CDATA[>= 30]]></hauteur_alpha_min>
+        <hauteur_alpha_max><![CDATA[< 60]]></hauteur_alpha_max>
+        <omb>17</omb>
+    </row>
+    <row>
+        <id>20</id>
+        <enum_secteur_masque_id>5</enum_secteur_masque_id>
+        <enum_orientation_id>3|4</enum_orientation_id>
+        <hauteur_alpha_min><![CDATA[>= 60]]></hauteur_alpha_min>
+        <hauteur_alpha_max><![CDATA[< 90]]></hauteur_alpha_max>
+        <omb>25</omb>
+    </row>
+</table>

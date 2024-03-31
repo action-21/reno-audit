@@ -1,0 +1,36 @@
+<section>
+    <h5 class="h5">Besoin d'eau chaude sanitaire</h5>
+
+    <table class="table align-middle text-center">
+        <thead>
+            <tr class="align-middle">
+                <th rowspan="2">Mois</th>
+                <th rowspan="2">Température moyenne d'ECS (C°)</th>
+                <th rowspan="2">Nombre de jours d'occupation (C°)</th>
+                <th colspan="2">Besoin (kWh)</th>
+            </tr>
+            <tr>
+                <th>Conventionnel</th>
+                <th>Dépensier</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for i in 1..12 %}
+                <tr>
+                    <td>{{ i }}</td>
+                    <td>{{ (data.tefs_j(i))|format_number }}</td>
+                    <td>{{ (data.ta_nj_j_value(i))|format_number }}</td>
+                    <td>{{ (data.b_ecs_j(i)/1000)|format_number }}</td>
+                    <td>{{ (data.b_ecs_j(i, true)/1000)|format_number }}</td>
+                </tr>
+            {% endfor %}
+            <tr>
+                <td><strong>Total</strong></td>
+                <td><strong>{{ data.tefs()|format_number }}</strong></td>
+                <td><strong>{{ data.ta_nj()|format_number }}</strong></td>
+                <td><strong>{{ (data.b_ecs()/1000)|format_number }}</strong></td>
+                <td><strong>{{ (data.b_ecs(true)/1000)|format_number }}</strong></td>
+            </tr>
+        </tbody>
+    </table>
+</section>
