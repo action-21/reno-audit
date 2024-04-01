@@ -6,21 +6,14 @@ Ce projet a pour objectif de proposer un outil d'évaluation des performances é
 
 ### Objectifs
 
-- 🎯 Évaluer l'impacte d'un scénario de travaux sur un audit réglementaire existant
-- 🎯 Proposer un moteur de calcul 3CL-DPE en open source
+🎯 Évaluer l'impacte d'un scénario de travaux sur un audit réglementaire existant  
+🎯 Proposer un moteur de calcul 3CL-DPE en open source  
 
 ### Usages
 
-- 👉 Récupération d'un audit/DPE existant
-- 👉 Simulation 3CL-DPE d'un audit/DPE existant
-- 👉 Simulation 3CL-DPE d'un scénario de travaux sur la base d'un audit/DPE existant
-
-### Livrables
-
-- 🛠️ Modèle de données compatibles avec l'observatoire DPE
-- 🛠️ Moteur 3CL-DPE complet
-- 🛠️ API dédiée pour interroger la base des audits et simuler un scénario de travaux
-- 🛠️ Documentation métier
+👉 Récupération d'un audit/DPE existant  
+👉 Simulation 3CL-DPE d'un audit/DPE existant  
+👉 Simulation 3CL-DPE d'un scénario de travaux sur la base d'un audit/DPE existant  
 
 ### Budget
 
