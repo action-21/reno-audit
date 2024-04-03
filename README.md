@@ -52,9 +52,11 @@ Mai 2024
 
 ## Feuille de route
 
-**🚧 Projet en cours de développement**
+1. ~~Conceptualisation~~
+2. ~~Planification~~
+3. **Conception**
+4. Déploiement
 
-1. Modélisation de la méthode 3CL-DPE
-2. Modélisation des tables de valeurs et d'énumérations
-3. Développement du moteur 3CL-DPE
-4. Développement et déploiement des APIs
+## Contribuer
+
+N'hésitez pas à échanger en créant de nouvelles [discussions](https://github.com/renolab/audit/discussions).
