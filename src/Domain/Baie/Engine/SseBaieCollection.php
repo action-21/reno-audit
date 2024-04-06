@@ -2,12 +2,17 @@
 
 namespace App\Domain\Baie\Engine;
 
-/**
- * @property SseBaie[] $values
- */
+use App\Domain\Baie\{Baie, BaieEngine};
+use App\Domain\Common\Enum\Mois;
+
 final class SseBaieCollection
 {
-    private function __construct(public readonly array $values)
+    /**
+     * @var SseBaie[]
+     */
+    private array $collection;
+
+    private function __construct(private SseBaie $sse_baie)
     {
     }
 
@@ -16,6 +21,24 @@ final class SseBaieCollection
      */
     public function sse_j(Mois $mois): float
     {
-        return \array_reduce($this->values, fn (SseBaie $item, float $sse): float => $sse += $item->sse_j($mois), 0);
+        return \array_reduce($this->collection, fn (SseBaie $item, float $sse): float => $sse += $item->sse_j($mois), 0);
+    }
+
+    /**
+     * @return SseBaie[]
+     */
+    public function to_array(): array
+    {
+        return $this->collection;
+    }
+
+    public function __invoke(BaieEngine $engine): self
+    {
+        $this->collection = \array_map(
+            fn (Baie $item): SseBaie => ($this->sse_baie)($item, $engine),
+            $engine->input()->to_array(),
+        );
+
+        return $this;
     }
 }

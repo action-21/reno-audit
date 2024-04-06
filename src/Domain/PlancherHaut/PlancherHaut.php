@@ -2,8 +2,8 @@
 
 namespace App\Domain\PlancherHaut;
 
-use App\Domain\Batiment\Batiment;
 use App\Domain\Batiment\Enum\PeriodeConstruction;
+use App\Domain\Enveloppe\Enveloppe;
 use App\Domain\Lnc\Lnc;
 use App\Domain\Paroi\ParoiOpaque;
 use App\Domain\Paroi\Enum\{Mitoyennete, Orientation, PeriodeIsolation, TypeIsolation, TypeParoi};
@@ -11,13 +11,16 @@ use App\Domain\Paroi\ValueObject\{Performance, PerformanceIsolation};
 use App\Domain\PlancherHaut\Enum\{ConfigurationPlancherHaut};
 use App\Domain\PlancherHaut\ValueObject\Caracteristique;
 
+/**
+ * Plancher haut donnant sur l'extérieur ou un local non chauffé
+ */
 final class PlancherHaut extends ParoiOpaque
 {
     private ConfigurationPlancherHaut $configuration_plancher_haut;
 
     public function __construct(
         protected readonly \Stringable $reference,
-        protected readonly Batiment $batiment,
+        protected readonly Enveloppe $enveloppe,
         protected Performance $performance,
         protected PerformanceIsolation $performance_isolation,
         private string $description,
@@ -26,6 +29,9 @@ final class PlancherHaut extends ParoiOpaque
     ) {
     }
 
+    /**
+     * Met à jour les informations du plancher haut
+     */
     public function update(
         string $description,
         Caracteristique $caracteristique,
@@ -42,6 +48,9 @@ final class PlancherHaut extends ParoiOpaque
         return $this;
     }
 
+    /**
+     * Met à jour un plancher haut sous combles perdus
+     */
     public function set_combles_perdus(\Stringable $reference_local_non_chauffe): self
     {
         $this->configuration_plancher_haut = ConfigurationPlancherHaut::COMBLES_PERDUS;
@@ -50,6 +59,9 @@ final class PlancherHaut extends ParoiOpaque
         return $this;
     }
 
+    /**
+     * Met à jour un plancher haut sous combles habitables
+     */
     public function set_combles_habitables(Mitoyennete $mitoyennete, ?\Stringable $reference_local_non_chauffe): self
     {
         if ($reference_local_non_chauffe) {
@@ -63,6 +75,9 @@ final class PlancherHaut extends ParoiOpaque
         return $this;
     }
 
+    /**
+     * Met à jour un plancher haut sous toiture terrasse
+     */
     public function set_toiture_terrasse(Mitoyennete $mitoyennete, ?\Stringable $reference_local_non_chauffe): self
     {
         if ($reference_local_non_chauffe) {
@@ -76,6 +91,9 @@ final class PlancherHaut extends ParoiOpaque
         return $this;
     }
 
+    /**
+     * Recherche un local non chauffé mitoyen
+     */
     protected function fetch_local_non_chauffe(\Stringable $reference_local_non_chauffe): ?Lnc
     {
         $entity = parent::fetch_local_non_chauffe($reference_local_non_chauffe);
@@ -86,6 +104,9 @@ final class PlancherHaut extends ParoiOpaque
         return $entity;
     }
 
+    /**
+     * Met à jour la mitoyenneté du plancher haut
+     */
     private function set_mitoyennete(Mitoyennete $mitoyennete, ?\Stringable $reference_local_non_chauffe = null): self
     {
         if ($mitoyennete === Mitoyennete::LOCAL_NON_CHAUFFE) {
@@ -151,7 +172,7 @@ final class PlancherHaut extends ParoiOpaque
     public function type_isolation_defaut(): TypeIsolation
     {
         return $this->type_isolation()->inconnu()
-            ? $this->batiment()->audit()->periode_construction()->type_isolation_plancher_haut_defaut()
+            ? $this->enveloppe->batiment()->audit()->periode_construction()->type_isolation_plancher_haut_defaut()
             : $this->type_isolation();
     }
 
@@ -169,8 +190,8 @@ final class PlancherHaut extends ParoiOpaque
             return $this->periode_isolation();
         }
         return $this->type_isolation()->est_isole()
-            ? $this->batiment()->caracteristique()->periode_construction->periode_isolation_plancher_haut_defaut()
-            : $this->batiment()->caracteristique()->periode_construction;
+            ? $this->enveloppe->batiment()->caracteristique()->periode_construction->periode_isolation_plancher_haut_defaut()
+            : $this->enveloppe->batiment()->caracteristique()->periode_construction;
     }
 
     public function configuration_plancher_haut(): ConfigurationPlancherHaut

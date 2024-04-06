@@ -2,33 +2,42 @@
 
 namespace App\Domain\MasqueLointain;
 
-use App\Domain\Batiment\Batiment;
+use App\Domain\Enveloppe\Enveloppe;
 use App\Domain\Common\Identifier\Uuid;
-use App\Domain\MasqueLointain\Enum\{Orientation, SecteurMasque};
+use App\Domain\MasqueLointain\Enum\{Orientation, SecteurOrientation};
 
 final class MasqueLointainBuilder
 {
     private ?MasqueLointain $masque_lointain = null;
 
-    public function create(Batiment $batiment, string $description, float $hauteur_alpha, Orientation $orientation): void
+    /**
+     * Initialise un masque lointain
+     */
+    public function create(Enveloppe $enveloppe, string $description, float $hauteur_alpha, Orientation $orientation): void
     {
         $this->masque_lointain = new MasqueLointain(
             reference: Uuid::create(),
-            batiment: $batiment,
+            enveloppe: $enveloppe,
             description: $description,
             hauteur_alpha: $hauteur_alpha,
             orientation: $orientation,
-            secteur: null,
+            secteur_orientation: null,
         );
     }
 
+    /**
+     * Construit un masque lointain homogène
+     */
     public function build_masque_lointain_homogene(): MasqueLointain
     {
         return $this->masque_lointain->set_masque_lointain_homogene();
     }
 
-    public function build_masque_lointain_non_homogene(SecteurMasque $secteur): MasqueLointain
+    /**
+     * Construit un masque lointain non homogène
+     */
+    public function build_masque_lointain_non_homogene(SecteurOrientation $secteur_orientation): MasqueLointain
     {
-        return $this->masque_lointain->set_masque_lointain_non_homogene(secteur: $secteur);
+        return $this->masque_lointain->set_masque_lointain_non_homogene(secteur_orientation: $secteur_orientation);
     }
 }

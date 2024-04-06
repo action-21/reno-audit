@@ -9,7 +9,7 @@ use App\Domain\Common\Store\DataStore;
  * @see §10.1
  * @see §10.2
  */
-final class BesoinRefroidissement
+final class Refroidissement
 {
     use DataStore;
 

@@ -6,6 +6,8 @@ use App\Domain\Common\Collection\ArrayCollection;
 use App\Domain\PlancherIntermediaire\Enum\TypePlancherIntermediaire;
 
 /**
+ * Une liste de planchers intermédiaires
+ * 
  * @property PlancherIntermediaire[] $elements
  */
 final class PlancherIntermediaireCollection extends ArrayCollection

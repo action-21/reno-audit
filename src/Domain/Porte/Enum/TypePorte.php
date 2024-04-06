@@ -5,6 +5,8 @@ namespace App\Domain\Porte\Enum;
 use App\Domain\Common\Enum\Enum;
 
 /**
+ * Type de porte
+ * 
  * TODO: renomage des enumérations
  */
 enum TypePorte: int implements Enum

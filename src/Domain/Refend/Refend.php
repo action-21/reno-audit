@@ -2,36 +2,50 @@
 
 namespace App\Domain\Refend;
 
-use App\Domain\Batiment\Batiment;
+use App\Domain\Enveloppe\Enveloppe;
 use App\Domain\Common\Identifier\Uuid;
 
 final class Refend
 {
     public function __construct(
         private readonly \Stringable $reference,
-        private readonly Batiment $batiment,
+        private readonly Enveloppe $enveloppe,
         private string $description,
         private float $epaisseur,
+        private float $hauteur,
+        private float $longueur,
     ) {
     }
 
+    /**
+     * Crée un nouveau refend
+     */
     public static function create(
-        Batiment $batiment,
+        Enveloppe $enveloppe,
         string $description,
         float $epaisseur,
+        float $hauteur,
+        float $longueur,
     ): self {
         return new self(
             reference: Uuid::create(),
-            batiment: $batiment,
+            enveloppe: $enveloppe,
             description: $description,
             epaisseur: $epaisseur,
+            hauteur: $hauteur,
+            longueur: $longueur,
         );
     }
 
-    public function update(string $description, float $epaisseur): self
+    /**
+     * Met à jour les informations du refend
+     */
+    public function update(string $description, float $epaisseur, float $hauteur, float $longueur): self
     {
         $this->description = $description;
         $this->epaisseur = $epaisseur;
+        $this->hauteur = $hauteur;
+        $this->longueur = $longueur;
 
         return $this;
     }
@@ -41,9 +55,9 @@ final class Refend
         return $this->reference;
     }
 
-    public function batiment(): Batiment
+    public function enveloppe(): Enveloppe
     {
-        return $this->batiment;
+        return $this->enveloppe;
     }
 
     public function description(): string
@@ -54,5 +68,15 @@ final class Refend
     public function epaisseur(): float
     {
         return $this->epaisseur;
+    }
+
+    public function hauteur(): float
+    {
+        return $this->hauteur;
+    }
+
+    public function longueur(): float
+    {
+        return $this->longueur;
     }
 }

@@ -2,19 +2,16 @@
 
 namespace App\Domain\Porte\Engine;
 
-use App\Domain\Batiment\BatimentEngine;
-use App\Domain\Paroi\Engine\DeperditionParoi;
 use App\Domain\Paroi\Enum\QualiteComposant;
 use App\Domain\Porte\Table\{Uporte, UporteRepository};
-use App\Domain\Porte\Porte;
+use App\Domain\Porte\{Porte, PorteEngine};
 
 /**
  * @see §3.3.4
  */
 final class DeperditionPorte
 {
-    use DeperditionParoi;
-
+    private PorteEngine $engine;
     private Porte $input;
     private ?Uporte $table_uporte = null;
 
@@ -37,6 +34,22 @@ final class DeperditionPorte
     public function u(): ?float
     {
         return $this->input->performance()->uporte_saisi ?? $this->table_uporte()?->uporte();
+    }
+
+    /**
+     * b,paroi - Coefficient de réduction thermique
+     */
+    public function b(): float
+    {
+        if (null === $this->input->local_non_chauffe()) {
+            return 1;
+        }
+        return $this
+            ->engine
+            ->context()
+            ->lnc_engine()
+            ->reduction_deperdition()
+            ->b(lnc: $this->input->local_non_chauffe()) ?? 1;
     }
 
     /**
@@ -65,11 +78,11 @@ final class DeperditionPorte
         return $this->input;
     }
 
-    public function __invoke(Porte $input, BatimentEngine $context): self
+    public function __invoke(Porte $input, PorteEngine $engine): self
     {
         $this->input = $input;
-        $this->context = $context;
-        $this->table_uporte = $this->table_uporte_repository->find(type_porte: $this->input->caracteristique()->type_porte);
+        $this->engine = $engine;
+        $this->table_uporte = $this->table_uporte_repository->find(type_porte: $input->caracteristique()->type_porte);
 
         return $this;
     }

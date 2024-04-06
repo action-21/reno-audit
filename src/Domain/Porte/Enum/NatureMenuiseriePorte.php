@@ -4,6 +4,9 @@ namespace App\Domain\Porte\Enum;
 
 use App\Domain\Common\Enum\Enum;
 
+/**
+ * Nature de la menuiserie d'une porte
+ */
 enum NatureMenuiseriePorte: int implements Enum
 {
     case PORTE_SIMPLE_BOIS = 1;
@@ -11,9 +14,9 @@ enum NatureMenuiseriePorte: int implements Enum
     case PORTE_SIMPLE_METAL = 3;
     case AUTRES = 4;
 
-    public static function from_type_porte(TypePorte $typePorte): self
+    public static function from_type_porte(TypePorte $type_porte): self
     {
-        return match ($typePorte) {
+        return match ($type_porte) {
             TypePorte::ID_01, TypePorte::ID_02, TypePorte::ID_03, TypePorte::ID_04 => self::PORTE_SIMPLE_BOIS,
             TypePorte::ID_05, TypePorte::ID_06, TypePorte::ID_07, TypePorte::ID_08 => self::PORTE_SIMPLE_PVC,
             TypePorte::ID_09, TypePorte::ID_10, TypePorte::ID_11, TypePorte::ID_12 => self::PORTE_SIMPLE_METAL,

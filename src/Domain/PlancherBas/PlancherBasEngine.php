@@ -2,25 +2,40 @@
 
 namespace App\Domain\PlancherBas;
 
-use App\Domain\Batiment\BatimentEngine;
+use App\Domain\Enveloppe\EnveloppeEngine;
 use App\Domain\PlancherBas\Engine\DeperditionPlancherBasCollection;
 
 final class PlancherBasEngine
 {
+    private EnveloppeEngine $context;
+
     public function __construct(
         private DeperditionPlancherBasCollection $deperdition_plancher_bas_collection,
     ) {
     }
 
-    public function deperdition_plancher_bas(): DeperditionPlancherBasCollection
+    /**
+     * Déperdition thermique d'une liste de planchers bas
+     */
+    public function deperdition_thermique(): DeperditionPlancherBasCollection
     {
         return $this->deperdition_plancher_bas_collection;
     }
 
-    public function __invoke(PlancherBasCollection $input, BatimentEngine $context): self
+    public function input(): PlancherBasCollection
     {
-        $this->deperdition_plancher_bas_collection = ($this->deperdition_plancher_bas_collection)($input, $context);
+        return $this->context->input()->plancher_bas_collection();
+    }
 
+    public function context(): EnveloppeEngine
+    {
+        return $this->context;
+    }
+
+    public function __invoke(EnveloppeEngine $context): self
+    {
+        $this->context = $context;
+        $this->deperdition_plancher_bas_collection = ($this->deperdition_plancher_bas_collection)($this);
         return $this;
     }
 }

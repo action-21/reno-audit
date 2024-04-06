@@ -2,7 +2,7 @@
 
 namespace App\Domain\PlancherHaut;
 
-use App\Domain\Batiment\Batiment;
+use App\Domain\Enveloppe\Enveloppe;
 use App\Domain\Common\Identifier\Uuid;
 use App\Domain\Paroi\Enum\{Mitoyennete, Orientation};
 use App\Domain\Paroi\ValueObject\{Performance, PerformanceIsolation};
@@ -12,8 +12,11 @@ final class PlancherHautBuilder
 {
     private ?PlancherHaut $entity = null;
 
+    /**
+     * Initialise un plancher haut
+     */
     public function create(
-        Batiment $batiment,
+        Enveloppe $enveloppe,
         string $description,
         Orientation $orientation,
         Caracteristique $caracteristique,
@@ -22,7 +25,7 @@ final class PlancherHautBuilder
     ): void {
         $this->entity = new PlancherHaut(
             reference: Uuid::create(),
-            batiment: $batiment,
+            enveloppe: $enveloppe,
             description: $description,
             caracteristique: $caracteristique,
             performance: $performance,
@@ -31,11 +34,17 @@ final class PlancherHautBuilder
         );
     }
 
+    /**
+     * Construit un plancher haut sur combles perdus
+     */
     public function build_combles_perdus(\Stringable $reference_local_non_chauffe): PlancherHaut
     {
         return $this->entity->set_combles_perdus(reference_local_non_chauffe: $reference_local_non_chauffe);
     }
 
+    /**
+     * Construit un plancher haut sur combles habitables
+     */
     public function build_combles_habitables(Mitoyennete $mitoyennete, ?\Stringable $reference_local_non_chauffe): PlancherHaut
     {
         return $this->entity->set_combles_habitables(
@@ -44,6 +53,9 @@ final class PlancherHautBuilder
         );
     }
 
+    /**
+     * Construit un plancher haut sous terrasse
+     */
     public function build_toiture_terrasse(Mitoyennete $mitoyennete, ?\Stringable $reference_local_non_chauffe): PlancherHaut
     {
         return $this->entity->set_toiture_terrasse(

@@ -2,18 +2,21 @@
 
 namespace App\Domain\Mur;
 
-use App\Domain\Batiment\Batiment;
+use App\Domain\Enveloppe\Enveloppe;
 use App\Domain\Common\Identifier\Uuid;
 use App\Domain\Mur\ValueObject\{Caracteristique};
 use App\Domain\Paroi\Enum\{Mitoyennete, Orientation, PeriodeIsolation, TypeIsolation, TypeParoi};
 use App\Domain\Paroi\ParoiOpaque;
 use App\Domain\Paroi\ValueObject\{Performance, PerformanceIsolation};
 
+/**
+ * Mur donnant sur l'extérieur ou sur un local non chauffé
+ */
 final class Mur extends ParoiOpaque
 {
     public function __construct(
         protected readonly ?\Stringable $reference,
-        protected readonly Batiment $batiment,
+        protected readonly Enveloppe $enveloppe,
         private string $description,
         private Orientation $orientation,
         private Caracteristique $caracteristique,
@@ -22,8 +25,11 @@ final class Mur extends ParoiOpaque
     ) {
     }
 
+    /**
+     * Crée un mur
+     */
     public static function create(
-        Batiment $batiment,
+        Enveloppe $enveloppe,
         string $description,
         Orientation $orientation,
         Caracteristique $caracteristique,
@@ -32,7 +38,7 @@ final class Mur extends ParoiOpaque
     ): self {
         return new self(
             reference: Uuid::create(),
-            batiment: $batiment,
+            enveloppe: $enveloppe,
             description: $description,
             orientation: $orientation,
             caracteristique: $caracteristique,
@@ -41,6 +47,9 @@ final class Mur extends ParoiOpaque
         );
     }
 
+    /**
+     * Met à jour un mur
+     */
     public function update(
         string $description,
         Orientation $orientation,
@@ -56,6 +65,9 @@ final class Mur extends ParoiOpaque
         return $this;
     }
 
+    /**
+     * Met à jour la mitoyenneté du mur
+     */
     public function set_mitoyennete(Mitoyennete $mitoyennete, ?\Stringable $reference_local_non_chauffe = null): self
     {
         if ($mitoyennete === Mitoyennete::LOCAL_NON_CHAUFFE) {
@@ -121,7 +133,7 @@ final class Mur extends ParoiOpaque
     public function type_isolation_defaut(): TypeIsolation
     {
         return $this->type_isolation()->inconnu()
-            ? $this->batiment()->audit()->periode_construction()->type_isolation_mur_defaut()
+            ? $this->enveloppe()->batiment()->audit()->periode_construction()->type_isolation_mur_defaut()
             : $this->type_isolation();
     }
 
@@ -139,8 +151,8 @@ final class Mur extends ParoiOpaque
             return $this->periode_isolation();
         }
         return $this->type_isolation()->est_isole()
-            ? $this->batiment()->audit()->periode_construction()->periode_isolation_mur_defaut()
-            : $this->batiment->audit()->periode_construction();
+            ? $this->enveloppe()->batiment()->audit()->periode_construction()->periode_isolation_mur_defaut()
+            : $this->enveloppe()->batiment()->audit()->periode_construction();
     }
 
     /**

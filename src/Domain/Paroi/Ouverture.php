@@ -14,7 +14,7 @@ abstract class Ouverture extends Paroi
 
     public function set_paroi_opaque(\Stringable $reference_paroi_opaque): self
     {
-        if (null === $entity = $this->batiment->paroi_collection()->search_paroi_opaque()->find($reference_paroi_opaque)) {
+        if (null === $entity = $this->enveloppe->paroi_collection()->search_paroi_opaque()->find($reference_paroi_opaque)) {
             throw new \DomainException('Paroi opaque non trouvée');
         }
         $this->paroi_opaque = $entity;
@@ -32,7 +32,7 @@ abstract class Ouverture extends Paroi
             if (null === $reference_local_non_chauffe) {
                 throw new \DomainException('Local non chauffé requis');
             }
-            if (null === $entity = $this->batiment->lnc_collection()->find($reference_local_non_chauffe)) {
+            if (null === $entity = $this->enveloppe->lnc_collection()->find($reference_local_non_chauffe)) {
                 throw new \DomainException('Local non chauffé non trouvé');
             }
             if (false === $entity->type_lnc()->applicable($this->type_paroi())) {

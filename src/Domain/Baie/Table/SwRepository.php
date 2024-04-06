@@ -2,8 +2,7 @@
 
 namespace App\Domain\Baie\Table;
 
-use App\Domain\Baie\Enum\{MateriauxMenuiserie, TypeBaie, TypeVitrage};
-use App\Domain\Paroi\Enum\TypePose;
+use App\Domain\Baie\Enum\{MateriauxMenuiserie, TypeBaie, TypePose, TypeVitrage};
 
 interface SwRepository
 {

@@ -2,9 +2,9 @@
 
 namespace App\Domain\MasqueLointain\Table;
 
-use App\Domain\MasqueLointain\Enum\{Orientation, SecteurMasque};
+use App\Domain\MasqueLointain\Enum\{Orientation, SecteurOrientation};
 
 interface OmbRepository
 {
-    public function find(SecteurMasque $secteur, Orientation $orientation, float $hauteur_alpha): ?Omb;
+    public function find(SecteurOrientation $secteur_orientation, Orientation $orientation, float $hauteur_alpha): ?Omb;
 }

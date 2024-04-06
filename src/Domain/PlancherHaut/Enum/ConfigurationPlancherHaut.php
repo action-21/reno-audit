@@ -5,6 +5,9 @@ namespace App\Domain\PlancherHaut\Enum;
 use App\Domain\Common\Enum\Enum;
 use App\Domain\Lnc\Enum\TypeLnc;
 
+/**
+ * Configuration d'un plancher haut
+ */
 enum ConfigurationPlancherHaut: int implements Enum
 {
     case COMBLES_PERDUS = 1;

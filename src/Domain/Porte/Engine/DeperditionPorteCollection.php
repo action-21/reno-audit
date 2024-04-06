@@ -2,9 +2,8 @@
 
 namespace App\Domain\Porte\Engine;
 
-use App\Domain\Batiment\BatimentEngine;
 use App\Domain\Paroi\Enum\QualiteComposant;
-use App\Domain\Porte\{Porte, PorteCollection};
+use App\Domain\Porte\{Porte, PorteEngine};
 
 final class DeperditionPorteCollection
 {
@@ -59,11 +58,11 @@ final class DeperditionPorteCollection
         return $this->collection;
     }
 
-    public function __invoke(PorteCollection $input, BatimentEngine $context): self
+    public function __invoke(PorteEngine $engine): self
     {
         $this->collection = \array_map(
-            fn (Porte $item): DeperditionPorte => ($this->deperdition_porte)($item, $context),
-            $input->to_array(),
+            fn (Porte $item): DeperditionPorte => ($this->deperdition_porte)($item, $engine),
+            $engine->input()->to_array(),
         );
 
         return $this;

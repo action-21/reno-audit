@@ -17,9 +17,20 @@ final class SurfaceSudEquivalente
     ) {
     }
 
+    /**
+     * Surface sud équivalente des apports dans la véranda pour le mois j
+     */
     public function sst_j(Mois $mois): float
     {
         return $this->surface_sud_equivalente_baie_collection->sst_j($mois);
+    }
+
+    /**
+     * t,k - Coefficient de transparence de la véranda
+     */
+    public function t(): float
+    {
+        return $this->surface_sud_equivalente_baie_collection->t();
     }
 
     public function surface_sud_equivalente_baie_collection(): SurfaceSudEquivalenteBaieCollection

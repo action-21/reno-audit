@@ -2,13 +2,13 @@
 
 namespace App\Domain\Paroi\ValueObject;
 
-use App\Domain\Paroi\Enum\{MethodeSaisie, PeriodeIsolation, TypeIsolation};
+use App\Domain\Paroi\Enum\{MethodeSaisiePerformance, PeriodeIsolation, TypeIsolation};
 
 final class PerformanceIsolation
 {
     public function __construct(
         public readonly TypeIsolation $type_isolation,
-        public readonly MethodeSaisie $methode_saisie,
+        public readonly MethodeSaisiePerformance $methode_saisie,
         public readonly ?PeriodeIsolation $periode_isolation = null,
         public readonly ?float $epaisseur_isolation = null,
         public readonly ?float $resistance_isolation = null,
@@ -31,18 +31,18 @@ final class PerformanceIsolation
         return $this;
     }
 
-    public static function from_valeur_forfaitaire(
+    public static function create_from_valeur_forfaitaire(
         TypeIsolation $type_isolation,
         ?PeriodeIsolation $periode_isolation,
     ): self {
         return (new self(
             type_isolation: $type_isolation,
-            methode_saisie: MethodeSaisie::VALEUR_FORFAITAIRE,
+            methode_saisie: MethodeSaisiePerformance::VALEUR_FORFAITAIRE,
             periode_isolation: $periode_isolation,
         ))->check();
     }
 
-    public static function from_observation(
+    public static function create_from_observation(
         TypeIsolation $type_isolation,
         ?float $epaisseur_isolation = null,
         ?float $resistance_isolation = null,
@@ -50,7 +50,7 @@ final class PerformanceIsolation
     ) {
         return (new self(
             type_isolation: $type_isolation,
-            methode_saisie: MethodeSaisie::MESURE_OBSERVATION,
+            methode_saisie: MethodeSaisiePerformance::MESURE_OBSERVATION,
             periode_isolation: $periode_isolation,
             epaisseur_isolation: $epaisseur_isolation,
             resistance_isolation: $resistance_isolation,
@@ -58,7 +58,7 @@ final class PerformanceIsolation
         ))->check();
     }
 
-    public static function from_documents_justificatifs(
+    public static function create_from_documents_justificatifs(
         float $u_saisi,
         TypeIsolation $type_isolation,
         ?PeriodeIsolation $periode_isolation = null,
@@ -67,7 +67,7 @@ final class PerformanceIsolation
     ): self {
         return (new self(
             type_isolation: $type_isolation,
-            methode_saisie: MethodeSaisie::DOCUMENTS_JUSTIFICATIFS,
+            methode_saisie: MethodeSaisiePerformance::DOCUMENTS_JUSTIFICATIFS,
             periode_isolation: $periode_isolation,
             epaisseur_isolation: $epaisseur_isolation,
             resistance_isolation: $resistance_isolation,
@@ -75,7 +75,7 @@ final class PerformanceIsolation
         ))->check();
     }
 
-    public static function from_etude_reglementaire(
+    public static function create_from_etude_reglementaire(
         float $u_saisi,
         TypeIsolation $type_isolation,
         ?PeriodeIsolation $periode_isolation = null,
@@ -84,7 +84,7 @@ final class PerformanceIsolation
     ): self {
         return (new self(
             type_isolation: $type_isolation,
-            methode_saisie: MethodeSaisie::ETUDE_REGLEMENTAIRE,
+            methode_saisie: MethodeSaisiePerformance::ETUDE_REGLEMENTAIRE,
             periode_isolation: $periode_isolation,
             epaisseur_isolation: $epaisseur_isolation,
             resistance_isolation: $resistance_isolation,

@@ -2,8 +2,7 @@
 
 namespace App\Domain\Mur\Engine;
 
-use App\Domain\Batiment\BatimentEngine;
-use App\Domain\Mur\{Mur, MurCollection};
+use App\Domain\Mur\{Mur, MurCollection, MurEngine};
 use App\Domain\Paroi\Enum\QualiteComposant;
 
 final class DeperditionMurCollection
@@ -59,11 +58,11 @@ final class DeperditionMurCollection
         return $this->collection;
     }
 
-    public function __invoke(MurCollection $input, BatimentEngine $context): self
+    public function __invoke(MurEngine $engine): self
     {
         $this->collection = \array_map(
-            fn (Mur $item): DeperditionMur => ($this->deperdition_mur)($item, $context),
-            $input->to_array(),
+            fn (Mur $item): DeperditionMur => ($this->deperdition_mur)($item, $engine),
+            $engine->input()->to_array(),
         );
 
         return $this;

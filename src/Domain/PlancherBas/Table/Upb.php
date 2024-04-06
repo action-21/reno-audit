@@ -4,6 +4,9 @@ namespace App\Domain\PlancherBas\Table;
 
 use App\Domain\Common\Table\TableValue;
 
+/**
+ * Valeur forfaitaire du coefficient de transmission thermique d'un plancher bas
+ */
 class Upb implements TableValue
 {
     public function __construct(

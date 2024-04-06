@@ -2,7 +2,7 @@
 
 namespace App\Domain\PontThermique;
 
-use App\Domain\Batiment\Batiment;
+use App\Domain\Enveloppe\Enveloppe;
 use App\Domain\Common\Identifier\Uuid;
 use App\Domain\PontThermique\ValueObject\{Caracteristique, Performance};
 
@@ -10,15 +10,18 @@ final class PontThermiqueBuilder
 {
     private ?PontThermique $entity = null;
 
+    /**
+     * Initialise un pont thermique
+     */
     public function create(
-        Batiment $batiment,
+        Enveloppe $enveloppe,
         string $description,
         Caracteristique $caracteristique,
         Performance $performance,
     ): void {
         $this->entity = new PontThermique(
             reference: Uuid::create(),
-            batiment: $batiment,
+            enveloppe: $enveloppe,
             description: $description,
             caracteristique: $caracteristique,
             performance: $performance,
@@ -29,6 +32,9 @@ final class PontThermiqueBuilder
         );
     }
 
+    /**
+     * Construit un pont thermique entre un plancher bas et un mur
+     */
     public function build_liaison_plancher_bas_mur(\Stringable $reference_plancher, \Stringable $reference_mur,): PontThermique
     {
         if (null === $this->entity) {
@@ -40,6 +46,9 @@ final class PontThermiqueBuilder
         );
     }
 
+    /**
+     * Construit un pont thermique entre un plancher intermédiaire et un mur
+     */
     public function build_liaison_plancher_intermediaire_mur(\Stringable $reference_plancher, \Stringable $reference_mur,): PontThermique
     {
         if (null === $this->entity) {
@@ -51,6 +60,9 @@ final class PontThermiqueBuilder
         );
     }
 
+    /**
+     * Construit un pont thermique entre un plancher haut et un mur
+     */
     public function build_liaison_plancher_haut_mur(\Stringable $reference_plancher, \Stringable $reference_mur,): PontThermique
     {
         if (null === $this->entity) {
@@ -62,6 +74,9 @@ final class PontThermiqueBuilder
         );
     }
 
+    /**
+     * Construit un pont thermique entre un mur de refend et un mur
+     */
     public function build_liaision_refend_mur(\Stringable $reference_refend, \Stringable $reference_mur,): PontThermique
     {
         if (null === $this->entity) {
@@ -73,6 +88,9 @@ final class PontThermiqueBuilder
         );
     }
 
+    /**
+     * Construit un pont thermique entre une ouverture et un mur
+     */
     public function build_liaison_menuiserie_mur(\Stringable $reference_ouverture, \Stringable $reference_mur,): PontThermique
     {
         if (null === $this->entity) {

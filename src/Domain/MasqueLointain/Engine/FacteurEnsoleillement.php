@@ -67,7 +67,7 @@ final class FacteurEnsoleillement
 
         $this->table_omb = $this->input->type_masque() == TypeMasqueLointain::MASQUE_LOINTAIN_NON_HOMOGENE
             ? $this->table_omb_repository->find(
-                secteur: $this->input->secteur(),
+                secteur_orientation: $this->input->secteur_orientation(),
                 orientation: $this->input->orientation(),
                 hauteur_alpha: $this->input->hauteur_alpha()
             )

@@ -2,17 +2,16 @@
 
 namespace App\Domain\Batiment\Engine;
 
-use App\Domain\Batiment\Batiment;
+use App\Domain\Batiment\BatimentEngine;
 use App\Domain\Batiment\Table\{SollicitationExterieureCollection, SollicitationExterieureRepository};
 use App\Domain\Batiment\Table\{Tbase, TbaseRepository};
 use App\Domain\Common\Enum\Mois;
 
 /**
- * @see §11.1
+ * @see §18
  */
 final class Situation
 {
-    private Batiment $input;
     private ?Tbase $table_tbase = null;
     private ?SollicitationExterieureCollection $table_ext = null;
 
@@ -99,7 +98,7 @@ final class Situation
     }
 
     /**
-     * Valeurs de la table ext
+     * Valeurs forfaitaires de la table ext
      */
     public function table_ext_collection(): SollicitationExterieureCollection
     {
@@ -107,30 +106,23 @@ final class Situation
     }
 
     /**
-     * Valeurs de la table tbase
+     * Valeur forfaitaire de la table tbase
      */
     public function table_tbase(): ?Tbase
     {
         return $this->table_tbase;
     }
 
-    public function input(): Batiment
+    public function __invoke(BatimentEngine $context): self
     {
-        return $this->input;
-    }
-
-    public function __invoke(Batiment $input): self
-    {
-        $this->input = $input;
-
         $this->table_tbase = $this->table_tbase_repository->find(
-            zone_climatique: $this->input->adresse()->zone_climatique,
-            classe_altitude: $this->input->caracteristique()->classe_altitude,
+            zone_climatique: $context->input()->adresse()->zone_climatique,
+            classe_altitude: $context->input()->caracteristique()->classe_altitude,
         );
         $this->table_ext = $this->table_ext_repository->search(
-            zone_climatique: $this->input->adresse()->zone_climatique,
-            classe_altitude: $this->input->caracteristique()->classe_altitude,
-            parois_anciennes_lourdes: $this->input->parois_anciennes_lourdes()
+            zone_climatique: $context->input()->adresse()->zone_climatique,
+            classe_altitude: $context->input()->caracteristique()->classe_altitude,
+            parois_anciennes_lourdes: $context->input()->parois_anciennes_lourdes()
         );
 
         return $this;

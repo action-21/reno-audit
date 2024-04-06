@@ -2,7 +2,7 @@
 
 namespace App\Domain\Lnc;
 
-use App\Domain\Batiment\Batiment;
+use App\Domain\Enveloppe\Enveloppe;
 use App\Domain\Common\Identifier\Uuid;
 use App\Domain\Lnc\Entity\{Baie, BaieCollection, Paroi, ParoiCollection};
 use App\Domain\Lnc\Enum\TypeLnc;
@@ -14,7 +14,7 @@ final class Lnc
 {
     public function __construct(
         private readonly \Stringable $reference,
-        private readonly Batiment $batiment,
+        private readonly Enveloppe $enveloppe,
         private string $description,
         private TypeLnc $type_lnc,
         private BaieCollection $baie_collection,
@@ -22,11 +22,11 @@ final class Lnc
     ) {
     }
 
-    public static function create(Batiment $batiment, string $description, TypeLnc $type_lnc): self
+    public static function create(Enveloppe $enveloppe, string $description, TypeLnc $type_lnc): self
     {
         return new self(
             reference: Uuid::create(),
-            batiment: $batiment,
+            enveloppe: $enveloppe,
             description: $description,
             type_lnc: $type_lnc,
             baie_collection: new BaieCollection,
@@ -46,9 +46,9 @@ final class Lnc
         return $this->reference;
     }
 
-    public function batiment(): Batiment
+    public function enveloppe(): Enveloppe
     {
-        return $this->batiment;
+        return $this->enveloppe;
     }
 
     public function description(): ?string
@@ -58,7 +58,7 @@ final class Lnc
 
     public function isolation_aiu(): bool
     {
-        return $this->batiment->paroi_collection()->search_by_local_non_chauffe($this)->est_isole();
+        return $this->enveloppe->paroi_collection()->search_by_local_non_chauffe($this)->est_isole();
     }
 
     public function isolation_aue(): bool
@@ -68,7 +68,7 @@ final class Lnc
 
     public function surface_aiu(): float
     {
-        return $this->batiment->paroi_collection()->search_by_local_non_chauffe($this)->surface_deperditive();
+        return $this->enveloppe->paroi_collection()->search_by_local_non_chauffe($this)->surface_deperditive();
     }
 
     public function surface_aue(): float

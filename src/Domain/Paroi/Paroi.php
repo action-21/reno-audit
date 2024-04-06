@@ -2,14 +2,14 @@
 
 namespace App\Domain\Paroi;
 
-use App\Domain\Batiment\Batiment;
+use App\Domain\Enveloppe\Enveloppe;
 use App\Domain\Lnc\Lnc;
 use App\Domain\Paroi\Enum\{Mitoyennete, TypeAdjacence, TypeParoi};
 
 abstract class Paroi
 {
     protected readonly \Stringable $reference;
-    protected readonly Batiment $batiment;
+    protected readonly Enveloppe $enveloppe;
 
     /**
      * Identifiant unique de la paroi
@@ -22,9 +22,9 @@ abstract class Paroi
     /**
      * Bâtiment rattaché à la paroi
      */
-    public function batiment(): Batiment
+    public function enveloppe(): Enveloppe
     {
-        return $this->batiment;
+        return $this->enveloppe;
     }
 
     /**

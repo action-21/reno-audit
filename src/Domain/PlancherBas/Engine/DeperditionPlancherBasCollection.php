@@ -3,7 +3,7 @@
 namespace App\Domain\PlancherBas\Engine;
 
 use App\Domain\Paroi\Enum\QualiteComposant;
-use App\Domain\PlancherBas\{PlancherBas, PlancherBasCollection};
+use App\Domain\PlancherBas\{PlancherBas, PlancherBasEngine};
 
 final class DeperditionPlancherBasCollection
 {
@@ -58,11 +58,11 @@ final class DeperditionPlancherBasCollection
         return $this->collection;
     }
 
-    public function __invoke(PlancherBasCollection $input_collection): self
+    public function __invoke(PlancherBasEngine $engine): self
     {
         $this->collection = \array_map(
-            fn (PlancherBas $input): DeperditionPlancherBas => ($this->deperdition_plancher_bas)($input),
-            $input_collection->to_array(),
+            fn (PlancherBas $item): DeperditionPlancherBas => ($this->deperdition_plancher_bas)($item, $engine),
+            $engine->input()->to_array(),
         );
 
         return $this;

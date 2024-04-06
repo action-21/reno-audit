@@ -47,7 +47,7 @@ final class FacteurEnsoleillement
         $this->input = $input;
 
         $this->table_fe1 = $this->table_fe1_repository->find(
-            type_masque_proche: $input->type_masque(),
+            type_masque_proche: $input->type_masque_proche(),
             orientation: $input->orientation(),
             avancee: $input->avancee(),
         );

@@ -2,7 +2,7 @@
 
 namespace App\Domain\Baie\Engine;
 
-use App\Domain\Baie\{Baie, BaieCollection};
+use App\Domain\Baie\{Baie, BaieEngine};
 use App\Domain\Paroi\Enum\QualiteComposant;
 
 final class DeperditionBaieCollection
@@ -58,11 +58,11 @@ final class DeperditionBaieCollection
         return $this->collection;
     }
 
-    public function __invoke(BaieCollection $input): self
+    public function __invoke(BaieEngine $engine): self
     {
         $this->collection = \array_map(
-            fn (Baie $item): DeperditionBaie => ($this->deperdition_baie)($item),
-            $input->to_array(),
+            fn (Baie $item): DeperditionBaie => ($this->deperdition_baie)($item, $engine),
+            $engine->input()->to_array(),
         );
 
         return $this;

@@ -35,8 +35,8 @@ final class DeperditionDoubleFenetre
      */
     public function uw(): ?float
     {
-        if ($this->input->uw_saisi) {
-            return $this->input->uw_saisi;
+        if ($this->input->menuiserie->uw_saisi) {
+            return $this->input->menuiserie->uw_saisi;
         }
         return ($ug = $this->ug()) ? $this->table_uw_collection()->uw(ug: $ug) : null;
     }
@@ -64,7 +64,7 @@ final class DeperditionDoubleFenetre
 
         $this->table_uw_collection = $this->table_uw_repository->search(
             type_baie: $input->type_baie,
-            materiaux_menuiserie: $input->type_materiaux_menuiserie,
+            materiaux_menuiserie: $input->menuiserie->type_materiaux,
         );
 
         return $this;

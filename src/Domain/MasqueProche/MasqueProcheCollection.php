@@ -5,6 +5,8 @@ namespace App\Domain\MasqueProche;
 use App\Domain\Common\Collection\ArrayCollection;
 
 /**
+ * Liste de masques proches
+ * 
  * @property MasqueProche[] $elements
  */
 final class MasqueProcheCollection extends ArrayCollection

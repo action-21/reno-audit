@@ -2,25 +2,40 @@
 
 namespace App\Domain\Porte;
 
-use App\Domain\Batiment\BatimentEngine;
+use App\Domain\Enveloppe\EnveloppeEngine;
 use App\Domain\Porte\Engine\DeperditionPorteCollection;
 
 final class PorteEngine
 {
+    private EnveloppeEngine $context;
+
     public function __construct(
         private DeperditionPorteCollection $deperdition_porte,
     ) {
     }
 
-    public function deperdition_porte(): DeperditionPorteCollection
+    /**
+     * Déperdition thermique d'une liste de portes
+     */
+    public function deperdition_thermique(): DeperditionPorteCollection
     {
         return $this->deperdition_porte;
     }
 
-    public function __invoke(PorteCollection $input, BatimentEngine $context): self
+    public function input(): PorteCollection
     {
-        $this->deperdition_porte = ($this->deperdition_porte)($input, $context);
+        return $this->context->input()->porte_collection();
+    }
 
+    public function context(): EnveloppeEngine
+    {
+        return $this->context;
+    }
+
+    public function __invoke(EnveloppeEngine $context): self
+    {
+        $this->context = $context;
+        $this->deperdition_porte = ($this->deperdition_porte)($this);
         return $this;
     }
 }

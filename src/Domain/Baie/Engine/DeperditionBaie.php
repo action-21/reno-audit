@@ -2,11 +2,9 @@
 
 namespace App\Domain\Baie\Engine;
 
-use App\Domain\Baie\Baie;
+use App\Domain\Baie\{Baie, BaieEngine};
 use App\Domain\Baie\Table\{UgCollection, UgRepository, UwCollection, UwRepository};
 use App\Domain\Baie\Table\{Deltar, DeltarRepository, UjnCollection, UjnRepository};
-use App\Domain\Batiment\BatimentEngine;
-use App\Domain\Paroi\Engine\DeperditionParoi;
 use App\Domain\Paroi\Enum\QualiteComposant;
 
 /**
@@ -14,9 +12,8 @@ use App\Domain\Paroi\Enum\QualiteComposant;
  */
 final class DeperditionBaie
 {
-    use DeperditionParoi;
-
     private Baie $input;
+    private BaieEngine $engine;
     private ?DeperditionDoubleFenetre $deperdition_double_fenetre;
     private UgCollection $table_ug_collection;
     private UwCollection $table_uw_collection;
@@ -107,11 +104,27 @@ final class DeperditionBaie
     }
 
     /**
+     * b,paroi - Coefficient de réduction thermique
+     */
+    public function b(): float
+    {
+        if (null === $this->input->local_non_chauffe()) {
+            return 1;
+        }
+        return $this
+            ->engine
+            ->context()
+            ->lnc_engine()
+            ->reduction_deperdition()
+            ->b(lnc: $this->input->local_non_chauffe()) ?? 1;
+    }
+
+    /**
      * Surface déperditive (m²)
      */
     public function sdep(): float
     {
-        return $this->input->surface();
+        return $this->input->surface_deperditive();
     }
 
     /**
@@ -152,10 +165,10 @@ final class DeperditionBaie
         return $this->input;
     }
 
-    public function __invoke(Baie $input, BatimentEngine $context): self
+    public function __invoke(Baie $input, BaieEngine $engine): self
     {
         $this->input = $input;
-        $this->context = $context;
+        $this->engine = $engine;
         $this->deperdition_double_fenetre = $input->double_fenetre() ? ($this->deperdition_double_fenetre_engine)($input->double_fenetre()) : null;
 
         $this->table_ug_collection = $this->table_ug_repository->search(

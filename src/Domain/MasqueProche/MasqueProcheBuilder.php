@@ -2,7 +2,7 @@
 
 namespace App\Domain\MasqueProche;
 
-use App\Domain\Batiment\Batiment;
+use App\Domain\Enveloppe\Enveloppe;
 use App\Domain\Common\Identifier\Uuid;
 use App\Domain\MasqueProche\Enum\Orientation;
 
@@ -10,11 +10,14 @@ final class MasqueProcheBuilder
 {
     private ?MasqueProche $masque_proche = null;
 
-    public function create(Batiment $batiment, string $description): void
+    /**
+     * Initialise un masque proche
+     */
+    public function create(Enveloppe $enveloppe, string $description): void
     {
         $this->masque_proche = new MasqueProche(
             reference: Uuid::create(),
-            batiment: $batiment,
+            enveloppe: $enveloppe,
             description: $description,
             avancee: null,
             orientation: null,
@@ -22,10 +25,7 @@ final class MasqueProcheBuilder
     }
 
     /**
-     * Baie en fond de balcon ou fond et flanc de loggias
-     * 
-     * @param float $avancee - Avancée de l'obstacle en m
-     * @param Orientation $orientation - Orientation du masque proche
+     * Construit un masque proche de type baie en fond de balcon ou fond et flanc de loggias
      */
     public function build_fond_balcon_ou_fond_flanc_loggias(float $avancee, Orientation $orientation): MasqueProche
     {
@@ -33,9 +33,7 @@ final class MasqueProcheBuilder
     }
 
     /**
-     * Baie sous un balcon ou auvent
-     * 
-     * @param float $avancee - Avancée de l'obstacle en m
+     * Construit un masque proche de type baie sous un balcon ou auvent
      */
     public function build_balcon_ou_auvent(float $avancee): MasqueProche
     {
@@ -43,9 +41,7 @@ final class MasqueProcheBuilder
     }
 
     /**
-     * Baie masquée par une paroi latérale
-     * 
-     * @param bool $obstacle_au_sud - Indique si le masque fait obstacle au sud
+     * Construit un masque proche de type baie masquée par une paroi latérale
      */
     public function build_paroi_laterale(bool $obstacle_au_sud): MasqueProche
     {

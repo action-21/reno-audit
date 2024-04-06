@@ -4,6 +4,9 @@ namespace App\Domain\PlancherHaut\ValueObject;
 
 use App\Domain\PlancherHaut\Enum\TypePlancherHaut;
 
+/**
+ * Caractéristiques d'un plancher haut
+ */
 final class Caracteristique
 {
     public function __construct(

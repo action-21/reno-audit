@@ -2,26 +2,22 @@
 
 namespace App\Domain\PlancherHaut\Engine;
 
-use App\Domain\Batiment\BatimentEngine;
-use App\Domain\Paroi\Engine\DeperditionParoi;
 use App\Domain\Paroi\Enum\QualiteComposant;
-use App\Domain\PlancherHaut\PlancherHaut;
+use App\Domain\PlancherHaut\{PlancherHaut, PlancherHautEngine};
 use App\Domain\PlancherHaut\Table\{Uph, Uph0, UphRepository, Uph0Repository};
 
 /**
  * @see §3.2.3
- * 
  */
 final class DeperditionPlancherHaut
 {
-    use DeperditionParoi;
-
     /**
      * Lambda par défaut des planchers hauts isolés
      */
     final public const LAMBDA_PLANCHER_HAUT_DEFAUT = 0.04;
 
     private PlancherHaut $input;
+    private PlancherHautEngine $engine;
     private ?Uph0 $table_uph0 = null;
     private ?Uph $table_uph = null;
 
@@ -71,6 +67,22 @@ final class DeperditionPlancherHaut
     }
 
     /**
+     * b,paroi - Coefficient de réduction thermique
+     */
+    public function b(): float
+    {
+        if (null === $this->input->local_non_chauffe()) {
+            return 1;
+        }
+        return $this
+            ->engine
+            ->context()
+            ->lnc_engine()
+            ->reduction_deperdition()
+            ->b(lnc: $this->input->local_non_chauffe()) ?? 1;
+    }
+
+    /**
      * Surface déperditive (m²)
      */
     public function sdep(): float
@@ -101,20 +113,19 @@ final class DeperditionPlancherHaut
         return $this->input;
     }
 
-    public function __invoke(PlancherHaut $input, BatimentEngine $context): self
+    public function __invoke(PlancherHaut $input, PlancherHautEngine $engine): self
     {
         $this->input = $input;
-        $this->context = $context;
+        $this->engine = $engine;
 
         $this->table_uph0 = $this->table_uph0_repository->find(
             type_plancher_haut: $this->input->caracteristique()->type_plancher_haut
         );
-
         $this->table_uph = $this->table_uph_repository->find(
-            zone_climatique: $this->input->batiment()->adresse()->zone_climatique,
+            zone_climatique: $this->input->enveloppe()->batiment()->adresse()->zone_climatique,
             periode_construction_isolation: $this->input->periode_construction_isolation(),
             configuration_plancher_haut: $this->input->configuration_plancher_haut(),
-            effet_joule: $this->input->batiment()->effet_joule(),
+            effet_joule: $this->input->enveloppe()->batiment()->effet_joule(),
         );
 
         return $this;

@@ -2,7 +2,7 @@
 
 namespace App\Domain\MasqueLointain\Engine;
 
-use App\Domain\MasqueLointain\{MasqueLointain, MasqueLointainCollection};
+use App\Domain\MasqueLointain\{MasqueLointain, MasqueLointainEngine};
 use App\Domain\MasqueLointain\Enum\Orientation;
 
 /**
@@ -38,7 +38,8 @@ final class FacteurEnsoleillementCollection
     {
         return \array_reduce(
             $this->search_by_orientation($orientation),
-            fn (FacteurEnsoleillement $item, float $omb): float => $omb += $item->omb(), 0
+            fn (FacteurEnsoleillement $item, float $omb): float => $omb += $item->omb(),
+            0
         );
     }
 
@@ -66,11 +67,11 @@ final class FacteurEnsoleillementCollection
         return $this->collection;
     }
 
-    public function __invoke(MasqueLointainCollection $input): self
+    public function __invoke(MasqueLointainEngine $engine): self
     {
         $this->collection = \array_map(
             fn (MasqueLointain $item): FacteurEnsoleillement => ($this->facteur_ensoleillement)($item),
-            $input->to_array(),
+            $engine->input()->to_array(),
         );
 
         return $this;

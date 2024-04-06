@@ -2,7 +2,7 @@
 
 namespace App\Domain\PlancherIntermediaire;
 
-use App\Domain\Batiment\Batiment;
+use App\Domain\Enveloppe\Enveloppe;
 use App\Domain\Common\Identifier\Uuid;
 use App\Domain\PlancherIntermediaire\Enum\TypePlancherIntermediaire;
 
@@ -10,7 +10,7 @@ final class PlancherIntermediaire
 {
     public function __construct(
         private readonly \Stringable $reference,
-        private readonly Batiment $batiment,
+        private readonly Enveloppe $enveloppe,
         private string $description,
         private float $surface,
         private float $epaisseur,
@@ -18,8 +18,11 @@ final class PlancherIntermediaire
     ) {
     }
 
+    /**
+     * Créé un nouveau plancher intermédiaire
+     */
     public static function create(
-        Batiment $batiment,
+        Enveloppe $enveloppe,
         string $description,
         float $surface,
         float $epaisseur,
@@ -27,7 +30,7 @@ final class PlancherIntermediaire
     ): self {
         return new self(
             reference: Uuid::create(),
-            batiment: $batiment,
+            enveloppe: $enveloppe,
             description: $description,
             surface: $surface,
             epaisseur: $epaisseur,
@@ -35,6 +38,9 @@ final class PlancherIntermediaire
         );
     }
 
+    /**
+     * Met à jour les informations du plancher intermédiaire
+     */
     public function update(
         string $description,
         float $surface,
@@ -53,9 +59,9 @@ final class PlancherIntermediaire
         return $this->reference;
     }
 
-    public function batiment(): Batiment
+    public function enveloppe(): Enveloppe
     {
-        return $this->batiment;
+        return $this->enveloppe;
     }
 
     public function description(): string

@@ -28,7 +28,7 @@ final class ReductionDeperdition
     {
         if ($this->input->ets()) {
             return $this->table_bver_collection()
-                ->searchByOrientationCollection($this->input->baie_collection()->orientations())
+                ->search_by_orientation_collectionn($this->input->baie_collection()->orientations())
                 ->bver();
         }
         return $this->table_b()?->b() ?? 1;
@@ -62,7 +62,7 @@ final class ReductionDeperdition
         ) : null;
 
         $this->table_bver_collection = $input->ets() ? $this->table_bver_repository->search(
-            zone_climatique: $this->input->batiment()->adresse()->zone_climatique,
+            zone_climatique: $this->input->enveloppe()->batiment()->adresse()->zone_climatique,
             isolation_aiu: $this->input->isolation_aiu(),
         ) : new CoefficientReductionDeperditionVerandaCollection;
 

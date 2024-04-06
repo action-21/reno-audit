@@ -4,6 +4,9 @@ namespace App\Domain\PontThermique\Enum;
 
 use App\Domain\Common\Enum\Enum;
 
+/**
+ * Type de liaison d'un pont thermique
+ */
 enum TypeLiaison: int implements Enum
 {
     case PLANCHER_BAS_MUR = 1;

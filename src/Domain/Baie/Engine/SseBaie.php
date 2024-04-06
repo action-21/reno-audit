@@ -2,8 +2,7 @@
 
 namespace App\Domain\Baie\Engine;
 
-use App\Domain\Baie\Baie;
-use App\Domain\Batiment\BatimentEngine;
+use App\Domain\Baie\{Baie, BaieEngine};
 use App\Domain\Baie\Table\{C1Collection, C1Repository, Sw, SwRepository};
 use App\Domain\Common\Enum\Mois;
 
@@ -13,7 +12,7 @@ use App\Domain\Common\Enum\Mois;
 final class SseBaie
 {
     private Baie $input;
-    private BatimentEngine $context;
+    private BaieEngine $engine;
     private ?SseDoubleFenetre $sse_double_fenetre;
     private ?Sw $table_sw;
     private C1Collection $table_c1_collection;
@@ -30,9 +29,9 @@ final class SseBaie
      */
     public function sse_j(Mois $mois): float
     {
-        return $this->input->ets()
+        return $this->input->local_non_chauffe()?->ets()
             ? $this->ssd_j($mois) + $this->ssind_j($mois) * $this->bver()
-            : $this->input->surface() * $this->sw() * $this->fe() * $this->c1_j($mois);
+            : $this->input->surface_deperditive() * $this->sw() * $this->fe() * $this->c1_j($mois);
     }
 
     /**
@@ -48,15 +47,15 @@ final class SseBaie
      */
     public function sst_j(Mois $mois): float
     {
-        if (!$this->input->lnc()?->ets()) {
+        if (!$this->input->local_non_chauffe()?->ets()) {
             return 0;
         }
-        return $this->context
-            ->deperdition()
+        return $this
+            ->engine
+            ->context()
             ->lnc_engine()
-            ->surface_sud_equivalente_collection()
-            ->find($this->input->lnc())
-            ?->sst_j($mois) ?? 0;
+            ->surface_sud_equivalente()
+            ->sst_j(local_non_chauffe: $this->input->local_non_chauffe(), mois: $mois) ?? 0;
     }
 
     /**
@@ -65,8 +64,8 @@ final class SseBaie
      */
     public function ssd_j(Mois $mois): float
     {
-        $sse_j = $this->input->surface() * $this->sw() * $this->fe() * $this->c1_j($mois);
-        return $sse_j * $this->sse_ets()?->sse_ets_baie_collection()->t() ?? 0;
+        $sse_j = $this->input->surface_deperditive() * $this->sw() * $this->fe() * $this->c1_j($mois);
+        return $sse_j * $this->t() ?? 0;
     }
 
     /**
@@ -107,12 +106,11 @@ final class SseBaie
     public function fe1(): float
     {
         return $this
-            ->context
-            ->deperdition()
+            ->engine
+            ->context()
             ->masque_proche_engine()
-            ->facteur_ensoleillement_collection()
-            ->searchByMasqueProcheCollection($this->input->masque_proche_collection())
-            ->fe1();
+            ->facteur_ensoleillement()
+            ->fe1($this->input->masque_proche_collection()) ?? 0;
     }
 
     /**
@@ -121,12 +119,11 @@ final class SseBaie
     public function fe2(): float
     {
         return $this
-            ->context
-            ->deperdition()
+            ->engine
+            ->context()
             ->masque_lointain_engine()
-            ->facteur_ensoleillement_collection()
-            ->searchByOrientation($this->input->orientation()->value)
-            ->fe2();
+            ->facteur_ensoleillement()
+            ->fe2($this->input->orientation()->value) ?? 0;
     }
 
     /**
@@ -134,16 +131,29 @@ final class SseBaie
      */
     public function t(): float
     {
-        if (!$this->input->lnc()?->ets()) {
+        if (!$this->input->local_non_chauffe()?->ets()) {
             return 1;
         }
-        return $this->context
-            ->deperdition()
+        return $this->engine
+            ->context()
             ->lnc_engine()
-            ->surface_sud_equivalente_collection()
-            ->find($this->input->lnc())
-            ?->surface_sud_equivalente_baie_collection()
-            ->t() ?? 0;
+            ->surface_sud_equivalente()
+            ->t($this->input->local_non_chauffe()) ?? 0;
+    }
+
+    /**
+     * Coefficient de réduction des déperditions thermiques des parois donnant sur un local non chauffé
+     */
+    public function bver(): float
+    {
+        if (!$this->input->local_non_chauffe()?->ets()) {
+            return 1;
+        }
+        return $this->engine
+            ->context()
+            ->lnc_engine()
+            ->reduction_deperdition()
+            ->b($this->input->local_non_chauffe()) ?? 0;
     }
 
     /**
@@ -172,10 +182,15 @@ final class SseBaie
         return $this->table_c1_collection;
     }
 
-    public function __invoke(Baie $input, BatimentEngine $context): self
+    public function input(): Baie
+    {
+        return $this->input;
+    }
+
+    public function __invoke(Baie $input, BaieEngine $engine): self
     {
         $this->input = $input;
-        $this->context = $context;
+        $this->engine = $engine;
         $this->sse_double_fenetre = $input->double_fenetre() ? ($this->sse_double_fenetre_engine)($input->double_fenetre()) : null;
 
         $this->table_sw = $this->table_sw_repository->find(
@@ -186,7 +201,7 @@ final class SseBaie
             vitrage_vir: $input->vitrage()->vitrage_vir,
         );
         $this->table_c1_collection = $this->table_c1_repository->search(
-            zone_climatique: $input->batiment()->adresse()->zone_climatique,
+            zone_climatique: $input->enveloppe()->batiment()->adresse()->zone_climatique,
             orientation: $input->orientation(),
             inclinaison_vitrage: $input->vitrage()->inclinaison_vitrage,
         );

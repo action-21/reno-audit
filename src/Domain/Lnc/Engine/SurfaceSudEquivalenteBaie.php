@@ -81,7 +81,7 @@ final class SurfaceSudEquivalenteBaie
         $this->input = $input;
 
         $this->table_c1_collection = $this->table_c1_repository->search(
-            zone_climatique: $this->input->local_non_chauffe()->batiment()->adresse()->zone_climatique,
+            zone_climatique: $this->input->local_non_chauffe()->enveloppe()->batiment()->adresse()->zone_climatique,
             orientation: $this->input->orientation(),
             inclinaison_vitrage: $this->input->inclinaison_vitrage(),
         );

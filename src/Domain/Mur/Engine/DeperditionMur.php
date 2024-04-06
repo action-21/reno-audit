@@ -2,10 +2,8 @@
 
 namespace App\Domain\Mur\Engine;
 
-use App\Domain\Batiment\BatimentEngine;
-use App\Domain\Mur\Mur;
+use App\Domain\Mur\{Mur, MurEngine};
 use App\Domain\Mur\Table\{Umur, UmurRepository, Umur0Collection, Umur0Repository};
-use App\Domain\Paroi\Engine\DeperditionParoi;
 use App\Domain\Paroi\Enum\QualiteComposant;
 
 /**
@@ -13,8 +11,6 @@ use App\Domain\Paroi\Enum\QualiteComposant;
  */
 final class DeperditionMur
 {
-    use DeperditionParoi;
-
     /**
      * Lambda par défaut des murs isolés
      */
@@ -26,6 +22,7 @@ final class DeperditionMur
     final public const RESISTANCE_ENDUIT_PAROI_ANCIENNE = 0.7;
 
     private Mur $input;
+    private MurEngine $engine;
     private ?Umur0Collection $table_umur0_collection = null;
     private ?Umur $table_umur = null;
 
@@ -77,6 +74,22 @@ final class DeperditionMur
     }
 
     /**
+     * b,paroi - Coefficient de réduction thermique
+     */
+    public function b(): float
+    {
+        if (null === $this->input->local_non_chauffe()) {
+            return 1;
+        }
+        return $this
+            ->engine
+            ->context()
+            ->lnc_engine()
+            ->reduction_deperdition()
+            ->b(lnc: $this->input->local_non_chauffe()) ?? 1;
+    }
+
+    /**
      * Surface déperditive (m²)
      */
     public function sdep(): float
@@ -123,18 +136,18 @@ final class DeperditionMur
         return $this->input;
     }
 
-    public function __invoke(Mur $input, BatimentEngine $context): self
+    public function __invoke(Mur $input, MurEngine $engine): self
     {
         $this->input = $input;
-        $this->context = $context;
+        $this->engine = $engine;
 
         $this->table_umur0_collection = $this->table_umur0_repository->search(
             materiaux_structure: $this->input->caracteristique()->materiaux_structure,
         );
         $this->table_umur = $this->table_umur_repository->find(
-            zone_climatique: $this->input->batiment()->adresse()->zone_climatique,
+            zone_climatique: $this->input->enveloppe()->batiment()->adresse()->zone_climatique,
             periode_construction_isolation: $this->input->periode_construction_isolation(),
-            effet_joule: $this->input->batiment()->effet_joule(),
+            effet_joule: $this->input->enveloppe()->batiment()->effet_joule(),
         );
 
         return $this;

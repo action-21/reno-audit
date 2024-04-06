@@ -2,7 +2,7 @@
 
 namespace App\Domain\Batiment\Engine;
 
-use App\Domain\Batiment\Batiment;
+use App\Domain\Batiment\BatimentEngine;
 use App\Domain\Batiment\Table\{NheclCollection, NheclRepository};
 use App\Domain\Common\Enum\Mois;
 
@@ -12,7 +12,7 @@ use App\Domain\Common\Enum\Mois;
  */
 final class Eclairage
 {
-    private Batiment $input;
+    private BatimentEngine $context;
     private ?NheclCollection $table_nh_collection = null;
 
     /**
@@ -48,7 +48,9 @@ final class Eclairage
      */
     public function cecl_j(Mois $mois): ?float
     {
-        return self::COEFFICIENT_ECLAIRAGE_C * self::PUISSANCE_ECLAIRAGE * $this->becl_j($mois) * $this->input->logement_collection()->surface_habitable_moyenne() / 1000;
+        $cecl_j = self::COEFFICIENT_ECLAIRAGE_C * self::PUISSANCE_ECLAIRAGE * $this->becl_j($mois);
+        $cecl_j *= $this->context->input()->caracteristique()->surface_habitable_moyenne();
+        return $cecl_j / 1000;
     }
 
     /**
@@ -75,17 +77,12 @@ final class Eclairage
         return $this->table_nh_collection;
     }
 
-    public function input(): Batiment
+    public function __invoke(BatimentEngine $context): self
     {
-        return $this->input;
-    }
-
-    public function __invoke(Batiment $input): self
-    {
-        $this->input = $input;
+        $this->context = $context;
 
         $this->table_nh_collection = $this->table_nh_repository->search(
-            zone_climatique: $this->input->adresse()->zone_climatique,
+            zone_climatique: $context->input()->adresse()->zone_climatique,
         );
 
         return $this;

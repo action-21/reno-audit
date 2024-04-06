@@ -4,6 +4,9 @@ namespace App\Domain\PlancherBas\ValueObject;
 
 use App\Domain\PlancherBas\Enum\TypePlancherBas;
 
+/**
+ * Caractéristiques d'un plancher bas
+ */
 final class Caracteristique
 {
     public function __construct(

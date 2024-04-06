@@ -2,10 +2,8 @@
 
 namespace App\Domain\PlancherBas\Engine;
 
-use App\Domain\Batiment\BatimentEngine;
-use App\Domain\Paroi\Engine\DeperditionParoi;
 use App\Domain\Paroi\Enum\QualiteComposant;
-use App\Domain\PlancherBas\PlancherBas;
+use App\Domain\PlancherBas\{PlancherBas, PlancherBasEngine};
 use App\Domain\PlancherBas\Table\{Upb, UpbRepository, Upb0, Upb0Repository, UeCollection, UeRepository};
 
 /**
@@ -13,14 +11,13 @@ use App\Domain\PlancherBas\Table\{Upb, UpbRepository, Upb0, Upb0Repository, UeCo
  */
 final class DeperditionPlancherBas
 {
-    use DeperditionParoi;
-
     /**
      * Lambda par défaut des planchers bas isolés
      */
     final public const LAMBDA_PLANCHER_BAS_DEFAUT = 0.042;
 
     private PlancherBas $input;
+    private PlancherBasEngine $engine;
     private ?Upb0 $table_upb0 = null;
     private ?Upb $table_upb = null;
     private ?UeCollection $table_ue_collection = null;
@@ -100,6 +97,22 @@ final class DeperditionPlancherBas
     }
 
     /**
+     * b,paroi - Coefficient de réduction thermique
+     */
+    public function b(): float
+    {
+        if (null === $this->input->local_non_chauffe()) {
+            return 1;
+        }
+        return $this
+            ->engine
+            ->context()
+            ->lnc_engine()
+            ->reduction_deperdition()
+            ->b(lnc: $this->input->local_non_chauffe()) ?? 1;
+    }
+
+    /**
      * Surface déperditive (m²)
      */
     public function sdep(): float
@@ -144,22 +157,22 @@ final class DeperditionPlancherBas
         return $this->input;
     }
 
-    public function __invoke(PlancherBas $input, BatimentEngine $context): self
+    public function __invoke(PlancherBas $input, PlancherBasEngine $engine): self
     {
         $this->input = $input;
-        $this->context = $context;
+        $this->engine = $engine;
 
         $this->table_upb0 = $this->table_upb0_repository->find(
             type_plancher_bas: $this->input->caracteristique()->type_plancher_bas
         );
         $this->table_upb = $this->table_upb_repository->find(
-            zone_climatique: $this->input->batiment()->adresse()->zone_climatique,
+            zone_climatique: $this->input->enveloppe()->batiment()->adresse()->zone_climatique,
             periode_construction_isolation: $this->input->periode_construction_isolation(),
-            effet_joule: $this->input->batiment()->effet_joule(),
+            effet_joule: $this->input->enveloppe()->batiment()->effet_joule(),
         );
         $this->table_ue_collection = $this->table_ue_repository->search(
             mitoyennete: $this->input->mitoyennete(),
-            periode_construction: $this->input->batiment()->caracteristique()->periode_construction,
+            periode_construction: $this->input->enveloppe()->batiment()->caracteristique()->periode_construction,
         );
 
         return $this;

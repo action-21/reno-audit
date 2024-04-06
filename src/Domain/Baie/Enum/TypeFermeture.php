@@ -6,14 +6,20 @@ use App\Domain\Common\Enum\Enum;
 
 enum TypeFermeture: int implements Enum
 {
-    case ID_01 = 1;
-    case ID_02 = 2;
-    case ID_03 = 3;
-    case ID_04 = 4;
-    case ID_05 = 5;
-    case ID_06 = 6;
-    case ID_07 = 7;
-    case ID_08 = 8;
+    case JALOUSIE_ACCORDEON = 1;
+    case FERMETURE_LAMES_ORIENTABLES = 2;
+    case VENITIENS_EXTERIEURS_METAL = 3;
+    case VOLET_BATTANT_AVEC_AJOURS_FIXES = 4;
+    case PERSIENNES_AVEC_AJOURS_FIXES = 5;
+    case FERMETURE_SANS_AJOURS = 6;
+    case VOLETS_ROULANTS_ALUMINIUM = 7;
+    case VOLETS_ROULANTS_PVC_BOIS_EPAISSEUR_LTE_12MM = 8;
+    case VOLETS_ROULANTS_PVC_BOIS_EPAISSEUR_GT_12MM = 9;
+    case PERSIENNE_COULISSANTE_EPAISSEUR_LTE_22MM = 10;
+    case PERSIENNE_COULISSANTE_EPAISSEUR_GT_22MM = 11;
+    case VOLET_BATTANT_PVC_BOIS_EPAISSEUR_LTE_22MM = 12;
+    case VOLET_BATTANT_PVC_BOIS_EPAISSEUR_GT_22MM = 13;
+    case FERMETURE_ISOLEE_SANS_AJOURS = 14;
 
     public function id(): int
     {
@@ -23,33 +29,20 @@ enum TypeFermeture: int implements Enum
     public function lib(): string
     {
         return match ($this) {
-            self::ID_01 => 'Abscence de fermeture pour la baie vitrée',
-            self::ID_02 => 'Jalousie accordéon, fermeture à lames orientables y compris les vénitiens extérieurs tout métal, volets battants ou persiennes avec ajours fixes',
-            self::ID_03 => 'Fermeture sans ajours en position déployée, volets roulants alu',
-            self::ID_04 => 'Volets roulants PVC ou bois (e inf 12 mm)',
-            self::ID_05 => 'Persienne coulissante et volet battant PVC ou bois (e inf 22 mm)',
-            self::ID_06 => 'Volets roulants PVC ou bois (e sup 12 mm)',
-            self::ID_07 => 'Persienne coulissante et volet battant PVC ou bois (e sup 22 mm)',
-            self::ID_08 => 'Fermeture isolée sans ajours en position déployée'
-        };
-    }
-
-    /**
-     * ΔR - Résistance thermique additionnelle due à la présence de volets aux fenêtres et portes-fenêtres ((m2.K/W))
-     * 
-     * @see §3.3.3
-     */
-    public function deltar(): ?float
-    {
-        return match ($this) {
-            self::ID_02 =>  0.08,
-            self::ID_03 => 0.15,
-            self::ID_04 => 0.19,
-            self::ID_05 => 0.19,
-            self::ID_06 => 0.25,
-            self::ID_07 => 0.25,
-            self::ID_08 => 0.25,
-            default => null
+            self::JALOUSIE_ACCORDEON => 'Jalousie accordéon',
+            self::FERMETURE_LAMES_ORIENTABLES => 'Fermeture à lames orientables',
+            self::VENITIENS_EXTERIEURS_METAL => 'Vénitiens extérieurs tout métal',
+            self::VOLET_BATTANT_AVEC_AJOURS_FIXES => 'Volet battant avec ajours fixes',
+            self::PERSIENNES_AVEC_AJOURS_FIXES => 'Persiennes avec ajours fixes',
+            self::FERMETURE_SANS_AJOURS => 'Fermeture sans ajours en position déployée',
+            self::VOLETS_ROULANTS_ALUMINIUM => 'Volet roulant aluminium',
+            self::VOLETS_ROULANTS_PVC_BOIS_EPAISSEUR_LTE_12MM => 'Volet roulant PVC ou bois d\'épaisseur inférieure ou égale à 12mm',
+            self::VOLETS_ROULANTS_PVC_BOIS_EPAISSEUR_GT_12MM => 'Volet roulant PVC ou bois d\'épaisseur supérieure à 12mm',
+            self::PERSIENNE_COULISSANTE_EPAISSEUR_LTE_22MM => 'Persienne coulissante d\'épaisseur inférieure ou égale à 22mm',
+            self::PERSIENNE_COULISSANTE_EPAISSEUR_GT_22MM => 'Persienne coulissante d\'épaisseur supérieure à 22mm',
+            self::VOLET_BATTANT_PVC_BOIS_EPAISSEUR_LTE_22MM => 'Volet battant PVC ou bois d\'épaisseur inférieure ou égale à 22mm',
+            self::VOLET_BATTANT_PVC_BOIS_EPAISSEUR_GT_22MM => 'Volet battant PVC ou bois d\'épaisseur supérieure à 22mm',
+            self::FERMETURE_ISOLEE_SANS_AJOURS => 'Fermeture isolée sans ajours en position déployée',
         };
     }
 }

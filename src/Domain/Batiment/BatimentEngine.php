@@ -2,24 +2,26 @@
 
 namespace App\Domain\Batiment;
 
-use App\Domain\Batiment\Engine\{Deperdition, Situation};
-use App\Domain\Common\Store\DataStore;
+use App\Domain\Audit\AuditEngine;
+use App\Domain\Batiment\Engine\{Eclairage, Occupation, Refroidissement, Situation};
+use App\Domain\Enveloppe\EnveloppeEngine;
 
 final class BatimentEngine
 {
-    use DataStore;
-
-    private Batiment $input;
+    private AuditEngine $context;
 
     public function __construct(
-        private Deperdition $deperdition,
+        private Occupation $occupation,
         private Situation $situation,
+        private Eclairage $eclairage,
+        private Refroidissement $refroidissement,
+        private EnveloppeEngine $enveloppe_engine,
     ) {
     }
 
-    public function deperdition(): Deperdition
+    public function occupation(): Occupation
     {
-        return $this->deperdition;
+        return $this->occupation;
     }
 
     public function situation(): Situation
@@ -27,17 +29,39 @@ final class BatimentEngine
         return $this->situation;
     }
 
-    public function input(): Batiment
+    public function eclairage(): Eclairage
     {
-        return $this->input;
+        return $this->eclairage;
     }
 
-    public function __invoke(Batiment $input): self
+    public function refroidissement(): Refroidissement
     {
-        $this->input = $input;
+        return $this->refroidissement;
+    }
 
-        $this->deperdition = ($this->deperdition)($input);
-        $this->situation = ($this->situation)($input);
+    public function enveloppe_engine(): EnveloppeEngine
+    {
+        return $this->enveloppe_engine;
+    }
+
+    public function context(): AuditEngine
+    {
+        return $this->context;
+    }
+
+    public function input(): Batiment
+    {
+        return $this->context->input()->batiment();
+    }
+
+    public function __invoke(AuditEngine $context): self
+    {
+        $this->context = $context;
+        $this->occupation = ($this->occupation)($this);
+        $this->situation = ($this->situation)($this);
+        $this->eclairage = ($this->eclairage)($this);
+        $this->refroidissement = ($this->refroidissement)($this);
+        $this->enveloppe_engine = ($this->enveloppe_engine)($this);
 
         return $this;
     }

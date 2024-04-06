@@ -2,23 +2,29 @@
 
 namespace App\Domain\Porte;
 
-use App\Domain\Batiment\Batiment;
+use App\Domain\Enveloppe\Enveloppe;
 use App\Domain\Paroi\Ouverture;
 use App\Domain\Paroi\Enum\TypeParoi;
 use App\Domain\Porte\Enum\TypePose;
 use App\Domain\Porte\ValueObject\{Caracteristique, Performance};
 
+/**
+ * Porte donnant sur l'extérieur ou sur un local non chauffé
+ */
 final class Porte extends Ouverture
 {
     public function __construct(
         protected readonly \Stringable $reference,
-        protected readonly Batiment $batiment,
+        protected readonly Enveloppe $enveloppe,
         private string $description,
         private Caracteristique $caracteristique,
         private Performance $performance,
     ) {
     }
 
+    /**
+     * Met à jour les informations d'une porte
+     */
     public function update(string $description, Performance $performance, Caracteristique $caracteristique,): self
     {
         $this->description = $description;

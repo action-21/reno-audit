@@ -2,25 +2,40 @@
 
 namespace App\Domain\PlancherHaut;
 
-use App\Domain\Batiment\BatimentEngine;
+use App\Domain\Enveloppe\EnveloppeEngine;
 use App\Domain\PlancherHaut\Engine\DeperditionPlancherHautCollection;
 
 final class PlancherHautEngine
 {
+    private EnveloppeEngine $context;
+
     public function __construct(
         private DeperditionPlancherHautCollection $deperdition_plancher_haut_collection,
     ) {
     }
 
-    public function deperdition_plancher_haut(): DeperditionPlancherHautCollection
+    /**
+     * Déperdition thermique d'une liste de planchers hauts
+     */
+    public function deperdition_thermique(): DeperditionPlancherHautCollection
     {
         return $this->deperdition_plancher_haut_collection;
     }
 
-    public function __invoke(PlancherHautCollection $input, BatimentEngine $context): self
+    public function input(): PlancherHautCollection
     {
-        $this->deperdition_plancher_haut_collection = ($this->deperdition_plancher_haut_collection)($input, $context);
+        return $this->context->input()->plancher_haut_collection();
+    }
 
+    public function context(): EnveloppeEngine
+    {
+        return $this->context;
+    }
+
+    public function __invoke(EnveloppeEngine $context): self
+    {
+        $this->context = $context;
+        $this->deperdition_plancher_haut_collection = ($this->deperdition_plancher_haut_collection)($this);
         return $this;
     }
 }

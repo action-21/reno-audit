@@ -4,6 +4,9 @@ namespace App\Domain\Porte\Enum;
 
 use App\Domain\Common\Enum\Enum;
 
+/**
+ * Type de pose d'une porte
+ */
 enum TypePose: int implements Enum
 {
     case NU_EXTERIEUR = 1;

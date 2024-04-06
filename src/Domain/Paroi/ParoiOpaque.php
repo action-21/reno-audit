@@ -41,7 +41,7 @@ abstract class ParoiOpaque extends Paroi
 
     protected function fetch_local_non_chauffe(\Stringable $reference_local_non_chauffe): ?Lnc
     {
-        if (null === $entity = $this->batiment->lnc_collection()->find($reference_local_non_chauffe)) {
+        if (null === $entity = $this->enveloppe->lnc_collection()->find($reference_local_non_chauffe)) {
             throw new \DomainException('Local non chauffé non trouvé');
         }
         if (false === $entity->type_lnc()->applicable($this->type_paroi())) {
@@ -63,7 +63,7 @@ abstract class ParoiOpaque extends Paroi
      */
     public function surface_pleine(): float
     {
-        return $this->surface() - $this->batiment->paroi_collection()->search_ouverture()->search_by_paroi_opaque($this)->surface_deperditive();
+        return $this->surface() - $this->enveloppe->paroi_collection()->search_ouverture()->search_by_paroi_opaque($this)->surface_deperditive();
     }
 
     /**

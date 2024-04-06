@@ -9,6 +9,9 @@ use App\Domain\Common\Collection\ArrayCollection;
  */
 final class BaieCollection extends ArrayCollection
 {
+    /**
+     * Retourne la première occurence de baie correspondant à la référence
+     */
     public function find(string $reference): ?Baie
     {
         return $this->findFirst(fn (Baie $item): bool => $item->reference() === $reference);
@@ -19,6 +22,6 @@ final class BaieCollection extends ArrayCollection
      */
     public function surface_deperditive(): float
     {
-        return $this->reduce(fn (Baie $item, float $sdep): float => $sdep += $item->surface(), 0);
+        return $this->reduce(fn (Baie $item, float $sdep): float => $sdep += $item->surface_deperditive(), 0);
     }
 }

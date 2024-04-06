@@ -4,11 +4,14 @@ namespace App\Domain\PontThermique\Enum;
 
 use App\Domain\Common\Enum\Enum;
 
+/**
+ * Méthode de saisie d'un pont thermique
+ */
 enum MethodeSaisiePontThermique: int implements Enum
 {
-    case ID_01 = 1;
-    case ID_02 = 2;
-    case ID_03 = 3;
+    case VALEUR_FORFAITAIRE = 1;
+    case DOCUMENTS_JUSTIFICATIFS = 2;
+    case ETUDE_REGLEMENTAIRE = 3;
 
     public function id(): int
     {
@@ -19,9 +22,9 @@ enum MethodeSaisiePontThermique: int implements Enum
     {
         return match($this)
         {
-            self::ID_01 => 'Valeur forfaitaire',
-            self::ID_02 => 'Valeur justifiée saisie à partir des documents justificatifs autorisés',
-            self::ID_03 => 'Saisie direct U depuis RSET/RSEE( etude RT2012/RE2020)'
+            self::VALEUR_FORFAITAIRE => 'Valeur forfaitaire',
+            self::DOCUMENTS_JUSTIFICATIFS => 'Valeur justifiée saisie à partir des documents justificatifs autorisés',
+            self::ETUDE_REGLEMENTAIRE => 'Saisie direct U depuis RSET/RSEE (étude RT2012/RE2020)'
         };
     }
 }

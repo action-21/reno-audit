@@ -5,10 +5,15 @@ namespace App\Domain\Mur;
 use App\Domain\Common\Collection\ArrayCollection;
 
 /**
+ * Une liste de murs
+ * 
  * @property Mur[] $elements
  */
 final class MurCollection extends ArrayCollection
 {
+    /**
+     * Retourne la première occurence d'un mur correspondant à la référence
+     */
     public function find(\Stringable $reference): ?Mur
     {
         return $this->filter(fn (Mur $item): bool => $item->reference() == $reference)->first();

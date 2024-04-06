@@ -5,6 +5,8 @@ namespace App\Domain\PlancherHaut;
 use App\Domain\Paroi\ParoiOpaqueCollection;
 
 /**
+ * Une liste de planchers hauts
+ * 
  * @property PlancherHaut[] $elements
  */
 final class PlancherHautCollection extends ParoiOpaqueCollection

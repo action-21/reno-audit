@@ -4,7 +4,10 @@ namespace App\Domain\Porte\Enum;
 
 use App\Domain\Common\Enum\Enum;
 
-enum MethodeSaisieUporte: int implements Enum
+/**
+ * Méthode de saisie des performances d'une porte
+ */
+enum MethodeSaisieUPorte: int implements Enum
 {
     case VALEUR_FORFAITAIRE = 1;
     case VALEUR_JUSTIFIEE = 2;

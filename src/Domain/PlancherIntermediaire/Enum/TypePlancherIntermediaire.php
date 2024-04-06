@@ -4,6 +4,9 @@ namespace App\Domain\PlancherIntermediaire\Enum;
 
 use App\Domain\Common\Enum\Enum;
 
+/**
+ * Type de plancher intermédiaire
+ */
 enum TypePlancherIntermediaire: int implements Enum
 {
     case PLANCHER_INFERIEUR_LOURD = 1;

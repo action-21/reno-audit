@@ -5,6 +5,8 @@ namespace App\Domain\PlancherHaut\Enum;
 use App\Domain\Common\Enum\Enum;
 
 /**
+ * Type de plancher haut
+ * 
  * TODO: renomage des énumérations
  */
 enum TypePlancherHaut: int implements Enum

@@ -4,6 +4,9 @@ namespace App\Domain\Baie\Enum;
 
 use App\Domain\Common\Enum\Enum;
 
+/**
+ * Type de vitrage
+ */
 enum TypeVitrage: int implements Enum
 {
     case SIMPLE_VITRAGE = 1;
@@ -30,7 +33,7 @@ enum TypeVitrage: int implements Enum
         };
     }
 
-    public function isolation(): bool
+    public function est_isole(): bool
     {
         return match ($this) {
             self::TRIPLE_VITRAGE => true,

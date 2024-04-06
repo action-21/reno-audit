@@ -2,7 +2,7 @@
 
 namespace App\Domain\Lnc\Engine;
 
-use App\Domain\Lnc\{Lnc, LncCollection};
+use App\Domain\Lnc\{Lnc, LncEngine};
 
 final class ReductionDeperditionCollection
 {
@@ -44,11 +44,11 @@ final class ReductionDeperditionCollection
         return $this->collection;
     }
 
-    public function __invoke(LncCollection $input): self
+    public function __invoke(LncEngine $engine): self
     {
         $this->collection = \array_map(
             fn (Lnc $item): ReductionDeperdition => ($this->reduction_deperdition)($item),
-            $input->to_array(),
+            $engine->input()->to_array(),
         );
 
         return $this;

@@ -2,9 +2,8 @@
 
 namespace App\Domain\PlancherHaut\Engine;
 
-use App\Domain\Batiment\BatimentEngine;
 use App\Domain\Paroi\Enum\QualiteComposant;
-use App\Domain\PlancherHaut\{PlancherHaut, PlancherHautCollection};
+use App\Domain\PlancherHaut\{PlancherHaut, PlancherHautEngine};
 
 final class DeperditionPlancherHautCollection
 {
@@ -59,11 +58,11 @@ final class DeperditionPlancherHautCollection
         return $this->collection;
     }
 
-    public function __invoke(PlancherHautCollection $input, BatimentEngine $context): self
+    public function __invoke(PlancherHautEngine $engine): self
     {
         $this->collection = \array_map(
-            fn (PlancherHaut $item): DeperditionPlancherHaut => ($this->deperdition_plancher_haut)($item, $context),
-            $input->to_array()
+            fn (PlancherHaut $item): DeperditionPlancherHaut => ($this->deperdition_plancher_haut)($item, $engine),
+            $engine->input()->to_array()
         );
 
         return $this;

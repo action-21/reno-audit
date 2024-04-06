@@ -4,6 +4,9 @@ namespace App\Domain\Porte\ValueObject;
 
 use App\Domain\Porte\Enum\{NatureMenuiseriePorte, TypePorte, TypePose};
 
+/**
+ * Caractéristiques d'une porte
+ */
 final class Caracteristique
 {
     public readonly NatureMenuiseriePorte $nature_menuiserie;

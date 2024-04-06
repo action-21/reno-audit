@@ -2,7 +2,7 @@
 
 namespace App\Domain\PontThermique\Engine;
 
-use App\Domain\PontThermique\{PontThermique, PontThermiqueCollection};
+use App\Domain\PontThermique\{PontThermique, PontThermiqueEngine};
 
 final class DeperditionPontThermiqueCollection
 {
@@ -47,11 +47,11 @@ final class DeperditionPontThermiqueCollection
         return $this->collection;
     }
 
-    public function __invoke(PontThermiqueCollection $input_collection): self
+    public function __invoke(PontThermiqueEngine $engine): self
     {
         $this->collection = \array_map(
             fn (PontThermique $input): DeperditionPontThermique => ($this->deperdition_pont_thermique)($input),
-            $input_collection->to_array(),
+            $engine->input()->to_array(),
         );
 
         return $this;

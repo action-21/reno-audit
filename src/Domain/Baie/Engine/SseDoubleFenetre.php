@@ -22,9 +22,12 @@ final class SseDoubleFenetre
      */
     public function sw(): float
     {
-        return $this->input->sw_saisi ?? ($this->table_sw()?->sw() ?? 1);
+        return $this->input->performance->sw_saisi ?? ($this->table_sw()?->sw() ?? 1);
     }
 
+    /**
+     * Valeur forfaitaire de la table sw
+     */
     public function table_sw(): ?Sw
     {
         return $this->table_sw;
@@ -36,7 +39,7 @@ final class SseDoubleFenetre
 
         $this->table_sw = $this->table_sw_repository->find(
             type_baie: $this->input->type_baie,
-            materiaux_menuiserie: $this->input->type_materiaux_menuiserie,
+            materiaux_menuiserie: $this->input->menuiserie->type_materiaux,
             type_pose: $this->input->type_pose,
             type_vitrage: $this->input->vitrage->type_vitrage,
             vitrage_vir: $this->input->vitrage->vitrage_vir,

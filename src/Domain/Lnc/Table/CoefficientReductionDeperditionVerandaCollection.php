@@ -20,7 +20,7 @@ class CoefficientReductionDeperditionVerandaCollection extends TableValueCollect
     /**
      * @param Orientation[] $orientation_collection
      */
-    public function searchByOrientationCollection(array $orientation_collection): self
+    public function search_by_orientation_collectionn(array $orientation_collection): self
     {
         $orientation_collection = \array_map(fn (Orientation $item): int => $item->value, $orientation_collection);
         return $this->filter(fn (CoefficientReductionDeperditionVeranda $item): bool => \count(\array_intersect($orientation_collection, $item->orientations())) > 0);

@@ -2,7 +2,7 @@
 
 namespace App\Domain\MasqueProche\Engine;
 
-use App\Domain\MasqueProche\{MasqueProche, MasqueProcheCollection};
+use App\Domain\MasqueProche\{MasqueProche, MasqueProcheCollection, MasqueProcheEngine};
 
 /**
  * @see §6.2.2.1 Masques proches
@@ -50,11 +50,11 @@ final class FacteurEnsoleillementCollection
         return $this->collection;
     }
 
-    public function __invoke(MasqueProcheCollection $input): self
+    public function __invoke(MasqueProcheEngine $engine): self
     {
         $this->collection = \array_map(
             fn (MasqueProche $item): FacteurEnsoleillement => ($this->facteur_ensoleillement)($item),
-            $input->to_array(),
+            $engine->input()->to_array(),
         );
 
         return $this;

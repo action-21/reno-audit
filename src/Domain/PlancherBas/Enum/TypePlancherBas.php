@@ -5,6 +5,8 @@ namespace App\Domain\PlancherBas\Enum;
 use App\Domain\Common\Enum\Enum;
 
 /**
+ * Type de plancher bas
+ * 
  * TODO: renomage des énumérations
  */
 enum TypePlancherBas: int implements Enum
@@ -54,6 +56,8 @@ enum TypePlancherBas: int implements Enum
 
     /**
      * Upb0 - Coefficient de transmission thermique du plancher bas non isolé (W/(m².K))
+     * 
+     * TODO: à déplacer dans l'implémentation de Upb0Repository
      * 
      * @see §3.2.2.2
      */

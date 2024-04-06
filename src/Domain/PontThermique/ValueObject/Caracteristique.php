@@ -2,6 +2,9 @@
 
 namespace App\Domain\PontThermique\ValueObject;
 
+/**
+ * Caractéristique d'un pont thermique
+ */
 final class Caracteristique
 {
     public function __construct(

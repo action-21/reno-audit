@@ -16,7 +16,7 @@ enum InclinaisonVitrage: int implements Enum
         return $this->value;
     }
 
-    public static function createFromAngle(float $angle): self
+    public static function create_from_angle(float $angle): self
     {
         return match (true) {
             $angle < 25 => self::INFERIEUR_25,
