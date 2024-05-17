@@ -1,6 +1,6 @@
 # @renolab/audit
 
-Un simulateur des performances énergétiques conventionnelles des logements pour évaluer l'impact d'un scénario de rénovation énergétique.
+Un simulateur des performances énergétiques conventionnelles des logements pour évaluer l'impact d'un scénario de rénovation énergétique. Le code source de l'api est disponible sur un [dépôt dédié](https://github.com/renolab/audit-api).
 
 ## Contexte
 
@@ -52,10 +52,20 @@ Mai 2024
 
 ## Feuille de route
 
-1. ~~Conceptualisation~~
-2. ~~Planification~~
-3. **Conception**
-4. Déploiement
+1. ~~Définition du projet~~
+2. **Conception du modèle de données**
+3. **Développement de l'API**
+4. Développement d'une démo
+5. Déploiement
+
+## Organisation du projet
+
+Ce dépôt centralise toutes les informations relatives à la gestion du projet ainsi qu'au modèle de données. Les parties applicatives (API, application) font l'objet de dépôts dédiés.
+
+- /db : Bases de données communes (réseaux de chaleur, tables de valeurs au format XML et CSV)
+- /docs : Documents de référence
+- /model : Déclinaison des modèles de données par domaine métier
+- /schemas : Schémas de données au format JSON Schema
 
 ## Contribuer
 

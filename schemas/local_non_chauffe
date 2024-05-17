@@ -1,0 +1,156 @@
+title: Local non chauffé
+type: object
+properties:
+  id:
+    title: Identifiant
+    type: string
+    format: uuid
+  description:
+    title: Description
+    type: string
+  type:
+    $ref: "#/definitions/type"
+  b:
+    title: Coefficient de réduction des déperditions thermiques
+    type: number
+    readonly: true
+  paroi_opaque_collection:
+    type: array
+    items:
+      title: Paroi opaque
+      type: object
+      properties:
+        id:
+          title: Identifiant
+          type: string
+          format: uuid
+        description:
+          title: Description
+          type: string
+        surface:
+          title: Surface totale
+          type: number
+          exclusiveMinimum: 0
+        isolation:
+          title: État d'isolation
+          type: boolean
+      required:
+        - id
+        - description
+        - surface
+        - isolation
+  baie_collection:
+    type: array
+    items:
+      title: Baie
+      type: object
+      properties:
+        id:
+          title: Identifiant
+          type: string
+          format: uuid
+        description:
+          title: Description
+          type: string
+        surface:
+          title: Surface totale
+          type: number
+          exclusiveMinimum: 0
+        inclinaison_vitrage:
+          title: Inclinaison du vitrage
+          type: number
+          minimum: 0
+          maximum: 90
+        orientation:
+          title: Orientation
+          type: number
+          minimum: 0
+          maximum: 360
+        nature_menuiserie:
+          $ref: "#/definitions/natureMenuiserie"
+        type_vitrage:
+          $ref: "#/definitions/typeVitrage"
+      required:
+        - id
+        - description
+        - surface
+        - inclinaison_vitrage
+        - nature_menuiserie
+      allOf:
+        - if:
+            type: object
+            properties:
+              nature_menuiserie:
+                enum: [2, 3, 4, 5, 6]
+            required:
+              - nature_menuiserie
+          then:
+            required:
+              - type_vitrage
+required:
+  - id
+  - description
+  - type_lnc
+  - paroi_opaque_collection
+  - baie_collection
+$defs:
+  type:
+    title: Type de local non chauffé
+    type: integer
+    oneOf:
+      - title: Garage
+        const: 1
+      - title: Cellier
+        const: 2
+      - title: Espace tampon solarisé (vérandaloggia fermée)
+        const: 3
+      - title: Comble fortement ventilé
+        const: 4
+      - title: Comble faiblement ventilé
+        const: 5
+      - title: Comble très faiblement ventilé
+        const: 6
+      - title: Circulation sans ouverture directe sur l'extérieur
+        const: 7
+      - title: Circulation avec ouverture directe sur l'extérieur
+        const: 8
+      - title: Circulation avec bouche ou gaine de désenfumage ouverte en permanence
+        const: 9
+      - title: Hall d'entrée avec dispositif de fermeture automatique
+        const: 10
+      - title: Hall d'entrée sans dispositif de fermeture automatique
+        const: 11
+      - title: Garage privé collectif
+        const: 12
+      - title: Autres dépendances
+        const: 13
+  natureMenuiserie:
+    title: Nature de la menuiserie
+    type: integer
+    oneOf:
+      - title: Polycarbonate
+        const: 1
+      - title: Bois
+        const: 2
+      - title: Bois/métal
+        const: 3
+      - title: PVC
+        const: 4
+      - title: Métal avec rupture de pont thermique
+        const: 5
+      - title: Métal sans rupture de pont thermique
+        const: 6
+  typeVitrage:
+    title: Type de vitrage
+    type: integer
+    oneOf:
+      - title: Simple vitrage
+        const: 1
+      - title: Double vitrage
+        const: 2
+      - title: Double vitrage à faible émissivité
+        const: 3
+      - title: Triple vitrage
+        const: 4
+      - title: Triple vitrage à faible émissivité
+        const: 5
