@@ -1,72 +1,49 @@
-# @renolab/audit
+# Méthode de calcul de la Performance Conventionnelle des Logements (PCL)
 
-Un simulateur des performances énergétiques conventionnelles des logements pour évaluer l'impact d'un scénario de rénovation énergétique. Le code source de l'api est disponible sur un [dépôt dédié](https://github.com/renolab/audit-api).
+> [!IMPORTANT]
+> Ce dépôt couvre uniquement les modèle de données du moteur de calcul et centralise les échanges relatifs à la 
+> méthode 3CL (améliorations, failles, interprétations...). La base de code de l'API fait l'objet d'un dépôt 
+> dédié accessible [ici](https://github.com/action-21/reno-audit-api).
 
-## Contexte
+## PCL vs 3CL
 
-Dans le cadre de la Stratégie Nationale Bas Carbone, nous nous sommes fixés l'objectif de rénover l'ensemble des logements à un niveau BBC - Bâtiment Basse Consommation - à l'horizon 2050, soit un rythme de 700 000 rénovations performantes à atteindre d'ici 2030.
+1. La méthode PCL est une **extension de la méthode 3CL** dans le sens ou elle est une implémentation de l'arrêté du 8 octobre 2021 modifiant la méthode de calcul et les modalités d’établissement du diagnostic de performance énergétique.
 
-Pour y parvenir, l'un des enjeux est la diffusion de stratégies de rénovation performante globale et par étape adaptées aux caractéristiques du logement, ce qui suppose de pouvoir comparer l'impact desdites stratégies en matière de performances énergétiques conventionnelles.
+2. Les modèles de données utilisées par le PCL s'émancipent des modèles DPE-Audit édités par le l'Observatoire DPE. Si un travail de couplage a été réalisé, une partie des données modélisées par le PCL n'ont pas d'équivalence dans les modèles DPE-Audit et devront donc être déduites ou resaisies.
 
-## Problème
+3. La PCL fait le choix de mettre l'accent sur la notion de **performance conventionnelle** et non de **consommation conventionnelle**. Cette dernière est trompeuse car par son caractère conventionnel, la méthode de calcul accouche d'un indicateur de comparaison *toutes choses égales par ailleurs* qui ne permet pas d'anticiper les consommations réelles des occupants.
 
-L'audit énergétique n'est que partiellement exploité en raison de la nature statique des recommandations d'amélioration énergétique définies par l'auditeur lui-même. Cette situation conduit à limiter les scénarios de travaux applicables, et risque de limiter les opportunités de passage à l'acte par manque d'information.
+## Modèles de données
 
-## Solution
+Les modèles de données déduits de la méthode de calcul sont présentés dans le dossier /model. 
 
-Le Simulateur de performance est un service gratuit qui permet, sur la base d'un audit réglementaire existant, d'évaluer les performances énergétique conventionnelles (méthode 3CL-DPE) d'un logement après application d'un scénario de travaux.
+## Bases de données
 
-Le moteur 3CL-DPE utilisé par le Simulateur de performance est open source, transparent et documenté, afin de démontrer le respect de la méthode utilisée.
+Les données statiques (réseaux de chaleurs, valeurs conventionnelles) sont regroupées dans le dossier /db aux formats csv et xml.
 
-## Stratégie
+## Améliorations
 
-L'objectif du Simulateur de performance est d'être utilisé par les citoyens dans une démarche pédagogique d'information à la rénovation énergétique, mais également par les acteurs de l'accompagnement afin de les aider dans la mise en oeuvre de leurs missions.
+Ce dépôt vise également à recenser les défauts de la méthode 3CL et de proposer des solutions validées par la communauté.
 
-## Synthèse
+## Wiki
 
-### Pourquoi ?
+Un wiki de la méthode PCL sera publié sur un site dédié.
 
-🎯 Diffuser les scénarios de rénovation énergétique performante  
-🎯 Améliorer la compréhension des ménages de la performance énergétique de leur logement  
+## Démo
 
-### Comment ?
+Une démo s'appuyant sur la base de données des [DPE Logements existants](https://www.data.gouv.fr/fr/datasets/dpe-logements-existants-depuis-juillet-2021/) sera publiée sur le site du projet.
 
-👉 Simulation 3CL-DPE d'un scénario de travaux sur la base d'un audit/DPE existant  
+## Roadmap
 
-### Pour qui ?
+1. ~~Définition du projet~~
+2. **Conception des modèles de données**
+3. Site de présentation
+4. Démo en ligne
 
-🏛️ Les propriétaires  
-🏛️ Accompagnateurs de la rénovation énergétique  
-
-### Quand ?
-
-Mai 2024
-
-### Budget
-
-**⚠️ Ce projet n'est pas financé pour le moment et est porté bénévolement**
-
-### Contact
+## Contact
 
 [Adrien Rosi Dit Rozzi](https://www.linkedin.com/in/adrienrosi/)
 
-## Feuille de route
-
-1. ~~Définition du projet~~
-2. **Conception du modèle de données**
-3. **Développement de l'API**
-4. Développement d'une démo
-5. Déploiement
-
-## Organisation du projet
-
-Ce dépôt centralise toutes les informations relatives à la gestion du projet ainsi qu'au modèle de données. Les parties applicatives (API, application) font l'objet de dépôts dédiés.
-
-- /db : Bases de données communes (réseaux de chaleur, tables de valeurs au format XML et CSV)
-- /docs : Documents de référence
-- /model : Déclinaison des modèles de données par domaine métier
-- /schemas : Schémas de données au format JSON Schema
-
 ## Contribuer
 
-N'hésitez pas à échanger en créant de nouvelles [discussions](https://github.com/renolab/audit/discussions).
+N'hésitez pas à échanger en créant de nouvelles [discussions](./discussions).
