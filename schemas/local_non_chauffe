@@ -1,12 +1,13 @@
 title: Local non chauffé
+description: Local non chauffé séparant un espace chauffé de l'extérieur ou du sol.
 type: object
 properties:
   id:
-    title: Identifiant
+    title: Identifiant unique du local non chauffé
     type: string
     format: uuid
   description:
-    title: Description
+    title: Description du local non chauffé
     type: string
   type:
     $ref: "#/definitions/type"
