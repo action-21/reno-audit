@@ -1,0 +1,113 @@
+$id: https://schemas.pcl/1.0/LocalNonChauffe
+title: Local non chauffé
+type: object
+properties:
+  id:
+    $ref: https://schemas.pcl/1.0/Common#/$defs/Id
+  description:
+    $ref: https://schemas.pcl/1.0/Common#/$defs/Description
+  
+  parois:
+    title: Liste des parois du local non chauffé
+    type: array
+    items:
+      title: Paroi du local non chauffé
+      type: object
+      properties:
+        id:
+          $ref: https://schemas.pcl/1.0/Common#/$defs/Id
+        description:
+          $ref: https://schemas.pcl/1.0/Common#/$defs/Description
+        mitoyennete:
+          $ref: https://schemas.pcl/1.0/Paroi#/$defs/MitoyenneteEnum
+        surface:
+          title: Surface totale de la paroi en m²
+          $ref: https://schemas.pcl/1.0/Paroi#/$defs/Surface
+        isolation:
+          $ref: https://schemas.pcl/1.0/Paroi#/$defs/IsolationEnum
+      required:
+        - id
+        - description
+        - mitoyennete
+        - surface
+        - isolation
+  baies:
+    title: Liste des baies vitrées du local non chauffé
+    type: array
+    items:
+      title: Baie du local non chauffé
+      type: object
+      properties:
+        id:
+          $ref: https://schemas.pcl/1.0/Common#/$defs/Id
+        description:
+          $ref: https://schemas.pcl/1.0/Common#/$defs/Description
+        orientation:
+          $ref: https://schemas.pcl/1.0/Common#/$defs/Orientation
+        inclinaison:
+          $ref: https://schemas.pcl/1.0/Common#/$defs/Inclinaison
+        surface:
+          $ref: https://schemas.pcl/1.0/Common#/$defs/Surface
+        mitoyennete:
+          $ref: https://schemas.pcl/1.0/Paroi#/$defs/MitoyenneteEnum
+        type_vitrage:
+          $ref: https://schemas.pcl/1.0/Paroi#/$defs/TypeVitrageEnum
+      required:
+        - id
+        - description
+        - surface
+        - orientation
+        - inclinaison
+        - mitoyennete
+        - type_vitrage
+    allOf:
+      - if:
+          type: object
+          properties:
+            type_vitrage:
+              enum:
+                - SIMPLE_VITRAGE
+                - DOUBLE_VITRAGE
+                - DOUBLE_VITRAGE_FE
+                - TRIPLE_VITRAGE
+                - TRIPLE_VITRAGE_FE
+          required:
+            - type_vitrage
+        then:
+          type: object
+          properties:
+            nature_menuiserie:
+              $ref: https://schemas.pcl/1.0/Ouverture#/$defs/NatureMenuiserieEnum
+          required:
+            - nature_menuiserie
+$defs:
+  TypeLocalNonChauffeEnum:
+    title: Type de local non chauffé
+    type: string
+    oneOf:
+      - const: GARAGE
+        title: Garage
+      - const: CELLIER
+        title: Cellier
+      - const: ESPACE_TAMPON_SOLARISE
+        title: Espace tampon solarisé (vérandaloggia fermée)
+      - const: COMBLE_FORTEMENT_VENTILE
+        title: Comble fortement ventilé
+      - const: COMBLE_FAIBLEMENT_VENTILE
+        title: Comble faiblement ventilé
+      - const: COMBLE_TRES_FAIBLEMENT_VENTILE
+        title: Comble très faiblement ventilé
+      - const: CIRCULATION_SANS_OUVERTURE_EXTERIEURE
+        title: Circulation sans ouverture directe sur l'extérieur
+      - const: CIRCULATION_AVEC_OUVERTURE_EXTERIEURE
+        title: Circulation avec ouverture directe sur l'extérieur
+      - const: CIRCULATION_AVEC_BOUCHE_OU_GAINE_DESENFUMAGE_OUVERTE
+        title: Circulation avec bouche ou gaine de désenfumage ouverte en permanence
+      - const: HALL_ENTREE_AVEC_FERMETURE_AUTOMATIQUE
+        title: Hall d'entrée avec dispositif de fermeture automatique
+      - const: HALL_ENTREE_SANS_FERMETURE_AUTOMATIQUE
+        title: Hall d'entrée sans dispositif de fermeture automatique
+      - const: GARAGE_COLLECTIF
+        title: Garage privé collectif
+      - const: AUTRES
+        title: Autres dépendances

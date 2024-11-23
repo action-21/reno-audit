@@ -1,0 +1,2893 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table name="chauffage.combustion">
+    <row>
+        <type_generateur>ACCUMULATEUR_CONDENSATION</type_generateur>
+        <energie_generateur>GAZ_NATUREL</energie_generateur>
+        <annee_installation_generateur gt="" gte="" lt="" lte="2000" />
+        <pn gt="" gte="" lt="" lte="" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[98]]></rpn>
+        <qp0><![CDATA[1.5 / 100 * Pn]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>ACCUMULATEUR_CONDENSATION</type_generateur>
+        <energie_generateur>GAZ_NATUREL</energie_generateur>
+        <annee_installation_generateur gt="" gte="2001" lt="" lte="" />
+        <pn gt="" gte="" lt="" lte="" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[98]]></rpn>
+        <qp0><![CDATA[1.5 / 100 * Pn]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>ACCUMULATEUR_CONDENSATION</type_generateur>
+        <energie_generateur>GPL</energie_generateur>
+        <annee_installation_generateur gt="" gte="" lt="" lte="2000" />
+        <pn gt="" gte="" lt="" lte="" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[98]]></rpn>
+        <qp0><![CDATA[1.5 / 100 * Pn]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>ACCUMULATEUR_CONDENSATION</type_generateur>
+        <energie_generateur>GPL</energie_generateur>
+        <annee_installation_generateur gt="" gte="2001" lt="" lte="" />
+        <pn gt="" gte="" lt="" lte="" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[98]]></rpn>
+        <qp0><![CDATA[1.5 / 100 * Pn]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>ACCUMULATEUR_STANDARD</type_generateur>
+        <energie_generateur>GAZ_NATUREL</energie_generateur>
+        <annee_installation_generateur gt="" gte="" lt="" lte="1989" />
+        <pn gt="" gte="" lt="" lte="" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[81]]></rpn>
+        <qp0><![CDATA[1.5 / 100 * Pn]]></qp0>
+        <pveilleuse>200</pveilleuse>
+    </row>
+    <row>
+        <type_generateur>ACCUMULATEUR_STANDARD</type_generateur>
+        <energie_generateur>GAZ_NATUREL</energie_generateur>
+        <annee_installation_generateur gt="" gte="1990" lt="" lte="2000" />
+        <pn gt="" gte="" lt="" lte="" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[84]]></rpn>
+        <qp0><![CDATA[1.5 / 100 * Pn]]></qp0>
+        <pveilleuse>150</pveilleuse>
+    </row>
+    <row>
+        <type_generateur>ACCUMULATEUR_STANDARD</type_generateur>
+        <energie_generateur>GAZ_NATUREL</energie_generateur>
+        <annee_installation_generateur gt="" gte="2001" lt="" lte="" />
+        <pn gt="" gte="" lt="" lte="" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[84]]></rpn>
+        <qp0><![CDATA[1.5 / 100 * Pn]]></qp0>
+        <pveilleuse>150</pveilleuse>
+    </row>
+    <row>
+        <type_generateur>ACCUMULATEUR_STANDARD</type_generateur>
+        <energie_generateur>GPL</energie_generateur>
+        <annee_installation_generateur gt="" gte="" lt="" lte="1989" />
+        <pn gt="" gte="" lt="" lte="" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[81]]></rpn>
+        <qp0><![CDATA[1.5 / 100 * Pn]]></qp0>
+        <pveilleuse>200</pveilleuse>
+    </row>
+    <row>
+        <type_generateur>ACCUMULATEUR_STANDARD</type_generateur>
+        <energie_generateur>GPL</energie_generateur>
+        <annee_installation_generateur gt="" gte="1990" lt="" lte="2000" />
+        <pn gt="" gte="" lt="" lte="" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[84]]></rpn>
+        <qp0><![CDATA[1.5 / 100 * Pn]]></qp0>
+        <pveilleuse>150</pveilleuse>
+    </row>
+    <row>
+        <type_generateur>ACCUMULATEUR_STANDARD</type_generateur>
+        <energie_generateur>GPL</energie_generateur>
+        <annee_installation_generateur gt="" gte="2001" lt="" lte="" />
+        <pn gt="" gte="" lt="" lte="" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[84]]></rpn>
+        <qp0><![CDATA[1.5 / 100 * Pn]]></qp0>
+        <pveilleuse>150</pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_BASSE_TEMPERATURE</type_generateur>
+        <energie_generateur>BOIS_BUCHE</energie_generateur>
+        <annee_installation_generateur gt="" gte="" lt="" lte="1977" />
+        <pn gt="" gte="" lt="" lte="70" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[47 + 6 * logPn]]></rpn>
+        <qp0><![CDATA[8.0 / 100 * Pn * (Pn ^ -0.27)]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_BASSE_TEMPERATURE</type_generateur>
+        <energie_generateur>BOIS_BUCHE</energie_generateur>
+        <annee_installation_generateur gt="" gte="" lt="" lte="1977" />
+        <pn gt="70" gte="" lt="" lte="400" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[58]]></rpn>
+        <qp0><![CDATA[1.8]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_BASSE_TEMPERATURE</type_generateur>
+        <energie_generateur>BOIS_BUCHE</energie_generateur>
+        <annee_installation_generateur gt="" gte="" lt="" lte="1977" />
+        <pn gt="400" gte="" lt="" lte="" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[58]]></rpn>
+        <qp0><![CDATA[1.1]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_BASSE_TEMPERATURE</type_generateur>
+        <energie_generateur>BOIS_BUCHE</energie_generateur>
+        <annee_installation_generateur gt="" gte="1978" lt="" lte="1994" />
+        <pn gt="" gte="" lt="" lte="70" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[47 + 6 * logPn]]></rpn>
+        <qp0><![CDATA[7.0 / 100 * Pn * (Pn ^ -0.3)]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_BASSE_TEMPERATURE</type_generateur>
+        <energie_generateur>BOIS_BUCHE</energie_generateur>
+        <annee_installation_generateur gt="" gte="1978" lt="" lte="1994" />
+        <pn gt="70" gte="" lt="" lte="400" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[58]]></rpn>
+        <qp0><![CDATA[1.4]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_BASSE_TEMPERATURE</type_generateur>
+        <energie_generateur>BOIS_BUCHE</energie_generateur>
+        <annee_installation_generateur gt="" gte="1978" lt="" lte="1994" />
+        <pn gt="400" gte="" lt="" lte="" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[58]]></rpn>
+        <qp0><![CDATA[0.8]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_BASSE_TEMPERATURE</type_generateur>
+        <energie_generateur>BOIS_BUCHE</energie_generateur>
+        <annee_installation_generateur gt="" gte="1995" lt="" lte="2003" />
+        <pn gt="" gte="" lt="" lte="70" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[47 + 6 * logPn]]></rpn>
+        <qp0><![CDATA[8.5 / 100 * Pn * (Pn ^ -0.4)]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_BASSE_TEMPERATURE</type_generateur>
+        <energie_generateur>BOIS_BUCHE</energie_generateur>
+        <annee_installation_generateur gt="" gte="1995" lt="" lte="2003" />
+        <pn gt="70" gte="" lt="" lte="400" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[58]]></rpn>
+        <qp0><![CDATA[1.1]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_BASSE_TEMPERATURE</type_generateur>
+        <energie_generateur>BOIS_BUCHE</energie_generateur>
+        <annee_installation_generateur gt="" gte="1995" lt="" lte="2003" />
+        <pn gt="400" gte="" lt="" lte="" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[58]]></rpn>
+        <qp0><![CDATA[0.5]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_BASSE_TEMPERATURE</type_generateur>
+        <energie_generateur>BOIS_BUCHE</energie_generateur>
+        <annee_installation_generateur gt="" gte="2004" lt="" lte="2012" />
+        <pn gt="" gte="" lt="" lte="70" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[57 + 6 * logPn]]></rpn>
+        <qp0><![CDATA[8.5 / 100 * Pn * (Pn ^ -0.4)]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_BASSE_TEMPERATURE</type_generateur>
+        <energie_generateur>BOIS_BUCHE</energie_generateur>
+        <annee_installation_generateur gt="" gte="2004" lt="" lte="2012" />
+        <pn gt="70" gte="" lt="" lte="400" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[68]]></rpn>
+        <qp0><![CDATA[1.1]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_BASSE_TEMPERATURE</type_generateur>
+        <energie_generateur>BOIS_BUCHE</energie_generateur>
+        <annee_installation_generateur gt="" gte="2004" lt="" lte="2012" />
+        <pn gt="400" gte="" lt="" lte="" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[68]]></rpn>
+        <qp0><![CDATA[0.5]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_BASSE_TEMPERATURE</type_generateur>
+        <energie_generateur>BOIS_BUCHE</energie_generateur>
+        <annee_installation_generateur gt="" gte="2013" lt="" lte="2017" />
+        <pn gt="" gte="" lt="" lte="70" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[67 + 6 * logPn]]></rpn>
+        <qp0><![CDATA[8.5 / 100 * Pn * (Pn ^ -0.4)]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_BASSE_TEMPERATURE</type_generateur>
+        <energie_generateur>BOIS_BUCHE</energie_generateur>
+        <annee_installation_generateur gt="" gte="2013" lt="" lte="2017" />
+        <pn gt="70" gte="" lt="" lte="400" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[78]]></rpn>
+        <qp0><![CDATA[1.1]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_BASSE_TEMPERATURE</type_generateur>
+        <energie_generateur>BOIS_BUCHE</energie_generateur>
+        <annee_installation_generateur gt="" gte="2013" lt="" lte="2017" />
+        <pn gt="400" gte="" lt="" lte="" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[78]]></rpn>
+        <qp0><![CDATA[0.5]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_BASSE_TEMPERATURE</type_generateur>
+        <energie_generateur>BOIS_BUCHE</energie_generateur>
+        <annee_installation_generateur gt="" gte="2018" lt="" lte="2019" />
+        <pn gt="" gte="" lt="" lte="70" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[80 + 2 * logPn]]></rpn>
+        <qp0><![CDATA[8.5 / 100 * Pn * (Pn ^ -0.4)]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_BASSE_TEMPERATURE</type_generateur>
+        <energie_generateur>BOIS_BUCHE</energie_generateur>
+        <annee_installation_generateur gt="" gte="2018" lt="" lte="2019" />
+        <pn gt="70" gte="" lt="" lte="400" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[84]]></rpn>
+        <qp0><![CDATA[1.1]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_BASSE_TEMPERATURE</type_generateur>
+        <energie_generateur>BOIS_BUCHE</energie_generateur>
+        <annee_installation_generateur gt="" gte="2018" lt="" lte="2019" />
+        <pn gt="400" gte="" lt="" lte="" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[84]]></rpn>
+        <qp0><![CDATA[0.5]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_BASSE_TEMPERATURE</type_generateur>
+        <energie_generateur>BOIS_BUCHE</energie_generateur>
+        <annee_installation_generateur gt="" gte="2020" lt="" lte="" />
+        <pn gt="" gte="" lt="" lte="20" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[89 + 2 * logPn]]></rpn>
+        <qp0><![CDATA[8.5 / 100 * Pn * (Pn ^ -0.4)]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_BASSE_TEMPERATURE</type_generateur>
+        <energie_generateur>BOIS_BUCHE</energie_generateur>
+        <annee_installation_generateur gt="" gte="2020" lt="" lte="" />
+        <pn gt="20" gte="" lt="" lte="70" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[90 + 2 * logPn]]></rpn>
+        <qp0><![CDATA[8.5 / 100 * Pn * (Pn ^ -0.4)]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_BASSE_TEMPERATURE</type_generateur>
+        <energie_generateur>BOIS_BUCHE</energie_generateur>
+        <annee_installation_generateur gt="" gte="2020" lt="" lte="" />
+        <pn gt="70" gte="" lt="" lte="400" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[94]]></rpn>
+        <qp0><![CDATA[1.1]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_BASSE_TEMPERATURE</type_generateur>
+        <energie_generateur>BOIS_BUCHE</energie_generateur>
+        <annee_installation_generateur gt="" gte="2020" lt="" lte="" />
+        <pn gt="400" gte="" lt="" lte="" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[94]]></rpn>
+        <qp0><![CDATA[0.5]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_BASSE_TEMPERATURE</type_generateur>
+        <energie_generateur>BOIS_GRANULE</energie_generateur>
+        <annee_installation_generateur gt="" gte="" lt="" lte="1977" />
+        <pn gt="" gte="" lt="" lte="70" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[47 + 6 * logPn]]></rpn>
+        <qp0><![CDATA[8.0 / 100 * Pn * (Pn ^ -0.27)]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_BASSE_TEMPERATURE</type_generateur>
+        <energie_generateur>BOIS_GRANULE</energie_generateur>
+        <annee_installation_generateur gt="" gte="" lt="" lte="1977" />
+        <pn gt="70" gte="" lt="" lte="400" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[58]]></rpn>
+        <qp0><![CDATA[1.8]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_BASSE_TEMPERATURE</type_generateur>
+        <energie_generateur>BOIS_GRANULE</energie_generateur>
+        <annee_installation_generateur gt="" gte="" lt="" lte="1977" />
+        <pn gt="400" gte="" lt="" lte="" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[58]]></rpn>
+        <qp0><![CDATA[1.1]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_BASSE_TEMPERATURE</type_generateur>
+        <energie_generateur>BOIS_GRANULE</energie_generateur>
+        <annee_installation_generateur gt="" gte="1978" lt="" lte="1994" />
+        <pn gt="" gte="" lt="" lte="70" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[47 + 6 * logPn]]></rpn>
+        <qp0><![CDATA[8.0 / 100 * Pn * (Pn ^ -0.3)]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_BASSE_TEMPERATURE</type_generateur>
+        <energie_generateur>BOIS_GRANULE</energie_generateur>
+        <annee_installation_generateur gt="" gte="1978" lt="" lte="1994" />
+        <pn gt="70" gte="" lt="" lte="400" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[58]]></rpn>
+        <qp0><![CDATA[1.4]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_BASSE_TEMPERATURE</type_generateur>
+        <energie_generateur>BOIS_GRANULE</energie_generateur>
+        <annee_installation_generateur gt="" gte="1978" lt="" lte="1994" />
+        <pn gt="400" gte="" lt="" lte="" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[58]]></rpn>
+        <qp0><![CDATA[0.8]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_BASSE_TEMPERATURE</type_generateur>
+        <energie_generateur>BOIS_GRANULE</energie_generateur>
+        <annee_installation_generateur gt="" gte="1995" lt="" lte="2003" />
+        <pn gt="" gte="" lt="" lte="70" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[57 + 6 * logPn]]></rpn>
+        <qp0><![CDATA[8.5 / 100 * Pn * (Pn ^ -0.4)]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_BASSE_TEMPERATURE</type_generateur>
+        <energie_generateur>BOIS_GRANULE</energie_generateur>
+        <annee_installation_generateur gt="" gte="1995" lt="" lte="2003" />
+        <pn gt="70" gte="" lt="" lte="400" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[68]]></rpn>
+        <qp0><![CDATA[1.1]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_BASSE_TEMPERATURE</type_generateur>
+        <energie_generateur>BOIS_GRANULE</energie_generateur>
+        <annee_installation_generateur gt="" gte="1995" lt="" lte="2003" />
+        <pn gt="400" gte="" lt="" lte="" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[68]]></rpn>
+        <qp0><![CDATA[0.5]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_BASSE_TEMPERATURE</type_generateur>
+        <energie_generateur>BOIS_GRANULE</energie_generateur>
+        <annee_installation_generateur gt="" gte="2004" lt="" lte="2012" />
+        <pn gt="" gte="" lt="" lte="70" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[67 + 6 * logPn]]></rpn>
+        <qp0><![CDATA[8.5 / 100 * Pn * (Pn ^ -0.4)]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_BASSE_TEMPERATURE</type_generateur>
+        <energie_generateur>BOIS_GRANULE</energie_generateur>
+        <annee_installation_generateur gt="" gte="2004" lt="" lte="2012" />
+        <pn gt="70" gte="" lt="" lte="400" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[78]]></rpn>
+        <qp0><![CDATA[1.1]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_BASSE_TEMPERATURE</type_generateur>
+        <energie_generateur>BOIS_GRANULE</energie_generateur>
+        <annee_installation_generateur gt="" gte="2004" lt="" lte="2012" />
+        <pn gt="400" gte="" lt="" lte="" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[78]]></rpn>
+        <qp0><![CDATA[0.5]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_BASSE_TEMPERATURE</type_generateur>
+        <energie_generateur>BOIS_GRANULE</energie_generateur>
+        <annee_installation_generateur gt="" gte="2013" lt="" lte="2019" />
+        <pn gt="" gte="" lt="" lte="70" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[80 + 2 * logPn]]></rpn>
+        <qp0><![CDATA[8.5 / 100 * Pn * (Pn ^ -0.4)]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_BASSE_TEMPERATURE</type_generateur>
+        <energie_generateur>BOIS_GRANULE</energie_generateur>
+        <annee_installation_generateur gt="" gte="2013" lt="" lte="2019" />
+        <pn gt="70" gte="" lt="" lte="400" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[84]]></rpn>
+        <qp0><![CDATA[1.1]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_BASSE_TEMPERATURE</type_generateur>
+        <energie_generateur>BOIS_GRANULE</energie_generateur>
+        <annee_installation_generateur gt="" gte="2013" lt="" lte="2019" />
+        <pn gt="400" gte="" lt="" lte="" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[84]]></rpn>
+        <qp0><![CDATA[0.5]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_BASSE_TEMPERATURE</type_generateur>
+        <energie_generateur>BOIS_GRANULE</energie_generateur>
+        <annee_installation_generateur gt="" gte="2020" lt="" lte="" />
+        <pn gt="" gte="" lt="" lte="20" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[91 + 2 * logPn]]></rpn>
+        <qp0><![CDATA[8.5 / 100 * Pn * (Pn ^ -0.4)]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_BASSE_TEMPERATURE</type_generateur>
+        <energie_generateur>BOIS_GRANULE</energie_generateur>
+        <annee_installation_generateur gt="" gte="2020" lt="" lte="" />
+        <pn gt="20" gte="" lt="" lte="70" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[92 + 2 * logPn]]></rpn>
+        <qp0><![CDATA[8.5 / 100 * Pn * (Pn ^ -0.4)]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_BASSE_TEMPERATURE</type_generateur>
+        <energie_generateur>BOIS_GRANULE</energie_generateur>
+        <annee_installation_generateur gt="" gte="2020" lt="" lte="" />
+        <pn gt="70" gte="" lt="" lte="400" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[96]]></rpn>
+        <qp0><![CDATA[1.1]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_BASSE_TEMPERATURE</type_generateur>
+        <energie_generateur>BOIS_GRANULE</energie_generateur>
+        <annee_installation_generateur gt="" gte="2020" lt="" lte="" />
+        <pn gt="400" gte="" lt="" lte="" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[96]]></rpn>
+        <qp0><![CDATA[0.5]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_BASSE_TEMPERATURE</type_generateur>
+        <energie_generateur>BOIS_PLAQUETTE</energie_generateur>
+        <annee_installation_generateur gt="" gte="" lt="" lte="1977" />
+        <pn gt="" gte="" lt="" lte="70" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[47 + 6 * logPn]]></rpn>
+        <qp0><![CDATA[8.0 / 100 * Pn * (Pn ^ -0.27)]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_BASSE_TEMPERATURE</type_generateur>
+        <energie_generateur>BOIS_PLAQUETTE</energie_generateur>
+        <annee_installation_generateur gt="" gte="" lt="" lte="1977" />
+        <pn gt="70" gte="" lt="" lte="400" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[58]]></rpn>
+        <qp0><![CDATA[1.8]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_BASSE_TEMPERATURE</type_generateur>
+        <energie_generateur>BOIS_PLAQUETTE</energie_generateur>
+        <annee_installation_generateur gt="" gte="" lt="" lte="1977" />
+        <pn gt="400" gte="" lt="" lte="" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[58]]></rpn>
+        <qp0><![CDATA[1.1]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_BASSE_TEMPERATURE</type_generateur>
+        <energie_generateur>BOIS_PLAQUETTE</energie_generateur>
+        <annee_installation_generateur gt="" gte="1978" lt="" lte="1994" />
+        <pn gt="" gte="" lt="" lte="70" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[47 + 6 * logPn]]></rpn>
+        <qp0><![CDATA[7.0 / 100 * Pn * (Pn ^ -0.3)]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_BASSE_TEMPERATURE</type_generateur>
+        <energie_generateur>BOIS_PLAQUETTE</energie_generateur>
+        <annee_installation_generateur gt="" gte="1978" lt="" lte="1994" />
+        <pn gt="70" gte="" lt="" lte="400" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[58]]></rpn>
+        <qp0><![CDATA[1.4]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_BASSE_TEMPERATURE</type_generateur>
+        <energie_generateur>BOIS_PLAQUETTE</energie_generateur>
+        <annee_installation_generateur gt="" gte="1978" lt="" lte="1994" />
+        <pn gt="400" gte="" lt="" lte="" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[58]]></rpn>
+        <qp0><![CDATA[0.8]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_BASSE_TEMPERATURE</type_generateur>
+        <energie_generateur>BOIS_PLAQUETTE</energie_generateur>
+        <annee_installation_generateur gt="" gte="1995" lt="" lte="2003" />
+        <pn gt="" gte="" lt="" lte="70" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[47 + 6 * logPn]]></rpn>
+        <qp0><![CDATA[8.5 / 100 * Pn * (Pn ^ -0.4)]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_BASSE_TEMPERATURE</type_generateur>
+        <energie_generateur>BOIS_PLAQUETTE</energie_generateur>
+        <annee_installation_generateur gt="" gte="1995" lt="" lte="2003" />
+        <pn gt="70" gte="" lt="" lte="400" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[58]]></rpn>
+        <qp0><![CDATA[1.1]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_BASSE_TEMPERATURE</type_generateur>
+        <energie_generateur>BOIS_PLAQUETTE</energie_generateur>
+        <annee_installation_generateur gt="" gte="1995" lt="" lte="2003" />
+        <pn gt="400" gte="" lt="" lte="" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[58]]></rpn>
+        <qp0><![CDATA[0.5]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_BASSE_TEMPERATURE</type_generateur>
+        <energie_generateur>BOIS_PLAQUETTE</energie_generateur>
+        <annee_installation_generateur gt="" gte="2004" lt="" lte="2012" />
+        <pn gt="" gte="" lt="" lte="70" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[57 + 6 * logPn]]></rpn>
+        <qp0><![CDATA[8.5 / 100 * Pn * (Pn ^ -0.4)]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_BASSE_TEMPERATURE</type_generateur>
+        <energie_generateur>BOIS_PLAQUETTE</energie_generateur>
+        <annee_installation_generateur gt="" gte="2004" lt="" lte="2012" />
+        <pn gt="70" gte="" lt="" lte="400" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[68]]></rpn>
+        <qp0><![CDATA[1.1]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_BASSE_TEMPERATURE</type_generateur>
+        <energie_generateur>BOIS_PLAQUETTE</energie_generateur>
+        <annee_installation_generateur gt="" gte="2004" lt="" lte="2012" />
+        <pn gt="400" gte="" lt="" lte="" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[68]]></rpn>
+        <qp0><![CDATA[0.5]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_BASSE_TEMPERATURE</type_generateur>
+        <energie_generateur>BOIS_PLAQUETTE</energie_generateur>
+        <annee_installation_generateur gt="" gte="2013" lt="" lte="2017" />
+        <pn gt="" gte="" lt="" lte="70" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[67 + 6 * logPn]]></rpn>
+        <qp0><![CDATA[8.5 / 100 * Pn * (Pn ^ -0.4)]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_BASSE_TEMPERATURE</type_generateur>
+        <energie_generateur>BOIS_PLAQUETTE</energie_generateur>
+        <annee_installation_generateur gt="" gte="2013" lt="" lte="2017" />
+        <pn gt="70" gte="" lt="" lte="400" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[78]]></rpn>
+        <qp0><![CDATA[1.1]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_BASSE_TEMPERATURE</type_generateur>
+        <energie_generateur>BOIS_PLAQUETTE</energie_generateur>
+        <annee_installation_generateur gt="" gte="2013" lt="" lte="2017" />
+        <pn gt="400" gte="" lt="" lte="" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[78]]></rpn>
+        <qp0><![CDATA[0.5]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_BASSE_TEMPERATURE</type_generateur>
+        <energie_generateur>BOIS_PLAQUETTE</energie_generateur>
+        <annee_installation_generateur gt="" gte="2018" lt="" lte="2019" />
+        <pn gt="" gte="" lt="" lte="70" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[80 + 2 * logPn]]></rpn>
+        <qp0><![CDATA[8.5 / 100 * Pn * (Pn ^ -0.4)]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_BASSE_TEMPERATURE</type_generateur>
+        <energie_generateur>BOIS_PLAQUETTE</energie_generateur>
+        <annee_installation_generateur gt="" gte="2018" lt="" lte="2019" />
+        <pn gt="70" gte="" lt="" lte="400" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[84]]></rpn>
+        <qp0><![CDATA[1.1]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_BASSE_TEMPERATURE</type_generateur>
+        <energie_generateur>BOIS_PLAQUETTE</energie_generateur>
+        <annee_installation_generateur gt="" gte="2018" lt="" lte="2019" />
+        <pn gt="400" gte="" lt="" lte="" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[84]]></rpn>
+        <qp0><![CDATA[0.5]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_BASSE_TEMPERATURE</type_generateur>
+        <energie_generateur>BOIS_PLAQUETTE</energie_generateur>
+        <annee_installation_generateur gt="" gte="2020" lt="" lte="" />
+        <pn gt="" gte="" lt="" lte="20" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[89 + 2 * logPn]]></rpn>
+        <qp0><![CDATA[8.5 / 100 * Pn * (Pn ^ -0.4)]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_BASSE_TEMPERATURE</type_generateur>
+        <energie_generateur>BOIS_PLAQUETTE</energie_generateur>
+        <annee_installation_generateur gt="" gte="2020" lt="" lte="" />
+        <pn gt="20" gte="" lt="" lte="70" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[90 + 2 * logPn]]></rpn>
+        <qp0><![CDATA[8.5 / 100 * Pn * (Pn ^ -0.4)]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_BASSE_TEMPERATURE</type_generateur>
+        <energie_generateur>BOIS_PLAQUETTE</energie_generateur>
+        <annee_installation_generateur gt="" gte="2020" lt="" lte="" />
+        <pn gt="70" gte="" lt="" lte="400" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[94]]></rpn>
+        <qp0><![CDATA[1.1]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_BASSE_TEMPERATURE</type_generateur>
+        <energie_generateur>BOIS_PLAQUETTE</energie_generateur>
+        <annee_installation_generateur gt="" gte="2020" lt="" lte="" />
+        <pn gt="400" gte="" lt="" lte="" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[94]]></rpn>
+        <qp0><![CDATA[0.5]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_BASSE_TEMPERATURE</type_generateur>
+        <energie_generateur>FIOUL</energie_generateur>
+        <annee_installation_generateur gt="" gte="" lt="" lte="2015" />
+        <pn gt="" gte="" lt="" lte="" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[87.5 + 1.5 * logPn]]></rpn>
+        <qp0><![CDATA[1.0 / 100 * Pn]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_BASSE_TEMPERATURE</type_generateur>
+        <energie_generateur>FIOUL</energie_generateur>
+        <annee_installation_generateur gt="" gte="2016" lt="" lte="" />
+        <pn gt="" gte="" lt="" lte="" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[87.5 + 1.5 * logPn]]></rpn>
+        <qp0><![CDATA[Pn * (E + F * logPn) / 100 * Pn]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_BASSE_TEMPERATURE</type_generateur>
+        <energie_generateur>GAZ_NATUREL</energie_generateur>
+        <annee_installation_generateur gt="" gte="" lt="" lte="2000" />
+        <pn gt="" gte="" lt="" lte="" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[87.5 + 1.5 * logPn]]></rpn>
+        <qp0><![CDATA[1.2 / 100 * Pn]]></qp0>
+        <pveilleuse>120</pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_BASSE_TEMPERATURE</type_generateur>
+        <energie_generateur>GAZ_NATUREL</energie_generateur>
+        <annee_installation_generateur gt="" gte="2001" lt="" lte="2015" />
+        <pn gt="" gte="" lt="" lte="" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[87.5 + 1.5 * logPn]]></rpn>
+        <qp0><![CDATA[1.0 / 100 * Pn]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_BASSE_TEMPERATURE</type_generateur>
+        <energie_generateur>GAZ_NATUREL</energie_generateur>
+        <annee_installation_generateur gt="" gte="2016" lt="" lte="" />
+        <pn gt="" gte="" lt="" lte="" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[87.5 + 1.5 * logPn]]></rpn>
+        <qp0><![CDATA[Pn * (E + F * logPn) / 100 * Pn]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_BASSE_TEMPERATURE</type_generateur>
+        <energie_generateur>GPL</energie_generateur>
+        <annee_installation_generateur gt="" gte="" lt="" lte="2000" />
+        <pn gt="" gte="" lt="" lte="" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[87.5 + 1.5 * logPn]]></rpn>
+        <qp0><![CDATA[1.2 / 100 * Pn]]></qp0>
+        <pveilleuse>120</pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_BASSE_TEMPERATURE</type_generateur>
+        <energie_generateur>GPL</energie_generateur>
+        <annee_installation_generateur gt="" gte="2001" lt="" lte="2015" />
+        <pn gt="" gte="" lt="" lte="" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[87.5 + 1.5 * logPn]]></rpn>
+        <qp0><![CDATA[1.0 / 100 * Pn]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_BASSE_TEMPERATURE</type_generateur>
+        <energie_generateur>GPL</energie_generateur>
+        <annee_installation_generateur gt="" gte="2016" lt="" lte="" />
+        <pn gt="" gte="" lt="" lte="" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[87.5 + 1.5 * logPn]]></rpn>
+        <qp0><![CDATA[Pn * (E + F * logPn) / 100 * Pn]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_CONDENSATION</type_generateur>
+        <energie_generateur>BOIS_BUCHE</energie_generateur>
+        <annee_installation_generateur gt="" gte="" lt="" lte="1977" />
+        <pn gt="" gte="" lt="" lte="70" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[47 + 6 * logPn]]></rpn>
+        <qp0><![CDATA[8.0 / 100 * Pn * (Pn ^ -0.27)]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_CONDENSATION</type_generateur>
+        <energie_generateur>BOIS_BUCHE</energie_generateur>
+        <annee_installation_generateur gt="" gte="" lt="" lte="1977" />
+        <pn gt="70" gte="" lt="" lte="400" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[58]]></rpn>
+        <qp0><![CDATA[1.8]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_CONDENSATION</type_generateur>
+        <energie_generateur>BOIS_BUCHE</energie_generateur>
+        <annee_installation_generateur gt="" gte="" lt="" lte="1977" />
+        <pn gt="400" gte="" lt="" lte="" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[58]]></rpn>
+        <qp0><![CDATA[1.1]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_CONDENSATION</type_generateur>
+        <energie_generateur>BOIS_BUCHE</energie_generateur>
+        <annee_installation_generateur gt="" gte="1978" lt="" lte="1994" />
+        <pn gt="" gte="" lt="" lte="70" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[47 + 6 * logPn]]></rpn>
+        <qp0><![CDATA[7.0 / 100 * Pn * (Pn ^ -0.3)]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_CONDENSATION</type_generateur>
+        <energie_generateur>BOIS_BUCHE</energie_generateur>
+        <annee_installation_generateur gt="" gte="1978" lt="" lte="1994" />
+        <pn gt="70" gte="" lt="" lte="400" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[58]]></rpn>
+        <qp0><![CDATA[1.4]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_CONDENSATION</type_generateur>
+        <energie_generateur>BOIS_BUCHE</energie_generateur>
+        <annee_installation_generateur gt="" gte="1978" lt="" lte="1994" />
+        <pn gt="400" gte="" lt="" lte="" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[58]]></rpn>
+        <qp0><![CDATA[0.8]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_CONDENSATION</type_generateur>
+        <energie_generateur>BOIS_BUCHE</energie_generateur>
+        <annee_installation_generateur gt="" gte="1995" lt="" lte="2003" />
+        <pn gt="" gte="" lt="" lte="70" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[47 + 6 * logPn]]></rpn>
+        <qp0><![CDATA[8.5 / 100 * Pn * (Pn ^ -0.4)]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_CONDENSATION</type_generateur>
+        <energie_generateur>BOIS_BUCHE</energie_generateur>
+        <annee_installation_generateur gt="" gte="1995" lt="" lte="2003" />
+        <pn gt="70" gte="" lt="" lte="400" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[58]]></rpn>
+        <qp0><![CDATA[1.1]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_CONDENSATION</type_generateur>
+        <energie_generateur>BOIS_BUCHE</energie_generateur>
+        <annee_installation_generateur gt="" gte="1995" lt="" lte="2003" />
+        <pn gt="400" gte="" lt="" lte="" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[58]]></rpn>
+        <qp0><![CDATA[0.5]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_CONDENSATION</type_generateur>
+        <energie_generateur>BOIS_BUCHE</energie_generateur>
+        <annee_installation_generateur gt="" gte="2004" lt="" lte="2012" />
+        <pn gt="" gte="" lt="" lte="70" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[57 + 6 * logPn]]></rpn>
+        <qp0><![CDATA[8.5 / 100 * Pn * (Pn ^ -0.4)]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_CONDENSATION</type_generateur>
+        <energie_generateur>BOIS_BUCHE</energie_generateur>
+        <annee_installation_generateur gt="" gte="2004" lt="" lte="2012" />
+        <pn gt="70" gte="" lt="" lte="400" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[68]]></rpn>
+        <qp0><![CDATA[1.1]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_CONDENSATION</type_generateur>
+        <energie_generateur>BOIS_BUCHE</energie_generateur>
+        <annee_installation_generateur gt="" gte="2004" lt="" lte="2012" />
+        <pn gt="400" gte="" lt="" lte="" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[68]]></rpn>
+        <qp0><![CDATA[0.5]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_CONDENSATION</type_generateur>
+        <energie_generateur>BOIS_BUCHE</energie_generateur>
+        <annee_installation_generateur gt="" gte="2013" lt="" lte="2017" />
+        <pn gt="" gte="" lt="" lte="70" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[67 + 6 * logPn]]></rpn>
+        <qp0><![CDATA[8.5 / 100 * Pn * (Pn ^ -0.4)]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_CONDENSATION</type_generateur>
+        <energie_generateur>BOIS_BUCHE</energie_generateur>
+        <annee_installation_generateur gt="" gte="2013" lt="" lte="2017" />
+        <pn gt="70" gte="" lt="" lte="400" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[78]]></rpn>
+        <qp0><![CDATA[1.1]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_CONDENSATION</type_generateur>
+        <energie_generateur>BOIS_BUCHE</energie_generateur>
+        <annee_installation_generateur gt="" gte="2013" lt="" lte="2017" />
+        <pn gt="400" gte="" lt="" lte="" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[78]]></rpn>
+        <qp0><![CDATA[0.5]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_CONDENSATION</type_generateur>
+        <energie_generateur>BOIS_BUCHE</energie_generateur>
+        <annee_installation_generateur gt="" gte="2018" lt="" lte="2019" />
+        <pn gt="" gte="" lt="" lte="70" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[80 + 2 * logPn]]></rpn>
+        <qp0><![CDATA[8.5 / 100 * Pn * (Pn ^ -0.4)]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_CONDENSATION</type_generateur>
+        <energie_generateur>BOIS_BUCHE</energie_generateur>
+        <annee_installation_generateur gt="" gte="2018" lt="" lte="2019" />
+        <pn gt="70" gte="" lt="" lte="400" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[84]]></rpn>
+        <qp0><![CDATA[1.1]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_CONDENSATION</type_generateur>
+        <energie_generateur>BOIS_BUCHE</energie_generateur>
+        <annee_installation_generateur gt="" gte="2018" lt="" lte="2019" />
+        <pn gt="400" gte="" lt="" lte="" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[84]]></rpn>
+        <qp0><![CDATA[0.5]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_CONDENSATION</type_generateur>
+        <energie_generateur>BOIS_BUCHE</energie_generateur>
+        <annee_installation_generateur gt="" gte="2020" lt="" lte="" />
+        <pn gt="" gte="" lt="" lte="20" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[89 + 2 * logPn]]></rpn>
+        <qp0><![CDATA[8.5 / 100 * Pn * (Pn ^ -0.4)]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_CONDENSATION</type_generateur>
+        <energie_generateur>BOIS_BUCHE</energie_generateur>
+        <annee_installation_generateur gt="" gte="2020" lt="" lte="" />
+        <pn gt="20" gte="" lt="" lte="70" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[90 + 2 * logPn]]></rpn>
+        <qp0><![CDATA[8.5 / 100 * Pn * (Pn ^ -0.4)]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_CONDENSATION</type_generateur>
+        <energie_generateur>BOIS_BUCHE</energie_generateur>
+        <annee_installation_generateur gt="" gte="2020" lt="" lte="" />
+        <pn gt="70" gte="" lt="" lte="400" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[94]]></rpn>
+        <qp0><![CDATA[1.1]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_CONDENSATION</type_generateur>
+        <energie_generateur>BOIS_BUCHE</energie_generateur>
+        <annee_installation_generateur gt="" gte="2020" lt="" lte="" />
+        <pn gt="400" gte="" lt="" lte="" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[94]]></rpn>
+        <qp0><![CDATA[0.5]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_CONDENSATION</type_generateur>
+        <energie_generateur>BOIS_GRANULE</energie_generateur>
+        <annee_installation_generateur gt="" gte="" lt="" lte="1977" />
+        <pn gt="" gte="" lt="" lte="70" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[47 + 6 * logPn]]></rpn>
+        <qp0><![CDATA[8.0 / 100 * Pn * (Pn ^ -0.27)]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_CONDENSATION</type_generateur>
+        <energie_generateur>BOIS_GRANULE</energie_generateur>
+        <annee_installation_generateur gt="" gte="" lt="" lte="1977" />
+        <pn gt="70" gte="" lt="" lte="400" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[58]]></rpn>
+        <qp0><![CDATA[1.8]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_CONDENSATION</type_generateur>
+        <energie_generateur>BOIS_GRANULE</energie_generateur>
+        <annee_installation_generateur gt="" gte="" lt="" lte="1977" />
+        <pn gt="400" gte="" lt="" lte="" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[58]]></rpn>
+        <qp0><![CDATA[1.1]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_CONDENSATION</type_generateur>
+        <energie_generateur>BOIS_GRANULE</energie_generateur>
+        <annee_installation_generateur gt="" gte="1978" lt="" lte="1994" />
+        <pn gt="" gte="" lt="" lte="70" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[47 + 6 * logPn]]></rpn>
+        <qp0><![CDATA[8.0 / 100 * Pn * (Pn ^ -0.3)]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_CONDENSATION</type_generateur>
+        <energie_generateur>BOIS_GRANULE</energie_generateur>
+        <annee_installation_generateur gt="" gte="1978" lt="" lte="1994" />
+        <pn gt="70" gte="" lt="" lte="400" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[58]]></rpn>
+        <qp0><![CDATA[1.4]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_CONDENSATION</type_generateur>
+        <energie_generateur>BOIS_GRANULE</energie_generateur>
+        <annee_installation_generateur gt="" gte="1978" lt="" lte="1994" />
+        <pn gt="400" gte="" lt="" lte="" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[58]]></rpn>
+        <qp0><![CDATA[0.8]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_CONDENSATION</type_generateur>
+        <energie_generateur>BOIS_GRANULE</energie_generateur>
+        <annee_installation_generateur gt="" gte="1995" lt="" lte="2003" />
+        <pn gt="" gte="" lt="" lte="70" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[57 + 6 * logPn]]></rpn>
+        <qp0><![CDATA[8.5 / 100 * Pn * (Pn ^ -0.4)]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_CONDENSATION</type_generateur>
+        <energie_generateur>BOIS_GRANULE</energie_generateur>
+        <annee_installation_generateur gt="" gte="1995" lt="" lte="2003" />
+        <pn gt="70" gte="" lt="" lte="400" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[68]]></rpn>
+        <qp0><![CDATA[1.1]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_CONDENSATION</type_generateur>
+        <energie_generateur>BOIS_GRANULE</energie_generateur>
+        <annee_installation_generateur gt="" gte="1995" lt="" lte="2003" />
+        <pn gt="400" gte="" lt="" lte="" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[68]]></rpn>
+        <qp0><![CDATA[0.5]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_CONDENSATION</type_generateur>
+        <energie_generateur>BOIS_GRANULE</energie_generateur>
+        <annee_installation_generateur gt="" gte="2004" lt="" lte="2012" />
+        <pn gt="" gte="" lt="" lte="70" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[67 + 6 * logPn]]></rpn>
+        <qp0><![CDATA[8.5 / 100 * Pn * (Pn ^ -0.4)]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_CONDENSATION</type_generateur>
+        <energie_generateur>BOIS_GRANULE</energie_generateur>
+        <annee_installation_generateur gt="" gte="2004" lt="" lte="2012" />
+        <pn gt="70" gte="" lt="" lte="400" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[78]]></rpn>
+        <qp0><![CDATA[1.1]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_CONDENSATION</type_generateur>
+        <energie_generateur>BOIS_GRANULE</energie_generateur>
+        <annee_installation_generateur gt="" gte="2004" lt="" lte="2012" />
+        <pn gt="400" gte="" lt="" lte="" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[78]]></rpn>
+        <qp0><![CDATA[0.5]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_CONDENSATION</type_generateur>
+        <energie_generateur>BOIS_GRANULE</energie_generateur>
+        <annee_installation_generateur gt="" gte="2013" lt="" lte="2019" />
+        <pn gt="" gte="" lt="" lte="70" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[80 + 2 * logPn]]></rpn>
+        <qp0><![CDATA[8.5 / 100 * Pn * (Pn ^ -0.4)]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_CONDENSATION</type_generateur>
+        <energie_generateur>BOIS_GRANULE</energie_generateur>
+        <annee_installation_generateur gt="" gte="2013" lt="" lte="2019" />
+        <pn gt="70" gte="" lt="" lte="400" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[84]]></rpn>
+        <qp0><![CDATA[1.1]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_CONDENSATION</type_generateur>
+        <energie_generateur>BOIS_GRANULE</energie_generateur>
+        <annee_installation_generateur gt="" gte="2013" lt="" lte="2019" />
+        <pn gt="400" gte="" lt="" lte="" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[84]]></rpn>
+        <qp0><![CDATA[0.5]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_CONDENSATION</type_generateur>
+        <energie_generateur>BOIS_GRANULE</energie_generateur>
+        <annee_installation_generateur gt="" gte="2020" lt="" lte="" />
+        <pn gt="" gte="" lt="" lte="20" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[91 + 2 * logPn]]></rpn>
+        <qp0><![CDATA[8.5 / 100 * Pn * (Pn ^ -0.4)]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_CONDENSATION</type_generateur>
+        <energie_generateur>BOIS_GRANULE</energie_generateur>
+        <annee_installation_generateur gt="" gte="2020" lt="" lte="" />
+        <pn gt="20" gte="" lt="" lte="70" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[92 + 2 * logPn]]></rpn>
+        <qp0><![CDATA[8.5 / 100 * Pn * (Pn ^ -0.4)]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_CONDENSATION</type_generateur>
+        <energie_generateur>BOIS_GRANULE</energie_generateur>
+        <annee_installation_generateur gt="" gte="2020" lt="" lte="" />
+        <pn gt="70" gte="" lt="" lte="400" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[96]]></rpn>
+        <qp0><![CDATA[1.1]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_CONDENSATION</type_generateur>
+        <energie_generateur>BOIS_GRANULE</energie_generateur>
+        <annee_installation_generateur gt="" gte="2020" lt="" lte="" />
+        <pn gt="400" gte="" lt="" lte="" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[96]]></rpn>
+        <qp0><![CDATA[0.5]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_CONDENSATION</type_generateur>
+        <energie_generateur>BOIS_PLAQUETTE</energie_generateur>
+        <annee_installation_generateur gt="" gte="" lt="" lte="1977" />
+        <pn gt="" gte="" lt="" lte="70" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[47 + 6 * logPn]]></rpn>
+        <qp0><![CDATA[8.0 / 100 * Pn * (Pn ^ -0.27)]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_CONDENSATION</type_generateur>
+        <energie_generateur>BOIS_PLAQUETTE</energie_generateur>
+        <annee_installation_generateur gt="" gte="" lt="" lte="1977" />
+        <pn gt="70" gte="" lt="" lte="400" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[58]]></rpn>
+        <qp0><![CDATA[1.8]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_CONDENSATION</type_generateur>
+        <energie_generateur>BOIS_PLAQUETTE</energie_generateur>
+        <annee_installation_generateur gt="" gte="" lt="" lte="1977" />
+        <pn gt="400" gte="" lt="" lte="" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[58]]></rpn>
+        <qp0><![CDATA[1.1]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_CONDENSATION</type_generateur>
+        <energie_generateur>BOIS_PLAQUETTE</energie_generateur>
+        <annee_installation_generateur gt="" gte="1978" lt="" lte="1994" />
+        <pn gt="" gte="" lt="" lte="70" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[47 + 6 * logPn]]></rpn>
+        <qp0><![CDATA[7.0 / 100 * Pn * (Pn ^ -0.3)]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_CONDENSATION</type_generateur>
+        <energie_generateur>BOIS_PLAQUETTE</energie_generateur>
+        <annee_installation_generateur gt="" gte="1978" lt="" lte="1994" />
+        <pn gt="70" gte="" lt="" lte="400" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[58]]></rpn>
+        <qp0><![CDATA[1.4]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_CONDENSATION</type_generateur>
+        <energie_generateur>BOIS_PLAQUETTE</energie_generateur>
+        <annee_installation_generateur gt="" gte="1978" lt="" lte="1994" />
+        <pn gt="400" gte="" lt="" lte="" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[58]]></rpn>
+        <qp0><![CDATA[0.8]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_CONDENSATION</type_generateur>
+        <energie_generateur>BOIS_PLAQUETTE</energie_generateur>
+        <annee_installation_generateur gt="" gte="1995" lt="" lte="2003" />
+        <pn gt="" gte="" lt="" lte="70" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[47 + 6 * logPn]]></rpn>
+        <qp0><![CDATA[8.5 / 100 * Pn * (Pn ^ -0.4)]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_CONDENSATION</type_generateur>
+        <energie_generateur>BOIS_PLAQUETTE</energie_generateur>
+        <annee_installation_generateur gt="" gte="1995" lt="" lte="2003" />
+        <pn gt="70" gte="" lt="" lte="400" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[58]]></rpn>
+        <qp0><![CDATA[1.1]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_CONDENSATION</type_generateur>
+        <energie_generateur>BOIS_PLAQUETTE</energie_generateur>
+        <annee_installation_generateur gt="" gte="1995" lt="" lte="2003" />
+        <pn gt="400" gte="" lt="" lte="" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[58]]></rpn>
+        <qp0><![CDATA[0.5]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_CONDENSATION</type_generateur>
+        <energie_generateur>BOIS_PLAQUETTE</energie_generateur>
+        <annee_installation_generateur gt="" gte="2004" lt="" lte="2012" />
+        <pn gt="" gte="" lt="" lte="70" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[57 + 6 * logPn]]></rpn>
+        <qp0><![CDATA[8.5 / 100 * Pn * (Pn ^ -0.4)]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_CONDENSATION</type_generateur>
+        <energie_generateur>BOIS_PLAQUETTE</energie_generateur>
+        <annee_installation_generateur gt="" gte="2004" lt="" lte="2012" />
+        <pn gt="70" gte="" lt="" lte="400" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[68]]></rpn>
+        <qp0><![CDATA[1.1]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_CONDENSATION</type_generateur>
+        <energie_generateur>BOIS_PLAQUETTE</energie_generateur>
+        <annee_installation_generateur gt="" gte="2004" lt="" lte="2012" />
+        <pn gt="400" gte="" lt="" lte="" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[68]]></rpn>
+        <qp0><![CDATA[0.5]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_CONDENSATION</type_generateur>
+        <energie_generateur>BOIS_PLAQUETTE</energie_generateur>
+        <annee_installation_generateur gt="" gte="2013" lt="" lte="2017" />
+        <pn gt="" gte="" lt="" lte="70" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[67 + 6 * logPn]]></rpn>
+        <qp0><![CDATA[8.5 / 100 * Pn * (Pn ^ -0.4)]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_CONDENSATION</type_generateur>
+        <energie_generateur>BOIS_PLAQUETTE</energie_generateur>
+        <annee_installation_generateur gt="" gte="2013" lt="" lte="2017" />
+        <pn gt="70" gte="" lt="" lte="400" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[78]]></rpn>
+        <qp0><![CDATA[1.1]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_CONDENSATION</type_generateur>
+        <energie_generateur>BOIS_PLAQUETTE</energie_generateur>
+        <annee_installation_generateur gt="" gte="2013" lt="" lte="2017" />
+        <pn gt="400" gte="" lt="" lte="" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[78]]></rpn>
+        <qp0><![CDATA[0.5]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_CONDENSATION</type_generateur>
+        <energie_generateur>BOIS_PLAQUETTE</energie_generateur>
+        <annee_installation_generateur gt="" gte="2018" lt="" lte="2019" />
+        <pn gt="" gte="" lt="" lte="70" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[80 + 2 * logPn]]></rpn>
+        <qp0><![CDATA[8.5 / 100 * Pn * (Pn ^ -0.4)]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_CONDENSATION</type_generateur>
+        <energie_generateur>BOIS_PLAQUETTE</energie_generateur>
+        <annee_installation_generateur gt="" gte="2018" lt="" lte="2019" />
+        <pn gt="70" gte="" lt="" lte="400" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[84]]></rpn>
+        <qp0><![CDATA[1.1]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_CONDENSATION</type_generateur>
+        <energie_generateur>BOIS_PLAQUETTE</energie_generateur>
+        <annee_installation_generateur gt="" gte="2018" lt="" lte="2019" />
+        <pn gt="400" gte="" lt="" lte="" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[84]]></rpn>
+        <qp0><![CDATA[0.5]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_CONDENSATION</type_generateur>
+        <energie_generateur>BOIS_PLAQUETTE</energie_generateur>
+        <annee_installation_generateur gt="" gte="2020" lt="" lte="" />
+        <pn gt="" gte="" lt="" lte="20" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[89 + 2 * logPn]]></rpn>
+        <qp0><![CDATA[8.5 / 100 * Pn * (Pn ^ -0.4)]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_CONDENSATION</type_generateur>
+        <energie_generateur>BOIS_PLAQUETTE</energie_generateur>
+        <annee_installation_generateur gt="" gte="2020" lt="" lte="" />
+        <pn gt="20" gte="" lt="" lte="70" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[90 + 2 * logPn]]></rpn>
+        <qp0><![CDATA[8.5 / 100 * Pn * (Pn ^ -0.4)]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_CONDENSATION</type_generateur>
+        <energie_generateur>BOIS_PLAQUETTE</energie_generateur>
+        <annee_installation_generateur gt="" gte="2020" lt="" lte="" />
+        <pn gt="70" gte="" lt="" lte="400" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[94]]></rpn>
+        <qp0><![CDATA[1.1]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_CONDENSATION</type_generateur>
+        <energie_generateur>BOIS_PLAQUETTE</energie_generateur>
+        <annee_installation_generateur gt="" gte="2020" lt="" lte="" />
+        <pn gt="400" gte="" lt="" lte="" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[94]]></rpn>
+        <qp0><![CDATA[0.5]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_CONDENSATION</type_generateur>
+        <energie_generateur>FIOUL</energie_generateur>
+        <annee_installation_generateur gt="" gte="" lt="" lte="2015" />
+        <pn gt="" gte="" lt="" lte="" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[91 + logPn]]></rpn>
+        <qp0><![CDATA[1.0 / 100 * Pn]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_CONDENSATION</type_generateur>
+        <energie_generateur>FIOUL</energie_generateur>
+        <annee_installation_generateur gt="" gte="2016" lt="" lte="" />
+        <pn gt="" gte="" lt="" lte="70" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[91 + 3 * logPn]]></rpn>
+        <qp0><![CDATA[0.5 / 100 * Pn]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_CONDENSATION</type_generateur>
+        <energie_generateur>FIOUL</energie_generateur>
+        <annee_installation_generateur gt="" gte="2016" lt="" lte="" />
+        <pn gt="70" gte="" lt="" lte="400" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[94 + logPn]]></rpn>
+        <qp0><![CDATA[0.6 / 100 * Pn]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_CONDENSATION</type_generateur>
+        <energie_generateur>FIOUL</energie_generateur>
+        <annee_installation_generateur gt="" gte="2016" lt="" lte="" />
+        <pn gt="400" gte="" lt="" lte="" />
+        <pn_max>400</pn_max>
+        <rpn><![CDATA[96.6]]></rpn>
+        <qp0><![CDATA[0.3 / 100 * Pn]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_CONDENSATION</type_generateur>
+        <energie_generateur>GAZ_NATUREL</energie_generateur>
+        <annee_installation_generateur gt="" gte="" lt="" lte="1985" />
+        <pn gt="" gte="" lt="" lte="" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[91 + logPn]]></rpn>
+        <qp0><![CDATA[1.0 / 100 * Pn]]></qp0>
+        <pveilleuse>150</pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_CONDENSATION</type_generateur>
+        <energie_generateur>GAZ_NATUREL</energie_generateur>
+        <annee_installation_generateur gt="" gte="1986" lt="" lte="2000" />
+        <pn gt="" gte="" lt="" lte="" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[91 + logPn]]></rpn>
+        <qp0><![CDATA[1.0 / 100 * Pn]]></qp0>
+        <pveilleuse>120</pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_CONDENSATION</type_generateur>
+        <energie_generateur>GAZ_NATUREL</energie_generateur>
+        <annee_installation_generateur gt="" gte="2001" lt="" lte="2015" />
+        <pn gt="" gte="" lt="" lte="" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[91 + logPn]]></rpn>
+        <qp0><![CDATA[1.0 / 100 * Pn]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_CONDENSATION</type_generateur>
+        <energie_generateur>GAZ_NATUREL</energie_generateur>
+        <annee_installation_generateur gt="" gte="2016" lt="" lte="" />
+        <pn gt="" gte="" lt="" lte="70" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[91 + 3 * logPn]]></rpn>
+        <qp0><![CDATA[0.5 / 100 * Pn]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_CONDENSATION</type_generateur>
+        <energie_generateur>GAZ_NATUREL</energie_generateur>
+        <annee_installation_generateur gt="" gte="2016" lt="" lte="" />
+        <pn gt="70" gte="" lt="" lte="400" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[94 + logPn]]></rpn>
+        <qp0><![CDATA[0.3 / 100 * Pn]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_CONDENSATION</type_generateur>
+        <energie_generateur>GAZ_NATUREL</energie_generateur>
+        <annee_installation_generateur gt="" gte="2016" lt="" lte="" />
+        <pn gt="400" gte="" lt="" lte="" />
+        <pn_max>400</pn_max>
+        <rpn><![CDATA[96.6]]></rpn>
+        <qp0><![CDATA[0.3 / 100 * Pn]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_CONDENSATION</type_generateur>
+        <energie_generateur>GPL</energie_generateur>
+        <annee_installation_generateur gt="" gte="" lt="" lte="1985" />
+        <pn gt="" gte="" lt="" lte="" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[91 + logPn]]></rpn>
+        <qp0><![CDATA[1.0 / 100 * Pn]]></qp0>
+        <pveilleuse>150</pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_CONDENSATION</type_generateur>
+        <energie_generateur>GPL</energie_generateur>
+        <annee_installation_generateur gt="" gte="1986" lt="" lte="2000" />
+        <pn gt="" gte="" lt="" lte="" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[91 + logPn]]></rpn>
+        <qp0><![CDATA[1.0 / 100 * Pn]]></qp0>
+        <pveilleuse>120</pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_CONDENSATION</type_generateur>
+        <energie_generateur>GPL</energie_generateur>
+        <annee_installation_generateur gt="" gte="2001" lt="" lte="2015" />
+        <pn gt="" gte="" lt="" lte="" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[91 + logPn]]></rpn>
+        <qp0><![CDATA[1.0 / 100 * Pn]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_CONDENSATION</type_generateur>
+        <energie_generateur>GPL</energie_generateur>
+        <annee_installation_generateur gt="" gte="2016" lt="" lte="" />
+        <pn gt="" gte="" lt="" lte="70" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[91 + 3 * logPn]]></rpn>
+        <qp0><![CDATA[0.5 / 100 * Pn]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_CONDENSATION</type_generateur>
+        <energie_generateur>GPL</energie_generateur>
+        <annee_installation_generateur gt="" gte="2016" lt="" lte="" />
+        <pn gt="70" gte="" lt="" lte="400" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[94 + logPn]]></rpn>
+        <qp0><![CDATA[0.3 / 100 * Pn]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_CONDENSATION</type_generateur>
+        <energie_generateur>GPL</energie_generateur>
+        <annee_installation_generateur gt="" gte="2016" lt="" lte="" />
+        <pn gt="400" gte="" lt="" lte="" />
+        <pn_max>400</pn_max>
+        <rpn><![CDATA[96.6]]></rpn>
+        <qp0><![CDATA[0.3 / 100 * Pn]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_STANDARD</type_generateur>
+        <energie_generateur>BOIS_BUCHE</energie_generateur>
+        <annee_installation_generateur gt="" gte="" lt="" lte="1977" />
+        <pn gt="" gte="" lt="" lte="70" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[47 + 6 * logPn]]></rpn>
+        <qp0><![CDATA[0.08 * Pn * (Pn ^ -0.27)]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_STANDARD</type_generateur>
+        <energie_generateur>BOIS_BUCHE</energie_generateur>
+        <annee_installation_generateur gt="" gte="" lt="" lte="1977" />
+        <pn gt="70" gte="" lt="" lte="400" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[58]]></rpn>
+        <qp0><![CDATA[1.8]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_STANDARD</type_generateur>
+        <energie_generateur>BOIS_BUCHE</energie_generateur>
+        <annee_installation_generateur gt="" gte="" lt="" lte="1977" />
+        <pn gt="400" gte="" lt="" lte="" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[58]]></rpn>
+        <qp0><![CDATA[1.1]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_STANDARD</type_generateur>
+        <energie_generateur>BOIS_BUCHE</energie_generateur>
+        <annee_installation_generateur gt="" gte="1978" lt="" lte="1994" />
+        <pn gt="" gte="" lt="" lte="70" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[47 + 6 * logPn]]></rpn>
+        <qp0><![CDATA[0.07 * Pn * (Pn ^ -0.3)]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_STANDARD</type_generateur>
+        <energie_generateur>BOIS_BUCHE</energie_generateur>
+        <annee_installation_generateur gt="" gte="1978" lt="" lte="1994" />
+        <pn gt="70" gte="" lt="" lte="400" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[58]]></rpn>
+        <qp0><![CDATA[1.4]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_STANDARD</type_generateur>
+        <energie_generateur>BOIS_BUCHE</energie_generateur>
+        <annee_installation_generateur gt="" gte="1978" lt="" lte="1994" />
+        <pn gt="400" gte="" lt="" lte="" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[58]]></rpn>
+        <qp0><![CDATA[0.8]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_STANDARD</type_generateur>
+        <energie_generateur>BOIS_BUCHE</energie_generateur>
+        <annee_installation_generateur gt="" gte="1995" lt="" lte="2003" />
+        <pn gt="" gte="" lt="" lte="70" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[47 + 6 * logPn]]></rpn>
+        <qp0><![CDATA[0.085 * Pn * (Pn ^ -0.4)]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_STANDARD</type_generateur>
+        <energie_generateur>BOIS_BUCHE</energie_generateur>
+        <annee_installation_generateur gt="" gte="1995" lt="" lte="2003" />
+        <pn gt="70" gte="" lt="" lte="400" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[58]]></rpn>
+        <qp0><![CDATA[1.1]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_STANDARD</type_generateur>
+        <energie_generateur>BOIS_BUCHE</energie_generateur>
+        <annee_installation_generateur gt="" gte="1995" lt="" lte="2003" />
+        <pn gt="400" gte="" lt="" lte="" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[58]]></rpn>
+        <qp0><![CDATA[0.5]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_STANDARD</type_generateur>
+        <energie_generateur>BOIS_BUCHE</energie_generateur>
+        <annee_installation_generateur gt="" gte="2004" lt="" lte="2012" />
+        <pn gt="" gte="" lt="" lte="70" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[57 + 6 * logPn]]></rpn>
+        <qp0><![CDATA[0.085 * Pn * (Pn ^ -0.4)]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_STANDARD</type_generateur>
+        <energie_generateur>BOIS_BUCHE</energie_generateur>
+        <annee_installation_generateur gt="" gte="2004" lt="" lte="2012" />
+        <pn gt="70" gte="" lt="" lte="400" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[68]]></rpn>
+        <qp0><![CDATA[1.1]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_STANDARD</type_generateur>
+        <energie_generateur>BOIS_BUCHE</energie_generateur>
+        <annee_installation_generateur gt="" gte="2004" lt="" lte="2012" />
+        <pn gt="400" gte="" lt="" lte="" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[68]]></rpn>
+        <qp0><![CDATA[0.5]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_STANDARD</type_generateur>
+        <energie_generateur>BOIS_BUCHE</energie_generateur>
+        <annee_installation_generateur gt="" gte="2013" lt="" lte="2017" />
+        <pn gt="" gte="" lt="" lte="70" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[67 + 6 * logPn]]></rpn>
+        <qp0><![CDATA[0.085 * Pn * (Pn ^ -0.4)]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_STANDARD</type_generateur>
+        <energie_generateur>BOIS_BUCHE</energie_generateur>
+        <annee_installation_generateur gt="" gte="2013" lt="" lte="2017" />
+        <pn gt="70" gte="" lt="" lte="400" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[78]]></rpn>
+        <qp0><![CDATA[1.1]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_STANDARD</type_generateur>
+        <energie_generateur>BOIS_BUCHE</energie_generateur>
+        <annee_installation_generateur gt="" gte="2013" lt="" lte="2017" />
+        <pn gt="400" gte="" lt="" lte="" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[78]]></rpn>
+        <qp0><![CDATA[0.5]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_STANDARD</type_generateur>
+        <energie_generateur>BOIS_BUCHE</energie_generateur>
+        <annee_installation_generateur gt="" gte="2018" lt="" lte="2019" />
+        <pn gt="" gte="" lt="" lte="70" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[80 + 2 * logPn]]></rpn>
+        <qp0><![CDATA[0.085 * Pn * (Pn ^ -0.4)]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_STANDARD</type_generateur>
+        <energie_generateur>BOIS_BUCHE</energie_generateur>
+        <annee_installation_generateur gt="" gte="2018" lt="" lte="2019" />
+        <pn gt="70" gte="" lt="" lte="400" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[84]]></rpn>
+        <qp0><![CDATA[1.1]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_STANDARD</type_generateur>
+        <energie_generateur>BOIS_BUCHE</energie_generateur>
+        <annee_installation_generateur gt="" gte="2018" lt="" lte="2019" />
+        <pn gt="400" gte="" lt="" lte="" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[84]]></rpn>
+        <qp0><![CDATA[0.5]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_STANDARD</type_generateur>
+        <energie_generateur>BOIS_BUCHE</energie_generateur>
+        <annee_installation_generateur gt="" gte="2020" lt="" lte="" />
+        <pn gt="" gte="" lt="" lte="20" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[89 + 2 * logPn]]></rpn>
+        <qp0><![CDATA[0.085 * Pn * (Pn ^ -0.4)]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_STANDARD</type_generateur>
+        <energie_generateur>BOIS_BUCHE</energie_generateur>
+        <annee_installation_generateur gt="" gte="2020" lt="" lte="" />
+        <pn gt="20" gte="" lt="" lte="70" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[90 + 2 * logPn]]></rpn>
+        <qp0><![CDATA[0.085 * Pn * (Pn ^ -0.4)]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_STANDARD</type_generateur>
+        <energie_generateur>BOIS_BUCHE</energie_generateur>
+        <annee_installation_generateur gt="" gte="2020" lt="" lte="" />
+        <pn gt="70" gte="" lt="" lte="400" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[94]]></rpn>
+        <qp0><![CDATA[1.1]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_STANDARD</type_generateur>
+        <energie_generateur>BOIS_BUCHE</energie_generateur>
+        <annee_installation_generateur gt="" gte="2020" lt="" lte="" />
+        <pn gt="400" gte="" lt="" lte="" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[94]]></rpn>
+        <qp0><![CDATA[0.5]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_STANDARD</type_generateur>
+        <energie_generateur>BOIS_GRANULE</energie_generateur>
+        <annee_installation_generateur gt="" gte="" lt="" lte="1977" />
+        <pn gt="" gte="" lt="" lte="70" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[47 + 6 * logPn]]></rpn>
+        <qp0><![CDATA[0.08 * Pn * (Pn ^ -0.27)]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_STANDARD</type_generateur>
+        <energie_generateur>BOIS_GRANULE</energie_generateur>
+        <annee_installation_generateur gt="" gte="" lt="" lte="1977" />
+        <pn gt="70" gte="" lt="" lte="400" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[58]]></rpn>
+        <qp0><![CDATA[1.8]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_STANDARD</type_generateur>
+        <energie_generateur>BOIS_GRANULE</energie_generateur>
+        <annee_installation_generateur gt="" gte="" lt="" lte="1977" />
+        <pn gt="400" gte="" lt="" lte="" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[58]]></rpn>
+        <qp0><![CDATA[1.1]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_STANDARD</type_generateur>
+        <energie_generateur>BOIS_GRANULE</energie_generateur>
+        <annee_installation_generateur gt="" gte="1978" lt="" lte="1994" />
+        <pn gt="" gte="" lt="" lte="70" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[47 + 6 * logPn]]></rpn>
+        <qp0><![CDATA[0.08 * Pn * (Pn ^ -0.3)]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_STANDARD</type_generateur>
+        <energie_generateur>BOIS_GRANULE</energie_generateur>
+        <annee_installation_generateur gt="" gte="1978" lt="" lte="1994" />
+        <pn gt="70" gte="" lt="" lte="400" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[58]]></rpn>
+        <qp0><![CDATA[1.4]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_STANDARD</type_generateur>
+        <energie_generateur>BOIS_GRANULE</energie_generateur>
+        <annee_installation_generateur gt="" gte="1978" lt="" lte="1994" />
+        <pn gt="400" gte="" lt="" lte="" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[58]]></rpn>
+        <qp0><![CDATA[0.8]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_STANDARD</type_generateur>
+        <energie_generateur>BOIS_GRANULE</energie_generateur>
+        <annee_installation_generateur gt="" gte="1995" lt="" lte="2003" />
+        <pn gt="" gte="" lt="" lte="70" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[57 + 6 * logPn]]></rpn>
+        <qp0><![CDATA[0.085 * Pn * (Pn ^ -0.4)]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_STANDARD</type_generateur>
+        <energie_generateur>BOIS_GRANULE</energie_generateur>
+        <annee_installation_generateur gt="" gte="1995" lt="" lte="2003" />
+        <pn gt="70" gte="" lt="" lte="400" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[68]]></rpn>
+        <qp0><![CDATA[1.1]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_STANDARD</type_generateur>
+        <energie_generateur>BOIS_GRANULE</energie_generateur>
+        <annee_installation_generateur gt="" gte="1995" lt="" lte="2003" />
+        <pn gt="400" gte="" lt="" lte="" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[68]]></rpn>
+        <qp0><![CDATA[0.5]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_STANDARD</type_generateur>
+        <energie_generateur>BOIS_GRANULE</energie_generateur>
+        <annee_installation_generateur gt="" gte="2004" lt="" lte="2012" />
+        <pn gt="" gte="" lt="" lte="70" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[67 + 6 * logPn]]></rpn>
+        <qp0><![CDATA[0.085 * Pn * (Pn ^ -0.4)]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_STANDARD</type_generateur>
+        <energie_generateur>BOIS_GRANULE</energie_generateur>
+        <annee_installation_generateur gt="" gte="2004" lt="" lte="2012" />
+        <pn gt="70" gte="" lt="" lte="400" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[78]]></rpn>
+        <qp0><![CDATA[1.1]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_STANDARD</type_generateur>
+        <energie_generateur>BOIS_GRANULE</energie_generateur>
+        <annee_installation_generateur gt="" gte="2004" lt="" lte="2012" />
+        <pn gt="400" gte="" lt="" lte="" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[78]]></rpn>
+        <qp0><![CDATA[0.5]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_STANDARD</type_generateur>
+        <energie_generateur>BOIS_GRANULE</energie_generateur>
+        <annee_installation_generateur gt="" gte="2013" lt="" lte="2019" />
+        <pn gt="" gte="" lt="" lte="70" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[80 + 2 * logPn]]></rpn>
+        <qp0><![CDATA[0.085 * Pn * (Pn ^ -0.4)]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_STANDARD</type_generateur>
+        <energie_generateur>BOIS_GRANULE</energie_generateur>
+        <annee_installation_generateur gt="" gte="2013" lt="" lte="2019" />
+        <pn gt="70" gte="" lt="" lte="400" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[84]]></rpn>
+        <qp0><![CDATA[1.1]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_STANDARD</type_generateur>
+        <energie_generateur>BOIS_GRANULE</energie_generateur>
+        <annee_installation_generateur gt="" gte="2013" lt="" lte="2019" />
+        <pn gt="400" gte="" lt="" lte="" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[84]]></rpn>
+        <qp0><![CDATA[0.5]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_STANDARD</type_generateur>
+        <energie_generateur>BOIS_GRANULE</energie_generateur>
+        <annee_installation_generateur gt="" gte="2020" lt="" lte="" />
+        <pn gt="" gte="" lt="" lte="20" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[91 + 2 * logPn]]></rpn>
+        <qp0><![CDATA[0.085 * Pn * (Pn ^ -0.4)]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_STANDARD</type_generateur>
+        <energie_generateur>BOIS_GRANULE</energie_generateur>
+        <annee_installation_generateur gt="" gte="2020" lt="" lte="" />
+        <pn gt="20" gte="" lt="" lte="70" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[92 + 2 * logPn]]></rpn>
+        <qp0><![CDATA[0.085 * Pn * (Pn ^ -0.4)]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_STANDARD</type_generateur>
+        <energie_generateur>BOIS_GRANULE</energie_generateur>
+        <annee_installation_generateur gt="" gte="2020" lt="" lte="" />
+        <pn gt="70" gte="" lt="" lte="400" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[96]]></rpn>
+        <qp0><![CDATA[1.1]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_STANDARD</type_generateur>
+        <energie_generateur>BOIS_GRANULE</energie_generateur>
+        <annee_installation_generateur gt="" gte="2020" lt="" lte="" />
+        <pn gt="400" gte="" lt="" lte="" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[96]]></rpn>
+        <qp0><![CDATA[0.5]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_STANDARD</type_generateur>
+        <energie_generateur>BOIS_PLAQUETTE</energie_generateur>
+        <annee_installation_generateur gt="" gte="" lt="" lte="1977" />
+        <pn gt="" gte="" lt="" lte="70" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[47 + 6 * logPn]]></rpn>
+        <qp0><![CDATA[0.08 * Pn * (Pn ^ -0.27)]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_STANDARD</type_generateur>
+        <energie_generateur>BOIS_PLAQUETTE</energie_generateur>
+        <annee_installation_generateur gt="" gte="" lt="" lte="1977" />
+        <pn gt="70" gte="" lt="" lte="400" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[58]]></rpn>
+        <qp0><![CDATA[1.8]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_STANDARD</type_generateur>
+        <energie_generateur>BOIS_PLAQUETTE</energie_generateur>
+        <annee_installation_generateur gt="" gte="" lt="" lte="1977" />
+        <pn gt="400" gte="" lt="" lte="" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[58]]></rpn>
+        <qp0><![CDATA[1.1]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_STANDARD</type_generateur>
+        <energie_generateur>BOIS_PLAQUETTE</energie_generateur>
+        <annee_installation_generateur gt="" gte="1978" lt="" lte="1994" />
+        <pn gt="" gte="" lt="" lte="70" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[47 + 6 * logPn]]></rpn>
+        <qp0><![CDATA[0.07 * Pn * (Pn ^ -0.3)]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_STANDARD</type_generateur>
+        <energie_generateur>BOIS_PLAQUETTE</energie_generateur>
+        <annee_installation_generateur gt="" gte="1978" lt="" lte="1994" />
+        <pn gt="70" gte="" lt="" lte="400" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[58]]></rpn>
+        <qp0><![CDATA[1.4]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_STANDARD</type_generateur>
+        <energie_generateur>BOIS_PLAQUETTE</energie_generateur>
+        <annee_installation_generateur gt="" gte="1978" lt="" lte="1994" />
+        <pn gt="400" gte="" lt="" lte="" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[58]]></rpn>
+        <qp0><![CDATA[0.8]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_STANDARD</type_generateur>
+        <energie_generateur>BOIS_PLAQUETTE</energie_generateur>
+        <annee_installation_generateur gt="" gte="1995" lt="" lte="2003" />
+        <pn gt="" gte="" lt="" lte="70" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[47 + 6 * logPn]]></rpn>
+        <qp0><![CDATA[0.085 * Pn * (Pn ^ -0.4)]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_STANDARD</type_generateur>
+        <energie_generateur>BOIS_PLAQUETTE</energie_generateur>
+        <annee_installation_generateur gt="" gte="1995" lt="" lte="2003" />
+        <pn gt="70" gte="" lt="" lte="400" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[58]]></rpn>
+        <qp0><![CDATA[1.1]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_STANDARD</type_generateur>
+        <energie_generateur>BOIS_PLAQUETTE</energie_generateur>
+        <annee_installation_generateur gt="" gte="1995" lt="" lte="2003" />
+        <pn gt="400" gte="" lt="" lte="" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[58]]></rpn>
+        <qp0><![CDATA[0.5]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_STANDARD</type_generateur>
+        <energie_generateur>BOIS_PLAQUETTE</energie_generateur>
+        <annee_installation_generateur gt="" gte="2004" lt="" lte="2012" />
+        <pn gt="" gte="" lt="" lte="70" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[57 + 6 * logPn]]></rpn>
+        <qp0><![CDATA[0.085 * Pn * (Pn ^ -0.4)]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_STANDARD</type_generateur>
+        <energie_generateur>BOIS_PLAQUETTE</energie_generateur>
+        <annee_installation_generateur gt="" gte="2004" lt="" lte="2012" />
+        <pn gt="70" gte="" lt="" lte="400" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[68]]></rpn>
+        <qp0><![CDATA[1.1]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_STANDARD</type_generateur>
+        <energie_generateur>BOIS_PLAQUETTE</energie_generateur>
+        <annee_installation_generateur gt="" gte="2004" lt="" lte="2012" />
+        <pn gt="400" gte="" lt="" lte="" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[68]]></rpn>
+        <qp0><![CDATA[0.5]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_STANDARD</type_generateur>
+        <energie_generateur>BOIS_PLAQUETTE</energie_generateur>
+        <annee_installation_generateur gt="" gte="2013" lt="" lte="2017" />
+        <pn gt="" gte="" lt="" lte="70" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[67 + 6 * logPn]]></rpn>
+        <qp0><![CDATA[0.085 * Pn * (Pn ^ -0.4)]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_STANDARD</type_generateur>
+        <energie_generateur>BOIS_PLAQUETTE</energie_generateur>
+        <annee_installation_generateur gt="" gte="2013" lt="" lte="2017" />
+        <pn gt="70" gte="" lt="" lte="400" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[78]]></rpn>
+        <qp0><![CDATA[1.1]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_STANDARD</type_generateur>
+        <energie_generateur>BOIS_PLAQUETTE</energie_generateur>
+        <annee_installation_generateur gt="" gte="2013" lt="" lte="2017" />
+        <pn gt="400" gte="" lt="" lte="" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[78]]></rpn>
+        <qp0><![CDATA[0.5]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_STANDARD</type_generateur>
+        <energie_generateur>BOIS_PLAQUETTE</energie_generateur>
+        <annee_installation_generateur gt="" gte="2018" lt="" lte="2019" />
+        <pn gt="" gte="" lt="" lte="70" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[80 + 2 * logPn]]></rpn>
+        <qp0><![CDATA[0.085 * Pn * (Pn ^ -0.4)]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_STANDARD</type_generateur>
+        <energie_generateur>BOIS_PLAQUETTE</energie_generateur>
+        <annee_installation_generateur gt="" gte="2018" lt="" lte="2019" />
+        <pn gt="70" gte="" lt="" lte="400" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[84]]></rpn>
+        <qp0><![CDATA[1.1]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_STANDARD</type_generateur>
+        <energie_generateur>BOIS_PLAQUETTE</energie_generateur>
+        <annee_installation_generateur gt="" gte="2018" lt="" lte="2019" />
+        <pn gt="400" gte="" lt="" lte="" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[84]]></rpn>
+        <qp0><![CDATA[0.5]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_STANDARD</type_generateur>
+        <energie_generateur>BOIS_PLAQUETTE</energie_generateur>
+        <annee_installation_generateur gt="" gte="2020" lt="" lte="" />
+        <pn gt="" gte="" lt="" lte="20" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[89 + 2 * logPn]]></rpn>
+        <qp0><![CDATA[0.085 * Pn * (Pn ^ -0.4)]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_STANDARD</type_generateur>
+        <energie_generateur>BOIS_PLAQUETTE</energie_generateur>
+        <annee_installation_generateur gt="" gte="2020" lt="" lte="" />
+        <pn gt="20" gte="" lt="" lte="70" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[90 + 2 * logPn]]></rpn>
+        <qp0><![CDATA[0.085 * Pn * (Pn ^ -0.4)]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_STANDARD</type_generateur>
+        <energie_generateur>BOIS_PLAQUETTE</energie_generateur>
+        <annee_installation_generateur gt="" gte="2020" lt="" lte="" />
+        <pn gt="70" gte="" lt="" lte="400" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[94]]></rpn>
+        <qp0><![CDATA[1.1]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_STANDARD</type_generateur>
+        <energie_generateur>BOIS_PLAQUETTE</energie_generateur>
+        <annee_installation_generateur gt="" gte="2020" lt="" lte="" />
+        <pn gt="400" gte="" lt="" lte="" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[94]]></rpn>
+        <qp0><![CDATA[0.5]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_STANDARD</type_generateur>
+        <energie_generateur>CHARBON</energie_generateur>
+        <annee_installation_generateur gt="" gte="" lt="" lte="1977" />
+        <pn gt="" gte="" lt="" lte="70" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[47 + 6 * logPn]]></rpn>
+        <qp0><![CDATA[0.08 * Pn * (Pn ^ -0.27)]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_STANDARD</type_generateur>
+        <energie_generateur>CHARBON</energie_generateur>
+        <annee_installation_generateur gt="" gte="" lt="" lte="1977" />
+        <pn gt="70" gte="" lt="" lte="400" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[58]]></rpn>
+        <qp0><![CDATA[1.8]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_STANDARD</type_generateur>
+        <energie_generateur>CHARBON</energie_generateur>
+        <annee_installation_generateur gt="" gte="" lt="" lte="1977" />
+        <pn gt="400" gte="" lt="" lte="" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[58]]></rpn>
+        <qp0><![CDATA[1.1]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_STANDARD</type_generateur>
+        <energie_generateur>CHARBON</energie_generateur>
+        <annee_installation_generateur gt="" gte="1978" lt="" lte="1994" />
+        <pn gt="" gte="" lt="" lte="70" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[47 + 6 * logPn]]></rpn>
+        <qp0><![CDATA[0.07 * Pn * (Pn ^ -0.3)]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_STANDARD</type_generateur>
+        <energie_generateur>CHARBON</energie_generateur>
+        <annee_installation_generateur gt="" gte="1978" lt="" lte="1994" />
+        <pn gt="70" gte="" lt="" lte="400" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[58]]></rpn>
+        <qp0><![CDATA[1.4]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_STANDARD</type_generateur>
+        <energie_generateur>CHARBON</energie_generateur>
+        <annee_installation_generateur gt="" gte="1978" lt="" lte="1994" />
+        <pn gt="400" gte="" lt="" lte="" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[58]]></rpn>
+        <qp0><![CDATA[0.8]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_STANDARD</type_generateur>
+        <energie_generateur>CHARBON</energie_generateur>
+        <annee_installation_generateur gt="" gte="1995" lt="" lte="2003" />
+        <pn gt="" gte="" lt="" lte="70" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[47 + 6 * logPn]]></rpn>
+        <qp0><![CDATA[0.085 * Pn * (Pn ^ -0.4)]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_STANDARD</type_generateur>
+        <energie_generateur>CHARBON</energie_generateur>
+        <annee_installation_generateur gt="" gte="1995" lt="" lte="2003" />
+        <pn gt="70" gte="" lt="" lte="400" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[58]]></rpn>
+        <qp0><![CDATA[1.1]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_STANDARD</type_generateur>
+        <energie_generateur>CHARBON</energie_generateur>
+        <annee_installation_generateur gt="" gte="1995" lt="" lte="2003" />
+        <pn gt="400" gte="" lt="" lte="" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[58]]></rpn>
+        <qp0><![CDATA[0.5]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_STANDARD</type_generateur>
+        <energie_generateur>CHARBON</energie_generateur>
+        <annee_installation_generateur gt="" gte="2004" lt="" lte="2012" />
+        <pn gt="" gte="" lt="" lte="70" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[57 + 6 * logPn]]></rpn>
+        <qp0><![CDATA[0.085 * Pn * (Pn ^ -0.4)]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_STANDARD</type_generateur>
+        <energie_generateur>CHARBON</energie_generateur>
+        <annee_installation_generateur gt="" gte="2004" lt="" lte="2012" />
+        <pn gt="70" gte="" lt="" lte="400" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[68]]></rpn>
+        <qp0><![CDATA[1.1]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_STANDARD</type_generateur>
+        <energie_generateur>CHARBON</energie_generateur>
+        <annee_installation_generateur gt="" gte="2004" lt="" lte="2012" />
+        <pn gt="400" gte="" lt="" lte="" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[68]]></rpn>
+        <qp0><![CDATA[0.5]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_STANDARD</type_generateur>
+        <energie_generateur>CHARBON</energie_generateur>
+        <annee_installation_generateur gt="" gte="2013" lt="" lte="2017" />
+        <pn gt="" gte="" lt="" lte="70" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[67 + 6 * logPn]]></rpn>
+        <qp0><![CDATA[0.085 * Pn * (Pn ^ -0.4)]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_STANDARD</type_generateur>
+        <energie_generateur>CHARBON</energie_generateur>
+        <annee_installation_generateur gt="" gte="2013" lt="" lte="2017" />
+        <pn gt="70" gte="" lt="" lte="400" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[78]]></rpn>
+        <qp0><![CDATA[1.1]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_STANDARD</type_generateur>
+        <energie_generateur>CHARBON</energie_generateur>
+        <annee_installation_generateur gt="" gte="2013" lt="" lte="2017" />
+        <pn gt="400" gte="" lt="" lte="" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[78]]></rpn>
+        <qp0><![CDATA[0.5]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_STANDARD</type_generateur>
+        <energie_generateur>CHARBON</energie_generateur>
+        <annee_installation_generateur gt="" gte="2018" lt="" lte="2019" />
+        <pn gt="" gte="" lt="" lte="70" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[80 + 2 * logPn]]></rpn>
+        <qp0><![CDATA[0.085 * Pn * (Pn ^ -0.4)]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_STANDARD</type_generateur>
+        <energie_generateur>CHARBON</energie_generateur>
+        <annee_installation_generateur gt="" gte="2018" lt="" lte="2019" />
+        <pn gt="70" gte="" lt="" lte="400" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[84]]></rpn>
+        <qp0><![CDATA[1.1]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_STANDARD</type_generateur>
+        <energie_generateur>CHARBON</energie_generateur>
+        <annee_installation_generateur gt="" gte="2018" lt="" lte="2019" />
+        <pn gt="400" gte="" lt="" lte="" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[84]]></rpn>
+        <qp0><![CDATA[0.5]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_STANDARD</type_generateur>
+        <energie_generateur>CHARBON</energie_generateur>
+        <annee_installation_generateur gt="" gte="2020" lt="" lte="" />
+        <pn gt="" gte="" lt="" lte="20" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[89 + 2 * logPn]]></rpn>
+        <qp0><![CDATA[0.085 * Pn * (Pn ^ -0.4)]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_STANDARD</type_generateur>
+        <energie_generateur>CHARBON</energie_generateur>
+        <annee_installation_generateur gt="" gte="2020" lt="" lte="" />
+        <pn gt="20" gte="" lt="" lte="70" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[90 + 2 * logPn]]></rpn>
+        <qp0><![CDATA[0.085 * Pn * (Pn ^ -0.4)]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_STANDARD</type_generateur>
+        <energie_generateur>CHARBON</energie_generateur>
+        <annee_installation_generateur gt="" gte="2020" lt="" lte="" />
+        <pn gt="70" gte="" lt="" lte="400" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[94]]></rpn>
+        <qp0><![CDATA[1.1]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_STANDARD</type_generateur>
+        <energie_generateur>CHARBON</energie_generateur>
+        <annee_installation_generateur gt="" gte="2020" lt="" lte="" />
+        <pn gt="400" gte="" lt="" lte="" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[94]]></rpn>
+        <qp0><![CDATA[0.5]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_STANDARD</type_generateur>
+        <energie_generateur>FIOUL</energie_generateur>
+        <annee_installation_generateur gt="" gte="" lt="" lte="1970" />
+        <pn gt="" gte="" lt="" lte="" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[84 + 2 * logPn]]></rpn>
+        <qp0><![CDATA[4.0 / 100 * Pn]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_STANDARD</type_generateur>
+        <energie_generateur>FIOUL</energie_generateur>
+        <annee_installation_generateur gt="" gte="1970" lt="" lte="1975" />
+        <pn gt="" gte="" lt="" lte="" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[84 + 2 * logPn]]></rpn>
+        <qp0><![CDATA[3.0 / 100 * Pn]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_STANDARD</type_generateur>
+        <energie_generateur>FIOUL</energie_generateur>
+        <annee_installation_generateur gt="" gte="1976" lt="" lte="1980" />
+        <pn gt="" gte="" lt="" lte="" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[84 + 2 * logPn]]></rpn>
+        <qp0><![CDATA[2.0 / 100 * Pn]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_STANDARD</type_generateur>
+        <energie_generateur>FIOUL</energie_generateur>
+        <annee_installation_generateur gt="" gte="1981" lt="" lte="1990" />
+        <pn gt="" gte="" lt="" lte="" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[84 + 2 * logPn]]></rpn>
+        <qp0><![CDATA[1.0 / 100 * Pn]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_STANDARD</type_generateur>
+        <energie_generateur>FIOUL</energie_generateur>
+        <annee_installation_generateur gt="" gte="1991" lt="" lte="2015" />
+        <pn gt="" gte="" lt="" lte="" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[84 + 2 * logPn]]></rpn>
+        <qp0><![CDATA[1.0 / 100 * Pn]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_STANDARD</type_generateur>
+        <energie_generateur>FIOUL</energie_generateur>
+        <annee_installation_generateur gt="" gte="2016" lt="" lte="" />
+        <pn gt="" gte="" lt="" lte="" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[84 + 2 * logPn]]></rpn>
+        <qp0><![CDATA[Pn * (E + F * logPn) / 100 * Pn]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_STANDARD</type_generateur>
+        <energie_generateur>GAZ_NATUREL</energie_generateur>
+        <annee_installation_generateur gt="" gte="" lt="" lte="1980" />
+        <pn gt="" gte="" lt="" lte="" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[84 + 2 * logPn]]></rpn>
+        <qp0><![CDATA[4.0 / 100 * Pn]]></qp0>
+        <pveilleuse>240</pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_STANDARD</type_generateur>
+        <energie_generateur>GAZ_NATUREL</energie_generateur>
+        <annee_installation_generateur gt="" gte="1981" lt="" lte="1985" />
+        <pn gt="" gte="" lt="" lte="" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[84 + 2 * logPn]]></rpn>
+        <qp0><![CDATA[2.0 / 100 * Pn]]></qp0>
+        <pveilleuse>150</pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_STANDARD</type_generateur>
+        <energie_generateur>GAZ_NATUREL</energie_generateur>
+        <annee_installation_generateur gt="" gte="1986" lt="" lte="1990" />
+        <pn gt="" gte="" lt="" lte="" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[84 + 2 * logPn]]></rpn>
+        <qp0><![CDATA[1.5 / 100 * Pn]]></qp0>
+        <pveilleuse>150</pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_STANDARD</type_generateur>
+        <energie_generateur>GAZ_NATUREL</energie_generateur>
+        <annee_installation_generateur gt="" gte="1991" lt="" lte="2000" />
+        <pn gt="" gte="" lt="" lte="" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[84 + 2 * logPn]]></rpn>
+        <qp0><![CDATA[1.2 / 100 * Pn]]></qp0>
+        <pveilleuse>120</pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_STANDARD</type_generateur>
+        <energie_generateur>GAZ_NATUREL</energie_generateur>
+        <annee_installation_generateur gt="" gte="2001" lt="" lte="2015" />
+        <pn gt="" gte="" lt="" lte="" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[84 + 2 * logPn]]></rpn>
+        <qp0><![CDATA[1.0 / 100 * Pn]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_STANDARD</type_generateur>
+        <energie_generateur>GAZ_NATUREL</energie_generateur>
+        <annee_installation_generateur gt="" gte="2016" lt="" lte="" />
+        <pn gt="" gte="" lt="" lte="" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[84 + 2 * logPn]]></rpn>
+        <qp0><![CDATA[Pn * (E + F * logPn) / 100 * Pn]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_STANDARD</type_generateur>
+        <energie_generateur>GPL</energie_generateur>
+        <annee_installation_generateur gt="" gte="" lt="" lte="1980" />
+        <pn gt="" gte="" lt="" lte="" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[84 + 2 * logPn]]></rpn>
+        <qp0><![CDATA[4.0 / 100 * Pn]]></qp0>
+        <pveilleuse>240</pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_STANDARD</type_generateur>
+        <energie_generateur>GPL</energie_generateur>
+        <annee_installation_generateur gt="" gte="1981" lt="" lte="1985" />
+        <pn gt="" gte="" lt="" lte="" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[84 + 2 * logPn]]></rpn>
+        <qp0><![CDATA[2.0 / 100 * Pn]]></qp0>
+        <pveilleuse>150</pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_STANDARD</type_generateur>
+        <energie_generateur>GPL</energie_generateur>
+        <annee_installation_generateur gt="" gte="1986" lt="" lte="1990" />
+        <pn gt="" gte="" lt="" lte="" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[84 + 2 * logPn]]></rpn>
+        <qp0><![CDATA[1.5 / 100 * Pn]]></qp0>
+        <pveilleuse>150</pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_STANDARD</type_generateur>
+        <energie_generateur>GPL</energie_generateur>
+        <annee_installation_generateur gt="" gte="1991" lt="" lte="2000" />
+        <pn gt="" gte="" lt="" lte="" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[84 + 2 * logPn]]></rpn>
+        <qp0><![CDATA[1.2 / 100 * Pn]]></qp0>
+        <pveilleuse>120</pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_STANDARD</type_generateur>
+        <energie_generateur>GPL</energie_generateur>
+        <annee_installation_generateur gt="" gte="2001" lt="" lte="2015" />
+        <pn gt="" gte="" lt="" lte="" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[84 + 2 * logPn]]></rpn>
+        <qp0><![CDATA[1.0 / 100 * Pn]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_STANDARD</type_generateur>
+        <energie_generateur>GPL</energie_generateur>
+        <annee_installation_generateur gt="" gte="2016" lt="" lte="" />
+        <pn gt="" gte="" lt="" lte="" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[84 + 2 * logPn]]></rpn>
+        <qp0><![CDATA[Pn * (E + F * logPn) / 100 * Pn]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUFFE_EAU_INSTANTANE</type_generateur>
+        <energie_generateur>GAZ_NATUREL</energie_generateur>
+        <annee_installation_generateur gt="" gte="" lt="" lte="1980" />
+        <pn gt="" gte="" lt="" lte="10" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[70]]></rpn>
+        <qp0><![CDATA[4.0 / 100 * Pn]]></qp0>
+        <pveilleuse>150</pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUFFE_EAU_INSTANTANE</type_generateur>
+        <energie_generateur>GAZ_NATUREL</energie_generateur>
+        <annee_installation_generateur gt="" gte="" lt="" lte="1980" />
+        <pn gt="10" gte="" lt="" lte="" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[70]]></rpn>
+        <qp0><![CDATA[4.0 / 100 * Pn]]></qp0>
+        <pveilleuse>150</pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUFFE_EAU_INSTANTANE</type_generateur>
+        <energie_generateur>GAZ_NATUREL</energie_generateur>
+        <annee_installation_generateur gt="" gte="1981" lt="" lte="1989" />
+        <pn gt="" gte="" lt="" lte="10" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[75]]></rpn>
+        <qp0><![CDATA[2.0 / 100 * Pn]]></qp0>
+        <pveilleuse>120</pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUFFE_EAU_INSTANTANE</type_generateur>
+        <energie_generateur>GAZ_NATUREL</energie_generateur>
+        <annee_installation_generateur gt="" gte="1981" lt="" lte="1989" />
+        <pn gt="10" gte="" lt="" lte="" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[75]]></rpn>
+        <qp0><![CDATA[2.0 / 100 * Pn]]></qp0>
+        <pveilleuse>120</pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUFFE_EAU_INSTANTANE</type_generateur>
+        <energie_generateur>GAZ_NATUREL</energie_generateur>
+        <annee_installation_generateur gt="" gte="1990" lt="" lte="2000" />
+        <pn gt="" gte="" lt="" lte="10" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[81]]></rpn>
+        <qp0><![CDATA[1.0 / 100 * Pn]]></qp0>
+        <pveilleuse>120</pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUFFE_EAU_INSTANTANE</type_generateur>
+        <energie_generateur>GAZ_NATUREL</energie_generateur>
+        <annee_installation_generateur gt="" gte="1990" lt="" lte="2000" />
+        <pn gt="10" gte="" lt="" lte="" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[82]]></rpn>
+        <qp0><![CDATA[1.0 / 100 * Pn]]></qp0>
+        <pveilleuse>120</pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUFFE_EAU_INSTANTANE</type_generateur>
+        <energie_generateur>GAZ_NATUREL</energie_generateur>
+        <annee_installation_generateur gt="" gte="2001" lt="" lte="2015" />
+        <pn gt="" gte="" lt="" lte="10" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[82]]></rpn>
+        <qp0><![CDATA[1.0 / 100 * Pn]]></qp0>
+        <pveilleuse>100</pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUFFE_EAU_INSTANTANE</type_generateur>
+        <energie_generateur>GAZ_NATUREL</energie_generateur>
+        <annee_installation_generateur gt="" gte="2001" lt="" lte="2015" />
+        <pn gt="10" gte="" lt="" lte="" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[84]]></rpn>
+        <qp0><![CDATA[1.0 / 100 * Pn]]></qp0>
+        <pveilleuse>100</pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUFFE_EAU_INSTANTANE</type_generateur>
+        <energie_generateur>GAZ_NATUREL</energie_generateur>
+        <annee_installation_generateur gt="" gte="2015" lt="" lte="" />
+        <pn gt="" gte="" lt="" lte="10" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[82]]></rpn>
+        <qp0><![CDATA[1.0 / 100 * Pn]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUFFE_EAU_INSTANTANE</type_generateur>
+        <energie_generateur>GAZ_NATUREL</energie_generateur>
+        <annee_installation_generateur gt="" gte="2015" lt="" lte="" />
+        <pn gt="10" gte="" lt="" lte="" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[84]]></rpn>
+        <qp0><![CDATA[1.0 / 100 * Pn]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUFFE_EAU_INSTANTANE</type_generateur>
+        <energie_generateur>GPL</energie_generateur>
+        <annee_installation_generateur gt="" gte="" lt="" lte="1980" />
+        <pn gt="" gte="" lt="" lte="10" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[70]]></rpn>
+        <qp0><![CDATA[4.0 / 100 * Pn]]></qp0>
+        <pveilleuse>150</pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUFFE_EAU_INSTANTANE</type_generateur>
+        <energie_generateur>GPL</energie_generateur>
+        <annee_installation_generateur gt="" gte="" lt="" lte="1980" />
+        <pn gt="10" gte="" lt="" lte="" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[70]]></rpn>
+        <qp0><![CDATA[4.0 / 100 * Pn]]></qp0>
+        <pveilleuse>150</pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUFFE_EAU_INSTANTANE</type_generateur>
+        <energie_generateur>GPL</energie_generateur>
+        <annee_installation_generateur gt="" gte="1981" lt="" lte="1989" />
+        <pn gt="" gte="" lt="" lte="10" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[75]]></rpn>
+        <qp0><![CDATA[2.0 / 100 * Pn]]></qp0>
+        <pveilleuse>120</pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUFFE_EAU_INSTANTANE</type_generateur>
+        <energie_generateur>GPL</energie_generateur>
+        <annee_installation_generateur gt="" gte="1981" lt="" lte="1989" />
+        <pn gt="10" gte="" lt="" lte="" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[75]]></rpn>
+        <qp0><![CDATA[2.0 / 100 * Pn]]></qp0>
+        <pveilleuse>120</pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUFFE_EAU_INSTANTANE</type_generateur>
+        <energie_generateur>GPL</energie_generateur>
+        <annee_installation_generateur gt="" gte="1990" lt="" lte="2000" />
+        <pn gt="" gte="" lt="" lte="10" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[81]]></rpn>
+        <qp0><![CDATA[1.0 / 100 * Pn]]></qp0>
+        <pveilleuse>120</pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUFFE_EAU_INSTANTANE</type_generateur>
+        <energie_generateur>GPL</energie_generateur>
+        <annee_installation_generateur gt="" gte="1990" lt="" lte="2000" />
+        <pn gt="10" gte="" lt="" lte="" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[82]]></rpn>
+        <qp0><![CDATA[1.0 / 100 * Pn]]></qp0>
+        <pveilleuse>120</pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUFFE_EAU_INSTANTANE</type_generateur>
+        <energie_generateur>GPL</energie_generateur>
+        <annee_installation_generateur gt="" gte="2001" lt="" lte="2015" />
+        <pn gt="" gte="" lt="" lte="10" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[82]]></rpn>
+        <qp0><![CDATA[1.0 / 100 * Pn]]></qp0>
+        <pveilleuse>100</pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUFFE_EAU_INSTANTANE</type_generateur>
+        <energie_generateur>GPL</energie_generateur>
+        <annee_installation_generateur gt="" gte="2001" lt="" lte="2015" />
+        <pn gt="10" gte="" lt="" lte="" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[84]]></rpn>
+        <qp0><![CDATA[1.0 / 100 * Pn]]></qp0>
+        <pveilleuse>100</pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUFFE_EAU_INSTANTANE</type_generateur>
+        <energie_generateur>GPL</energie_generateur>
+        <annee_installation_generateur gt="" gte="2015" lt="" lte="" />
+        <pn gt="" gte="" lt="" lte="10" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[82]]></rpn>
+        <qp0><![CDATA[1.0 / 100 * Pn]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>CHAUFFE_EAU_INSTANTANE</type_generateur>
+        <energie_generateur>GPL</energie_generateur>
+        <annee_installation_generateur gt="" gte="2015" lt="" lte="" />
+        <pn gt="10" gte="" lt="" lte="" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[84]]></rpn>
+        <qp0><![CDATA[1.0 / 100 * Pn]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>SYSTEME_COLLECTIF_PAR_DEFAUT</type_generateur>
+        <energie_generateur>FIOUL</energie_generateur>
+        <annee_installation_generateur gt="" gte="" lt="" lte="1970" />
+        <pn gt="" gte="" lt="" lte="" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[84 + 2 * logPn]]></rpn>
+        <qp0><![CDATA[4.0 / 100 * Pn]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>SYSTEME_COLLECTIF_PAR_DEFAUT</type_generateur>
+        <energie_generateur>FIOUL</energie_generateur>
+        <annee_installation_generateur gt="" gte="1970" lt="" lte="1975" />
+        <pn gt="" gte="" lt="" lte="" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[84 + 2 * logPn]]></rpn>
+        <qp0><![CDATA[3.0 / 100 * Pn]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>SYSTEME_COLLECTIF_PAR_DEFAUT</type_generateur>
+        <energie_generateur>FIOUL</energie_generateur>
+        <annee_installation_generateur gt="" gte="1976" lt="" lte="1980" />
+        <pn gt="" gte="" lt="" lte="" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[84 + 2 * logPn]]></rpn>
+        <qp0><![CDATA[2.0 / 100 * Pn]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>SYSTEME_COLLECTIF_PAR_DEFAUT</type_generateur>
+        <energie_generateur>FIOUL</energie_generateur>
+        <annee_installation_generateur gt="" gte="1981" lt="" lte="1990" />
+        <pn gt="" gte="" lt="" lte="" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[84 + 2 * logPn]]></rpn>
+        <qp0><![CDATA[1.0 / 100 * Pn]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>SYSTEME_COLLECTIF_PAR_DEFAUT</type_generateur>
+        <energie_generateur>FIOUL</energie_generateur>
+        <annee_installation_generateur gt="" gte="1991" lt="" lte="2015" />
+        <pn gt="" gte="" lt="" lte="" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[84 + 2 * logPn]]></rpn>
+        <qp0><![CDATA[1.0 / 100 * Pn]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>SYSTEME_COLLECTIF_PAR_DEFAUT</type_generateur>
+        <energie_generateur>FIOUL</energie_generateur>
+        <annee_installation_generateur gt="" gte="2016" lt="" lte="" />
+        <pn gt="" gte="" lt="" lte="" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[84 + 2 * logPn]]></rpn>
+        <qp0><![CDATA[Pn * (E + F * logPn) / 100 * Pn]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+</table>

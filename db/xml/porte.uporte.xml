@@ -1,0 +1,619 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table name="porte.uporte">
+    <row>
+        <presence_sas>1</presence_sas>
+        <isolation />
+        <nature_menuiserie />
+        <type_vitrage />
+        <taux_vitrage lt="" lte="" gt="" gte="" />
+        <uporte>1.5</uporte>
+    </row>
+    <row>
+        <presence_sas>0</presence_sas>
+        <isolation>INCONNU</isolation>
+        <nature_menuiserie>PVC</nature_menuiserie>
+        <type_vitrage />
+        <taux_vitrage lt="" lte="" gt="" gte="" />
+        <uporte>3.5</uporte>
+    </row>
+    <row>
+        <presence_sas>0</presence_sas>
+        <isolation>INCONNU</isolation>
+        <nature_menuiserie>BOIS</nature_menuiserie>
+        <type_vitrage />
+        <taux_vitrage lt="" lte="" gt="" gte="" />
+        <uporte>3.5</uporte>
+    </row>
+    <row>
+        <presence_sas>0</presence_sas>
+        <isolation>INCONNU</isolation>
+        <nature_menuiserie>BOIS_METAL</nature_menuiserie>
+        <type_vitrage />
+        <taux_vitrage lt="" lte="" gt="" gte="" />
+        <uporte>3.5</uporte>
+    </row>
+    <row>
+        <presence_sas>0</presence_sas>
+        <isolation>INCONNU</isolation>
+        <nature_menuiserie>METAL</nature_menuiserie>
+        <type_vitrage />
+        <taux_vitrage lt="" lte="" gt="" gte="" />
+        <uporte>5.8</uporte>
+    </row>
+    <row>
+        <presence_sas>0</presence_sas>
+        <isolation>INCONNU</isolation>
+        <nature_menuiserie>PVC</nature_menuiserie>
+        <type_vitrage>SIMPLE_VITRAGE</type_vitrage>
+        <taux_vitrage lt="30" lte="" gt="" gte="" />
+        <uporte>4</uporte>
+    </row>
+    <row>
+        <presence_sas>0</presence_sas>
+        <isolation>INCONNU</isolation>
+        <nature_menuiserie>BOIS</nature_menuiserie>
+        <type_vitrage>SIMPLE_VITRAGE</type_vitrage>
+        <taux_vitrage lt="30" lte="" gt="" gte="" />
+        <uporte>4</uporte>
+    </row>
+    <row>
+        <presence_sas>0</presence_sas>
+        <isolation>INCONNU</isolation>
+        <nature_menuiserie>BOIS_METAL</nature_menuiserie>
+        <type_vitrage>SIMPLE_VITRAGE</type_vitrage>
+        <taux_vitrage lt="30" lte="" gt="" gte="" />
+        <uporte>4</uporte>
+    </row>
+    <row>
+        <presence_sas>0</presence_sas>
+        <isolation>INCONNU</isolation>
+        <nature_menuiserie>METAL</nature_menuiserie>
+        <type_vitrage>SIMPLE_VITRAGE</type_vitrage>
+        <taux_vitrage lt="30" lte="" gt="" gte="" />
+        <uporte>5.8</uporte>
+    </row>
+    <row>
+        <presence_sas>0</presence_sas>
+        <isolation>INCONNU</isolation>
+        <nature_menuiserie>PVC</nature_menuiserie>
+        <type_vitrage>SIMPLE_VITRAGE</type_vitrage>
+        <taux_vitrage lt="" lte="60" gt="" gte="30" />
+        <uporte>4.5</uporte>
+    </row>
+    <row>
+        <presence_sas>0</presence_sas>
+        <isolation>INCONNU</isolation>
+        <nature_menuiserie>BOIS</nature_menuiserie>
+        <type_vitrage>SIMPLE_VITRAGE</type_vitrage>
+        <taux_vitrage lt="" lte="60" gt="" gte="30" />
+        <uporte>4.5</uporte>
+    </row>
+    <row>
+        <presence_sas>0</presence_sas>
+        <isolation>INCONNU</isolation>
+        <nature_menuiserie>BOIS_METAL</nature_menuiserie>
+        <type_vitrage>SIMPLE_VITRAGE</type_vitrage>
+        <taux_vitrage lt="" lte="60" gt="" gte="30" />
+        <uporte>4.5</uporte>
+    </row>
+    <row>
+        <presence_sas>0</presence_sas>
+        <isolation>INCONNU</isolation>
+        <nature_menuiserie>METAL</nature_menuiserie>
+        <type_vitrage>SIMPLE_VITRAGE</type_vitrage>
+        <taux_vitrage lt="" lte="60" gt="" gte="30" />
+        <uporte>5.8</uporte>
+    </row>
+    <row>
+        <presence_sas>0</presence_sas>
+        <isolation>INCONNU</isolation>
+        <nature_menuiserie>PVC</nature_menuiserie>
+        <type_vitrage>DOUBLE_VITRAGE</type_vitrage>
+        <taux_vitrage lt="30" lte="" gt="" gte="" />
+        <uporte>3.3</uporte>
+    </row>
+    <row>
+        <presence_sas>0</presence_sas>
+        <isolation>INCONNU</isolation>
+        <nature_menuiserie>BOIS</nature_menuiserie>
+        <type_vitrage>DOUBLE_VITRAGE</type_vitrage>
+        <taux_vitrage lt="30" lte="" gt="" gte="" />
+        <uporte>3.3</uporte>
+    </row>
+    <row>
+        <presence_sas>0</presence_sas>
+        <isolation>INCONNU</isolation>
+        <nature_menuiserie>BOIS_METAL</nature_menuiserie>
+        <type_vitrage>DOUBLE_VITRAGE</type_vitrage>
+        <taux_vitrage lt="30" lte="" gt="" gte="" />
+        <uporte>3.3</uporte>
+    </row>
+    <row>
+        <presence_sas>0</presence_sas>
+        <isolation>INCONNU</isolation>
+        <nature_menuiserie>METAL</nature_menuiserie>
+        <type_vitrage>DOUBLE_VITRAGE</type_vitrage>
+        <taux_vitrage lt="30" lte="" gt="" gte="" />
+        <uporte>5.5</uporte>
+    </row>
+    <row>
+        <presence_sas>0</presence_sas>
+        <isolation>INCONNU</isolation>
+        <nature_menuiserie>PVC</nature_menuiserie>
+        <type_vitrage>DOUBLE_VITRAGE</type_vitrage>
+        <taux_vitrage lt="" lte="60" gt="" gte="30" />
+        <uporte>3.3</uporte>
+    </row>
+    <row>
+        <presence_sas>0</presence_sas>
+        <isolation>INCONNU</isolation>
+        <nature_menuiserie>BOIS</nature_menuiserie>
+        <type_vitrage>DOUBLE_VITRAGE</type_vitrage>
+        <taux_vitrage lt="" lte="60" gt="" gte="30" />
+        <uporte>3.3</uporte>
+    </row>
+    <row>
+        <presence_sas>0</presence_sas>
+        <isolation>INCONNU</isolation>
+        <nature_menuiserie>BOIS_METAL</nature_menuiserie>
+        <type_vitrage>DOUBLE_VITRAGE</type_vitrage>
+        <taux_vitrage lt="" lte="60" gt="" gte="30" />
+        <uporte>3.3</uporte>
+    </row>
+    <row>
+        <presence_sas>0</presence_sas>
+        <isolation>INCONNU</isolation>
+        <nature_menuiserie>METAL</nature_menuiserie>
+        <type_vitrage>DOUBLE_VITRAGE</type_vitrage>
+        <taux_vitrage lt="" lte="60" gt="" gte="30" />
+        <uporte>4.8</uporte>
+    </row>
+    <row>
+        <presence_sas>0</presence_sas>
+        <isolation>INCONNU</isolation>
+        <nature_menuiserie>PVC</nature_menuiserie>
+        <type_vitrage>TRIPLE_VITRAGE</type_vitrage>
+        <taux_vitrage lt="30" lte="" gt="" gte="" />
+        <uporte>3.3</uporte>
+    </row>
+    <row>
+        <presence_sas>0</presence_sas>
+        <isolation>INCONNU</isolation>
+        <nature_menuiserie>BOIS</nature_menuiserie>
+        <type_vitrage>TRIPLE_VITRAGE</type_vitrage>
+        <taux_vitrage lt="30" lte="" gt="" gte="" />
+        <uporte>3.3</uporte>
+    </row>
+    <row>
+        <presence_sas>0</presence_sas>
+        <isolation>INCONNU</isolation>
+        <nature_menuiserie>BOIS_METAL</nature_menuiserie>
+        <type_vitrage>TRIPLE_VITRAGE</type_vitrage>
+        <taux_vitrage lt="30" lte="" gt="" gte="" />
+        <uporte>3.3</uporte>
+    </row>
+    <row>
+        <presence_sas>0</presence_sas>
+        <isolation>INCONNU</isolation>
+        <nature_menuiserie>METAL</nature_menuiserie>
+        <type_vitrage>TRIPLE_VITRAGE</type_vitrage>
+        <taux_vitrage lt="30" lte="" gt="" gte="" />
+        <uporte>5.5</uporte>
+    </row>
+    <row>
+        <presence_sas>0</presence_sas>
+        <isolation>INCONNU</isolation>
+        <nature_menuiserie>PVC</nature_menuiserie>
+        <type_vitrage>TRIPLE_VITRAGE</type_vitrage>
+        <taux_vitrage lt="" lte="60" gt="" gte="30" />
+        <uporte>3.3</uporte>
+    </row>
+    <row>
+        <presence_sas>0</presence_sas>
+        <isolation>INCONNU</isolation>
+        <nature_menuiserie>BOIS</nature_menuiserie>
+        <type_vitrage>TRIPLE_VITRAGE</type_vitrage>
+        <taux_vitrage lt="" lte="60" gt="" gte="30" />
+        <uporte>3.3</uporte>
+    </row>
+    <row>
+        <presence_sas>0</presence_sas>
+        <isolation>INCONNU</isolation>
+        <nature_menuiserie>BOIS_METAL</nature_menuiserie>
+        <type_vitrage>TRIPLE_VITRAGE</type_vitrage>
+        <taux_vitrage lt="" lte="60" gt="" gte="30" />
+        <uporte>3.3</uporte>
+    </row>
+    <row>
+        <presence_sas>0</presence_sas>
+        <isolation>INCONNU</isolation>
+        <nature_menuiserie>METAL</nature_menuiserie>
+        <type_vitrage>TRIPLE_VITRAGE</type_vitrage>
+        <taux_vitrage lt="" lte="60" gt="" gte="30" />
+        <uporte>4.8</uporte>
+    </row>
+    <row>
+        <presence_sas>0</presence_sas>
+        <isolation>NON_ISOLE</isolation>
+        <nature_menuiserie>PVC</nature_menuiserie>
+        <type_vitrage />
+        <taux_vitrage lt="" lte="" gt="" gte="" />
+        <uporte>3.5</uporte>
+    </row>
+    <row>
+        <presence_sas>0</presence_sas>
+        <isolation>NON_ISOLE</isolation>
+        <nature_menuiserie>BOIS</nature_menuiserie>
+        <type_vitrage />
+        <taux_vitrage lt="" lte="" gt="" gte="" />
+        <uporte>3.5</uporte>
+    </row>
+    <row>
+        <presence_sas>0</presence_sas>
+        <isolation>NON_ISOLE</isolation>
+        <nature_menuiserie>BOIS_METAL</nature_menuiserie>
+        <type_vitrage />
+        <taux_vitrage lt="" lte="" gt="" gte="" />
+        <uporte>3.5</uporte>
+    </row>
+    <row>
+        <presence_sas>0</presence_sas>
+        <isolation>NON_ISOLE</isolation>
+        <nature_menuiserie>METAL</nature_menuiserie>
+        <type_vitrage />
+        <taux_vitrage lt="" lte="" gt="" gte="" />
+        <uporte>5.8</uporte>
+    </row>
+    <row>
+        <presence_sas>0</presence_sas>
+        <isolation>NON_ISOLE</isolation>
+        <nature_menuiserie>PVC</nature_menuiserie>
+        <type_vitrage>SIMPLE_VITRAGE</type_vitrage>
+        <taux_vitrage lt="30" lte="" gt="" gte="" />
+        <uporte>4</uporte>
+    </row>
+    <row>
+        <presence_sas>0</presence_sas>
+        <isolation>NON_ISOLE</isolation>
+        <nature_menuiserie>BOIS</nature_menuiserie>
+        <type_vitrage>SIMPLE_VITRAGE</type_vitrage>
+        <taux_vitrage lt="30" lte="" gt="" gte="" />
+        <uporte>4</uporte>
+    </row>
+    <row>
+        <presence_sas>0</presence_sas>
+        <isolation>NON_ISOLE</isolation>
+        <nature_menuiserie>BOIS_METAL</nature_menuiserie>
+        <type_vitrage>SIMPLE_VITRAGE</type_vitrage>
+        <taux_vitrage lt="30" lte="" gt="" gte="" />
+        <uporte>4</uporte>
+    </row>
+    <row>
+        <presence_sas>0</presence_sas>
+        <isolation>NON_ISOLE</isolation>
+        <nature_menuiserie>METAL</nature_menuiserie>
+        <type_vitrage>SIMPLE_VITRAGE</type_vitrage>
+        <taux_vitrage lt="30" lte="" gt="" gte="" />
+        <uporte>5.8</uporte>
+    </row>
+    <row>
+        <presence_sas>0</presence_sas>
+        <isolation>NON_ISOLE</isolation>
+        <nature_menuiserie>PVC</nature_menuiserie>
+        <type_vitrage>SIMPLE_VITRAGE</type_vitrage>
+        <taux_vitrage lt="" lte="60" gt="" gte="30" />
+        <uporte>4.5</uporte>
+    </row>
+    <row>
+        <presence_sas>0</presence_sas>
+        <isolation>NON_ISOLE</isolation>
+        <nature_menuiserie>BOIS</nature_menuiserie>
+        <type_vitrage>SIMPLE_VITRAGE</type_vitrage>
+        <taux_vitrage lt="" lte="60" gt="" gte="30" />
+        <uporte>4.5</uporte>
+    </row>
+    <row>
+        <presence_sas>0</presence_sas>
+        <isolation>NON_ISOLE</isolation>
+        <nature_menuiserie>BOIS_METAL</nature_menuiserie>
+        <type_vitrage>SIMPLE_VITRAGE</type_vitrage>
+        <taux_vitrage lt="" lte="60" gt="" gte="30" />
+        <uporte>4.5</uporte>
+    </row>
+    <row>
+        <presence_sas>0</presence_sas>
+        <isolation>NON_ISOLE</isolation>
+        <nature_menuiserie>METAL</nature_menuiserie>
+        <type_vitrage>SIMPLE_VITRAGE</type_vitrage>
+        <taux_vitrage lt="" lte="60" gt="" gte="30" />
+        <uporte>5.8</uporte>
+    </row>
+    <row>
+        <presence_sas>0</presence_sas>
+        <isolation>NON_ISOLE</isolation>
+        <nature_menuiserie>PVC</nature_menuiserie>
+        <type_vitrage>DOUBLE_VITRAGE</type_vitrage>
+        <taux_vitrage lt="30" lte="" gt="" gte="" />
+        <uporte>3.3</uporte>
+    </row>
+    <row>
+        <presence_sas>0</presence_sas>
+        <isolation>NON_ISOLE</isolation>
+        <nature_menuiserie>BOIS</nature_menuiserie>
+        <type_vitrage>DOUBLE_VITRAGE</type_vitrage>
+        <taux_vitrage lt="30" lte="" gt="" gte="" />
+        <uporte>3.3</uporte>
+    </row>
+    <row>
+        <presence_sas>0</presence_sas>
+        <isolation>NON_ISOLE</isolation>
+        <nature_menuiserie>BOIS_METAL</nature_menuiserie>
+        <type_vitrage>DOUBLE_VITRAGE</type_vitrage>
+        <taux_vitrage lt="30" lte="" gt="" gte="" />
+        <uporte>3.3</uporte>
+    </row>
+    <row>
+        <presence_sas>0</presence_sas>
+        <isolation>NON_ISOLE</isolation>
+        <nature_menuiserie>METAL</nature_menuiserie>
+        <type_vitrage>DOUBLE_VITRAGE</type_vitrage>
+        <taux_vitrage lt="30" lte="" gt="" gte="" />
+        <uporte>5.5</uporte>
+    </row>
+    <row>
+        <presence_sas>0</presence_sas>
+        <isolation>NON_ISOLE</isolation>
+        <nature_menuiserie>PVC</nature_menuiserie>
+        <type_vitrage>DOUBLE_VITRAGE</type_vitrage>
+        <taux_vitrage lt="" lte="60" gt="" gte="30" />
+        <uporte>3.3</uporte>
+    </row>
+    <row>
+        <presence_sas>0</presence_sas>
+        <isolation>NON_ISOLE</isolation>
+        <nature_menuiserie>BOIS</nature_menuiserie>
+        <type_vitrage>DOUBLE_VITRAGE</type_vitrage>
+        <taux_vitrage lt="" lte="60" gt="" gte="30" />
+        <uporte>3.3</uporte>
+    </row>
+    <row>
+        <presence_sas>0</presence_sas>
+        <isolation>NON_ISOLE</isolation>
+        <nature_menuiserie>BOIS_METAL</nature_menuiserie>
+        <type_vitrage>DOUBLE_VITRAGE</type_vitrage>
+        <taux_vitrage lt="" lte="60" gt="" gte="30" />
+        <uporte>3.3</uporte>
+    </row>
+    <row>
+        <presence_sas>0</presence_sas>
+        <isolation>NON_ISOLE</isolation>
+        <nature_menuiserie>METAL</nature_menuiserie>
+        <type_vitrage>DOUBLE_VITRAGE</type_vitrage>
+        <taux_vitrage lt="" lte="60" gt="" gte="30" />
+        <uporte>4.8</uporte>
+    </row>
+    <row>
+        <presence_sas>0</presence_sas>
+        <isolation>NON_ISOLE</isolation>
+        <nature_menuiserie>PVC</nature_menuiserie>
+        <type_vitrage>TRIPLE_VITRAGE</type_vitrage>
+        <taux_vitrage lt="30" lte="" gt="" gte="" />
+        <uporte>3.3</uporte>
+    </row>
+    <row>
+        <presence_sas>0</presence_sas>
+        <isolation>NON_ISOLE</isolation>
+        <nature_menuiserie>BOIS</nature_menuiserie>
+        <type_vitrage>TRIPLE_VITRAGE</type_vitrage>
+        <taux_vitrage lt="30" lte="" gt="" gte="" />
+        <uporte>3.3</uporte>
+    </row>
+    <row>
+        <presence_sas>0</presence_sas>
+        <isolation>NON_ISOLE</isolation>
+        <nature_menuiserie>BOIS_METAL</nature_menuiserie>
+        <type_vitrage>TRIPLE_VITRAGE</type_vitrage>
+        <taux_vitrage lt="30" lte="" gt="" gte="" />
+        <uporte>3.3</uporte>
+    </row>
+    <row>
+        <presence_sas>0</presence_sas>
+        <isolation>NON_ISOLE</isolation>
+        <nature_menuiserie>METAL</nature_menuiserie>
+        <type_vitrage>TRIPLE_VITRAGE</type_vitrage>
+        <taux_vitrage lt="30" lte="" gt="" gte="" />
+        <uporte>5.5</uporte>
+    </row>
+    <row>
+        <presence_sas>0</presence_sas>
+        <isolation>NON_ISOLE</isolation>
+        <nature_menuiserie>PVC</nature_menuiserie>
+        <type_vitrage>TRIPLE_VITRAGE</type_vitrage>
+        <taux_vitrage lt="" lte="60" gt="" gte="30" />
+        <uporte>3.3</uporte>
+    </row>
+    <row>
+        <presence_sas>0</presence_sas>
+        <isolation>NON_ISOLE</isolation>
+        <nature_menuiserie>BOIS</nature_menuiserie>
+        <type_vitrage>TRIPLE_VITRAGE</type_vitrage>
+        <taux_vitrage lt="" lte="60" gt="" gte="30" />
+        <uporte>3.3</uporte>
+    </row>
+    <row>
+        <presence_sas>0</presence_sas>
+        <isolation>NON_ISOLE</isolation>
+        <nature_menuiserie>BOIS_METAL</nature_menuiserie>
+        <type_vitrage>TRIPLE_VITRAGE</type_vitrage>
+        <taux_vitrage lt="" lte="60" gt="" gte="30" />
+        <uporte>3.3</uporte>
+    </row>
+    <row>
+        <presence_sas>0</presence_sas>
+        <isolation>NON_ISOLE</isolation>
+        <nature_menuiserie>METAL</nature_menuiserie>
+        <type_vitrage>TRIPLE_VITRAGE</type_vitrage>
+        <taux_vitrage lt="" lte="60" gt="" gte="30" />
+        <uporte>4.8</uporte>
+    </row>
+    <row>
+        <presence_sas>0</presence_sas>
+        <isolation>ISOLE</isolation>
+        <nature_menuiserie>PVC</nature_menuiserie>
+        <type_vitrage />
+        <taux_vitrage lt="" lte="" gt="" gte="" />
+        <uporte>1.5</uporte>
+    </row>
+    <row>
+        <presence_sas>0</presence_sas>
+        <isolation>ISOLE</isolation>
+        <nature_menuiserie>BOIS</nature_menuiserie>
+        <type_vitrage />
+        <taux_vitrage lt="" lte="" gt="" gte="" />
+        <uporte>1.5</uporte>
+    </row>
+    <row>
+        <presence_sas>0</presence_sas>
+        <isolation>ISOLE</isolation>
+        <nature_menuiserie>BOIS_METAL</nature_menuiserie>
+        <type_vitrage />
+        <taux_vitrage lt="" lte="" gt="" gte="" />
+        <uporte>1.5</uporte>
+    </row>
+    <row>
+        <presence_sas>0</presence_sas>
+        <isolation>ISOLE</isolation>
+        <nature_menuiserie>METAL</nature_menuiserie>
+        <type_vitrage />
+        <taux_vitrage lt="" lte="" gt="" gte="" />
+        <uporte>1.5</uporte>
+    </row>
+    <row>
+        <presence_sas>0</presence_sas>
+        <isolation>ISOLE</isolation>
+        <nature_menuiserie>PVC</nature_menuiserie>
+        <type_vitrage>SIMPLE_VITRAGE</type_vitrage>
+        <taux_vitrage lt="30" lte="" gt="" gte="" />
+        <uporte>4</uporte>
+    </row>
+    <row>
+        <presence_sas>0</presence_sas>
+        <isolation>ISOLE</isolation>
+        <nature_menuiserie>BOIS</nature_menuiserie>
+        <type_vitrage>SIMPLE_VITRAGE</type_vitrage>
+        <taux_vitrage lt="30" lte="" gt="" gte="" />
+        <uporte>4</uporte>
+    </row>
+    <row>
+        <presence_sas>0</presence_sas>
+        <isolation>ISOLE</isolation>
+        <nature_menuiserie>BOIS_METAL</nature_menuiserie>
+        <type_vitrage>SIMPLE_VITRAGE</type_vitrage>
+        <taux_vitrage lt="30" lte="" gt="" gte="" />
+        <uporte>4</uporte>
+    </row>
+    <row>
+        <presence_sas>0</presence_sas>
+        <isolation>ISOLE</isolation>
+        <nature_menuiserie>METAL</nature_menuiserie>
+        <type_vitrage>SIMPLE_VITRAGE</type_vitrage>
+        <taux_vitrage lt="30" lte="" gt="" gte="" />
+        <uporte>5.8</uporte>
+    </row>
+    <row>
+        <presence_sas>0</presence_sas>
+        <isolation>ISOLE</isolation>
+        <nature_menuiserie>PVC</nature_menuiserie>
+        <type_vitrage>SIMPLE_VITRAGE</type_vitrage>
+        <taux_vitrage lt="" lte="60" gt="" gte="30" />
+        <uporte>4.5</uporte>
+    </row>
+    <row>
+        <presence_sas>0</presence_sas>
+        <isolation>ISOLE</isolation>
+        <nature_menuiserie>BOIS</nature_menuiserie>
+        <type_vitrage>SIMPLE_VITRAGE</type_vitrage>
+        <taux_vitrage lt="" lte="60" gt="" gte="30" />
+        <uporte>4.5</uporte>
+    </row>
+    <row>
+        <presence_sas>0</presence_sas>
+        <isolation>ISOLE</isolation>
+        <nature_menuiserie>BOIS_METAL</nature_menuiserie>
+        <type_vitrage>SIMPLE_VITRAGE</type_vitrage>
+        <taux_vitrage lt="" lte="60" gt="" gte="30" />
+        <uporte>4.5</uporte>
+    </row>
+    <row>
+        <presence_sas>0</presence_sas>
+        <isolation>ISOLE</isolation>
+        <nature_menuiserie>METAL</nature_menuiserie>
+        <type_vitrage>SIMPLE_VITRAGE</type_vitrage>
+        <taux_vitrage lt="" lte="60" gt="" gte="30" />
+        <uporte>5.8</uporte>
+    </row>
+    <row>
+        <presence_sas>0</presence_sas>
+        <isolation>ISOLE</isolation>
+        <nature_menuiserie>PVC</nature_menuiserie>
+        <type_vitrage>DOUBLE_VITRAGE</type_vitrage>
+        <taux_vitrage lt="" lte="" gt="" gte="" />
+        <uporte>1.5</uporte>
+    </row>
+    <row>
+        <presence_sas>0</presence_sas>
+        <isolation>ISOLE</isolation>
+        <nature_menuiserie>BOIS</nature_menuiserie>
+        <type_vitrage>DOUBLE_VITRAGE</type_vitrage>
+        <taux_vitrage lt="" lte="" gt="" gte="" />
+        <uporte>1.5</uporte>
+    </row>
+    <row>
+        <presence_sas>0</presence_sas>
+        <isolation>ISOLE</isolation>
+        <nature_menuiserie>BOIS_METAL</nature_menuiserie>
+        <type_vitrage>DOUBLE_VITRAGE</type_vitrage>
+        <taux_vitrage lt="" lte="" gt="" gte="" />
+        <uporte>1.5</uporte>
+    </row>
+    <row>
+        <presence_sas>0</presence_sas>
+        <isolation>ISOLE</isolation>
+        <nature_menuiserie>METAL</nature_menuiserie>
+        <type_vitrage>DOUBLE_VITRAGE</type_vitrage>
+        <taux_vitrage lt="" lte="" gt="" gte="" />
+        <uporte>1.5</uporte>
+    </row>
+    <row>
+        <presence_sas>0</presence_sas>
+        <isolation>ISOLE</isolation>
+        <nature_menuiserie>PVC</nature_menuiserie>
+        <type_vitrage>TRIPLE_VITRAGE</type_vitrage>
+        <taux_vitrage lt="" lte="" gt="" gte="" />
+        <uporte>1.5</uporte>
+    </row>
+    <row>
+        <presence_sas>0</presence_sas>
+        <isolation>ISOLE</isolation>
+        <nature_menuiserie>BOIS</nature_menuiserie>
+        <type_vitrage>TRIPLE_VITRAGE</type_vitrage>
+        <taux_vitrage lt="" lte="" gt="" gte="" />
+        <uporte>1.5</uporte>
+    </row>
+    <row>
+        <presence_sas>0</presence_sas>
+        <isolation>ISOLE</isolation>
+        <nature_menuiserie>BOIS_METAL</nature_menuiserie>
+        <type_vitrage>TRIPLE_VITRAGE</type_vitrage>
+        <taux_vitrage lt="" lte="" gt="" gte="" />
+        <uporte>1.5</uporte>
+    </row>
+    <row>
+        <presence_sas>0</presence_sas>
+        <isolation>ISOLE</isolation>
+        <nature_menuiserie>METAL</nature_menuiserie>
+        <type_vitrage>TRIPLE_VITRAGE</type_vitrage>
+        <taux_vitrage lt="" lte="" gt="" gte="" />
+        <uporte>1.5</uporte>
+    </row>
+</table>

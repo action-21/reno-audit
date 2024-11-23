@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table name="ecs.fecs">
+    <row>
+        <type_batiment>MAISON</type_batiment>
+        <zone_climatique>H1a</zone_climatique>
+        <usage_systeme_solaire>ECS</usage_systeme_solaire>
+        <anciennete_installation gt="5" gte="" lt="" lte="" />
+        <fecs>0.49</fecs>
+    </row>
+    <row>
+        <type_batiment>MAISON</type_batiment>
+        <zone_climatique>H1b</zone_climatique>
+        <usage_systeme_solaire>ECS</usage_systeme_solaire>
+        <anciennete_installation gt="5" gte="" lt="" lte="" />
+        <fecs>0.5</fecs>
+    </row>
+    <row>
+        <type_batiment>MAISON</type_batiment>
+        <zone_climatique>H1c</zone_climatique>
+        <usage_systeme_solaire>ECS</usage_systeme_solaire>
+        <anciennete_installation gt="5" gte="" lt="" lte="" />
+        <fecs>0.53</fecs>
+    </row>
+    <row>
+        <type_batiment>MAISON</type_batiment>
+        <zone_climatique>H2a</zone_climatique>
+        <usage_systeme_solaire>ECS</usage_systeme_solaire>
+        <anciennete_installation gt="5" gte="" lt="" lte="" />
+        <fecs>0.51</fecs>
+    </row>
+    <row>
+        <type_batiment>MAISON</type_batiment>
+        <zone_climatique>H2b</zone_climatique>
+        <usage_systeme_solaire>ECS</usage_systeme_solaire>
+        <anciennete_installation gt="5" gte="" lt="" lte="" />
+        <fecs>0.54</fecs>
+    </row>
+    <row>
+        <type_batiment>MAISON</type_batiment>
+        <zone_climatique>H2c</zone_climatique>
+        <usage_systeme_solaire>ECS</usage_systeme_solaire>
+        <anciennete_installation gt="5" gte="" lt="" lte="" />
+        <fecs>0.58</fecs>
+    </row>
+    <row>
+        <type_batiment>MAISON</type_batiment>
+        <zone_climatique>H2d</zone_climatique>
+        <usage_systeme_solaire>ECS</usage_systeme_solaire>
+        <anciennete_installation gt="5" gte="" lt="" lte="" />
+        <fecs>0.61</fecs>
+    </row>
+    <row>
+        <type_batiment>MAISON</type_batiment>
+        <zone_climatique>H3</zone_climatique>
+        <usage_systeme_solaire>ECS</usage_systeme_solaire>
+        <anciennete_installation gt="5" gte="" lt="" lte="" />
+        <fecs>0.64</fecs>
+    </row>
+    <row>
+        <type_batiment>MAISON</type_batiment>
+        <zone_climatique>H1a</zone_climatique>
+        <usage_systeme_solaire>ECS</usage_systeme_solaire>
+        <anciennete_installation gt="" gte="" lt="5" lte="" />
+        <fecs>0.63</fecs>
+    </row>
+    <row>
+        <type_batiment>MAISON</type_batiment>
+        <zone_climatique>H1b</zone_climatique>
+        <usage_systeme_solaire>ECS</usage_systeme_solaire>
+        <anciennete_installation gt="" gte="" lt="5" lte="" />
+        <fecs>0.64</fecs>
+    </row>
+    <row>
+        <type_batiment>MAISON</type_batiment>
+        <zone_climatique>H1c</zone_climatique>
+        <usage_systeme_solaire>ECS</usage_systeme_solaire>
+        <anciennete_installation gt="" gte="" lt="5" lte="" />
+        <fecs>0.68</fecs>
+    </row>
+    <row>
+        <type_batiment>MAISON</type_batiment>
+        <zone_climatique>H2a</zone_climatique>
+        <usage_systeme_solaire>ECS</usage_systeme_solaire>
+        <anciennete_installation gt="" gte="" lt="5" lte="" />
+        <fecs>0.66</fecs>
+    </row>
+    <row>
+        <type_batiment>MAISON</type_batiment>
+        <zone_climatique>H2b</zone_climatique>
+        <usage_systeme_solaire>ECS</usage_systeme_solaire>
+        <anciennete_installation gt="" gte="" lt="5" lte="" />
+        <fecs>0.69</fecs>
+    </row>
+    <row>
+        <type_batiment>MAISON</type_batiment>
+        <zone_climatique>H2c</zone_climatique>
+        <usage_systeme_solaire>ECS</usage_systeme_solaire>
+        <anciennete_installation gt="" gte="" lt="5" lte="" />
+        <fecs>0.74</fecs>
+    </row>
+    <row>
+        <type_batiment>MAISON</type_batiment>
+        <zone_climatique>H2d</zone_climatique>
+        <usage_systeme_solaire>ECS</usage_systeme_solaire>
+        <anciennete_installation gt="" gte="" lt="5" lte="" />
+        <fecs>0.77</fecs>
+    </row>
+    <row>
+        <type_batiment>MAISON</type_batiment>
+        <zone_climatique>H3</zone_climatique>
+        <usage_systeme_solaire>ECS</usage_systeme_solaire>
+        <anciennete_installation gt="" gte="" lt="5" lte="" />
+        <fecs>0.8</fecs>
+    </row>
+    <row>
+        <type_batiment>MAISON</type_batiment>
+        <zone_climatique>H1a</zone_climatique>
+        <usage_systeme_solaire>CHAUFFAGE_ECS</usage_systeme_solaire>
+        <anciennete_installation gt="" gte="" lt="" lte="" />
+        <fecs>0.87</fecs>
+    </row>
+    <row>
+        <type_batiment>MAISON</type_batiment>
+        <zone_climatique>H1b</zone_climatique>
+        <usage_systeme_solaire>CHAUFFAGE_ECS</usage_systeme_solaire>
+        <anciennete_installation gt="" gte="" lt="" lte="" />
+        <fecs>0.88</fecs>
+    </row>
+    <row>
+        <type_batiment>MAISON</type_batiment>
+        <zone_climatique>H1c</zone_climatique>
+        <usage_systeme_solaire>CHAUFFAGE_ECS</usage_systeme_solaire>
+        <anciennete_installation gt="" gte="" lt="" lte="" />
+        <fecs>0.9</fecs>
+    </row>
+    <row>
+        <type_batiment>MAISON</type_batiment>
+        <zone_climatique>H2a</zone_climatique>
+        <usage_systeme_solaire>CHAUFFAGE_ECS</usage_systeme_solaire>
+        <anciennete_installation gt="" gte="" lt="" lte="" />
+        <fecs>0.9</fecs>
+    </row>
+    <row>
+        <type_batiment>MAISON</type_batiment>
+        <zone_climatique>H2b</zone_climatique>
+        <usage_systeme_solaire>CHAUFFAGE_ECS</usage_systeme_solaire>
+        <anciennete_installation gt="" gte="" lt="" lte="" />
+        <fecs>0.91</fecs>
+    </row>
+    <row>
+        <type_batiment>MAISON</type_batiment>
+        <zone_climatique>H2c</zone_climatique>
+        <usage_systeme_solaire>CHAUFFAGE_ECS</usage_systeme_solaire>
+        <anciennete_installation gt="" gte="" lt="" lte="" />
+        <fecs>0.95</fecs>
+    </row>
+    <row>
+        <type_batiment>MAISON</type_batiment>
+        <zone_climatique>H2d</zone_climatique>
+        <usage_systeme_solaire>CHAUFFAGE_ECS</usage_systeme_solaire>
+        <anciennete_installation gt="" gte="" lt="" lte="" />
+        <fecs>0.96</fecs>
+    </row>
+    <row>
+        <type_batiment>MAISON</type_batiment>
+        <zone_climatique>H3</zone_climatique>
+        <usage_systeme_solaire>CHAUFFAGE_ECS</usage_systeme_solaire>
+        <anciennete_installation gt="" gte="" lt="" lte="" />
+        <fecs>0.98</fecs>
+    </row>
+    <row>
+        <type_batiment>IMMEUBLE</type_batiment>
+        <zone_climatique>H1a</zone_climatique>
+        <usage_systeme_solaire>ECS</usage_systeme_solaire>
+        <anciennete_installation gt="5" gte="" lt="" lte="" />
+        <fecs>0.26</fecs>
+    </row>
+    <row>
+        <type_batiment>IMMEUBLE</type_batiment>
+        <zone_climatique>H1b</zone_climatique>
+        <usage_systeme_solaire>ECS</usage_systeme_solaire>
+        <anciennete_installation gt="5" gte="" lt="" lte="" />
+        <fecs>0.27</fecs>
+    </row>
+    <row>
+        <type_batiment>IMMEUBLE</type_batiment>
+        <zone_climatique>H1c</zone_climatique>
+        <usage_systeme_solaire>ECS</usage_systeme_solaire>
+        <anciennete_installation gt="5" gte="" lt="" lte="" />
+        <fecs>0.31</fecs>
+    </row>
+    <row>
+        <type_batiment>IMMEUBLE</type_batiment>
+        <zone_climatique>H2a</zone_climatique>
+        <usage_systeme_solaire>ECS</usage_systeme_solaire>
+        <anciennete_installation gt="5" gte="" lt="" lte="" />
+        <fecs>0.28</fecs>
+    </row>
+    <row>
+        <type_batiment>IMMEUBLE</type_batiment>
+        <zone_climatique>H2b</zone_climatique>
+        <usage_systeme_solaire>ECS</usage_systeme_solaire>
+        <anciennete_installation gt="5" gte="" lt="" lte="" />
+        <fecs>0.32</fecs>
+    </row>
+    <row>
+        <type_batiment>IMMEUBLE</type_batiment>
+        <zone_climatique>H2c</zone_climatique>
+        <usage_systeme_solaire>ECS</usage_systeme_solaire>
+        <anciennete_installation gt="5" gte="" lt="" lte="" />
+        <fecs>0.35</fecs>
+    </row>
+    <row>
+        <type_batiment>IMMEUBLE</type_batiment>
+        <zone_climatique>H2d</zone_climatique>
+        <usage_systeme_solaire>ECS</usage_systeme_solaire>
+        <anciennete_installation gt="5" gte="" lt="" lte="" />
+        <fecs>0.38</fecs>
+    </row>
+    <row>
+        <type_batiment>IMMEUBLE</type_batiment>
+        <zone_climatique>H3</zone_climatique>
+        <usage_systeme_solaire>ECS</usage_systeme_solaire>
+        <anciennete_installation gt="5" gte="" lt="" lte="" />
+        <fecs>0.4</fecs>
+    </row>
+    <row>
+        <type_batiment>IMMEUBLE</type_batiment>
+        <zone_climatique>H1a</zone_climatique>
+        <usage_systeme_solaire>ECS</usage_systeme_solaire>
+        <anciennete_installation gt="" gte="" lt="5" lte="" />
+        <fecs>0.38</fecs>
+    </row>
+    <row>
+        <type_batiment>IMMEUBLE</type_batiment>
+        <zone_climatique>H1b</zone_climatique>
+        <usage_systeme_solaire>ECS</usage_systeme_solaire>
+        <anciennete_installation gt="" gte="" lt="5" lte="" />
+        <fecs>0.4</fecs>
+    </row>
+    <row>
+        <type_batiment>IMMEUBLE</type_batiment>
+        <zone_climatique>H1c</zone_climatique>
+        <usage_systeme_solaire>ECS</usage_systeme_solaire>
+        <anciennete_installation gt="" gte="" lt="5" lte="" />
+        <fecs>0.45</fecs>
+    </row>
+    <row>
+        <type_batiment>IMMEUBLE</type_batiment>
+        <zone_climatique>H2a</zone_climatique>
+        <usage_systeme_solaire>ECS</usage_systeme_solaire>
+        <anciennete_installation gt="" gte="" lt="5" lte="" />
+        <fecs>0.41</fecs>
+    </row>
+    <row>
+        <type_batiment>IMMEUBLE</type_batiment>
+        <zone_climatique>H2b</zone_climatique>
+        <usage_systeme_solaire>ECS</usage_systeme_solaire>
+        <anciennete_installation gt="" gte="" lt="5" lte="" />
+        <fecs>0.46</fecs>
+    </row>
+    <row>
+        <type_batiment>IMMEUBLE</type_batiment>
+        <zone_climatique>H2c</zone_climatique>
+        <usage_systeme_solaire>ECS</usage_systeme_solaire>
+        <anciennete_installation gt="" gte="" lt="5" lte="" />
+        <fecs>0.5</fecs>
+    </row>
+    <row>
+        <type_batiment>IMMEUBLE</type_batiment>
+        <zone_climatique>H2d</zone_climatique>
+        <usage_systeme_solaire>ECS</usage_systeme_solaire>
+        <anciennete_installation gt="" gte="" lt="5" lte="" />
+        <fecs>0.56</fecs>
+    </row>
+    <row>
+        <type_batiment>IMMEUBLE</type_batiment>
+        <zone_climatique>H3</zone_climatique>
+        <usage_systeme_solaire>ECS</usage_systeme_solaire>
+        <anciennete_installation gt="" gte="" lt="5" lte="" />
+        <fecs>0.58</fecs>
+    </row>
+</table>

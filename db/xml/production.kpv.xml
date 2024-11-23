@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table name="production.kpv">
+    <row>
+        <orientation_pv gt="" gte="" lt="67.5" lte="" />
+        <inclinaison_pv gt="" gte="" lt="" lte="" />
+        <kpv>0</kpv>
+    </row>
+    <row>
+        <orientation_pv gt="" gte="67.5" lt="112.5" lte="" />
+        <inclinaison_pv gt="" gte="" lt="" lte="15" />
+        <kpv>1</kpv>
+    </row>
+    <row>
+        <orientation_pv gt="" gte="67.5" lt="112.5" lte="" />
+        <inclinaison_pv gt="15" gte="" lt="" lte="45" />
+        <kpv>0.96</kpv>
+    </row>
+    <row>
+        <orientation_pv gt="" gte="112.5" lt="157.5" lte="" />
+        <inclinaison_pv gt="15" gte="" lt="" lte="45" />
+        <kpv>1.03</kpv>
+    </row>
+    <row>
+        <orientation_pv gt="" gte="157.5" lt="" lte="202.5" />
+        <inclinaison_pv gt="15" gte="" lt="" lte="45" />
+        <kpv>1.07</kpv>
+    </row>
+    <row>
+        <orientation_pv gt="202.5" gte="" lt="" lte="247.5" />
+        <inclinaison_pv gt="15" gte="" lt="" lte="45" />
+        <kpv>1.03</kpv>
+    </row>
+    <row>
+        <orientation_pv gt="247.5" gte="" lt="" lte="292.5" />
+        <inclinaison_pv gt="15" gte="" lt="" lte="45" />
+        <kpv>0.96</kpv>
+    </row>
+    <row>
+        <orientation_pv gt="" gte="67.5" lt="112.5" lte="" />
+        <inclinaison_pv gt="45" gte="" lt="" lte="75" />
+        <kpv>0.83</kpv>
+    </row>
+    <row>
+        <orientation_pv gt="" gte="112.5" lt="157.5" lte="" />
+        <inclinaison_pv gt="45" gte="" lt="" lte="75" />
+        <kpv>0.94</kpv>
+    </row>
+    <row>
+        <orientation_pv gt="" gte="157.5" lt="" lte="202.5" />
+        <inclinaison_pv gt="45" gte="" lt="" lte="75" />
+        <kpv>0.97</kpv>
+    </row>
+    <row>
+        <orientation_pv gt="202.5" gte="" lt="" lte="247.5" />
+        <inclinaison_pv gt="45" gte="" lt="" lte="75" />
+        <kpv>0.94</kpv>
+    </row>
+    <row>
+        <orientation_pv gt="247.5" gte="" lt="" lte="292.5" />
+        <inclinaison_pv gt="45" gte="" lt="" lte="75" />
+        <kpv>0.83</kpv>
+    </row>
+    <row>
+        <orientation_pv gt="" gte="67.5" lt="112.5" lte="" />
+        <inclinaison_pv gt="75" gte="" lt="" lte="" />
+        <kpv>0.59</kpv>
+    </row>
+    <row>
+        <orientation_pv gt="" gte="112.5" lt="157.5" lte="" />
+        <inclinaison_pv gt="75" gte="" lt="" lte="" />
+        <kpv>0.71</kpv>
+    </row>
+    <row>
+        <orientation_pv gt="" gte="157.5" lt="" lte="202.5" />
+        <inclinaison_pv gt="75" gte="" lt="" lte="" />
+        <kpv>0.73</kpv>
+    </row>
+    <row>
+        <orientation_pv gt="202.5" gte="" lt="" lte="247.5" />
+        <inclinaison_pv gt="75" gte="" lt="" lte="" />
+        <kpv>0.71</kpv>
+    </row>
+    <row>
+        <orientation_pv gt="247.5" gte="" lt="" lte="292.5" />
+        <inclinaison_pv gt="75" gte="" lt="" lte="" />
+        <kpv>0.59</kpv>
+    </row>
+    <row>
+        <orientation_pv gt="292.5" gte="" lt="" lte="" />
+        <inclinaison_pv gt="" gte="" lt="" lte="" />
+        <kpv>0</kpv>
+    </row>
+</table>

@@ -1,0 +1,945 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table name="mur.umur0">
+    <row>
+        <type_mur>INCONNU</type_mur>
+        <epaisseur></epaisseur>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <umur0>2.5</umur0>
+    </row>
+    <row>
+        <type_mur>PIERRE_MOELLONS</type_mur>
+        <epaisseur>20</epaisseur>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <umur0>3.2</umur0>
+    </row>
+    <row>
+        <type_mur>PIERRE_MOELLONS</type_mur>
+        <epaisseur>25</epaisseur>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <umur0>2.85</umur0>
+    </row>
+    <row>
+        <type_mur>PIERRE_MOELLONS</type_mur>
+        <epaisseur>30</epaisseur>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <umur0>2.65</umur0>
+    </row>
+    <row>
+        <type_mur>PIERRE_MOELLONS</type_mur>
+        <epaisseur>35</epaisseur>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <umur0>2.45</umur0>
+    </row>
+    <row>
+        <type_mur>PIERRE_MOELLONS</type_mur>
+        <epaisseur>40</epaisseur>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <umur0>2.3</umur0>
+    </row>
+    <row>
+        <type_mur>PIERRE_MOELLONS</type_mur>
+        <epaisseur>45</epaisseur>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <umur0>2.15</umur0>
+    </row>
+    <row>
+        <type_mur>PIERRE_MOELLONS</type_mur>
+        <epaisseur>50</epaisseur>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <umur0>2.05</umur0>
+    </row>
+    <row>
+        <type_mur>PIERRE_MOELLONS</type_mur>
+        <epaisseur>55</epaisseur>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <umur0>1.9</umur0>
+    </row>
+    <row>
+        <type_mur>PIERRE_MOELLONS</type_mur>
+        <epaisseur>60</epaisseur>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <umur0>1.8</umur0>
+    </row>
+    <row>
+        <type_mur>PIERRE_MOELLONS</type_mur>
+        <epaisseur>65</epaisseur>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <umur0>1.75</umur0>
+    </row>
+    <row>
+        <type_mur>PIERRE_MOELLONS</type_mur>
+        <epaisseur>70</epaisseur>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <umur0>1.65</umur0>
+    </row>
+    <row>
+        <type_mur>PIERRE_MOELLONS</type_mur>
+        <epaisseur>75</epaisseur>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <umur0>1.55</umur0>
+    </row>
+    <row>
+        <type_mur>PIERRE_MOELLONS</type_mur>
+        <epaisseur>80</epaisseur>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <umur0>1.5</umur0>
+    </row>
+    <row>
+        <type_mur>PIERRE_MOELLONS_AVEC_REMPLISSAGE</type_mur>
+        <epaisseur>50</epaisseur>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <umur0>1.9</umur0>
+    </row>
+    <row>
+        <type_mur>PIERRE_MOELLONS_AVEC_REMPLISSAGE</type_mur>
+        <epaisseur>55</epaisseur>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <umur0>1.75</umur0>
+    </row>
+    <row>
+        <type_mur>PIERRE_MOELLONS_AVEC_REMPLISSAGE</type_mur>
+        <epaisseur>60</epaisseur>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <umur0>1.6</umur0>
+    </row>
+    <row>
+        <type_mur>PIERRE_MOELLONS_AVEC_REMPLISSAGE</type_mur>
+        <epaisseur>65</epaisseur>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <umur0>1.5</umur0>
+    </row>
+    <row>
+        <type_mur>PIERRE_MOELLONS_AVEC_REMPLISSAGE</type_mur>
+        <epaisseur>70</epaisseur>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <umur0>1.45</umur0>
+    </row>
+    <row>
+        <type_mur>PIERRE_MOELLONS_AVEC_REMPLISSAGE</type_mur>
+        <epaisseur>75</epaisseur>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <umur0>1.3</umur0>
+    </row>
+    <row>
+        <type_mur>PIERRE_MOELLONS_AVEC_REMPLISSAGE</type_mur>
+        <epaisseur>80</epaisseur>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <umur0>1.25</umur0>
+    </row>
+    <row>
+        <type_mur>PISE_OU_BETON_TERRE</type_mur>
+        <epaisseur>40</epaisseur>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <umur0>1.75</umur0>
+    </row>
+    <row>
+        <type_mur>PISE_OU_BETON_TERRE</type_mur>
+        <epaisseur>45</epaisseur>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <umur0>1.65</umur0>
+    </row>
+    <row>
+        <type_mur>PISE_OU_BETON_TERRE</type_mur>
+        <epaisseur>50</epaisseur>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <umur0>1.55</umur0>
+    </row>
+    <row>
+        <type_mur>PISE_OU_BETON_TERRE</type_mur>
+        <epaisseur>55</epaisseur>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <umur0>1.45</umur0>
+    </row>
+    <row>
+        <type_mur>PISE_OU_BETON_TERRE</type_mur>
+        <epaisseur>60</epaisseur>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <umur0>1.35</umur0>
+    </row>
+    <row>
+        <type_mur>PISE_OU_BETON_TERRE</type_mur>
+        <epaisseur>65</epaisseur>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <umur0>1.25</umur0>
+    </row>
+    <row>
+        <type_mur>PISE_OU_BETON_TERRE</type_mur>
+        <epaisseur>70</epaisseur>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <umur0>1.2</umur0>
+    </row>
+    <row>
+        <type_mur>PISE_OU_BETON_TERRE</type_mur>
+        <epaisseur>75</epaisseur>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <umur0>1.15</umur0>
+    </row>
+    <row>
+        <type_mur>PISE_OU_BETON_TERRE</type_mur>
+        <epaisseur>80</epaisseur>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <umur0>1.1</umur0>
+    </row>
+    <row>
+        <type_mur>PAN_BOIS_SANS_REMPLISSAGE</type_mur>
+        <epaisseur>8</epaisseur>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <umur0>3</umur0>
+    </row>
+    <row>
+        <type_mur>PAN_BOIS_SANS_REMPLISSAGE</type_mur>
+        <epaisseur>10</epaisseur>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <umur0>2.7</umur0>
+    </row>
+    <row>
+        <type_mur>PAN_BOIS_SANS_REMPLISSAGE</type_mur>
+        <epaisseur>13</epaisseur>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <umur0>2.35</umur0>
+    </row>
+    <row>
+        <type_mur>PAN_BOIS_SANS_REMPLISSAGE</type_mur>
+        <epaisseur>18</epaisseur>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <umur0>1.98</umur0>
+    </row>
+    <row>
+        <type_mur>PAN_BOIS_SANS_REMPLISSAGE</type_mur>
+        <epaisseur>24</epaisseur>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <umur0>1.65</umur0>
+    </row>
+    <row>
+        <type_mur>PAN_BOIS_SANS_REMPLISSAGE</type_mur>
+        <epaisseur>32</epaisseur>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <umur0>1.35</umur0>
+    </row>
+    <row>
+        <type_mur>PAN_BOIS_AVEC_REMPLISSAGE</type_mur>
+        <epaisseur></epaisseur>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <umur0>1.7</umur0>
+    </row>
+    <row>
+        <type_mur>BOIS_RONDIN</type_mur>
+        <epaisseur>10</epaisseur>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <umur0>1.6</umur0>
+    </row>
+    <row>
+        <type_mur>BOIS_RONDIN</type_mur>
+        <epaisseur>15</epaisseur>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <umur0>1.2</umur0>
+    </row>
+    <row>
+        <type_mur>BOIS_RONDIN</type_mur>
+        <epaisseur>20</epaisseur>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <umur0>0.95</umur0>
+    </row>
+    <row>
+        <type_mur>BOIS_RONDIN</type_mur>
+        <epaisseur>25</epaisseur>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <umur0>0.8</umur0>
+    </row>
+    <row>
+        <type_mur>BRIQUE_PLEINE_SIMPLE</type_mur>
+        <epaisseur>9</epaisseur>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <umur0>3.9</umur0>
+    </row>
+    <row>
+        <type_mur>BRIQUE_PLEINE_SIMPLE</type_mur>
+        <epaisseur>12</epaisseur>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <umur0>3.45</umur0>
+    </row>
+    <row>
+        <type_mur>BRIQUE_PLEINE_SIMPLE</type_mur>
+        <epaisseur>15</epaisseur>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <umur0>3.05</umur0>
+    </row>
+    <row>
+        <type_mur>BRIQUE_PLEINE_SIMPLE</type_mur>
+        <epaisseur>19</epaisseur>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <umur0>2.75</umur0>
+    </row>
+    <row>
+        <type_mur>BRIQUE_PLEINE_SIMPLE</type_mur>
+        <epaisseur>23</epaisseur>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <umur0>2.5</umur0>
+    </row>
+    <row>
+        <type_mur>BRIQUE_PLEINE_SIMPLE</type_mur>
+        <epaisseur>28</epaisseur>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <umur0>2.25</umur0>
+    </row>
+    <row>
+        <type_mur>BRIQUE_PLEINE_SIMPLE</type_mur>
+        <epaisseur>34</epaisseur>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <umur0>2</umur0>
+    </row>
+    <row>
+        <type_mur>BRIQUE_PLEINE_SIMPLE</type_mur>
+        <epaisseur>45</epaisseur>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <umur0>1.65</umur0>
+    </row>
+    <row>
+        <type_mur>BRIQUE_PLEINE_SIMPLE</type_mur>
+        <epaisseur>55</epaisseur>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <umur0>1.45</umur0>
+    </row>
+    <row>
+        <type_mur>BRIQUE_PLEINE_SIMPLE</type_mur>
+        <epaisseur>60</epaisseur>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <umur0>1.35</umur0>
+    </row>
+    <row>
+        <type_mur>BRIQUE_PLEINE_SIMPLE</type_mur>
+        <epaisseur>70</epaisseur>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <umur0>1.2</umur0>
+    </row>
+    <row>
+        <type_mur>BRIQUE_PLEINE_DOUBLE_AVEC_LAME_AIR</type_mur>
+        <epaisseur>20</epaisseur>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <umur0>2</umur0>
+    </row>
+    <row>
+        <type_mur>BRIQUE_PLEINE_DOUBLE_AVEC_LAME_AIR</type_mur>
+        <epaisseur>25</epaisseur>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <umur0>1.85</umur0>
+    </row>
+    <row>
+        <type_mur>BRIQUE_PLEINE_DOUBLE_AVEC_LAME_AIR</type_mur>
+        <epaisseur>30</epaisseur>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <umur0>1.65</umur0>
+    </row>
+    <row>
+        <type_mur>BRIQUE_PLEINE_DOUBLE_AVEC_LAME_AIR</type_mur>
+        <epaisseur>35</epaisseur>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <umur0>1.55</umur0>
+    </row>
+    <row>
+        <type_mur>BRIQUE_PLEINE_DOUBLE_AVEC_LAME_AIR</type_mur>
+        <epaisseur>45</epaisseur>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <umur0>1.35</umur0>
+    </row>
+    <row>
+        <type_mur>BRIQUE_PLEINE_DOUBLE_AVEC_LAME_AIR</type_mur>
+        <epaisseur>50</epaisseur>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <umur0>1.25</umur0>
+    </row>
+    <row>
+        <type_mur>BRIQUE_PLEINE_DOUBLE_AVEC_LAME_AIR</type_mur>
+        <epaisseur>60</epaisseur>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <umur0>1.2</umur0>
+    </row>
+    <row>
+        <type_mur>BRIQUE_CREUSE</type_mur>
+        <epaisseur>15</epaisseur>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <umur0>2.15</umur0>
+    </row>
+    <row>
+        <type_mur>BRIQUE_CREUSE</type_mur>
+        <epaisseur>18</epaisseur>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <umur0>2.05</umur0>
+    </row>
+    <row>
+        <type_mur>BRIQUE_CREUSE</type_mur>
+        <epaisseur>20</epaisseur>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <umur0>2</umur0>
+    </row>
+    <row>
+        <type_mur>BRIQUE_CREUSE</type_mur>
+        <epaisseur>23</epaisseur>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <umur0>1.85</umur0>
+    </row>
+    <row>
+        <type_mur>BRIQUE_CREUSE</type_mur>
+        <epaisseur>25</epaisseur>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <umur0>1.7</umur0>
+    </row>
+    <row>
+        <type_mur>BRIQUE_CREUSE</type_mur>
+        <epaisseur>28</epaisseur>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <umur0>1.68</umur0>
+    </row>
+    <row>
+        <type_mur>BRIQUE_CREUSE</type_mur>
+        <epaisseur>33</epaisseur>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <umur0>1.65</umur0>
+    </row>
+    <row>
+        <type_mur>BRIQUE_CREUSE</type_mur>
+        <epaisseur>38</epaisseur>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <umur0>1.55</umur0>
+    </row>
+    <row>
+        <type_mur>BRIQUE_CREUSE</type_mur>
+        <epaisseur>43</epaisseur>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <umur0>1.4</umur0>
+    </row>
+    <row>
+        <type_mur>BLOC_BETON_PLEIN</type_mur>
+        <epaisseur>20</epaisseur>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <umur0>2.9</umur0>
+    </row>
+    <row>
+        <type_mur>BLOC_BETON_PLEIN</type_mur>
+        <epaisseur>23</epaisseur>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <umur0>2.75</umur0>
+    </row>
+    <row>
+        <type_mur>BLOC_BETON_PLEIN</type_mur>
+        <epaisseur>25</epaisseur>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <umur0>2.6</umur0>
+    </row>
+    <row>
+        <type_mur>BLOC_BETON_PLEIN</type_mur>
+        <epaisseur>28</epaisseur>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <umur0>2.5</umur0>
+    </row>
+    <row>
+        <type_mur>BLOC_BETON_PLEIN</type_mur>
+        <epaisseur>30</epaisseur>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <umur0>2.4</umur0>
+    </row>
+    <row>
+        <type_mur>BLOC_BETON_PLEIN</type_mur>
+        <epaisseur>33</epaisseur>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <umur0>2.3</umur0>
+    </row>
+    <row>
+        <type_mur>BLOC_BETON_PLEIN</type_mur>
+        <epaisseur>35</epaisseur>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <umur0>2.2</umur0>
+    </row>
+    <row>
+        <type_mur>BLOC_BETON_PLEIN</type_mur>
+        <epaisseur>38</epaisseur>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <umur0>2.1</umur0>
+    </row>
+    <row>
+        <type_mur>BLOC_BETON_PLEIN</type_mur>
+        <epaisseur>40</epaisseur>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <umur0>2.05</umur0>
+    </row>
+    <row>
+        <type_mur>BLOC_BETON_CREUX</type_mur>
+        <epaisseur>20</epaisseur>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <umur0>2.8</umur0>
+    </row>
+    <row>
+        <type_mur>BLOC_BETON_CREUX</type_mur>
+        <epaisseur>23</epaisseur>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <umur0>2.65</umur0>
+    </row>
+    <row>
+        <type_mur>BLOC_BETON_CREUX</type_mur>
+        <epaisseur>25</epaisseur>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <umur0>2.3</umur0>
+    </row>
+    <row>
+        <type_mur>BETON_BANCHE</type_mur>
+        <epaisseur>20</epaisseur>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <umur0>2.9</umur0>
+    </row>
+    <row>
+        <type_mur>BETON_BANCHE</type_mur>
+        <epaisseur>22.5</epaisseur>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <umur0>2.75</umur0>
+    </row>
+    <row>
+        <type_mur>BETON_BANCHE</type_mur>
+        <epaisseur>25</epaisseur>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <umur0>2.65</umur0>
+    </row>
+    <row>
+        <type_mur>BETON_BANCHE</type_mur>
+        <epaisseur>28</epaisseur>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <umur0>2.5</umur0>
+    </row>
+    <row>
+        <type_mur>BETON_BANCHE</type_mur>
+        <epaisseur>30</epaisseur>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <umur0>2.4</umur0>
+    </row>
+    <row>
+        <type_mur>BETON_BANCHE</type_mur>
+        <epaisseur>35</epaisseur>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <umur0>2.2</umur0>
+    </row>
+    <row>
+        <type_mur>BETON_BANCHE</type_mur>
+        <epaisseur>40</epaisseur>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <umur0>2.05</umur0>
+    </row>
+    <row>
+        <type_mur>BETON_BANCHE</type_mur>
+        <epaisseur>45</epaisseur>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <umur0>1.9</umur0>
+    </row>
+    <row>
+        <type_mur>BETON_MACHEFER</type_mur>
+        <epaisseur>20</epaisseur>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <umur0>2.75</umur0>
+    </row>
+    <row>
+        <type_mur>BETON_MACHEFER</type_mur>
+        <epaisseur>22.5</epaisseur>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <umur0>2.5</umur0>
+    </row>
+    <row>
+        <type_mur>BETON_MACHEFER</type_mur>
+        <epaisseur>25</epaisseur>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <umur0>2.4</umur0>
+    </row>
+    <row>
+        <type_mur>BETON_MACHEFER</type_mur>
+        <epaisseur>28</epaisseur>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <umur0>2.25</umur0>
+    </row>
+    <row>
+        <type_mur>BETON_MACHEFER</type_mur>
+        <epaisseur>30</epaisseur>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <umur0>2.15</umur0>
+    </row>
+    <row>
+        <type_mur>BETON_MACHEFER</type_mur>
+        <epaisseur>35</epaisseur>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <umur0>1.95</umur0>
+    </row>
+    <row>
+        <type_mur>BETON_MACHEFER</type_mur>
+        <epaisseur>40</epaisseur>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <umur0>1.8</umur0>
+    </row>
+    <row>
+        <type_mur>BRIQUE_TERRE_CUITE_ALVEOLAIRE</type_mur>
+        <epaisseur>30</epaisseur>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <umur0>0.47</umur0>
+    </row>
+    <row>
+        <type_mur>BRIQUE_TERRE_CUITE_ALVEOLAIRE</type_mur>
+        <epaisseur>37.5</epaisseur>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <umur0>0.4</umur0>
+    </row>
+    <row>
+        <type_mur>BETON_CELLULAIRE</type_mur>
+        <epaisseur>15</epaisseur>
+        <annee_construction gt="" gte="" lt="" lte="2012" />
+        <umur0>0.9</umur0>
+    </row>
+    <row>
+        <type_mur>BETON_CELLULAIRE</type_mur>
+        <epaisseur>17.5</epaisseur>
+        <annee_construction gt="" gte="" lt="" lte="2012" />
+        <umur0>0.79</umur0>
+    </row>
+    <row>
+        <type_mur>BETON_CELLULAIRE</type_mur>
+        <epaisseur>20</epaisseur>
+        <annee_construction gt="" gte="" lt="" lte="2012" />
+        <umur0>0.7</umur0>
+    </row>
+    <row>
+        <type_mur>BETON_CELLULAIRE</type_mur>
+        <epaisseur>22.5</epaisseur>
+        <annee_construction gt="" gte="" lt="" lte="2012" />
+        <umur0>0.63</umur0>
+    </row>
+    <row>
+        <type_mur>BETON_CELLULAIRE</type_mur>
+        <epaisseur>25</epaisseur>
+        <annee_construction gt="" gte="" lt="" lte="2012" />
+        <umur0>0.57</umur0>
+    </row>
+    <row>
+        <type_mur>BETON_CELLULAIRE</type_mur>
+        <epaisseur>27.5</epaisseur>
+        <annee_construction gt="" gte="" lt="" lte="2012" />
+        <umur0>0.53</umur0>
+    </row>
+    <row>
+        <type_mur>BETON_CELLULAIRE</type_mur>
+        <epaisseur>30</epaisseur>
+        <annee_construction gt="" gte="" lt="" lte="2012" />
+        <umur0>0.49</umur0>
+    </row>
+    <row>
+        <type_mur>BETON_CELLULAIRE</type_mur>
+        <epaisseur>32.5</epaisseur>
+        <annee_construction gt="" gte="" lt="" lte="2012" />
+        <umur0>0.45</umur0>
+    </row>
+    <row>
+        <type_mur>BETON_CELLULAIRE</type_mur>
+        <epaisseur>35</epaisseur>
+        <annee_construction gt="" gte="" lt="" lte="2012" />
+        <umur0>0.42</umur0>
+    </row>
+    <row>
+        <type_mur>BETON_CELLULAIRE</type_mur>
+        <epaisseur>37.5</epaisseur>
+        <annee_construction gt="" gte="" lt="" lte="2012" />
+        <umur0>0.4</umur0>
+    </row>
+    <row>
+        <type_mur>BETON_CELLULAIRE</type_mur>
+        <epaisseur>15</epaisseur>
+        <annee_construction gt="" gte="2013" lt="" lte="" />
+        <umur0>0.69</umur0>
+    </row>
+    <row>
+        <type_mur>BETON_CELLULAIRE</type_mur>
+        <epaisseur>17.5</epaisseur>
+        <annee_construction gt="" gte="2013" lt="" lte="" />
+        <umur0>0.6</umur0>
+    </row>
+    <row>
+        <type_mur>BETON_CELLULAIRE</type_mur>
+        <epaisseur>20</epaisseur>
+        <annee_construction gt="" gte="2013" lt="" lte="" />
+        <umur0>0.53</umur0>
+    </row>
+    <row>
+        <type_mur>BETON_CELLULAIRE</type_mur>
+        <epaisseur>22.5</epaisseur>
+        <annee_construction gt="" gte="2013" lt="" lte="" />
+        <umur0>0.48</umur0>
+    </row>
+    <row>
+        <type_mur>BETON_CELLULAIRE</type_mur>
+        <epaisseur>25</epaisseur>
+        <annee_construction gt="" gte="2013" lt="" lte="" />
+        <umur0>0.43</umur0>
+    </row>
+    <row>
+        <type_mur>BETON_CELLULAIRE</type_mur>
+        <epaisseur>27.5</epaisseur>
+        <annee_construction gt="" gte="2013" lt="" lte="" />
+        <umur0>0.4</umur0>
+    </row>
+    <row>
+        <type_mur>BETON_CELLULAIRE</type_mur>
+        <epaisseur>30</epaisseur>
+        <annee_construction gt="" gte="2013" lt="" lte="" />
+        <umur0>0.36</umur0>
+    </row>
+    <row>
+        <type_mur>BETON_CELLULAIRE</type_mur>
+        <epaisseur>32.5</epaisseur>
+        <annee_construction gt="" gte="2013" lt="" lte="" />
+        <umur0>0.3</umur0>
+    </row>
+    <row>
+        <type_mur>BETON_CELLULAIRE</type_mur>
+        <epaisseur>35</epaisseur>
+        <annee_construction gt="" gte="2013" lt="" lte="" />
+        <umur0>0.28</umur0>
+    </row>
+    <row>
+        <type_mur>BETON_CELLULAIRE</type_mur>
+        <epaisseur>37.5</epaisseur>
+        <annee_construction gt="" gte="2013" lt="" lte="" />
+        <umur0>0.22</umur0>
+    </row>
+    <row>
+        <type_mur>OSSATURE_BOIS_AVEC_REMPLISSAGE_ISOLANT</type_mur>
+        <epaisseur>10</epaisseur>
+        <annee_construction gt="" gte="2006" lt="" lte="" />
+        <umur0>0.45</umur0>
+    </row>
+    <row>
+        <type_mur>OSSATURE_BOIS_AVEC_REMPLISSAGE_ISOLANT</type_mur>
+        <epaisseur>15</epaisseur>
+        <annee_construction gt="" gte="2006" lt="" lte="" />
+        <umur0>0.35</umur0>
+    </row>
+    <row>
+        <type_mur>OSSATURE_BOIS_AVEC_REMPLISSAGE_ISOLANT</type_mur>
+        <epaisseur>20</epaisseur>
+        <annee_construction gt="" gte="2006" lt="" lte="" />
+        <umur0>0.26</umur0>
+    </row>
+    <row>
+        <type_mur>OSSATURE_BOIS_AVEC_REMPLISSAGE_ISOLANT</type_mur>
+        <epaisseur>25</epaisseur>
+        <annee_construction gt="" gte="2006" lt="" lte="" />
+        <umur0>0.21</umur0>
+    </row>
+    <row>
+        <type_mur>OSSATURE_BOIS_AVEC_REMPLISSAGE_ISOLANT</type_mur>
+        <epaisseur>30</epaisseur>
+        <annee_construction gt="" gte="2006" lt="" lte="" />
+        <umur0>0.17</umur0>
+    </row>
+    <row>
+        <type_mur>OSSATURE_BOIS_AVEC_REMPLISSAGE_ISOLANT</type_mur>
+        <epaisseur>35</epaisseur>
+        <annee_construction gt="" gte="2006" lt="" lte="" />
+        <umur0>0.15</umur0>
+    </row>
+    <row>
+        <type_mur>OSSATURE_BOIS_AVEC_REMPLISSAGE_ISOLANT</type_mur>
+        <epaisseur>40</epaisseur>
+        <annee_construction gt="" gte="2006" lt="" lte="" />
+        <umur0>0.13</umur0>
+    </row>
+    <row>
+        <type_mur>OSSATURE_BOIS_AVEC_REMPLISSAGE_ISOLANT</type_mur>
+        <epaisseur>45</epaisseur>
+        <annee_construction gt="" gte="2006" lt="" lte="" />
+        <umur0>0.11</umur0>
+    </row>
+    <row>
+        <type_mur>SANDWICH_BETON_ISOLANT_BETON_SANS_ISOLATION_RAPPORTEE</type_mur>
+        <epaisseur>15</epaisseur>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <umur0>0.9</umur0>
+    </row>
+    <row>
+        <type_mur>SANDWICH_BETON_ISOLANT_BETON_SANS_ISOLATION_RAPPORTEE</type_mur>
+        <epaisseur>20</epaisseur>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <umur0>0.48</umur0>
+    </row>
+    <row>
+        <type_mur>SANDWICH_BETON_ISOLANT_BETON_SANS_ISOLATION_RAPPORTEE</type_mur>
+        <epaisseur>25</epaisseur>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <umur0>0.45</umur0>
+    </row>
+    <row>
+        <type_mur>CLOISON_PLATRE</type_mur>
+        <epaisseur></epaisseur>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <umur0>3.33</umur0>
+    </row>
+    <row>
+        <type_mur>OSSATURE_BOIS_AVEC_REMPLISSAGE_ISOLANT</type_mur>
+        <epaisseur>10</epaisseur>
+        <annee_construction gt="" gte="2001" lt="" lte="2005" />
+        <umur0>0.52</umur0>
+    </row>
+    <row>
+        <type_mur>OSSATURE_BOIS_AVEC_REMPLISSAGE_ISOLANT</type_mur>
+        <epaisseur>15</epaisseur>
+        <annee_construction gt="" gte="2001" lt="" lte="2005" />
+        <umur0>0.41</umur0>
+    </row>
+    <row>
+        <type_mur>OSSATURE_BOIS_AVEC_REMPLISSAGE_ISOLANT</type_mur>
+        <epaisseur>20</epaisseur>
+        <annee_construction gt="" gte="2001" lt="" lte="2005" />
+        <umur0>0.3</umur0>
+    </row>
+    <row>
+        <type_mur>OSSATURE_BOIS_AVEC_REMPLISSAGE_ISOLANT</type_mur>
+        <epaisseur>25</epaisseur>
+        <annee_construction gt="" gte="2001" lt="" lte="2005" />
+        <umur0>0.24</umur0>
+    </row>
+    <row>
+        <type_mur>OSSATURE_BOIS_AVEC_REMPLISSAGE_ISOLANT</type_mur>
+        <epaisseur>30</epaisseur>
+        <annee_construction gt="" gte="2001" lt="" lte="2005" />
+        <umur0>0.2</umur0>
+    </row>
+    <row>
+        <type_mur>OSSATURE_BOIS_AVEC_REMPLISSAGE_ISOLANT</type_mur>
+        <epaisseur>35</epaisseur>
+        <annee_construction gt="" gte="2001" lt="" lte="2005" />
+        <umur0>0.17</umur0>
+    </row>
+    <row>
+        <type_mur>OSSATURE_BOIS_AVEC_REMPLISSAGE_ISOLANT</type_mur>
+        <epaisseur>40</epaisseur>
+        <annee_construction gt="" gte="2001" lt="" lte="2005" />
+        <umur0>0.15</umur0>
+    </row>
+    <row>
+        <type_mur>OSSATURE_BOIS_AVEC_REMPLISSAGE_ISOLANT</type_mur>
+        <epaisseur>45</epaisseur>
+        <annee_construction gt="" gte="2001" lt="" lte="2005" />
+        <umur0>0.13</umur0>
+    </row>
+    <row>
+        <type_mur>OSSATURE_BOIS_SANS_REMPLISSAGE</type_mur>
+        <epaisseur>8</epaisseur>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <umur0>3</umur0>
+    </row>
+    <row>
+        <type_mur>OSSATURE_BOIS_SANS_REMPLISSAGE</type_mur>
+        <epaisseur>10</epaisseur>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <umur0>2.7</umur0>
+    </row>
+    <row>
+        <type_mur>OSSATURE_BOIS_SANS_REMPLISSAGE</type_mur>
+        <epaisseur>13</epaisseur>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <umur0>2.35</umur0>
+    </row>
+    <row>
+        <type_mur>OSSATURE_BOIS_SANS_REMPLISSAGE</type_mur>
+        <epaisseur>18</epaisseur>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <umur0>1.98</umur0>
+    </row>
+    <row>
+        <type_mur>OSSATURE_BOIS_SANS_REMPLISSAGE</type_mur>
+        <epaisseur>24</epaisseur>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <umur0>1.65</umur0>
+    </row>
+    <row>
+        <type_mur>OSSATURE_BOIS_SANS_REMPLISSAGE</type_mur>
+        <epaisseur>32</epaisseur>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <umur0>1.35</umur0>
+    </row>
+    <row>
+        <type_mur>OSSATURE_BOIS_AVEC_REMPLISSAGE_ISOLANT</type_mur>
+        <epaisseur>10</epaisseur>
+        <annee_construction gt="" gte="" lt="" lte="2000" />
+        <umur0>0.65</umur0>
+    </row>
+    <row>
+        <type_mur>OSSATURE_BOIS_AVEC_REMPLISSAGE_ISOLANT</type_mur>
+        <epaisseur>15</epaisseur>
+        <annee_construction gt="" gte="" lt="" lte="2000" />
+        <umur0>0.45</umur0>
+    </row>
+    <row>
+        <type_mur>OSSATURE_BOIS_AVEC_REMPLISSAGE_ISOLANT</type_mur>
+        <epaisseur>20</epaisseur>
+        <annee_construction gt="" gte="" lt="" lte="2000" />
+        <umur0>0.34</umur0>
+    </row>
+    <row>
+        <type_mur>OSSATURE_BOIS_AVEC_REMPLISSAGE_ISOLANT</type_mur>
+        <epaisseur>25</epaisseur>
+        <annee_construction gt="" gte="" lt="" lte="2000" />
+        <umur0>0.28</umur0>
+    </row>
+    <row>
+        <type_mur>OSSATURE_BOIS_AVEC_REMPLISSAGE_ISOLANT</type_mur>
+        <epaisseur>30</epaisseur>
+        <annee_construction gt="" gte="" lt="" lte="2000" />
+        <umur0>0.23</umur0>
+    </row>
+    <row>
+        <type_mur>OSSATURE_BOIS_AVEC_REMPLISSAGE_ISOLANT</type_mur>
+        <epaisseur>35</epaisseur>
+        <annee_construction gt="" gte="" lt="" lte="2000" />
+        <umur0>0.2</umur0>
+    </row>
+    <row>
+        <type_mur>OSSATURE_BOIS_AVEC_REMPLISSAGE_ISOLANT</type_mur>
+        <epaisseur>40</epaisseur>
+        <annee_construction gt="" gte="" lt="" lte="2000" />
+        <umur0>0.18</umur0>
+    </row>
+    <row>
+        <type_mur>OSSATURE_BOIS_AVEC_REMPLISSAGE_ISOLANT</type_mur>
+        <epaisseur>45</epaisseur>
+        <annee_construction gt="" gte="" lt="" lte="2000" />
+        <umur0>0.16</umur0>
+    </row>
+    <row>
+        <type_mur>OSSATURE_BOIS_AVEC_REMPLISSAGE_TOUT_VENANT</type_mur>
+        <epaisseur>8</epaisseur>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <umur0>1.7</umur0>
+    </row>
+    <row>
+        <type_mur>OSSATURE_BOIS_AVEC_REMPLISSAGE_TOUT_VENANT</type_mur>
+        <epaisseur>10</epaisseur>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <umur0>1.7</umur0>
+    </row>
+    <row>
+        <type_mur>OSSATURE_BOIS_AVEC_REMPLISSAGE_TOUT_VENANT</type_mur>
+        <epaisseur>13</epaisseur>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <umur0>1.7</umur0>
+    </row>
+    <row>
+        <type_mur>OSSATURE_BOIS_AVEC_REMPLISSAGE_TOUT_VENANT</type_mur>
+        <epaisseur>18</epaisseur>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <umur0>1.7</umur0>
+    </row>
+    <row>
+        <type_mur>OSSATURE_BOIS_AVEC_REMPLISSAGE_TOUT_VENANT</type_mur>
+        <epaisseur>24</epaisseur>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <umur0>1.7</umur0>
+    </row>
+    <row>
+        <type_mur>OSSATURE_BOIS_AVEC_REMPLISSAGE_TOUT_VENANT</type_mur>
+        <epaisseur>32</epaisseur>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <umur0>1.7</umur0>
+    </row>
+</table>

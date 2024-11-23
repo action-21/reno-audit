@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table name="paroi.b">
+    <row>
+        <mitoyennete>EXTERIEUR</mitoyennete>
+        <b>1</b>
+    </row>
+    <row>
+        <mitoyennete>ENTERRE</mitoyennete>
+        <b>1</b>
+    </row>
+    <row>
+        <mitoyennete>VIDE_SANITAIRE</mitoyennete>
+        <b>1</b>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <b>1</b>
+    </row>
+    <row>
+        <mitoyennete>SOUS_SOL_NON_CHAUFFE</mitoyennete>
+        <b>1</b>
+    </row>
+    <row>
+        <mitoyennete>LOCAL_NON_RESIDENTIEL</mitoyennete>
+        <b>0.2</b>
+    </row>
+    <row>
+        <mitoyennete>LOCAL_RESIDENTIEL</mitoyennete>
+        <b>0</b>
+    </row>
+    <row>
+        <mitoyennete>LOCAL_NON_ACCESSIBLE</mitoyennete>
+        <b>0.95</b>
+    </row>
+</table>

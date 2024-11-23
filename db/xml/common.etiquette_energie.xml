@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table name="common.etiquette_energie">
+    <row>
+        <etiquette>A</etiquette>
+        <zone_climatique></zone_climatique>
+        <altitude gt="" gte="" lt="" lte="" />
+        <cep gt="" gte="" lt="70" lte="" />
+        <eges gt="" gte="" lt="6" lte="" />
+    </row>
+    <row>
+        <etiquette>B</etiquette>
+        <zone_climatique></zone_climatique>
+        <altitude gt="" gte="" lt="" lte="" />
+        <cep gt="" gte="70" lt="110" lte="" />
+        <eges gt="" gte="" lt="11" lte="" />
+    </row>
+    <row>
+        <etiquette>B</etiquette>
+        <zone_climatique></zone_climatique>
+        <altitude gt="" gte="" lt="" lte="" />
+        <cep gt="" gte="" lt="110" lte="" />
+        <eges gt="" gte="6" lt="11" lte="" />
+    </row>
+    <row>
+        <etiquette>C</etiquette>
+        <zone_climatique></zone_climatique>
+        <altitude gt="" gte="" lt="" lte="" />
+        <cep gt="" gte="110" lt="180" lte="" />
+        <eges gt="" gte="" lt="30" lte="" />
+    </row>
+    <row>
+        <etiquette>C</etiquette>
+        <zone_climatique></zone_climatique>
+        <altitude gt="" gte="" lt="" lte="" />
+        <cep gt="" gte="" lt="180" lte="" />
+        <eges gt="" gte="11" lt="30" lte="" />
+    </row>
+    <row>
+        <etiquette>D</etiquette>
+        <zone_climatique></zone_climatique>
+        <altitude gt="" gte="" lt="" lte="" />
+        <cep gt="" gte="180" lt="250" lte="" />
+        <eges gt="" gte="" lt="50" lte="" />
+    </row>
+    <row>
+        <etiquette>D</etiquette>
+        <zone_climatique></zone_climatique>
+        <altitude gt="" gte="" lt="" lte="" />
+        <cep gt="" gte="" lt="250" lte="" />
+        <eges gt="" gte="30" lt="50" lte="" />
+    </row>
+    <row>
+        <etiquette>E</etiquette>
+        <zone_climatique></zone_climatique>
+        <altitude gt="" gte="" lt="" lte="800" />
+        <cep gt="" gte="250" lt="330" lte="" />
+        <eges gt="" gte="" lt="70" lte="" />
+    </row>
+    <row>
+        <etiquette>E</etiquette>
+        <zone_climatique></zone_climatique>
+        <altitude gt="" gte="" lt="" lte="800" />
+        <cep gt="" gte="" lt="330" lte="" />
+        <eges gt="" gte="50" lt="70" lte="" />
+    </row>
+    <row>
+        <etiquette>F</etiquette>
+        <zone_climatique></zone_climatique>
+        <altitude gt="" gte="" lt="" lte="800" />
+        <cep gt="" gte="330" lt="420" lte="" />
+        <eges gt="" gte="" lt="100" lte="" />
+    </row>
+    <row>
+        <etiquette>F</etiquette>
+        <zone_climatique></zone_climatique>
+        <altitude gt="" gte="" lt="" lte="800" />
+        <cep gt="" gte="" lt="420" lte="" />
+        <eges gt="" gte="70" lt="100" lte="" />
+    </row>
+    <row>
+        <etiquette>G</etiquette>
+        <zone_climatique></zone_climatique>
+        <altitude gt="" gte="" lt="" lte="800" />
+        <cep gt="" gte="420" lt="" lte="" />
+        <eges gt="" gte="" lt="" lte="" />
+    </row>
+    <row>
+        <etiquette>G</etiquette>
+        <zone_climatique></zone_climatique>
+        <altitude gt="" gte="" lt="" lte="800" />
+        <cep gt="" gte="" lt="" lte="" />
+        <eges gt="" gte="100" lt="" lte="" />
+    </row>
+    <row>
+        <etiquette>E</etiquette>
+        <zone_climatique>H1a</zone_climatique>
+        <altitude gt="800" gte="" lt="" lte="" />
+        <cep gt="" gte="250" lt="330" lte="" />
+        <eges gt="" gte="" lt="70" lte="" />
+    </row>
+    <row>
+        <etiquette>E</etiquette>
+        <zone_climatique>H1a</zone_climatique>
+        <altitude gt="800" gte="" lt="" lte="" />
+        <cep gt="" gte="" lt="330" lte="" />
+        <eges gt="" gte="50" lt="70" lte="" />
+    </row>
+    <row>
+        <etiquette>F</etiquette>
+        <zone_climatique>H1a</zone_climatique>
+        <altitude gt="800" gte="" lt="" lte="" />
+        <cep gt="" gte="330" lt="420" lte="" />
+        <eges gt="" gte="" lt="100" lte="" />
+    </row>
+    <row>
+        <etiquette>F</etiquette>
+        <zone_climatique>H1a</zone_climatique>
+        <altitude gt="800" gte="" lt="" lte="" />
+        <cep gt="" gte="" lt="420" lte="" />
+        <eges gt="" gte="70" lt="100" lte="" />
+    </row>
+    <row>
+        <etiquette>G</etiquette>
+        <zone_climatique>H1a</zone_climatique>
+        <altitude gt="800" gte="" lt="" lte="" />
+        <cep gt="" gte="420" lt="" lte="" />
+        <eges gt="" gte="" lt="" lte="" />
+    </row>
+    <row>
+        <etiquette>G</etiquette>
+        <zone_climatique>H1a</zone_climatique>
+        <altitude gt="800" gte="" lt="" lte="" />
+        <cep gt="" gte="" lt="" lte="" />
+        <eges gt="" gte="100" lt="" lte="" />
+    </row>
+    <row>
+        <etiquette>E</etiquette>
+        <zone_climatique>H2a</zone_climatique>
+        <altitude gt="800" gte="" lt="" lte="" />
+        <cep gt="" gte="250" lt="330" lte="" />
+        <eges gt="" gte="" lt="70" lte="" />
+    </row>
+    <row>
+        <etiquette>E</etiquette>
+        <zone_climatique>H2a</zone_climatique>
+        <altitude gt="800" gte="" lt="" lte="" />
+        <cep gt="" gte="" lt="330" lte="" />
+        <eges gt="" gte="50" lt="70" lte="" />
+    </row>
+    <row>
+        <etiquette>F</etiquette>
+        <zone_climatique>H2a</zone_climatique>
+        <altitude gt="800" gte="" lt="" lte="" />
+        <cep gt="" gte="330" lt="420" lte="" />
+        <eges gt="" gte="" lt="100" lte="" />
+    </row>
+    <row>
+        <etiquette>F</etiquette>
+        <zone_climatique>H2a</zone_climatique>
+        <altitude gt="800" gte="" lt="" lte="" />
+        <cep gt="" gte="" lt="420" lte="" />
+        <eges gt="" gte="70" lt="100" lte="" />
+    </row>
+    <row>
+        <etiquette>G</etiquette>
+        <zone_climatique>H2a</zone_climatique>
+        <altitude gt="800" gte="" lt="" lte="" />
+        <cep gt="" gte="420" lt="" lte="" />
+        <eges gt="" gte="" lt="" lte="" />
+    </row>
+    <row>
+        <etiquette>G</etiquette>
+        <zone_climatique>H2a</zone_climatique>
+        <altitude gt="800" gte="" lt="" lte="" />
+        <cep gt="" gte="" lt="" lte="" />
+        <eges gt="" gte="100" lt="" lte="" />
+    </row>
+    <row>
+        <etiquette>E</etiquette>
+        <zone_climatique>H2b</zone_climatique>
+        <altitude gt="800" gte="" lt="" lte="" />
+        <cep gt="" gte="250" lt="330" lte="" />
+        <eges gt="" gte="" lt="70" lte="" />
+    </row>
+    <row>
+        <etiquette>E</etiquette>
+        <zone_climatique>H2b</zone_climatique>
+        <altitude gt="800" gte="" lt="" lte="" />
+        <cep gt="" gte="" lt="330" lte="" />
+        <eges gt="" gte="50" lt="70" lte="" />
+    </row>
+    <row>
+        <etiquette>F</etiquette>
+        <zone_climatique>H2b</zone_climatique>
+        <altitude gt="800" gte="" lt="" lte="" />
+        <cep gt="" gte="330" lt="420" lte="" />
+        <eges gt="" gte="" lt="100" lte="" />
+    </row>
+    <row>
+        <etiquette>F</etiquette>
+        <zone_climatique>H2b</zone_climatique>
+        <altitude gt="800" gte="" lt="" lte="" />
+        <cep gt="" gte="" lt="420" lte="" />
+        <eges gt="" gte="70" lt="100" lte="" />
+    </row>
+    <row>
+        <etiquette>G</etiquette>
+        <zone_climatique>H2b</zone_climatique>
+        <altitude gt="800" gte="" lt="" lte="" />
+        <cep gt="" gte="420" lt="" lte="" />
+        <eges gt="" gte="" lt="" lte="" />
+    </row>
+    <row>
+        <etiquette>G</etiquette>
+        <zone_climatique>H2b</zone_climatique>
+        <altitude gt="800" gte="" lt="" lte="" />
+        <cep gt="" gte="" lt="" lte="" />
+        <eges gt="" gte="100" lt="" lte="" />
+    </row>
+    <row>
+        <etiquette>E</etiquette>
+        <zone_climatique>H2c</zone_climatique>
+        <altitude gt="800" gte="" lt="" lte="" />
+        <cep gt="" gte="250" lt="330" lte="" />
+        <eges gt="" gte="" lt="70" lte="" />
+    </row>
+    <row>
+        <etiquette>E</etiquette>
+        <zone_climatique>H2c</zone_climatique>
+        <altitude gt="800" gte="" lt="" lte="" />
+        <cep gt="" gte="" lt="330" lte="" />
+        <eges gt="" gte="50" lt="70" lte="" />
+    </row>
+    <row>
+        <etiquette>F</etiquette>
+        <zone_climatique>H2c</zone_climatique>
+        <altitude gt="800" gte="" lt="" lte="" />
+        <cep gt="" gte="330" lt="420" lte="" />
+        <eges gt="" gte="" lt="100" lte="" />
+    </row>
+    <row>
+        <etiquette>F</etiquette>
+        <zone_climatique>H2c</zone_climatique>
+        <altitude gt="800" gte="" lt="" lte="" />
+        <cep gt="" gte="" lt="420" lte="" />
+        <eges gt="" gte="70" lt="100" lte="" />
+    </row>
+    <row>
+        <etiquette>G</etiquette>
+        <zone_climatique>H2c</zone_climatique>
+        <altitude gt="800" gte="" lt="" lte="" />
+        <cep gt="" gte="420" lt="" lte="" />
+        <eges gt="" gte="" lt="" lte="" />
+    </row>
+    <row>
+        <etiquette>G</etiquette>
+        <zone_climatique>H2c</zone_climatique>
+        <altitude gt="800" gte="" lt="" lte="" />
+        <cep gt="" gte="" lt="" lte="" />
+        <eges gt="" gte="100" lt="" lte="" />
+    </row>
+    <row>
+        <etiquette>E</etiquette>
+        <zone_climatique>H3</zone_climatique>
+        <altitude gt="800" gte="" lt="" lte="" />
+        <cep gt="" gte="250" lt="330" lte="" />
+        <eges gt="" gte="" lt="70" lte="" />
+    </row>
+    <row>
+        <etiquette>E</etiquette>
+        <zone_climatique>H3</zone_climatique>
+        <altitude gt="800" gte="" lt="" lte="" />
+        <cep gt="" gte="" lt="330" lte="" />
+        <eges gt="" gte="50" lt="70" lte="" />
+    </row>
+    <row>
+        <etiquette>F</etiquette>
+        <zone_climatique>H3</zone_climatique>
+        <altitude gt="800" gte="" lt="" lte="" />
+        <cep gt="" gte="330" lt="420" lte="" />
+        <eges gt="" gte="" lt="100" lte="" />
+    </row>
+    <row>
+        <etiquette>F</etiquette>
+        <zone_climatique>H3</zone_climatique>
+        <altitude gt="800" gte="" lt="" lte="" />
+        <cep gt="" gte="" lt="420" lte="" />
+        <eges gt="" gte="70" lt="100" lte="" />
+    </row>
+    <row>
+        <etiquette>G</etiquette>
+        <zone_climatique>H3</zone_climatique>
+        <altitude gt="800" gte="" lt="" lte="" />
+        <cep gt="" gte="420" lt="" lte="" />
+        <eges gt="" gte="" lt="" lte="" />
+    </row>
+    <row>
+        <etiquette>G</etiquette>
+        <zone_climatique>H3</zone_climatique>
+        <altitude gt="800" gte="" lt="" lte="" />
+        <cep gt="" gte="" lt="" lte="" />
+        <eges gt="" gte="100" lt="" lte="" />
+    </row>
+    <row>
+        <etiquette>E</etiquette>
+        <zone_climatique>H1b</zone_climatique>
+        <altitude gt="800" gte="" lt="" lte="" />
+        <cep gt="" gte="250" lt="390" lte="" />
+        <eges gt="" gte="" lt="80" lte="" />
+    </row>
+    <row>
+        <etiquette>E</etiquette>
+        <zone_climatique>H1b</zone_climatique>
+        <altitude gt="800" gte="" lt="" lte="" />
+        <cep gt="" gte="" lt="390" lte="" />
+        <eges gt="" gte="50" lt="80" lte="" />
+    </row>
+    <row>
+        <etiquette>F</etiquette>
+        <zone_climatique>H1b</zone_climatique>
+        <altitude gt="800" gte="" lt="" lte="" />
+        <cep gt="" gte="390" lt="500" lte="" />
+        <eges gt="" gte="" lt="110" lte="" />
+    </row>
+    <row>
+        <etiquette>F</etiquette>
+        <zone_climatique>H1b</zone_climatique>
+        <altitude gt="800" gte="" lt="" lte="" />
+        <cep gt="" gte="" lt="500" lte="" />
+        <eges gt="" gte="80" lt="110" lte="" />
+    </row>
+    <row>
+        <etiquette>G</etiquette>
+        <zone_climatique>H1b</zone_climatique>
+        <altitude gt="800" gte="" lt="" lte="" />
+        <cep gt="" gte="500" lt="" lte="" />
+        <eges gt="" gte="" lt="" lte="" />
+    </row>
+    <row>
+        <etiquette>G</etiquette>
+        <zone_climatique>H1b</zone_climatique>
+        <altitude gt="800" gte="" lt="" lte="" />
+        <cep gt="" gte="" lt="" lte="" />
+        <eges gt="" gte="110" lt="" lte="" />
+    </row>
+    <row>
+        <etiquette>E</etiquette>
+        <zone_climatique>H1c</zone_climatique>
+        <altitude gt="800" gte="" lt="" lte="" />
+        <cep gt="" gte="250" lt="390" lte="" />
+        <eges gt="" gte="" lt="80" lte="" />
+    </row>
+    <row>
+        <etiquette>E</etiquette>
+        <zone_climatique>H1c</zone_climatique>
+        <altitude gt="800" gte="" lt="" lte="" />
+        <cep gt="" gte="" lt="390" lte="" />
+        <eges gt="" gte="50" lt="80" lte="" />
+    </row>
+    <row>
+        <etiquette>F</etiquette>
+        <zone_climatique>H1c</zone_climatique>
+        <altitude gt="800" gte="" lt="" lte="" />
+        <cep gt="" gte="390" lt="500" lte="" />
+        <eges gt="" gte="" lt="110" lte="" />
+    </row>
+    <row>
+        <etiquette>F</etiquette>
+        <zone_climatique>H1c</zone_climatique>
+        <altitude gt="800" gte="" lt="" lte="" />
+        <cep gt="" gte="" lt="500" lte="" />
+        <eges gt="" gte="80" lt="110" lte="" />
+    </row>
+    <row>
+        <etiquette>G</etiquette>
+        <zone_climatique>H1c</zone_climatique>
+        <altitude gt="800" gte="" lt="" lte="" />
+        <cep gt="" gte="500" lt="" lte="" />
+        <eges gt="" gte="" lt="" lte="" />
+    </row>
+    <row>
+        <etiquette>G</etiquette>
+        <zone_climatique>H1c</zone_climatique>
+        <altitude gt="800" gte="" lt="" lte="" />
+        <cep gt="" gte="" lt="" lte="" />
+        <eges gt="" gte="110" lt="" lte="" />
+    </row>
+    <row>
+        <etiquette>E</etiquette>
+        <zone_climatique>H2d</zone_climatique>
+        <altitude gt="800" gte="" lt="" lte="" />
+        <cep gt="" gte="250" lt="390" lte="" />
+        <eges gt="" gte="" lt="80" lte="" />
+    </row>
+    <row>
+        <etiquette>E</etiquette>
+        <zone_climatique>H2d</zone_climatique>
+        <altitude gt="800" gte="" lt="" lte="" />
+        <cep gt="" gte="" lt="390" lte="" />
+        <eges gt="" gte="50" lt="80" lte="" />
+    </row>
+    <row>
+        <etiquette>F</etiquette>
+        <zone_climatique>H2d</zone_climatique>
+        <altitude gt="800" gte="" lt="" lte="" />
+        <cep gt="" gte="390" lt="500" lte="" />
+        <eges gt="" gte="" lt="110" lte="" />
+    </row>
+    <row>
+        <etiquette>F</etiquette>
+        <zone_climatique>H2d</zone_climatique>
+        <altitude gt="800" gte="" lt="" lte="" />
+        <cep gt="" gte="" lt="500" lte="" />
+        <eges gt="" gte="80" lt="110" lte="" />
+    </row>
+    <row>
+        <etiquette>G</etiquette>
+        <zone_climatique>H2d</zone_climatique>
+        <altitude gt="800" gte="" lt="" lte="" />
+        <cep gt="" gte="500" lt="" lte="" />
+        <eges gt="" gte="" lt="" lte="" />
+    </row>
+    <row>
+        <etiquette>G</etiquette>
+        <zone_climatique>H2d</zone_climatique>
+        <altitude gt="800" gte="" lt="" lte="" />
+        <cep gt="" gte="" lt="" lte="" />
+        <eges gt="" gte="110" lt="" lte="" />
+    </row>
+</table>

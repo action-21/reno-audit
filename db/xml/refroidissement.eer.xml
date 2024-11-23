@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table name="refroidissement.eer">
+    <row>
+        <zone_climatique>H1</zone_climatique>
+        <annee_installation_generateur gt="" gte="" lt="" lte="2007" />
+        <seer>3.6</seer>
+        <eer>3.6</eer>
+    </row>
+    <row>
+        <zone_climatique>H1</zone_climatique>
+        <annee_installation_generateur gt="" gte="2008" lt="" lte="2014" />
+        <seer>6.5</seer>
+        <eer>6.175</eer>
+    </row>
+    <row>
+        <zone_climatique>H1</zone_climatique>
+        <annee_installation_generateur gt="" gte="2015" lt="" lte="" />
+        <seer>6.7</seer>
+        <eer>6.365</eer>
+    </row>
+    <row>
+        <zone_climatique>H2</zone_climatique>
+        <annee_installation_generateur gt="" gte="" lt="" lte="2007" />
+        <seer>3.6</seer>
+        <eer>3.6</eer>
+    </row>
+    <row>
+        <zone_climatique>H2</zone_climatique>
+        <annee_installation_generateur gt="" gte="2008" lt="" lte="2014" />
+        <seer>6.5</seer>
+        <eer>6.175</eer>
+    </row>
+    <row>
+        <zone_climatique>H2</zone_climatique>
+        <annee_installation_generateur gt="" gte="2015" lt="" lte="" />
+        <seer>6.7</seer>
+        <eer>6.365</eer>
+    </row>
+    <row>
+        <zone_climatique>H3</zone_climatique>
+        <annee_installation_generateur gt="" gte="" lt="" lte="2007" />
+        <seer>3.25</seer>
+        <eer>3.25</eer>
+    </row>
+    <row>
+        <zone_climatique>H3</zone_climatique>
+        <annee_installation_generateur gt="" gte="2008" lt="" lte="2014" />
+        <seer>5.7</seer>
+        <eer>5.415</eer>
+    </row>
+    <row>
+        <zone_climatique>H3</zone_climatique>
+        <annee_installation_generateur gt="" gte="2015" lt="" lte="" />
+        <seer>7.5</seer>
+        <eer>7.125</eer>
+    </row>
+</table>

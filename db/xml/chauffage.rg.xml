@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table name="chauffage.rg">
+    <row>
+        <type_generateur>CUISINIERE</type_generateur>
+        <energie_generateur></energie_generateur>
+        <label_generateur></label_generateur>
+        <annee_installation_generateur gt="" gte="" lt="" lte="1989" />
+        <rg>0.5</rg>
+    </row>
+    <row>
+        <type_generateur>CUISINIERE</type_generateur>
+        <energie_generateur></energie_generateur>
+        <label_generateur></label_generateur>
+        <annee_installation_generateur gt="" gte="1990" lt="" lte="2004" />
+        <rg>0.6</rg>
+    </row>
+    <row>
+        <type_generateur>CUISINIERE</type_generateur>
+        <energie_generateur></energie_generateur>
+        <label_generateur>INCONNU</label_generateur>
+        <annee_installation_generateur gt="" gte="2005" lt="" lte="" />
+        <rg>0.65</rg>
+    </row>
+    <row>
+        <type_generateur>CUISINIERE</type_generateur>
+        <energie_generateur></energie_generateur>
+        <label_generateur>SANS</label_generateur>
+        <annee_installation_generateur gt="" gte="2005" lt="" lte="" />
+        <rg>0.65</rg>
+    </row>
+    <row>
+        <type_generateur>CUISINIERE</type_generateur>
+        <energie_generateur></energie_generateur>
+        <label_generateur>FLAMME_VERTE</label_generateur>
+        <annee_installation_generateur gt="" gte="2005" lt="" lte="2006" />
+        <rg>0.65</rg>
+    </row>
+    <row>
+        <type_generateur>CUISINIERE</type_generateur>
+        <energie_generateur></energie_generateur>
+        <label_generateur>FLAMME_VERTE</label_generateur>
+        <annee_installation_generateur gt="" gte="2007" lt="" lte="2017" />
+        <rg>0.7</rg>
+    </row>
+    <row>
+        <type_generateur>CUISINIERE</type_generateur>
+        <energie_generateur></energie_generateur>
+        <label_generateur>FLAMME_VERTE</label_generateur>
+        <annee_installation_generateur gt="" gte="2018" lt="" lte="" />
+        <rg>0.75</rg>
+    </row>
+    <row>
+        <type_generateur>FOYER_FERME</type_generateur>
+        <energie_generateur></energie_generateur>
+        <label_generateur></label_generateur>
+        <annee_installation_generateur gt="" gte="" lt="" lte="1989" />
+        <rg>0.5</rg>
+    </row>
+    <row>
+        <type_generateur>FOYER_FERME</type_generateur>
+        <energie_generateur></energie_generateur>
+        <label_generateur></label_generateur>
+        <annee_installation_generateur gt="" gte="1990" lt="" lte="2004" />
+        <rg>0.6</rg>
+    </row>
+    <row>
+        <type_generateur>FOYER_FERME</type_generateur>
+        <energie_generateur></energie_generateur>
+        <label_generateur>INCONNU</label_generateur>
+        <annee_installation_generateur gt="" gte="2005" lt="" lte="" />
+        <rg>0.65</rg>
+    </row>
+    <row>
+        <type_generateur>FOYER_FERME</type_generateur>
+        <energie_generateur></energie_generateur>
+        <label_generateur>SANS</label_generateur>
+        <annee_installation_generateur gt="" gte="2005" lt="" lte="" />
+        <rg>0.65</rg>
+    </row>
+    <row>
+        <type_generateur>FOYER_FERME</type_generateur>
+        <energie_generateur></energie_generateur>
+        <label_generateur>FLAMME_VERTE</label_generateur>
+        <annee_installation_generateur gt="" gte="2005" lt="" lte="2006" />
+        <rg>0.65</rg>
+    </row>
+    <row>
+        <type_generateur>FOYER_FERME</type_generateur>
+        <energie_generateur></energie_generateur>
+        <label_generateur>FLAMME_VERTE</label_generateur>
+        <annee_installation_generateur gt="" gte="2007" lt="" lte="2017" />
+        <rg>0.7</rg>
+    </row>
+    <row>
+        <type_generateur>FOYER_FERME</type_generateur>
+        <energie_generateur></energie_generateur>
+        <label_generateur>FLAMME_VERTE</label_generateur>
+        <annee_installation_generateur gt="" gte="2018" lt="" lte="" />
+        <rg>0.75</rg>
+    </row>
+    <row>
+        <type_generateur>INSERT</type_generateur>
+        <energie_generateur></energie_generateur>
+        <label_generateur></label_generateur>
+        <annee_installation_generateur gt="" gte="" lt="" lte="1989" />
+        <rg>0.5</rg>
+    </row>
+    <row>
+        <type_generateur>INSERT</type_generateur>
+        <energie_generateur></energie_generateur>
+        <label_generateur></label_generateur>
+        <annee_installation_generateur gt="" gte="1990" lt="" lte="2004" />
+        <rg>0.6</rg>
+    </row>
+    <row>
+        <type_generateur>INSERT</type_generateur>
+        <energie_generateur></energie_generateur>
+        <label_generateur>INCONNU</label_generateur>
+        <annee_installation_generateur gt="" gte="2005" lt="" lte="" />
+        <rg>0.65</rg>
+    </row>
+    <row>
+        <type_generateur>INSERT</type_generateur>
+        <energie_generateur></energie_generateur>
+        <label_generateur>SANS</label_generateur>
+        <annee_installation_generateur gt="" gte="2005" lt="" lte="" />
+        <rg>0.65</rg>
+    </row>
+    <row>
+        <type_generateur>INSERT</type_generateur>
+        <energie_generateur></energie_generateur>
+        <label_generateur>FLAMME_VERTE</label_generateur>
+        <annee_installation_generateur gt="" gte="2005" lt="" lte="2006" />
+        <rg>0.65</rg>
+    </row>
+    <row>
+        <type_generateur>INSERT</type_generateur>
+        <energie_generateur></energie_generateur>
+        <label_generateur>FLAMME_VERTE</label_generateur>
+        <annee_installation_generateur gt="" gte="2007" lt="" lte="2017" />
+        <rg>0.7</rg>
+    </row>
+    <row>
+        <type_generateur>INSERT</type_generateur>
+        <energie_generateur></energie_generateur>
+        <label_generateur>FLAMME_VERTE</label_generateur>
+        <annee_installation_generateur gt="" gte="2018" lt="" lte="" />
+        <rg>0.75</rg>
+    </row>
+    <row>
+        <type_generateur>POELE</type_generateur>
+        <energie_generateur>BOIS_BUCHE</energie_generateur>
+        <label_generateur></label_generateur>
+        <annee_installation_generateur gt="" gte="" lt="" lte="1989" />
+        <rg>0.5</rg>
+    </row>
+    <row>
+        <type_generateur>POELE</type_generateur>
+        <energie_generateur>BOIS_BUCHE</energie_generateur>
+        <label_generateur></label_generateur>
+        <annee_installation_generateur gt="" gte="1990" lt="" lte="2004" />
+        <rg>0.6</rg>
+    </row>
+    <row>
+        <type_generateur>POELE</type_generateur>
+        <energie_generateur>BOIS_BUCHE</energie_generateur>
+        <label_generateur>INCONNU</label_generateur>
+        <annee_installation_generateur gt="" gte="2005" lt="" lte="" />
+        <rg>0.65</rg>
+    </row>
+    <row>
+        <type_generateur>POELE</type_generateur>
+        <energie_generateur>BOIS_BUCHE</energie_generateur>
+        <label_generateur>SANS</label_generateur>
+        <annee_installation_generateur gt="" gte="2005" lt="" lte="" />
+        <rg>0.65</rg>
+    </row>
+    <row>
+        <type_generateur>POELE</type_generateur>
+        <energie_generateur>BOIS_BUCHE</energie_generateur>
+        <label_generateur>FLAMME_VERTE</label_generateur>
+        <annee_installation_generateur gt="" gte="2005" lt="" lte="2006" />
+        <rg>0.65</rg>
+    </row>
+    <row>
+        <type_generateur>POELE</type_generateur>
+        <energie_generateur>BOIS_BUCHE</energie_generateur>
+        <label_generateur>FLAMME_VERTE</label_generateur>
+        <annee_installation_generateur gt="" gte="2007" lt="" lte="2017" />
+        <rg>0.7</rg>
+    </row>
+    <row>
+        <type_generateur>POELE</type_generateur>
+        <energie_generateur>BOIS_BUCHE</energie_generateur>
+        <label_generateur>FLAMME_VERTE</label_generateur>
+        <annee_installation_generateur gt="" gte="2018" lt="" lte="" />
+        <rg>0.75</rg>
+    </row>
+    <row>
+        <type_generateur>POELE</type_generateur>
+        <energie_generateur>BOIS_GRANULE</energie_generateur>
+        <label_generateur>INCONNU</label_generateur>
+        <annee_installation_generateur gt="" gte="" lt="" lte="" />
+        <rg>0.8</rg>
+    </row>
+    <row>
+        <type_generateur>POELE</type_generateur>
+        <energie_generateur>BOIS_GRANULE</energie_generateur>
+        <label_generateur>SANS</label_generateur>
+        <annee_installation_generateur gt="" gte="" lt="" lte="" />
+        <rg>0.8</rg>
+    </row>
+    <row>
+        <type_generateur>POELE</type_generateur>
+        <energie_generateur>BOIS_GRANULE</energie_generateur>
+        <label_generateur>FLAMME_VERTE</label_generateur>
+        <annee_installation_generateur gt="" gte="" lt="" lte="2011" />
+        <rg>0.8</rg>
+    </row>
+    <row>
+        <type_generateur>POELE</type_generateur>
+        <energie_generateur>BOIS_GRANULE</energie_generateur>
+        <label_generateur>FLAMME_VERTE</label_generateur>
+        <annee_installation_generateur gt="" gte="2012" lt="" lte="2019" />
+        <rg>0.85</rg>
+    </row>
+    <row>
+        <type_generateur>POELE</type_generateur>
+        <energie_generateur>BOIS_GRANULE</energie_generateur>
+        <label_generateur>FLAMME_VERTE</label_generateur>
+        <annee_installation_generateur gt="" gte="2020" lt="" lte="" />
+        <rg>0.87</rg>
+    </row>
+    <row>
+        <type_generateur>POELE</type_generateur>
+        <energie_generateur>FIOUL</energie_generateur>
+        <label_generateur></label_generateur>
+        <annee_installation_generateur gt="" gte="" lt="" lte="" />
+        <rg>0.72</rg>
+    </row>
+    <row>
+        <type_generateur>POELE</type_generateur>
+        <energie_generateur>GPL</energie_generateur>
+        <label_generateur></label_generateur>
+        <annee_installation_generateur gt="" gte="" lt="" lte="" />
+        <rg>0.72</rg>
+    </row>
+    <row>
+        <type_generateur>POELE</type_generateur>
+        <energie_generateur>CHARBON</energie_generateur>
+        <label_generateur></label_generateur>
+        <annee_installation_generateur gt="" gte="" lt="" lte="" />
+        <rg>0.72</rg>
+    </row>
+    <row>
+        <type_generateur>CONVECTEUR_ELECTRIQUE</type_generateur>
+        <energie_generateur>ELECTRICITE</energie_generateur>
+        <label_generateur></label_generateur>
+        <annee_installation_generateur gt="" gte="" lt="" lte="" />
+        <rg>1</rg>
+    </row>
+    <row>
+        <type_generateur>PANNEAU_RAYONNANT_ELECTRIQUE</type_generateur>
+        <energie_generateur>ELECTRICITE</energie_generateur>
+        <label_generateur></label_generateur>
+        <annee_installation_generateur gt="" gte="" lt="" lte="" />
+        <rg>1</rg>
+    </row>
+    <row>
+        <type_generateur>RADIATEUR_ELECTRIQUE</type_generateur>
+        <energie_generateur>ELECTRICITE</energie_generateur>
+        <label_generateur></label_generateur>
+        <annee_installation_generateur gt="" gte="" lt="" lte="" />
+        <rg>1</rg>
+    </row>
+    <row>
+        <type_generateur>PLANCHER_RAYONNANT_ELECTRIQUE</type_generateur>
+        <energie_generateur>ELECTRICITE</energie_generateur>
+        <label_generateur></label_generateur>
+        <annee_installation_generateur gt="" gte="" lt="" lte="" />
+        <rg>1</rg>
+    </row>
+    <row>
+        <type_generateur>PLAFOND_RAYONNANT_ELECTRIQUE</type_generateur>
+        <energie_generateur>ELECTRICITE</energie_generateur>
+        <label_generateur></label_generateur>
+        <annee_installation_generateur gt="" gte="" lt="" lte="" />
+        <rg>1</rg>
+    </row>
+    <row>
+        <type_generateur>RADIATEUR_ELECTRIQUE_ACCUMULATION</type_generateur>
+        <energie_generateur>ELECTRICITE</energie_generateur>
+        <label_generateur></label_generateur>
+        <annee_installation_generateur gt="" gte="" lt="" lte="" />
+        <rg>1</rg>
+    </row>
+    <row>
+        <type_generateur>CONVECTEUR_BI_JONCTION</type_generateur>
+        <energie_generateur>ELECTRICITE</energie_generateur>
+        <label_generateur></label_generateur>
+        <annee_installation_generateur gt="" gte="" lt="" lte="" />
+        <rg>1</rg>
+    </row>
+    <row>
+        <type_generateur>GENERATEUR_AIR_CHAUD</type_generateur>
+        <energie_generateur>ELECTRICITE</energie_generateur>
+        <label_generateur></label_generateur>
+        <annee_installation_generateur gt="" gte="" lt="" lte="" />
+        <rg>1</rg>
+    </row>
+    <row>
+        <type_generateur>CHAUDIERE_STANDARD</type_generateur>
+        <energie_generateur>ELECTRICITE</energie_generateur>
+        <label_generateur></label_generateur>
+        <annee_installation_generateur gt="" gte="" lt="" lte="" />
+        <rg>0.97</rg>
+    </row>
+    <row>
+        <type_generateur>RESEAU_CHALEUR</type_generateur>
+        <energie_generateur></energie_generateur>
+        <label_generateur></label_generateur>
+        <annee_installation_generateur gt="" gte="" lt="" lte="" />
+        <rg>0.97</rg>
+    </row>
+</table>

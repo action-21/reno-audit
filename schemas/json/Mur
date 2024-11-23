@@ -1,0 +1,211 @@
+$id: https://schemas.pcl/1.0/Mur
+title: Mur déperditif
+type: object
+properties:
+  id:
+    $ref: https://schemas.pcl/1.0/Common#/$defs/Id
+  local_non_chauffe_id:
+    $ref: https://schemas.pcl/1.0/Common#/$defs/Id
+  description:
+    $ref: https://schemas.pcl/1.0/Common#/$defs/Description
+  orientation:
+    $ref: https://schemas.pcl/1.0/Common#/$defs/Orientation
+  mitoyennete:
+    $ref: https://schemas.pcl/1.0/Common#/$defs/MitoyenneteEnum
+  surface:
+    $ref: "#/$defs/Surface"
+  type:
+    $ref: "#/$defs/TypeMurEnum"
+  epaisseur:
+    $ref: "#/$defs/Epaisseur"
+  materiaux_anciens:
+    title: Mur composé de matériaux anciens
+    type: boolean
+  presence_enduit_isolant:
+    title: Présence d'un enduit isolant
+    type: boolean
+  type_doublage:
+    $ref: "#/$defs/TypeDoublageEnum"
+  inertie:
+    $ref: "#/$defs/InertieEnum"
+  u0:
+    title: Coefficient de transmission thermique du mur nu en W/m².K
+    oneOf:
+      - $ref: https://schemas.pcl/1.0/Common#/$defs/CoefficientTransmissionThermique
+      - type: "null"
+  u:
+    title: Coefficient de transmission thermique du mur en W/m².K
+    oneOf:
+      - $ref: https://schemas.pcl/1.0/Common#/$defs/CoefficientTransmissionThermique
+      - type: "null"
+  annee_construction:
+    title: Année de construction du mur
+    oneOf:
+      - $ref: https://schemas.pcl/1.0/Common#/$defs/Annee
+      - type: "null"
+  annee_renovation:
+    title: Année de la dernière rénovation du mur
+    oneOf:
+      - $ref: https://schemas.pcl/1.0/Common#/$defs/Annee
+      - type: "null"
+  isolation:
+    $ref: https://schemas.pcl/1.0/Paroi#/$defs/Isolation
+$defs:
+  Epaisseur:
+    title: Epaisseur du mur en cm
+    type: integer
+    minimumExclusive: 0
+  Surface:
+    title: Surface du mur en m²
+    type: number
+    minimumExclusive: 0
+  Isolation:
+    title: Isolation de la paroi
+    type: object
+    properties:
+      etat:
+        $ref: https://schemas.pcl/1.0/Paroi#/$defs/IsolationEnum
+      type:
+        $ref: "#/$defs/TypeIsolationEnum"
+      annee:
+        title: Année d'isolation
+        type: integer
+      epaisseur:
+        title: Epaisseur de l'isolation en mm
+        type: [number, "null"]
+        minimumExclusive: 0
+      resistance_thermique:
+        title: Résistance thermique de l'isolation en m².K/W
+        type: [number, "null"]
+        minimumExclusive: 0
+    required:
+      - etat
+      - type
+      - annee
+      - epaisseur
+      - resistance_thermique
+    allOf:
+      - if:
+          type: object
+          properties:
+            etat:
+              enum:
+                - INCONNU
+                - NON_ISOLE
+          required:
+            - etat
+        then:
+          properties:
+            type:
+              const: null
+            annee:
+              const: null
+            epaisseur:
+              const: null
+            resistance_thermique:
+              const: null
+          required:
+            - type
+            - annee
+            - epaisseur
+            - resistance_thermique
+  IsolationEnum:
+    title: Etat d'isolation
+    type: string
+    oneOf:
+      - const: INCONNU
+        title: Inconnu
+      - const: NON_ISOLE
+        title: Non isolé
+      - const: ISOLE
+        title: Isolé
+  TypeIsolationEnum:
+    title: Type d'isolation
+    type: string
+    oneOf:
+      - const: INCONNU
+        title: Inconnu
+      - const: ITI
+        title: Isolation thermique par l'intérieur
+      - const: ITE
+        title: Isolation thermique par l'extérieur
+      - const: ITR
+        title: Isolation thermique répartie
+      - const: ITI+ITE
+        title: Isolation thermique par l'intérieur et par l'extérieur
+      - const: ITR+ITI
+        title: Isolation thermique répartie et par l'intérieur
+      - const: ITR+ITE
+        title: Isolation thermique répartie et par l'extérieur
+      - const: ITR+ITI+ITE
+        title: Isolation thermique répartie, par l'intérieur et par l'extérieur
+  TypeMurEnum:
+    title: Type de mur
+    type: string
+    oneOf:
+      - const: PIERRE_MOELLONS
+        title: Murs en pierre de taille et moellons constitué d'un seul matériaux
+      - const: PIERRE_MOELLONS_AVEC_REMPLISSAGE
+        title: Murs en pierre de taille et moellons avec remplissage tout venant
+      - const: PISE_OU_BETON_TERRE
+        title: Murs en pisé ou béton de terre stabilisé (à partir d'argile crue)
+      - const: PAN_BOIS_SANS_REMPLISSAGE
+        title: Murs en pan de bois sans remplissage tout venant
+      - const: PAN_BOIS_AVEC_REMPLISSAGE
+        title: Murs en pan de bois avec remplissage tout venant
+      - const: BOIS_RONDIN
+        title: Murs bois (rondin)
+      - const: BRIQUE_PLEINE_SIMPLE
+        title: Murs en briques pleines simples
+      - const: BRIQUE_PLEINE_DOUBLE_AVEC_LAME_AIR
+        title: Murs en briques pleines doubles avec lame d'air
+      - const: BRIQUE_CREUSE
+        title: Murs en briques creuses
+      - const: BLOC_BETON_PLEIN
+        title: Murs en blocs de béton pleins
+      - const: BLOC_BETON_CREUX
+        title: Murs en blocs de béton creux
+      - const: BETON_BANCHE
+        title: Murs en béton banché
+      - const: BETON_MACHEFER
+        title: Murs en béton de mâchefer
+      - const: BRIQUE_TERRE_CUITE_ALVEOLAIRE
+        title: Brique terre cuite alvéolaire
+      - const: SANDWICH_BETON_ISOLANT_BETON_SANS_ISOLATION_RAPPORTEE
+        title: Murs sandwich béton/isolant/béton (sans isolation rapportée)
+      - const: CLOISON_PLATRE
+        title: Cloison de plâtre
+      - const: OSSATURE_BOIS_SANS_REMPLISSAGE
+        title: Murs en ossature bois sans remplissage
+      - const: OSSATURE_BOIS_AVEC_REMPLISSAGE_TOUT_VENANT
+        title: Murs en ossature bois avec remplissage tout venant
+      - const: OSSATURE_BOIS_AVEC_REMPLISSAGE_ISOLANT
+        title: Murs en ossature bois avec isolant en remplissage
+      - const: BETON_CELLULAIRE
+        title: Béton cellulaire
+  TypeDoublageEnum:
+    title: Type de doublage intérieur
+    type: string
+    oneOf:
+      - const: INCONNU
+        title: Inconnu
+      - const: SANS_DOUBLAGE
+        title: Absence de doublage
+      - const: INDETERMINE
+        title: Doublage rapporté de nature indeterminée
+      - const: LAME_AIR_INFERIEUR_15MM
+        title: Doublage rapporté avec une lame d'air de moins de 15mm
+      - const: LAME_AIR_SUPERIEUR_15MM
+        title: Doublage rapporté avec une lame d'air de plus de 15mm
+      - const: MATERIAUX_CONNU
+        title: Doublage connu (plâtre brique bois)
+  InertieEnum:
+    title: Inertie de la paroi
+    type: string
+    oneOf:
+      - const: INCONNU
+        title: Inconnu
+      - const: LOURDE
+        title: Lourde
+      - const: LEGERE
+        title: Légère

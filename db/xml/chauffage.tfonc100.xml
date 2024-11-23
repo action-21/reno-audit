@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table name="chauffage.tfonc100">
+    <row>
+        <temperature_distribution>BASSE</temperature_distribution>
+        <annee_installation_emetteur gt="" gte="" lt="" lte="1980" />
+        <tfonc_100>60</tfonc_100>
+    </row>
+    <row>
+        <temperature_distribution>MOYENNE</temperature_distribution>
+        <annee_installation_emetteur gt="" gte="" lt="" lte="1980" />
+        <tfonc_100>80</tfonc_100>
+    </row>
+    <row>
+        <temperature_distribution>HAUTE</temperature_distribution>
+        <annee_installation_emetteur gt="" gte="" lt="" lte="1980" />
+        <tfonc_100>80</tfonc_100>
+    </row>
+    <row>
+        <temperature_distribution>BASSE</temperature_distribution>
+        <annee_installation_emetteur gt="" gte="1981" lt="" lte="2000" />
+        <tfonc_100>35</tfonc_100>
+    </row>
+    <row>
+        <temperature_distribution>MOYENNE</temperature_distribution>
+        <annee_installation_emetteur gt="" gte="1981" lt="" lte="2000" />
+        <tfonc_100>70</tfonc_100>
+    </row>
+    <row>
+        <temperature_distribution>HAUTE</temperature_distribution>
+        <annee_installation_emetteur gt="" gte="1981" lt="" lte="2000" />
+        <tfonc_100>70</tfonc_100>
+    </row>
+    <row>
+        <temperature_distribution>BASSE</temperature_distribution>
+        <annee_installation_emetteur gt="" gte="2001" lt="" lte="" />
+        <tfonc_100>35</tfonc_100>
+    </row>
+    <row>
+        <temperature_distribution>MOYENNE</temperature_distribution>
+        <annee_installation_emetteur gt="" gte="2001" lt="" lte="" />
+        <tfonc_100>60</tfonc_100>
+    </row>
+    <row>
+        <temperature_distribution>HAUTE</temperature_distribution>
+        <annee_installation_emetteur gt="" gte="2001" lt="" lte="" />
+        <tfonc_100>70</tfonc_100>
+    </row>
+</table>

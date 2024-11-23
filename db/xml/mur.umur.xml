@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table name="mur.umur">
+    <row>
+        <zone_climatique>H1</zone_climatique>
+        <annee_construction_isolation gt="" gte="" lt="" lte="1974" />
+        <effet_joule>1</effet_joule>
+        <umur>2.5</umur>
+    </row>
+    <row>
+        <zone_climatique>H1</zone_climatique>
+        <annee_construction_isolation gt="" gte="" lt="" lte="1974" />
+        <effet_joule>0</effet_joule>
+        <umur>2.5</umur>
+    </row>
+    <row>
+        <zone_climatique>H2</zone_climatique>
+        <annee_construction_isolation gt="" gte="" lt="" lte="1974" />
+        <effet_joule>1</effet_joule>
+        <umur>2.5</umur>
+    </row>
+    <row>
+        <zone_climatique>H2</zone_climatique>
+        <annee_construction_isolation gt="" gte="" lt="" lte="1974" />
+        <effet_joule>0</effet_joule>
+        <umur>2.5</umur>
+    </row>
+    <row>
+        <zone_climatique>H3</zone_climatique>
+        <annee_construction_isolation gt="" gte="" lt="" lte="1974" />
+        <effet_joule>1</effet_joule>
+        <umur>2.5</umur>
+    </row>
+    <row>
+        <zone_climatique>H3</zone_climatique>
+        <annee_construction_isolation gt="" gte="" lt="" lte="1974" />
+        <effet_joule>0</effet_joule>
+        <umur>2.5</umur>
+    </row>
+    <row>
+        <zone_climatique>H1</zone_climatique>
+        <annee_construction_isolation gt="" gte="1975" lt="" lte="1977" />
+        <effet_joule>1</effet_joule>
+        <umur>1</umur>
+    </row>
+    <row>
+        <zone_climatique>H1</zone_climatique>
+        <annee_construction_isolation gt="" gte="1975" lt="" lte="1977" />
+        <effet_joule>0</effet_joule>
+        <umur>1</umur>
+    </row>
+    <row>
+        <zone_climatique>H2</zone_climatique>
+        <annee_construction_isolation gt="" gte="1975" lt="" lte="1977" />
+        <effet_joule>1</effet_joule>
+        <umur>1.05</umur>
+    </row>
+    <row>
+        <zone_climatique>H2</zone_climatique>
+        <annee_construction_isolation gt="" gte="1975" lt="" lte="1977" />
+        <effet_joule>0</effet_joule>
+        <umur>1.05</umur>
+    </row>
+    <row>
+        <zone_climatique>H3</zone_climatique>
+        <annee_construction_isolation gt="" gte="1975" lt="" lte="1977" />
+        <effet_joule>1</effet_joule>
+        <umur>1.11</umur>
+    </row>
+    <row>
+        <zone_climatique>H3</zone_climatique>
+        <annee_construction_isolation gt="" gte="1975" lt="" lte="1977" />
+        <effet_joule>0</effet_joule>
+        <umur>1.11</umur>
+    </row>
+    <row>
+        <zone_climatique>H1</zone_climatique>
+        <annee_construction_isolation gt="" gte="1978" lt="" lte="1982" />
+        <effet_joule>1</effet_joule>
+        <umur>0.8</umur>
+    </row>
+    <row>
+        <zone_climatique>H1</zone_climatique>
+        <annee_construction_isolation gt="" gte="1978" lt="" lte="1982" />
+        <effet_joule>0</effet_joule>
+        <umur>1</umur>
+    </row>
+    <row>
+        <zone_climatique>H2</zone_climatique>
+        <annee_construction_isolation gt="" gte="1978" lt="" lte="1982" />
+        <effet_joule>1</effet_joule>
+        <umur>0.84</umur>
+    </row>
+    <row>
+        <zone_climatique>H2</zone_climatique>
+        <annee_construction_isolation gt="" gte="1978" lt="" lte="1982" />
+        <effet_joule>0</effet_joule>
+        <umur>1.05</umur>
+    </row>
+    <row>
+        <zone_climatique>H3</zone_climatique>
+        <annee_construction_isolation gt="" gte="1978" lt="" lte="1982" />
+        <effet_joule>1</effet_joule>
+        <umur>0.89</umur>
+    </row>
+    <row>
+        <zone_climatique>H3</zone_climatique>
+        <annee_construction_isolation gt="" gte="1978" lt="" lte="1982" />
+        <effet_joule>0</effet_joule>
+        <umur>1.11</umur>
+    </row>
+    <row>
+        <zone_climatique>H1</zone_climatique>
+        <annee_construction_isolation gt="" gte="1983" lt="" lte="1988" />
+        <effet_joule>1</effet_joule>
+        <umur>0.7</umur>
+    </row>
+    <row>
+        <zone_climatique>H1</zone_climatique>
+        <annee_construction_isolation gt="" gte="1983" lt="" lte="1988" />
+        <effet_joule>0</effet_joule>
+        <umur>0.8</umur>
+    </row>
+    <row>
+        <zone_climatique>H2</zone_climatique>
+        <annee_construction_isolation gt="" gte="1983" lt="" lte="1988" />
+        <effet_joule>1</effet_joule>
+        <umur>0.74</umur>
+    </row>
+    <row>
+        <zone_climatique>H2</zone_climatique>
+        <annee_construction_isolation gt="" gte="1983" lt="" lte="1988" />
+        <effet_joule>0</effet_joule>
+        <umur>0.84</umur>
+    </row>
+    <row>
+        <zone_climatique>H3</zone_climatique>
+        <annee_construction_isolation gt="" gte="1983" lt="" lte="1988" />
+        <effet_joule>1</effet_joule>
+        <umur>0.78</umur>
+    </row>
+    <row>
+        <zone_climatique>H3</zone_climatique>
+        <annee_construction_isolation gt="" gte="1983" lt="" lte="1988" />
+        <effet_joule>0</effet_joule>
+        <umur>0.89</umur>
+    </row>
+    <row>
+        <zone_climatique>H1</zone_climatique>
+        <annee_construction_isolation gt="" gte="1989" lt="" lte="2000" />
+        <effet_joule>1</effet_joule>
+        <umur>0.45</umur>
+    </row>
+    <row>
+        <zone_climatique>H1</zone_climatique>
+        <annee_construction_isolation gt="" gte="1989" lt="" lte="2000" />
+        <effet_joule>0</effet_joule>
+        <umur>0.5</umur>
+    </row>
+    <row>
+        <zone_climatique>H2</zone_climatique>
+        <annee_construction_isolation gt="" gte="1989" lt="" lte="2000" />
+        <effet_joule>1</effet_joule>
+        <umur>0.47</umur>
+    </row>
+    <row>
+        <zone_climatique>H2</zone_climatique>
+        <annee_construction_isolation gt="" gte="1989" lt="" lte="2000" />
+        <effet_joule>0</effet_joule>
+        <umur>0.53</umur>
+    </row>
+    <row>
+        <zone_climatique>H3</zone_climatique>
+        <annee_construction_isolation gt="" gte="1989" lt="" lte="2000" />
+        <effet_joule>1</effet_joule>
+        <umur>0.5</umur>
+    </row>
+    <row>
+        <zone_climatique>H3</zone_climatique>
+        <annee_construction_isolation gt="" gte="1989" lt="" lte="2000" />
+        <effet_joule>0</effet_joule>
+        <umur>0.56</umur>
+    </row>
+    <row>
+        <zone_climatique>H1</zone_climatique>
+        <annee_construction_isolation gt="" gte="2001" lt="" lte="2005" />
+        <effet_joule>1</effet_joule>
+        <umur>0.4</umur>
+    </row>
+    <row>
+        <zone_climatique>H1</zone_climatique>
+        <annee_construction_isolation gt="" gte="2001" lt="" lte="2005" />
+        <effet_joule>0</effet_joule>
+        <umur>0.4</umur>
+    </row>
+    <row>
+        <zone_climatique>H2</zone_climatique>
+        <annee_construction_isolation gt="" gte="2001" lt="" lte="2005" />
+        <effet_joule>1</effet_joule>
+        <umur>0.4</umur>
+    </row>
+    <row>
+        <zone_climatique>H2</zone_climatique>
+        <annee_construction_isolation gt="" gte="2001" lt="" lte="2005" />
+        <effet_joule>0</effet_joule>
+        <umur>0.4</umur>
+    </row>
+    <row>
+        <zone_climatique>H3</zone_climatique>
+        <annee_construction_isolation gt="" gte="2001" lt="" lte="2005" />
+        <effet_joule>1</effet_joule>
+        <umur>0.47</umur>
+    </row>
+    <row>
+        <zone_climatique>H3</zone_climatique>
+        <annee_construction_isolation gt="" gte="2001" lt="" lte="2005" />
+        <effet_joule>0</effet_joule>
+        <umur>0.47</umur>
+    </row>
+    <row>
+        <zone_climatique>H1</zone_climatique>
+        <annee_construction_isolation gt="" gte="2006" lt="" lte="2012" />
+        <effet_joule>1</effet_joule>
+        <umur>0.36</umur>
+    </row>
+    <row>
+        <zone_climatique>H1</zone_climatique>
+        <annee_construction_isolation gt="" gte="2006" lt="" lte="2012" />
+        <effet_joule>0</effet_joule>
+        <umur>0.36</umur>
+    </row>
+    <row>
+        <zone_climatique>H2</zone_climatique>
+        <annee_construction_isolation gt="" gte="2006" lt="" lte="2012" />
+        <effet_joule>1</effet_joule>
+        <umur>0.36</umur>
+    </row>
+    <row>
+        <zone_climatique>H2</zone_climatique>
+        <annee_construction_isolation gt="" gte="2006" lt="" lte="2012" />
+        <effet_joule>0</effet_joule>
+        <umur>0.36</umur>
+    </row>
+    <row>
+        <zone_climatique>H3</zone_climatique>
+        <annee_construction_isolation gt="" gte="2006" lt="" lte="2012" />
+        <effet_joule>1</effet_joule>
+        <umur>0.4</umur>
+    </row>
+    <row>
+        <zone_climatique>H3</zone_climatique>
+        <annee_construction_isolation gt="" gte="2006" lt="" lte="2012" />
+        <effet_joule>0</effet_joule>
+        <umur>0.4</umur>
+    </row>
+    <row>
+        <zone_climatique>H1</zone_climatique>
+        <annee_construction_isolation gt="" gte="2013" lt="" lte="2021" />
+        <effet_joule>1</effet_joule>
+        <umur>0.23</umur>
+    </row>
+    <row>
+        <zone_climatique>H1</zone_climatique>
+        <annee_construction_isolation gt="" gte="2013" lt="" lte="2021" />
+        <effet_joule>0</effet_joule>
+        <umur>0.23</umur>
+    </row>
+    <row>
+        <zone_climatique>H2</zone_climatique>
+        <annee_construction_isolation gt="" gte="2013" lt="" lte="2021" />
+        <effet_joule>1</effet_joule>
+        <umur>0.23</umur>
+    </row>
+    <row>
+        <zone_climatique>H2</zone_climatique>
+        <annee_construction_isolation gt="" gte="2013" lt="" lte="2021" />
+        <effet_joule>0</effet_joule>
+        <umur>0.23</umur>
+    </row>
+    <row>
+        <zone_climatique>H3</zone_climatique>
+        <annee_construction_isolation gt="" gte="2013" lt="" lte="2021" />
+        <effet_joule>1</effet_joule>
+        <umur>0.25</umur>
+    </row>
+    <row>
+        <zone_climatique>H3</zone_climatique>
+        <annee_construction_isolation gt="" gte="2013" lt="" lte="2021" />
+        <effet_joule>0</effet_joule>
+        <umur>0.25</umur>
+    </row>
+    <row>
+        <zone_climatique>H1</zone_climatique>
+        <annee_construction_isolation gt="" gte="2022" lt="" lte="" />
+        <effet_joule>1</effet_joule>
+        <umur>0.23</umur>
+    </row>
+    <row>
+        <zone_climatique>H1</zone_climatique>
+        <annee_construction_isolation gt="" gte="2022" lt="" lte="" />
+        <effet_joule>0</effet_joule>
+        <umur>0.23</umur>
+    </row>
+    <row>
+        <zone_climatique>H2</zone_climatique>
+        <annee_construction_isolation gt="" gte="2022" lt="" lte="" />
+        <effet_joule>1</effet_joule>
+        <umur>0.23</umur>
+    </row>
+    <row>
+        <zone_climatique>H2</zone_climatique>
+        <annee_construction_isolation gt="" gte="2022" lt="" lte="" />
+        <effet_joule>0</effet_joule>
+        <umur>0.23</umur>
+    </row>
+    <row>
+        <zone_climatique>H3</zone_climatique>
+        <annee_construction_isolation gt="" gte="2022" lt="" lte="" />
+        <effet_joule>1</effet_joule>
+        <umur>0.25</umur>
+    </row>
+    <row>
+        <zone_climatique>H3</zone_climatique>
+        <annee_construction_isolation gt="" gte="2022" lt="" lte="" />
+        <effet_joule>0</effet_joule>
+        <umur>0.25</umur>
+    </row>
+</table>

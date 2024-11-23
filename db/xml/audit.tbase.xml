@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table name="audit.tbase">
+    <row>
+        <zone_climatique>H1</zone_climatique>
+        <altitude gt="" gte="" lt="400" lte="" />
+        <tbase><![CDATA[-9.5]]></tbase>
+    </row>
+    <row>
+        <zone_climatique>H1</zone_climatique>
+        <altitude gt="" gte="400" lt="" lte="800" />
+        <tbase><![CDATA[-11.5]]></tbase>
+    </row>
+    <row>
+        <zone_climatique>H1</zone_climatique>
+        <altitude gt="800" gte="" lt="" lte="" />
+        <tbase><![CDATA[-13.5]]></tbase>
+    </row>
+    <row>
+        <zone_climatique>H2</zone_climatique>
+        <altitude gt="" gte="" lt="400" lte="" />
+        <tbase><![CDATA[-6.5]]></tbase>
+    </row>
+    <row>
+        <zone_climatique>H2</zone_climatique>
+        <altitude gt="" gte="400" lt="" lte="800" />
+        <tbase><![CDATA[-8.5]]></tbase>
+    </row>
+    <row>
+        <zone_climatique>H2</zone_climatique>
+        <altitude gt="800" gte="" lt="" lte="" />
+        <tbase><![CDATA[-10.5]]></tbase>
+    </row>
+    <row>
+        <zone_climatique>H3</zone_climatique>
+        <altitude gt="" gte="" lt="400" lte="" />
+        <tbase><![CDATA[-3.5]]></tbase>
+    </row>
+    <row>
+        <zone_climatique>H3</zone_climatique>
+        <altitude gt="" gte="400" lt="" lte="800" />
+        <tbase><![CDATA[-5.5]]></tbase>
+    </row>
+    <row>
+        <zone_climatique>H3</zone_climatique>
+        <altitude gt="800" gte="" lt="" lte="" />
+        <tbase><![CDATA[-17.5]]></tbase>
+    </row>
+</table>

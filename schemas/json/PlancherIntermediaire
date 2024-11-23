@@ -1,0 +1,15 @@
+$id: https://schemas.pcl/1.0/PlancherIntermediaire
+title: Plancher intermédiaire
+type: object
+description: Plancher intermédiaire constitué d'un matériau lourd (béton, brique...)
+properties:
+  id:
+    $ref: https://schemas.pcl/1.0/Common#/$defs/Id
+  description:
+    $ref: https://schemas.pcl/1.0/Common#/$defs/Description
+  surface:
+    $ref: https://schemas.pcl/1.0/Common#/$defs/Surface
+required:
+  - id
+  - description
+  - surface

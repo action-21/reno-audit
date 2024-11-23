@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table name="baie.fe2">
+    <row>
+        <type_masque_lointain>HOMOGENE</type_masque_lointain>
+        <orientation_baie>NORD</orientation_baie>
+        <hauteur_masque_alpha gt="" gte="0" lt="15" lte="" />
+        <fe2>1</fe2>
+    </row>
+    <row>
+        <type_masque_lointain>HOMOGENE</type_masque_lointain>
+        <orientation_baie>NORD</orientation_baie>
+        <hauteur_masque_alpha gt="" gte="15" lt="30" lte="" />
+        <fe2>0.82</fe2>
+    </row>
+    <row>
+        <type_masque_lointain>HOMOGENE</type_masque_lointain>
+        <orientation_baie>NORD</orientation_baie>
+        <hauteur_masque_alpha gt="" gte="30" lt="60" lte="" />
+        <fe2>0.5</fe2>
+    </row>
+    <row>
+        <type_masque_lointain>HOMOGENE</type_masque_lointain>
+        <orientation_baie>NORD</orientation_baie>
+        <hauteur_masque_alpha gt="" gte="60" lt="" lte="" />
+        <fe2>0.3</fe2>
+    </row>
+    <row>
+        <type_masque_lointain>HOMOGENE</type_masque_lointain>
+        <orientation_baie>SUD</orientation_baie>
+        <hauteur_masque_alpha gt="" gte="0" lt="15" lte="" />
+        <fe2>1</fe2>
+    </row>
+    <row>
+        <type_masque_lointain>HOMOGENE</type_masque_lointain>
+        <orientation_baie>SUD</orientation_baie>
+        <hauteur_masque_alpha gt="" gte="15" lt="30" lte="" />
+        <fe2>0.8</fe2>
+    </row>
+    <row>
+        <type_masque_lointain>HOMOGENE</type_masque_lointain>
+        <orientation_baie>SUD</orientation_baie>
+        <hauteur_masque_alpha gt="" gte="30" lt="60" lte="" />
+        <fe2>0.3</fe2>
+    </row>
+    <row>
+        <type_masque_lointain>HOMOGENE</type_masque_lointain>
+        <orientation_baie>SUD</orientation_baie>
+        <hauteur_masque_alpha gt="" gte="60" lt="" lte="" />
+        <fe2>0.1</fe2>
+    </row>
+    <row>
+        <type_masque_lointain>HOMOGENE</type_masque_lointain>
+        <orientation_baie>EST</orientation_baie>
+        <hauteur_masque_alpha gt="" gte="0" lt="15" lte="" />
+        <fe2>1</fe2>
+    </row>
+    <row>
+        <type_masque_lointain>HOMOGENE</type_masque_lointain>
+        <orientation_baie>EST</orientation_baie>
+        <hauteur_masque_alpha gt="" gte="15" lt="30" lte="" />
+        <fe2>0.77</fe2>
+    </row>
+    <row>
+        <type_masque_lointain>HOMOGENE</type_masque_lointain>
+        <orientation_baie>EST</orientation_baie>
+        <hauteur_masque_alpha gt="" gte="30" lt="60" lte="" />
+        <fe2>0.4</fe2>
+    </row>
+    <row>
+        <type_masque_lointain>HOMOGENE</type_masque_lointain>
+        <orientation_baie>EST</orientation_baie>
+        <hauteur_masque_alpha gt="" gte="60" lt="" lte="" />
+        <fe2>0.2</fe2>
+    </row>
+    <row>
+        <type_masque_lointain>HOMOGENE</type_masque_lointain>
+        <orientation_baie>OUEST</orientation_baie>
+        <hauteur_masque_alpha gt="" gte="0" lt="15" lte="" />
+        <fe2>1</fe2>
+    </row>
+    <row>
+        <type_masque_lointain>HOMOGENE</type_masque_lointain>
+        <orientation_baie>OUEST</orientation_baie>
+        <hauteur_masque_alpha gt="" gte="15" lt="30" lte="" />
+        <fe2>0.77</fe2>
+    </row>
+    <row>
+        <type_masque_lointain>HOMOGENE</type_masque_lointain>
+        <orientation_baie>OUEST</orientation_baie>
+        <hauteur_masque_alpha gt="" gte="30" lt="60" lte="" />
+        <fe2>0.4</fe2>
+    </row>
+    <row>
+        <type_masque_lointain>HOMOGENE</type_masque_lointain>
+        <orientation_baie>OUEST</orientation_baie>
+        <hauteur_masque_alpha gt="" gte="60" lt="" lte="" />
+        <fe2>0.2</fe2>
+    </row>
+</table>

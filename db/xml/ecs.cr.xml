@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table name="ecs.cr">
+    <row>
+        <type_generateur>BALLON_ELECTRIQUE_HORIZONTAL</type_generateur>
+        <label_generateur></label_generateur>
+        <volume_stockage gt="0" gte="" lt="" lte="100" />
+        <cr>0.39</cr>
+    </row>
+    <row>
+        <type_generateur>BALLON_ELECTRIQUE_HORIZONTAL</type_generateur>
+        <label_generateur></label_generateur>
+        <volume_stockage gt="100" gte="" lt="" lte="200" />
+        <cr>0.33</cr>
+    </row>
+    <row>
+        <type_generateur>BALLON_ELECTRIQUE_HORIZONTAL</type_generateur>
+        <label_generateur></label_generateur>
+        <volume_stockage gt="200" gte="" lt="" lte="300" />
+        <cr>0.3</cr>
+    </row>
+    <row>
+        <type_generateur>BALLON_ELECTRIQUE_HORIZONTAL</type_generateur>
+        <label_generateur></label_generateur>
+        <volume_stockage gt="300" gte="" lt="" lte="" />
+        <cr>0.3</cr>
+    </row>
+    <row>
+        <type_generateur>BALLON_ELECTRIQUE_VERTICAL</type_generateur>
+        <label_generateur>SANS</label_generateur>
+        <volume_stockage gt="0" gte="" lt="" lte="100" />
+        <cr>0.32</cr>
+    </row>
+    <row>
+        <type_generateur>BALLON_ELECTRIQUE_VERTICAL</type_generateur>
+        <label_generateur>SANS</label_generateur>
+        <volume_stockage gt="100" gte="" lt="" lte="200" />
+        <cr>0.23</cr>
+    </row>
+    <row>
+        <type_generateur>BALLON_ELECTRIQUE_VERTICAL</type_generateur>
+        <label_generateur>SANS</label_generateur>
+        <volume_stockage gt="200" gte="" lt="" lte="300" />
+        <cr>0.22</cr>
+    </row>
+    <row>
+        <type_generateur>BALLON_ELECTRIQUE_VERTICAL</type_generateur>
+        <label_generateur>SANS</label_generateur>
+        <volume_stockage gt="300" gte="" lt="" lte="" />
+        <cr>0.22</cr>
+    </row>
+    <row>
+        <type_generateur>BALLON_ELECTRIQUE_VERTICAL</type_generateur>
+        <label_generateur>INCONNU</label_generateur>
+        <volume_stockage gt="0" gte="" lt="" lte="100" />
+        <cr>0.32</cr>
+    </row>
+    <row>
+        <type_generateur>BALLON_ELECTRIQUE_VERTICAL</type_generateur>
+        <label_generateur>INCONNU</label_generateur>
+        <volume_stockage gt="100" gte="" lt="" lte="200" />
+        <cr>0.23</cr>
+    </row>
+    <row>
+        <type_generateur>BALLON_ELECTRIQUE_VERTICAL</type_generateur>
+        <label_generateur>INCONNU</label_generateur>
+        <volume_stockage gt="200" gte="" lt="" lte="300" />
+        <cr>0.22</cr>
+    </row>
+    <row>
+        <type_generateur>BALLON_ELECTRIQUE_VERTICAL</type_generateur>
+        <label_generateur>INCONNU</label_generateur>
+        <volume_stockage gt="300" gte="" lt="" lte="" />
+        <cr>0.22</cr>
+    </row>
+    <row>
+        <type_generateur>BALLON_ELECTRIQUE_VERTICAL</type_generateur>
+        <label_generateur>NE_PERFORMANCE_A</label_generateur>
+        <volume_stockage gt="0" gte="" lt="" lte="100" />
+        <cr>0.32</cr>
+    </row>
+    <row>
+        <type_generateur>BALLON_ELECTRIQUE_VERTICAL</type_generateur>
+        <label_generateur>NE_PERFORMANCE_A</label_generateur>
+        <volume_stockage gt="100" gte="" lt="" lte="200" />
+        <cr>0.23</cr>
+    </row>
+    <row>
+        <type_generateur>BALLON_ELECTRIQUE_VERTICAL</type_generateur>
+        <label_generateur>NE_PERFORMANCE_A</label_generateur>
+        <volume_stockage gt="200" gte="" lt="" lte="300" />
+        <cr>0.22</cr>
+    </row>
+    <row>
+        <type_generateur>BALLON_ELECTRIQUE_VERTICAL</type_generateur>
+        <label_generateur>NE_PERFORMANCE_A</label_generateur>
+        <volume_stockage gt="300" gte="" lt="" lte="" />
+        <cr>0.22</cr>
+    </row>
+    <row>
+        <type_generateur>BALLON_ELECTRIQUE_VERTICAL</type_generateur>
+        <label_generateur>NE_PERFORMANCE_B</label_generateur>
+        <volume_stockage gt="0" gte="" lt="" lte="100" />
+        <cr>0.27</cr>
+    </row>
+    <row>
+        <type_generateur>BALLON_ELECTRIQUE_VERTICAL</type_generateur>
+        <label_generateur>NE_PERFORMANCE_B</label_generateur>
+        <volume_stockage gt="100" gte="" lt="" lte="200" />
+        <cr>0.22</cr>
+    </row>
+    <row>
+        <type_generateur>BALLON_ELECTRIQUE_VERTICAL</type_generateur>
+        <label_generateur>NE_PERFORMANCE_B</label_generateur>
+        <volume_stockage gt="200" gte="" lt="" lte="300" />
+        <cr>0.2</cr>
+    </row>
+    <row>
+        <type_generateur>BALLON_ELECTRIQUE_VERTICAL</type_generateur>
+        <label_generateur>NE_PERFORMANCE_B</label_generateur>
+        <volume_stockage gt="300" gte="" lt="" lte="" />
+        <cr>0.18</cr>
+    </row>
+    <row>
+        <type_generateur>BALLON_ELECTRIQUE_VERTICAL</type_generateur>
+        <label_generateur>NE_PERFORMANCE_C</label_generateur>
+        <volume_stockage gt="0" gte="" lt="" lte="100" />
+        <cr>0.25</cr>
+    </row>
+    <row>
+        <type_generateur>BALLON_ELECTRIQUE_VERTICAL</type_generateur>
+        <label_generateur>NE_PERFORMANCE_C</label_generateur>
+        <volume_stockage gt="100" gte="" lt="" lte="200" />
+        <cr>0.2</cr>
+    </row>
+    <row>
+        <type_generateur>BALLON_ELECTRIQUE_VERTICAL</type_generateur>
+        <label_generateur>NE_PERFORMANCE_C</label_generateur>
+        <volume_stockage gt="200" gte="" lt="" lte="300" />
+        <cr>0.18</cr>
+    </row>
+    <row>
+        <type_generateur>BALLON_ELECTRIQUE_VERTICAL</type_generateur>
+        <label_generateur>NE_PERFORMANCE_C</label_generateur>
+        <volume_stockage gt="300" gte="" lt="" lte="" />
+        <cr>0.16</cr>
+    </row>
+</table>

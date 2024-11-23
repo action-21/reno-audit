@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table name="common.etiquette_climat">
+    <row>
+        <etiquette>A</etiquette>
+        <eges gt="" gte="" lt="6" lte="" />
+    </row>
+    <row>
+        <etiquette>B</etiquette>
+        <eges gt="" gte="6" lt="11" lte="" />
+    </row>
+    <row>
+        <etiquette>C</etiquette>
+        <eges gt="" gte="11" lt="30" lte="" />
+    </row>
+    <row>
+        <etiquette>D</etiquette>
+        <eges gt="" gte="30" lt="50" lte="" />
+    </row>
+    <row>
+        <etiquette>E</etiquette>
+        <eges gt="" gte="50" lt="70" lte="" />
+    </row>
+    <row>
+        <etiquette>F</etiquette>
+        <eges gt="" gte="70" lt="100" lte="" />
+    </row>
+    <row>
+        <etiquette>G</etiquette>
+        <eges gt="" gte="100" lt="" lte="" />
+    </row>
+</table>

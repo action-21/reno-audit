@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table name="baie.fe1">
+    <row>
+        <type_masque_proche>FOND_BALCON_OU_FOND_ET_FLANC_LOGGIAS</type_masque_proche>
+        <orientation_baie>NORD</orientation_baie>
+        <avancee_masque gt="" gte="0" lt="1" lte="" />
+        <fe1>0.4</fe1>
+    </row>
+    <row>
+        <type_masque_proche>FOND_BALCON_OU_FOND_ET_FLANC_LOGGIAS</type_masque_proche>
+        <orientation_baie>NORD</orientation_baie>
+        <avancee_masque gt="" gte="1" lt="2" lte="" />
+        <fe1>0.3</fe1>
+    </row>
+    <row>
+        <type_masque_proche>FOND_BALCON_OU_FOND_ET_FLANC_LOGGIAS</type_masque_proche>
+        <orientation_baie>NORD</orientation_baie>
+        <avancee_masque gt="" gte="2" lt="3" lte="" />
+        <fe1>0.2</fe1>
+    </row>
+    <row>
+        <type_masque_proche>FOND_BALCON_OU_FOND_ET_FLANC_LOGGIAS</type_masque_proche>
+        <orientation_baie>NORD</orientation_baie>
+        <avancee_masque gt="" gte="3" lt="" lte="" />
+        <fe1>0.1</fe1>
+    </row>
+    <row>
+        <type_masque_proche>FOND_BALCON_OU_FOND_ET_FLANC_LOGGIAS</type_masque_proche>
+        <orientation_baie>SUD</orientation_baie>
+        <avancee_masque gt="" gte="0" lt="1" lte="" />
+        <fe1>0.5</fe1>
+    </row>
+    <row>
+        <type_masque_proche>FOND_BALCON_OU_FOND_ET_FLANC_LOGGIAS</type_masque_proche>
+        <orientation_baie>SUD</orientation_baie>
+        <avancee_masque gt="" gte="1" lt="2" lte="" />
+        <fe1>0.4</fe1>
+    </row>
+    <row>
+        <type_masque_proche>FOND_BALCON_OU_FOND_ET_FLANC_LOGGIAS</type_masque_proche>
+        <orientation_baie>SUD</orientation_baie>
+        <avancee_masque gt="" gte="2" lt="3" lte="" />
+        <fe1>0.3</fe1>
+    </row>
+    <row>
+        <type_masque_proche>FOND_BALCON_OU_FOND_ET_FLANC_LOGGIAS</type_masque_proche>
+        <orientation_baie>SUD</orientation_baie>
+        <avancee_masque gt="" gte="3" lt="" lte="" />
+        <fe1>0.2</fe1>
+    </row>
+    <row>
+        <type_masque_proche>FOND_BALCON_OU_FOND_ET_FLANC_LOGGIAS</type_masque_proche>
+        <orientation_baie>EST</orientation_baie>
+        <avancee_masque gt="" gte="0" lt="1" lte="" />
+        <fe1>0.45</fe1>
+    </row>
+    <row>
+        <type_masque_proche>FOND_BALCON_OU_FOND_ET_FLANC_LOGGIAS</type_masque_proche>
+        <orientation_baie>EST</orientation_baie>
+        <avancee_masque gt="" gte="1" lt="2" lte="" />
+        <fe1>0.35</fe1>
+    </row>
+    <row>
+        <type_masque_proche>FOND_BALCON_OU_FOND_ET_FLANC_LOGGIAS</type_masque_proche>
+        <orientation_baie>EST</orientation_baie>
+        <avancee_masque gt="" gte="2" lt="3" lte="" />
+        <fe1>0.25</fe1>
+    </row>
+    <row>
+        <type_masque_proche>FOND_BALCON_OU_FOND_ET_FLANC_LOGGIAS</type_masque_proche>
+        <orientation_baie>EST</orientation_baie>
+        <avancee_masque gt="" gte="3" lt="" lte="" />
+        <fe1>0.15</fe1>
+    </row>
+    <row>
+        <type_masque_proche>FOND_BALCON_OU_FOND_ET_FLANC_LOGGIAS</type_masque_proche>
+        <orientation_baie>OUEST</orientation_baie>
+        <avancee_masque gt="" gte="0" lt="1" lte="" />
+        <fe1>0.45</fe1>
+    </row>
+    <row>
+        <type_masque_proche>FOND_BALCON_OU_FOND_ET_FLANC_LOGGIAS</type_masque_proche>
+        <orientation_baie>OUEST</orientation_baie>
+        <avancee_masque gt="" gte="1" lt="2" lte="" />
+        <fe1>0.35</fe1>
+    </row>
+    <row>
+        <type_masque_proche>FOND_BALCON_OU_FOND_ET_FLANC_LOGGIAS</type_masque_proche>
+        <orientation_baie>OUEST</orientation_baie>
+        <avancee_masque gt="" gte="2" lt="3" lte="" />
+        <fe1>0.25</fe1>
+    </row>
+    <row>
+        <type_masque_proche>FOND_BALCON_OU_FOND_ET_FLANC_LOGGIAS</type_masque_proche>
+        <orientation_baie>OUEST</orientation_baie>
+        <avancee_masque gt="" gte="3" lt="" lte="" />
+        <fe1>0.15</fe1>
+    </row>
+    <row>
+        <type_masque_proche>BALCON_OU_AUVENT</type_masque_proche>
+        <orientation_baie></orientation_baie>
+        <avancee_masque gt="" gte="0" lt="1" lte="" />
+        <fe1>0.8</fe1>
+    </row>
+    <row>
+        <type_masque_proche>BALCON_OU_AUVENT</type_masque_proche>
+        <orientation_baie></orientation_baie>
+        <avancee_masque gt="" gte="1" lt="2" lte="" />
+        <fe1>0.6</fe1>
+    </row>
+    <row>
+        <type_masque_proche>BALCON_OU_AUVENT</type_masque_proche>
+        <orientation_baie></orientation_baie>
+        <avancee_masque gt="" gte="2" lt="3" lte="" />
+        <fe1>0.5</fe1>
+    </row>
+    <row>
+        <type_masque_proche>BALCON_OU_AUVENT</type_masque_proche>
+        <orientation_baie></orientation_baie>
+        <avancee_masque gt="" gte="3" lt="" lte="" />
+        <fe1>0.4</fe1>
+    </row>
+    <row>
+        <type_masque_proche>PAROI_LATERALE_SANS_OBSTACLE_AU_SUD</type_masque_proche>
+        <orientation_baie></orientation_baie>
+        <avancee_masque gt="" gte="" lt="" lte="" />
+        <fe1>0.7</fe1>
+    </row>
+    <row>
+        <type_masque_proche>PAROI_LATERALE_AVEC_OBSTACLE_AU_SUD</type_masque_proche>
+        <orientation_baie></orientation_baie>
+        <avancee_masque gt="" gte="" lt="" lte="" />
+        <fe1>0.5</fe1>
+    </row>
+</table>

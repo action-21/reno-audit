@@ -1,0 +1,1795 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table name="lnc.b">
+    <row>
+        <uvue>0</uvue>
+        <isolation_aiu>1</isolation_aiu>
+        <isolation_aue>0</isolation_aue>
+        <aiu_aue gt="" gte="" lt="0.25" lte="" />
+        <b>0.95</b>
+    </row>
+    <row>
+        <uvue>0</uvue>
+        <isolation_aiu>1</isolation_aiu>
+        <isolation_aue>0</isolation_aue>
+        <aiu_aue gt="" gte="0.25" lt="0.5" lte="" />
+        <b>0.95</b>
+    </row>
+    <row>
+        <uvue>0</uvue>
+        <isolation_aiu>1</isolation_aiu>
+        <isolation_aue>0</isolation_aue>
+        <aiu_aue gt="" gte="0.5" lt="0.75" lte="" />
+        <b>0.9</b>
+    </row>
+    <row>
+        <uvue>0</uvue>
+        <isolation_aiu>1</isolation_aiu>
+        <isolation_aue>0</isolation_aue>
+        <aiu_aue gt="" gte="0.75" lt="1" lte="" />
+        <b>0.85</b>
+    </row>
+    <row>
+        <uvue>0</uvue>
+        <isolation_aiu>1</isolation_aiu>
+        <isolation_aue>0</isolation_aue>
+        <aiu_aue gt="" gte="1" lt="1.25" lte="" />
+        <b>0.85</b>
+    </row>
+    <row>
+        <uvue>0</uvue>
+        <isolation_aiu>1</isolation_aiu>
+        <isolation_aue>0</isolation_aue>
+        <aiu_aue gt="" gte="1.25" lt="2" lte="" />
+        <b>0.8</b>
+    </row>
+    <row>
+        <uvue>0</uvue>
+        <isolation_aiu>1</isolation_aiu>
+        <isolation_aue>0</isolation_aue>
+        <aiu_aue gt="" gte="2" lt="2.5" lte="" />
+        <b>0.75</b>
+    </row>
+    <row>
+        <uvue>0</uvue>
+        <isolation_aiu>1</isolation_aiu>
+        <isolation_aue>0</isolation_aue>
+        <aiu_aue gt="" gte="2.5" lt="3" lte="" />
+        <b>0.7</b>
+    </row>
+    <row>
+        <uvue>0</uvue>
+        <isolation_aiu>1</isolation_aiu>
+        <isolation_aue>0</isolation_aue>
+        <aiu_aue gt="" gte="3" lt="3.5" lte="" />
+        <b>0.65</b>
+    </row>
+    <row>
+        <uvue>0</uvue>
+        <isolation_aiu>1</isolation_aiu>
+        <isolation_aue>0</isolation_aue>
+        <aiu_aue gt="" gte="3.5" lt="4" lte="" />
+        <b>0.65</b>
+    </row>
+    <row>
+        <uvue>0</uvue>
+        <isolation_aiu>1</isolation_aiu>
+        <isolation_aue>0</isolation_aue>
+        <aiu_aue gt="" gte="4" lt="6" lte="" />
+        <b>0.55</b>
+    </row>
+    <row>
+        <uvue>0</uvue>
+        <isolation_aiu>1</isolation_aiu>
+        <isolation_aue>0</isolation_aue>
+        <aiu_aue gt="" gte="6" lt="8" lte="" />
+        <b>0.45</b>
+    </row>
+    <row>
+        <uvue>0</uvue>
+        <isolation_aiu>1</isolation_aiu>
+        <isolation_aue>0</isolation_aue>
+        <aiu_aue gt="" gte="8" lt="10" lte="" />
+        <b>0.4</b>
+    </row>
+    <row>
+        <uvue>0</uvue>
+        <isolation_aiu>1</isolation_aiu>
+        <isolation_aue>0</isolation_aue>
+        <aiu_aue gt="" gte="10" lt="25" lte="" />
+        <b>0.35</b>
+    </row>
+    <row>
+        <uvue>0</uvue>
+        <isolation_aiu>1</isolation_aiu>
+        <isolation_aue>0</isolation_aue>
+        <aiu_aue gt="" gte="25" lt="50" lte="" />
+        <b>0.2</b>
+    </row>
+    <row>
+        <uvue>0</uvue>
+        <isolation_aiu>1</isolation_aiu>
+        <isolation_aue>0</isolation_aue>
+        <aiu_aue gt="" gte="50" lt="" lte="" />
+        <b>0.1</b>
+    </row>
+    <row>
+        <uvue>0.3</uvue>
+        <isolation_aiu>1</isolation_aiu>
+        <isolation_aue>0</isolation_aue>
+        <aiu_aue gt="" gte="" lt="0.25" lte="" />
+        <b>0.95</b>
+    </row>
+    <row>
+        <uvue>0.3</uvue>
+        <isolation_aiu>1</isolation_aiu>
+        <isolation_aue>0</isolation_aue>
+        <aiu_aue gt="" gte="0.25" lt="0.5" lte="" />
+        <b>0.95</b>
+    </row>
+    <row>
+        <uvue>0.3</uvue>
+        <isolation_aiu>1</isolation_aiu>
+        <isolation_aue>0</isolation_aue>
+        <aiu_aue gt="" gte="0.5" lt="0.75" lte="" />
+        <b>0.95</b>
+    </row>
+    <row>
+        <uvue>0.3</uvue>
+        <isolation_aiu>1</isolation_aiu>
+        <isolation_aue>0</isolation_aue>
+        <aiu_aue gt="" gte="0.75" lt="1" lte="" />
+        <b>0.9</b>
+    </row>
+    <row>
+        <uvue>0.3</uvue>
+        <isolation_aiu>1</isolation_aiu>
+        <isolation_aue>0</isolation_aue>
+        <aiu_aue gt="" gte="1" lt="1.25" lte="" />
+        <b>0.9</b>
+    </row>
+    <row>
+        <uvue>0.3</uvue>
+        <isolation_aiu>1</isolation_aiu>
+        <isolation_aue>0</isolation_aue>
+        <aiu_aue gt="" gte="1.25" lt="2" lte="" />
+        <b>0.8</b>
+    </row>
+    <row>
+        <uvue>0.3</uvue>
+        <isolation_aiu>1</isolation_aiu>
+        <isolation_aue>0</isolation_aue>
+        <aiu_aue gt="" gte="2" lt="2.5" lte="" />
+        <b>0.8</b>
+    </row>
+    <row>
+        <uvue>0.3</uvue>
+        <isolation_aiu>1</isolation_aiu>
+        <isolation_aue>0</isolation_aue>
+        <aiu_aue gt="" gte="2.5" lt="3" lte="" />
+        <b>0.75</b>
+    </row>
+    <row>
+        <uvue>0.3</uvue>
+        <isolation_aiu>1</isolation_aiu>
+        <isolation_aue>0</isolation_aue>
+        <aiu_aue gt="" gte="3" lt="3.5" lte="" />
+        <b>0.75</b>
+    </row>
+    <row>
+        <uvue>0.3</uvue>
+        <isolation_aiu>1</isolation_aiu>
+        <isolation_aue>0</isolation_aue>
+        <aiu_aue gt="" gte="3.5" lt="4" lte="" />
+        <b>0.7</b>
+    </row>
+    <row>
+        <uvue>0.3</uvue>
+        <isolation_aiu>1</isolation_aiu>
+        <isolation_aue>0</isolation_aue>
+        <aiu_aue gt="" gte="4" lt="6" lte="" />
+        <b>0.6</b>
+    </row>
+    <row>
+        <uvue>0.3</uvue>
+        <isolation_aiu>1</isolation_aiu>
+        <isolation_aue>0</isolation_aue>
+        <aiu_aue gt="" gte="6" lt="8" lte="" />
+        <b>0.55</b>
+    </row>
+    <row>
+        <uvue>0.3</uvue>
+        <isolation_aiu>1</isolation_aiu>
+        <isolation_aue>0</isolation_aue>
+        <aiu_aue gt="" gte="8" lt="10" lte="" />
+        <b>0.5</b>
+    </row>
+    <row>
+        <uvue>0.3</uvue>
+        <isolation_aiu>1</isolation_aiu>
+        <isolation_aue>0</isolation_aue>
+        <aiu_aue gt="" gte="10" lt="25" lte="" />
+        <b>0.4</b>
+    </row>
+    <row>
+        <uvue>0.3</uvue>
+        <isolation_aiu>1</isolation_aiu>
+        <isolation_aue>0</isolation_aue>
+        <aiu_aue gt="" gte="25" lt="50" lte="" />
+        <b>0.25</b>
+    </row>
+    <row>
+        <uvue>0.3</uvue>
+        <isolation_aiu>1</isolation_aiu>
+        <isolation_aue>0</isolation_aue>
+        <aiu_aue gt="" gte="50" lt="" lte="" />
+        <b>0.15</b>
+    </row>
+    <row>
+        <uvue>3</uvue>
+        <isolation_aiu>1</isolation_aiu>
+        <isolation_aue>0</isolation_aue>
+        <aiu_aue gt="" gte="" lt="0.25" lte="" />
+        <b>1</b>
+    </row>
+    <row>
+        <uvue>3</uvue>
+        <isolation_aiu>1</isolation_aiu>
+        <isolation_aue>0</isolation_aue>
+        <aiu_aue gt="" gte="0.25" lt="0.5" lte="" />
+        <b>0.95</b>
+    </row>
+    <row>
+        <uvue>3</uvue>
+        <isolation_aiu>1</isolation_aiu>
+        <isolation_aue>0</isolation_aue>
+        <aiu_aue gt="" gte="0.5" lt="0.75" lte="" />
+        <b>0.95</b>
+    </row>
+    <row>
+        <uvue>3</uvue>
+        <isolation_aiu>1</isolation_aiu>
+        <isolation_aue>0</isolation_aue>
+        <aiu_aue gt="" gte="0.75" lt="1" lte="" />
+        <b>0.95</b>
+    </row>
+    <row>
+        <uvue>3</uvue>
+        <isolation_aiu>1</isolation_aiu>
+        <isolation_aue>0</isolation_aue>
+        <aiu_aue gt="" gte="1" lt="1.25" lte="" />
+        <b>0.9</b>
+    </row>
+    <row>
+        <uvue>3</uvue>
+        <isolation_aiu>1</isolation_aiu>
+        <isolation_aue>0</isolation_aue>
+        <aiu_aue gt="" gte="1.25" lt="2" lte="" />
+        <b>0.9</b>
+    </row>
+    <row>
+        <uvue>3</uvue>
+        <isolation_aiu>1</isolation_aiu>
+        <isolation_aue>0</isolation_aue>
+        <aiu_aue gt="" gte="2" lt="2.5" lte="" />
+        <b>0.85</b>
+    </row>
+    <row>
+        <uvue>3</uvue>
+        <isolation_aiu>1</isolation_aiu>
+        <isolation_aue>0</isolation_aue>
+        <aiu_aue gt="" gte="2.5" lt="3" lte="" />
+        <b>0.85</b>
+    </row>
+    <row>
+        <uvue>3</uvue>
+        <isolation_aiu>1</isolation_aiu>
+        <isolation_aue>0</isolation_aue>
+        <aiu_aue gt="" gte="3" lt="3.5" lte="" />
+        <b>0.8</b>
+    </row>
+    <row>
+        <uvue>3</uvue>
+        <isolation_aiu>1</isolation_aiu>
+        <isolation_aue>0</isolation_aue>
+        <aiu_aue gt="" gte="3.5" lt="4" lte="" />
+        <b>0.8</b>
+    </row>
+    <row>
+        <uvue>3</uvue>
+        <isolation_aiu>1</isolation_aiu>
+        <isolation_aue>0</isolation_aue>
+        <aiu_aue gt="" gte="4" lt="6" lte="" />
+        <b>0.7</b>
+    </row>
+    <row>
+        <uvue>3</uvue>
+        <isolation_aiu>1</isolation_aiu>
+        <isolation_aue>0</isolation_aue>
+        <aiu_aue gt="" gte="6" lt="8" lte="" />
+        <b>0.65</b>
+    </row>
+    <row>
+        <uvue>3</uvue>
+        <isolation_aiu>1</isolation_aiu>
+        <isolation_aue>0</isolation_aue>
+        <aiu_aue gt="" gte="8" lt="10" lte="" />
+        <b>0.6</b>
+    </row>
+    <row>
+        <uvue>3</uvue>
+        <isolation_aiu>1</isolation_aiu>
+        <isolation_aue>0</isolation_aue>
+        <aiu_aue gt="" gte="10" lt="25" lte="" />
+        <b>0.5</b>
+    </row>
+    <row>
+        <uvue>3</uvue>
+        <isolation_aiu>1</isolation_aiu>
+        <isolation_aue>0</isolation_aue>
+        <aiu_aue gt="" gte="25" lt="50" lte="" />
+        <b>0.35</b>
+    </row>
+    <row>
+        <uvue>3</uvue>
+        <isolation_aiu>1</isolation_aiu>
+        <isolation_aue>0</isolation_aue>
+        <aiu_aue gt="" gte="50" lt="" lte="" />
+        <b>0.2</b>
+    </row>
+    <row>
+        <uvue>9</uvue>
+        <isolation_aiu>1</isolation_aiu>
+        <isolation_aue>0</isolation_aue>
+        <aiu_aue gt="" gte="" lt="0.25" lte="" />
+        <b>1</b>
+    </row>
+    <row>
+        <uvue>9</uvue>
+        <isolation_aiu>1</isolation_aiu>
+        <isolation_aue>0</isolation_aue>
+        <aiu_aue gt="" gte="0.25" lt="0.5" lte="" />
+        <b>1</b>
+    </row>
+    <row>
+        <uvue>9</uvue>
+        <isolation_aiu>1</isolation_aiu>
+        <isolation_aue>0</isolation_aue>
+        <aiu_aue gt="" gte="0.5" lt="0.75" lte="" />
+        <b>1</b>
+    </row>
+    <row>
+        <uvue>9</uvue>
+        <isolation_aiu>1</isolation_aiu>
+        <isolation_aue>0</isolation_aue>
+        <aiu_aue gt="" gte="0.75" lt="1" lte="" />
+        <b>0.95</b>
+    </row>
+    <row>
+        <uvue>9</uvue>
+        <isolation_aiu>1</isolation_aiu>
+        <isolation_aue>0</isolation_aue>
+        <aiu_aue gt="" gte="1" lt="1.25" lte="" />
+        <b>0.95</b>
+    </row>
+    <row>
+        <uvue>9</uvue>
+        <isolation_aiu>1</isolation_aiu>
+        <isolation_aue>0</isolation_aue>
+        <aiu_aue gt="" gte="1.25" lt="2" lte="" />
+        <b>0.95</b>
+    </row>
+    <row>
+        <uvue>9</uvue>
+        <isolation_aiu>1</isolation_aiu>
+        <isolation_aue>0</isolation_aue>
+        <aiu_aue gt="" gte="2" lt="2.5" lte="" />
+        <b>0.9</b>
+    </row>
+    <row>
+        <uvue>9</uvue>
+        <isolation_aiu>1</isolation_aiu>
+        <isolation_aue>0</isolation_aue>
+        <aiu_aue gt="" gte="2.5" lt="3" lte="" />
+        <b>0.9</b>
+    </row>
+    <row>
+        <uvue>9</uvue>
+        <isolation_aiu>1</isolation_aiu>
+        <isolation_aue>0</isolation_aue>
+        <aiu_aue gt="" gte="3" lt="3.5" lte="" />
+        <b>0.9</b>
+    </row>
+    <row>
+        <uvue>9</uvue>
+        <isolation_aiu>1</isolation_aiu>
+        <isolation_aue>0</isolation_aue>
+        <aiu_aue gt="" gte="3.5" lt="4" lte="" />
+        <b>0.9</b>
+    </row>
+    <row>
+        <uvue>9</uvue>
+        <isolation_aiu>1</isolation_aiu>
+        <isolation_aue>0</isolation_aue>
+        <aiu_aue gt="" gte="4" lt="6" lte="" />
+        <b>0.85</b>
+    </row>
+    <row>
+        <uvue>9</uvue>
+        <isolation_aiu>1</isolation_aiu>
+        <isolation_aue>0</isolation_aue>
+        <aiu_aue gt="" gte="6" lt="8" lte="" />
+        <b>0.8</b>
+    </row>
+    <row>
+        <uvue>9</uvue>
+        <isolation_aiu>1</isolation_aiu>
+        <isolation_aue>0</isolation_aue>
+        <aiu_aue gt="" gte="8" lt="10" lte="" />
+        <b>0.75</b>
+    </row>
+    <row>
+        <uvue>9</uvue>
+        <isolation_aiu>1</isolation_aiu>
+        <isolation_aue>0</isolation_aue>
+        <aiu_aue gt="" gte="10" lt="25" lte="" />
+        <b>0.7</b>
+    </row>
+    <row>
+        <uvue>9</uvue>
+        <isolation_aiu>1</isolation_aiu>
+        <isolation_aue>0</isolation_aue>
+        <aiu_aue gt="" gte="25" lt="50" lte="" />
+        <b>0.5</b>
+    </row>
+    <row>
+        <uvue>9</uvue>
+        <isolation_aiu>1</isolation_aiu>
+        <isolation_aue>0</isolation_aue>
+        <aiu_aue gt="" gte="50" lt="" lte="" />
+        <b>0.3</b>
+    </row>
+    <row>
+        <uvue>0</uvue>
+        <isolation_aiu>0</isolation_aiu>
+        <isolation_aue>0</isolation_aue>
+        <aiu_aue gt="" gte="" lt="0.25" lte="" />
+        <b>0.8</b>
+    </row>
+    <row>
+        <uvue>0</uvue>
+        <isolation_aiu>0</isolation_aiu>
+        <isolation_aue>0</isolation_aue>
+        <aiu_aue gt="" gte="0.25" lt="0.5" lte="" />
+        <b>0.65</b>
+    </row>
+    <row>
+        <uvue>0</uvue>
+        <isolation_aiu>0</isolation_aiu>
+        <isolation_aue>0</isolation_aue>
+        <aiu_aue gt="" gte="0.5" lt="0.75" lte="" />
+        <b>0.55</b>
+    </row>
+    <row>
+        <uvue>0</uvue>
+        <isolation_aiu>0</isolation_aiu>
+        <isolation_aue>0</isolation_aue>
+        <aiu_aue gt="" gte="0.75" lt="1" lte="" />
+        <b>0.5</b>
+    </row>
+    <row>
+        <uvue>0</uvue>
+        <isolation_aiu>0</isolation_aiu>
+        <isolation_aue>0</isolation_aue>
+        <aiu_aue gt="" gte="1" lt="1.25" lte="" />
+        <b>0.45</b>
+    </row>
+    <row>
+        <uvue>0</uvue>
+        <isolation_aiu>0</isolation_aiu>
+        <isolation_aue>0</isolation_aue>
+        <aiu_aue gt="" gte="1.25" lt="2" lte="" />
+        <b>0.35</b>
+    </row>
+    <row>
+        <uvue>0</uvue>
+        <isolation_aiu>0</isolation_aiu>
+        <isolation_aue>0</isolation_aue>
+        <aiu_aue gt="" gte="2" lt="2.5" lte="" />
+        <b>0.3</b>
+    </row>
+    <row>
+        <uvue>0</uvue>
+        <isolation_aiu>0</isolation_aiu>
+        <isolation_aue>0</isolation_aue>
+        <aiu_aue gt="" gte="2.5" lt="3" lte="" />
+        <b>0.25</b>
+    </row>
+    <row>
+        <uvue>0</uvue>
+        <isolation_aiu>0</isolation_aiu>
+        <isolation_aue>0</isolation_aue>
+        <aiu_aue gt="" gte="3" lt="3.5" lte="" />
+        <b>0.2</b>
+    </row>
+    <row>
+        <uvue>0</uvue>
+        <isolation_aiu>0</isolation_aiu>
+        <isolation_aue>0</isolation_aue>
+        <aiu_aue gt="" gte="3.5" lt="4" lte="" />
+        <b>0.2</b>
+    </row>
+    <row>
+        <uvue>0</uvue>
+        <isolation_aiu>0</isolation_aiu>
+        <isolation_aue>0</isolation_aue>
+        <aiu_aue gt="" gte="4" lt="6" lte="" />
+        <b>0.15</b>
+    </row>
+    <row>
+        <uvue>0</uvue>
+        <isolation_aiu>0</isolation_aiu>
+        <isolation_aue>0</isolation_aue>
+        <aiu_aue gt="" gte="6" lt="8" lte="" />
+        <b>0.1</b>
+    </row>
+    <row>
+        <uvue>0</uvue>
+        <isolation_aiu>0</isolation_aiu>
+        <isolation_aue>0</isolation_aue>
+        <aiu_aue gt="" gte="8" lt="10" lte="" />
+        <b>0.1</b>
+    </row>
+    <row>
+        <uvue>0</uvue>
+        <isolation_aiu>0</isolation_aiu>
+        <isolation_aue>0</isolation_aue>
+        <aiu_aue gt="" gte="10" lt="25" lte="" />
+        <b>0.05</b>
+    </row>
+    <row>
+        <uvue>0</uvue>
+        <isolation_aiu>0</isolation_aiu>
+        <isolation_aue>0</isolation_aue>
+        <aiu_aue gt="" gte="25" lt="50" lte="" />
+        <b>0.05</b>
+    </row>
+    <row>
+        <uvue>0</uvue>
+        <isolation_aiu>0</isolation_aiu>
+        <isolation_aue>0</isolation_aue>
+        <aiu_aue gt="" gte="50" lt="" lte="" />
+        <b>0</b>
+    </row>
+    <row>
+        <uvue>0.3</uvue>
+        <isolation_aiu>0</isolation_aiu>
+        <isolation_aue>0</isolation_aue>
+        <aiu_aue gt="" gte="" lt="0.25" lte="" />
+        <b>0.85</b>
+    </row>
+    <row>
+        <uvue>0.3</uvue>
+        <isolation_aiu>0</isolation_aiu>
+        <isolation_aue>0</isolation_aue>
+        <aiu_aue gt="" gte="0.25" lt="0.5" lte="" />
+        <b>0.75</b>
+    </row>
+    <row>
+        <uvue>0.3</uvue>
+        <isolation_aiu>0</isolation_aiu>
+        <isolation_aue>0</isolation_aue>
+        <aiu_aue gt="" gte="0.5" lt="0.75" lte="" />
+        <b>0.65</b>
+    </row>
+    <row>
+        <uvue>0.3</uvue>
+        <isolation_aiu>0</isolation_aiu>
+        <isolation_aue>0</isolation_aue>
+        <aiu_aue gt="" gte="0.75" lt="1" lte="" />
+        <b>0.55</b>
+    </row>
+    <row>
+        <uvue>0.3</uvue>
+        <isolation_aiu>0</isolation_aiu>
+        <isolation_aue>0</isolation_aue>
+        <aiu_aue gt="" gte="1" lt="1.25" lte="" />
+        <b>0.5</b>
+    </row>
+    <row>
+        <uvue>0.3</uvue>
+        <isolation_aiu>0</isolation_aiu>
+        <isolation_aue>0</isolation_aue>
+        <aiu_aue gt="" gte="1.25" lt="2" lte="" />
+        <b>0.4</b>
+    </row>
+    <row>
+        <uvue>0.3</uvue>
+        <isolation_aiu>0</isolation_aiu>
+        <isolation_aue>0</isolation_aue>
+        <aiu_aue gt="" gte="2" lt="2.5" lte="" />
+        <b>0.35</b>
+    </row>
+    <row>
+        <uvue>0.3</uvue>
+        <isolation_aiu>0</isolation_aiu>
+        <isolation_aue>0</isolation_aue>
+        <aiu_aue gt="" gte="2.5" lt="3" lte="" />
+        <b>0.3</b>
+    </row>
+    <row>
+        <uvue>0.3</uvue>
+        <isolation_aiu>0</isolation_aiu>
+        <isolation_aue>0</isolation_aue>
+        <aiu_aue gt="" gte="3" lt="3.5" lte="" />
+        <b>0.3</b>
+    </row>
+    <row>
+        <uvue>0.3</uvue>
+        <isolation_aiu>0</isolation_aiu>
+        <isolation_aue>0</isolation_aue>
+        <aiu_aue gt="" gte="3.5" lt="4" lte="" />
+        <b>0.25</b>
+    </row>
+    <row>
+        <uvue>0.3</uvue>
+        <isolation_aiu>0</isolation_aiu>
+        <isolation_aue>0</isolation_aue>
+        <aiu_aue gt="" gte="4" lt="6" lte="" />
+        <b>0.2</b>
+    </row>
+    <row>
+        <uvue>0.3</uvue>
+        <isolation_aiu>0</isolation_aiu>
+        <isolation_aue>0</isolation_aue>
+        <aiu_aue gt="" gte="6" lt="8" lte="" />
+        <b>0.15</b>
+    </row>
+    <row>
+        <uvue>0.3</uvue>
+        <isolation_aiu>0</isolation_aiu>
+        <isolation_aue>0</isolation_aue>
+        <aiu_aue gt="" gte="8" lt="10" lte="" />
+        <b>0.1</b>
+    </row>
+    <row>
+        <uvue>0.3</uvue>
+        <isolation_aiu>0</isolation_aiu>
+        <isolation_aue>0</isolation_aue>
+        <aiu_aue gt="" gte="10" lt="25" lte="" />
+        <b>0.1</b>
+    </row>
+    <row>
+        <uvue>0.3</uvue>
+        <isolation_aiu>0</isolation_aiu>
+        <isolation_aue>0</isolation_aue>
+        <aiu_aue gt="" gte="25" lt="50" lte="" />
+        <b>0.05</b>
+    </row>
+    <row>
+        <uvue>0.3</uvue>
+        <isolation_aiu>0</isolation_aiu>
+        <isolation_aue>0</isolation_aue>
+        <aiu_aue gt="" gte="50" lt="" lte="" />
+        <b>0</b>
+    </row>
+    <row>
+        <uvue>3</uvue>
+        <isolation_aiu>0</isolation_aiu>
+        <isolation_aue>0</isolation_aue>
+        <aiu_aue gt="" gte="" lt="0.25" lte="" />
+        <b>0.9</b>
+    </row>
+    <row>
+        <uvue>3</uvue>
+        <isolation_aiu>0</isolation_aiu>
+        <isolation_aue>0</isolation_aue>
+        <aiu_aue gt="" gte="0.25" lt="0.5" lte="" />
+        <b>0.8</b>
+    </row>
+    <row>
+        <uvue>3</uvue>
+        <isolation_aiu>0</isolation_aiu>
+        <isolation_aue>0</isolation_aue>
+        <aiu_aue gt="" gte="0.5" lt="0.75" lte="" />
+        <b>0.75</b>
+    </row>
+    <row>
+        <uvue>3</uvue>
+        <isolation_aiu>0</isolation_aiu>
+        <isolation_aue>0</isolation_aue>
+        <aiu_aue gt="" gte="0.75" lt="1" lte="" />
+        <b>0.7</b>
+    </row>
+    <row>
+        <uvue>3</uvue>
+        <isolation_aiu>0</isolation_aiu>
+        <isolation_aue>0</isolation_aue>
+        <aiu_aue gt="" gte="1" lt="1.25" lte="" />
+        <b>0.65</b>
+    </row>
+    <row>
+        <uvue>3</uvue>
+        <isolation_aiu>0</isolation_aiu>
+        <isolation_aue>0</isolation_aue>
+        <aiu_aue gt="" gte="1.25" lt="2" lte="" />
+        <b>0.5</b>
+    </row>
+    <row>
+        <uvue>3</uvue>
+        <isolation_aiu>0</isolation_aiu>
+        <isolation_aue>0</isolation_aue>
+        <aiu_aue gt="" gte="2" lt="2.5" lte="" />
+        <b>0.45</b>
+    </row>
+    <row>
+        <uvue>3</uvue>
+        <isolation_aiu>0</isolation_aiu>
+        <isolation_aue>0</isolation_aue>
+        <aiu_aue gt="" gte="2.5" lt="3" lte="" />
+        <b>0.4</b>
+    </row>
+    <row>
+        <uvue>3</uvue>
+        <isolation_aiu>0</isolation_aiu>
+        <isolation_aue>0</isolation_aue>
+        <aiu_aue gt="" gte="3" lt="3.5" lte="" />
+        <b>0.4</b>
+    </row>
+    <row>
+        <uvue>3</uvue>
+        <isolation_aiu>0</isolation_aiu>
+        <isolation_aue>0</isolation_aue>
+        <aiu_aue gt="" gte="3.5" lt="4" lte="" />
+        <b>0.35</b>
+    </row>
+    <row>
+        <uvue>3</uvue>
+        <isolation_aiu>0</isolation_aiu>
+        <isolation_aue>0</isolation_aue>
+        <aiu_aue gt="" gte="4" lt="6" lte="" />
+        <b>0.25</b>
+    </row>
+    <row>
+        <uvue>3</uvue>
+        <isolation_aiu>0</isolation_aiu>
+        <isolation_aue>0</isolation_aue>
+        <aiu_aue gt="" gte="6" lt="8" lte="" />
+        <b>0.2</b>
+    </row>
+    <row>
+        <uvue>3</uvue>
+        <isolation_aiu>0</isolation_aiu>
+        <isolation_aue>0</isolation_aue>
+        <aiu_aue gt="" gte="8" lt="10" lte="" />
+        <b>0.2</b>
+    </row>
+    <row>
+        <uvue>3</uvue>
+        <isolation_aiu>0</isolation_aiu>
+        <isolation_aue>0</isolation_aue>
+        <aiu_aue gt="" gte="10" lt="25" lte="" />
+        <b>0.15</b>
+    </row>
+    <row>
+        <uvue>3</uvue>
+        <isolation_aiu>0</isolation_aiu>
+        <isolation_aue>0</isolation_aue>
+        <aiu_aue gt="" gte="25" lt="50" lte="" />
+        <b>0.05</b>
+    </row>
+    <row>
+        <uvue>3</uvue>
+        <isolation_aiu>0</isolation_aiu>
+        <isolation_aue>0</isolation_aue>
+        <aiu_aue gt="" gte="50" lt="" lte="" />
+        <b>0.05</b>
+    </row>
+    <row>
+        <uvue>9</uvue>
+        <isolation_aiu>0</isolation_aiu>
+        <isolation_aue>0</isolation_aue>
+        <aiu_aue gt="" gte="" lt="0.25" lte="" />
+        <b>0.95</b>
+    </row>
+    <row>
+        <uvue>9</uvue>
+        <isolation_aiu>0</isolation_aiu>
+        <isolation_aue>0</isolation_aue>
+        <aiu_aue gt="" gte="0.25" lt="0.5" lte="" />
+        <b>0.9</b>
+    </row>
+    <row>
+        <uvue>9</uvue>
+        <isolation_aiu>0</isolation_aiu>
+        <isolation_aue>0</isolation_aue>
+        <aiu_aue gt="" gte="0.5" lt="0.75" lte="" />
+        <b>0.85</b>
+    </row>
+    <row>
+        <uvue>9</uvue>
+        <isolation_aiu>0</isolation_aiu>
+        <isolation_aue>0</isolation_aue>
+        <aiu_aue gt="" gte="0.75" lt="1" lte="" />
+        <b>0.8</b>
+    </row>
+    <row>
+        <uvue>9</uvue>
+        <isolation_aiu>0</isolation_aiu>
+        <isolation_aue>0</isolation_aue>
+        <aiu_aue gt="" gte="1" lt="1.25" lte="" />
+        <b>0.8</b>
+    </row>
+    <row>
+        <uvue>9</uvue>
+        <isolation_aiu>0</isolation_aiu>
+        <isolation_aue>0</isolation_aue>
+        <aiu_aue gt="" gte="1.25" lt="2" lte="" />
+        <b>0.7</b>
+    </row>
+    <row>
+        <uvue>9</uvue>
+        <isolation_aiu>0</isolation_aiu>
+        <isolation_aue>0</isolation_aue>
+        <aiu_aue gt="" gte="2" lt="2.5" lte="" />
+        <b>0.65</b>
+    </row>
+    <row>
+        <uvue>9</uvue>
+        <isolation_aiu>0</isolation_aiu>
+        <isolation_aue>0</isolation_aue>
+        <aiu_aue gt="" gte="2.5" lt="3" lte="" />
+        <b>0.6</b>
+    </row>
+    <row>
+        <uvue>9</uvue>
+        <isolation_aiu>0</isolation_aiu>
+        <isolation_aue>0</isolation_aue>
+        <aiu_aue gt="" gte="3" lt="3.5" lte="" />
+        <b>0.55</b>
+    </row>
+    <row>
+        <uvue>9</uvue>
+        <isolation_aiu>0</isolation_aiu>
+        <isolation_aue>0</isolation_aue>
+        <aiu_aue gt="" gte="3.5" lt="4" lte="" />
+        <b>0.5</b>
+    </row>
+    <row>
+        <uvue>9</uvue>
+        <isolation_aiu>0</isolation_aiu>
+        <isolation_aue>0</isolation_aue>
+        <aiu_aue gt="" gte="4" lt="6" lte="" />
+        <b>0.4</b>
+    </row>
+    <row>
+        <uvue>9</uvue>
+        <isolation_aiu>0</isolation_aiu>
+        <isolation_aue>0</isolation_aue>
+        <aiu_aue gt="" gte="6" lt="8" lte="" />
+        <b>0.35</b>
+    </row>
+    <row>
+        <uvue>9</uvue>
+        <isolation_aiu>0</isolation_aiu>
+        <isolation_aue>0</isolation_aue>
+        <aiu_aue gt="" gte="8" lt="10" lte="" />
+        <b>0.3</b>
+    </row>
+    <row>
+        <uvue>9</uvue>
+        <isolation_aiu>0</isolation_aiu>
+        <isolation_aue>0</isolation_aue>
+        <aiu_aue gt="" gte="10" lt="25" lte="" />
+        <b>0.25</b>
+    </row>
+    <row>
+        <uvue>9</uvue>
+        <isolation_aiu>0</isolation_aiu>
+        <isolation_aue>0</isolation_aue>
+        <aiu_aue gt="" gte="25" lt="50" lte="" />
+        <b>0.15</b>
+    </row>
+    <row>
+        <uvue>9</uvue>
+        <isolation_aiu>0</isolation_aiu>
+        <isolation_aue>0</isolation_aue>
+        <aiu_aue gt="" gte="50" lt="" lte="" />
+        <b>0.05</b>
+    </row>
+    <row>
+        <uvue>0</uvue>
+        <isolation_aiu>0</isolation_aiu>
+        <isolation_aue>1</isolation_aue>
+        <aiu_aue gt="" gte="" lt="0.25" lte="" />
+        <b>0.35</b>
+    </row>
+    <row>
+        <uvue>0</uvue>
+        <isolation_aiu>0</isolation_aiu>
+        <isolation_aue>1</isolation_aue>
+        <aiu_aue gt="" gte="0.25" lt="0.5" lte="" />
+        <b>0.2</b>
+    </row>
+    <row>
+        <uvue>0</uvue>
+        <isolation_aiu>0</isolation_aiu>
+        <isolation_aue>1</isolation_aue>
+        <aiu_aue gt="" gte="0.5" lt="0.75" lte="" />
+        <b>0.15</b>
+    </row>
+    <row>
+        <uvue>0</uvue>
+        <isolation_aiu>0</isolation_aiu>
+        <isolation_aue>1</isolation_aue>
+        <aiu_aue gt="" gte="0.75" lt="1" lte="" />
+        <b>0.15</b>
+    </row>
+    <row>
+        <uvue>0</uvue>
+        <isolation_aiu>0</isolation_aiu>
+        <isolation_aue>1</isolation_aue>
+        <aiu_aue gt="" gte="1" lt="1.25" lte="" />
+        <b>0.1</b>
+    </row>
+    <row>
+        <uvue>0</uvue>
+        <isolation_aiu>0</isolation_aiu>
+        <isolation_aue>1</isolation_aue>
+        <aiu_aue gt="" gte="1.25" lt="2" lte="" />
+        <b>0.05</b>
+    </row>
+    <row>
+        <uvue>0</uvue>
+        <isolation_aiu>0</isolation_aiu>
+        <isolation_aue>1</isolation_aue>
+        <aiu_aue gt="" gte="2" lt="2.5" lte="" />
+        <b>0.05</b>
+    </row>
+    <row>
+        <uvue>0</uvue>
+        <isolation_aiu>0</isolation_aiu>
+        <isolation_aue>1</isolation_aue>
+        <aiu_aue gt="" gte="2.5" lt="3" lte="" />
+        <b>0.05</b>
+    </row>
+    <row>
+        <uvue>0</uvue>
+        <isolation_aiu>0</isolation_aiu>
+        <isolation_aue>1</isolation_aue>
+        <aiu_aue gt="" gte="3" lt="3.5" lte="" />
+        <b>0.05</b>
+    </row>
+    <row>
+        <uvue>0</uvue>
+        <isolation_aiu>0</isolation_aiu>
+        <isolation_aue>1</isolation_aue>
+        <aiu_aue gt="" gte="3.5" lt="4" lte="" />
+        <b>0.05</b>
+    </row>
+    <row>
+        <uvue>0</uvue>
+        <isolation_aiu>0</isolation_aiu>
+        <isolation_aue>1</isolation_aue>
+        <aiu_aue gt="" gte="4" lt="6" lte="" />
+        <b>0</b>
+    </row>
+    <row>
+        <uvue>0</uvue>
+        <isolation_aiu>0</isolation_aiu>
+        <isolation_aue>1</isolation_aue>
+        <aiu_aue gt="" gte="6" lt="8" lte="" />
+        <b>0</b>
+    </row>
+    <row>
+        <uvue>0</uvue>
+        <isolation_aiu>0</isolation_aiu>
+        <isolation_aue>1</isolation_aue>
+        <aiu_aue gt="" gte="8" lt="10" lte="" />
+        <b>0</b>
+    </row>
+    <row>
+        <uvue>0</uvue>
+        <isolation_aiu>0</isolation_aiu>
+        <isolation_aue>1</isolation_aue>
+        <aiu_aue gt="" gte="10" lt="25" lte="" />
+        <b>0</b>
+    </row>
+    <row>
+        <uvue>0</uvue>
+        <isolation_aiu>0</isolation_aiu>
+        <isolation_aue>1</isolation_aue>
+        <aiu_aue gt="" gte="25" lt="50" lte="" />
+        <b>0</b>
+    </row>
+    <row>
+        <uvue>0</uvue>
+        <isolation_aiu>0</isolation_aiu>
+        <isolation_aue>1</isolation_aue>
+        <aiu_aue gt="" gte="50" lt="" lte="" />
+        <b>0</b>
+    </row>
+    <row>
+        <uvue>0.3</uvue>
+        <isolation_aiu>0</isolation_aiu>
+        <isolation_aue>1</isolation_aue>
+        <aiu_aue gt="" gte="" lt="0.25" lte="" />
+        <b>0.5</b>
+    </row>
+    <row>
+        <uvue>0.3</uvue>
+        <isolation_aiu>0</isolation_aiu>
+        <isolation_aue>1</isolation_aue>
+        <aiu_aue gt="" gte="0.25" lt="0.5" lte="" />
+        <b>0.35</b>
+    </row>
+    <row>
+        <uvue>0.3</uvue>
+        <isolation_aiu>0</isolation_aiu>
+        <isolation_aue>1</isolation_aue>
+        <aiu_aue gt="" gte="0.5" lt="0.75" lte="" />
+        <b>0.25</b>
+    </row>
+    <row>
+        <uvue>0.3</uvue>
+        <isolation_aiu>0</isolation_aiu>
+        <isolation_aue>1</isolation_aue>
+        <aiu_aue gt="" gte="0.75" lt="1" lte="" />
+        <b>0.2</b>
+    </row>
+    <row>
+        <uvue>0.3</uvue>
+        <isolation_aiu>0</isolation_aiu>
+        <isolation_aue>1</isolation_aue>
+        <aiu_aue gt="" gte="1" lt="1.25" lte="" />
+        <b>0.15</b>
+    </row>
+    <row>
+        <uvue>0.3</uvue>
+        <isolation_aiu>0</isolation_aiu>
+        <isolation_aue>1</isolation_aue>
+        <aiu_aue gt="" gte="1.25" lt="2" lte="" />
+        <b>0.1</b>
+    </row>
+    <row>
+        <uvue>0.3</uvue>
+        <isolation_aiu>0</isolation_aiu>
+        <isolation_aue>1</isolation_aue>
+        <aiu_aue gt="" gte="2" lt="2.5" lte="" />
+        <b>0.1</b>
+    </row>
+    <row>
+        <uvue>0.3</uvue>
+        <isolation_aiu>0</isolation_aiu>
+        <isolation_aue>1</isolation_aue>
+        <aiu_aue gt="" gte="2.5" lt="3" lte="" />
+        <b>0.1</b>
+    </row>
+    <row>
+        <uvue>0.3</uvue>
+        <isolation_aiu>0</isolation_aiu>
+        <isolation_aue>1</isolation_aue>
+        <aiu_aue gt="" gte="3" lt="3.5" lte="" />
+        <b>0.05</b>
+    </row>
+    <row>
+        <uvue>0.3</uvue>
+        <isolation_aiu>0</isolation_aiu>
+        <isolation_aue>1</isolation_aue>
+        <aiu_aue gt="" gte="3.5" lt="4" lte="" />
+        <b>0.05</b>
+    </row>
+    <row>
+        <uvue>0.3</uvue>
+        <isolation_aiu>0</isolation_aiu>
+        <isolation_aue>1</isolation_aue>
+        <aiu_aue gt="" gte="4" lt="6" lte="" />
+        <b>0.05</b>
+    </row>
+    <row>
+        <uvue>0.3</uvue>
+        <isolation_aiu>0</isolation_aiu>
+        <isolation_aue>1</isolation_aue>
+        <aiu_aue gt="" gte="6" lt="8" lte="" />
+        <b>0.05</b>
+    </row>
+    <row>
+        <uvue>0.3</uvue>
+        <isolation_aiu>0</isolation_aiu>
+        <isolation_aue>1</isolation_aue>
+        <aiu_aue gt="" gte="8" lt="10" lte="" />
+        <b>0.05</b>
+    </row>
+    <row>
+        <uvue>0.3</uvue>
+        <isolation_aiu>0</isolation_aiu>
+        <isolation_aue>1</isolation_aue>
+        <aiu_aue gt="" gte="10" lt="25" lte="" />
+        <b>0</b>
+    </row>
+    <row>
+        <uvue>0.3</uvue>
+        <isolation_aiu>0</isolation_aiu>
+        <isolation_aue>1</isolation_aue>
+        <aiu_aue gt="" gte="25" lt="50" lte="" />
+        <b>0</b>
+    </row>
+    <row>
+        <uvue>0.3</uvue>
+        <isolation_aiu>0</isolation_aiu>
+        <isolation_aue>1</isolation_aue>
+        <aiu_aue gt="" gte="50" lt="" lte="" />
+        <b>0</b>
+    </row>
+    <row>
+        <uvue>3</uvue>
+        <isolation_aiu>0</isolation_aiu>
+        <isolation_aue>1</isolation_aue>
+        <aiu_aue gt="" gte="" lt="0.25" lte="" />
+        <b>0.85</b>
+    </row>
+    <row>
+        <uvue>3</uvue>
+        <isolation_aiu>0</isolation_aiu>
+        <isolation_aue>1</isolation_aue>
+        <aiu_aue gt="" gte="0.25" lt="0.5" lte="" />
+        <b>0.7</b>
+    </row>
+    <row>
+        <uvue>3</uvue>
+        <isolation_aiu>0</isolation_aiu>
+        <isolation_aue>1</isolation_aue>
+        <aiu_aue gt="" gte="0.5" lt="0.75" lte="" />
+        <b>0.65</b>
+    </row>
+    <row>
+        <uvue>3</uvue>
+        <isolation_aiu>0</isolation_aiu>
+        <isolation_aue>1</isolation_aue>
+        <aiu_aue gt="" gte="0.75" lt="1" lte="" />
+        <b>0.55</b>
+    </row>
+    <row>
+        <uvue>3</uvue>
+        <isolation_aiu>0</isolation_aiu>
+        <isolation_aue>1</isolation_aue>
+        <aiu_aue gt="" gte="1" lt="1.25" lte="" />
+        <b>0.5</b>
+    </row>
+    <row>
+        <uvue>3</uvue>
+        <isolation_aiu>0</isolation_aiu>
+        <isolation_aue>1</isolation_aue>
+        <aiu_aue gt="" gte="1.25" lt="2" lte="" />
+        <b>0.4</b>
+    </row>
+    <row>
+        <uvue>3</uvue>
+        <isolation_aiu>0</isolation_aiu>
+        <isolation_aue>1</isolation_aue>
+        <aiu_aue gt="" gte="2" lt="2.5" lte="" />
+        <b>0.35</b>
+    </row>
+    <row>
+        <uvue>3</uvue>
+        <isolation_aiu>0</isolation_aiu>
+        <isolation_aue>1</isolation_aue>
+        <aiu_aue gt="" gte="2.5" lt="3" lte="" />
+        <b>0.3</b>
+    </row>
+    <row>
+        <uvue>3</uvue>
+        <isolation_aiu>0</isolation_aiu>
+        <isolation_aue>1</isolation_aue>
+        <aiu_aue gt="" gte="3" lt="3.5" lte="" />
+        <b>0.25</b>
+    </row>
+    <row>
+        <uvue>3</uvue>
+        <isolation_aiu>0</isolation_aiu>
+        <isolation_aue>1</isolation_aue>
+        <aiu_aue gt="" gte="3.5" lt="4" lte="" />
+        <b>0.25</b>
+    </row>
+    <row>
+        <uvue>3</uvue>
+        <isolation_aiu>0</isolation_aiu>
+        <isolation_aue>1</isolation_aue>
+        <aiu_aue gt="" gte="4" lt="6" lte="" />
+        <b>0.2</b>
+    </row>
+    <row>
+        <uvue>3</uvue>
+        <isolation_aiu>0</isolation_aiu>
+        <isolation_aue>1</isolation_aue>
+        <aiu_aue gt="" gte="6" lt="8" lte="" />
+        <b>0.15</b>
+    </row>
+    <row>
+        <uvue>3</uvue>
+        <isolation_aiu>0</isolation_aiu>
+        <isolation_aue>1</isolation_aue>
+        <aiu_aue gt="" gte="8" lt="10" lte="" />
+        <b>0.1</b>
+    </row>
+    <row>
+        <uvue>3</uvue>
+        <isolation_aiu>0</isolation_aiu>
+        <isolation_aue>1</isolation_aue>
+        <aiu_aue gt="" gte="10" lt="25" lte="" />
+        <b>0.1</b>
+    </row>
+    <row>
+        <uvue>3</uvue>
+        <isolation_aiu>0</isolation_aiu>
+        <isolation_aue>1</isolation_aue>
+        <aiu_aue gt="" gte="25" lt="50" lte="" />
+        <b>0.05</b>
+    </row>
+    <row>
+        <uvue>3</uvue>
+        <isolation_aiu>0</isolation_aiu>
+        <isolation_aue>1</isolation_aue>
+        <aiu_aue gt="" gte="50" lt="" lte="" />
+        <b>0</b>
+    </row>
+    <row>
+        <uvue>9</uvue>
+        <isolation_aiu>0</isolation_aiu>
+        <isolation_aue>1</isolation_aue>
+        <aiu_aue gt="" gte="" lt="0.25" lte="" />
+        <b>0.95</b>
+    </row>
+    <row>
+        <uvue>9</uvue>
+        <isolation_aiu>0</isolation_aiu>
+        <isolation_aue>1</isolation_aue>
+        <aiu_aue gt="" gte="0.25" lt="0.5" lte="" />
+        <b>0.9</b>
+    </row>
+    <row>
+        <uvue>9</uvue>
+        <isolation_aiu>0</isolation_aiu>
+        <isolation_aue>1</isolation_aue>
+        <aiu_aue gt="" gte="0.5" lt="0.75" lte="" />
+        <b>0.85</b>
+    </row>
+    <row>
+        <uvue>9</uvue>
+        <isolation_aiu>0</isolation_aiu>
+        <isolation_aue>1</isolation_aue>
+        <aiu_aue gt="" gte="0.75" lt="1" lte="" />
+        <b>0.8</b>
+    </row>
+    <row>
+        <uvue>9</uvue>
+        <isolation_aiu>0</isolation_aiu>
+        <isolation_aue>1</isolation_aue>
+        <aiu_aue gt="" gte="1" lt="1.25" lte="" />
+        <b>0.75</b>
+    </row>
+    <row>
+        <uvue>9</uvue>
+        <isolation_aiu>0</isolation_aiu>
+        <isolation_aue>1</isolation_aue>
+        <aiu_aue gt="" gte="1.25" lt="2" lte="" />
+        <b>0.65</b>
+    </row>
+    <row>
+        <uvue>9</uvue>
+        <isolation_aiu>0</isolation_aiu>
+        <isolation_aue>1</isolation_aue>
+        <aiu_aue gt="" gte="2" lt="2.5" lte="" />
+        <b>0.6</b>
+    </row>
+    <row>
+        <uvue>9</uvue>
+        <isolation_aiu>0</isolation_aiu>
+        <isolation_aue>1</isolation_aue>
+        <aiu_aue gt="" gte="2.5" lt="3" lte="" />
+        <b>0.55</b>
+    </row>
+    <row>
+        <uvue>9</uvue>
+        <isolation_aiu>0</isolation_aiu>
+        <isolation_aue>1</isolation_aue>
+        <aiu_aue gt="" gte="3" lt="3.5" lte="" />
+        <b>0.5</b>
+    </row>
+    <row>
+        <uvue>9</uvue>
+        <isolation_aiu>0</isolation_aiu>
+        <isolation_aue>1</isolation_aue>
+        <aiu_aue gt="" gte="3.5" lt="4" lte="" />
+        <b>0.45</b>
+    </row>
+    <row>
+        <uvue>9</uvue>
+        <isolation_aiu>0</isolation_aiu>
+        <isolation_aue>1</isolation_aue>
+        <aiu_aue gt="" gte="4" lt="6" lte="" />
+        <b>0.35</b>
+    </row>
+    <row>
+        <uvue>9</uvue>
+        <isolation_aiu>0</isolation_aiu>
+        <isolation_aue>1</isolation_aue>
+        <aiu_aue gt="" gte="6" lt="8" lte="" />
+        <b>0.3</b>
+    </row>
+    <row>
+        <uvue>9</uvue>
+        <isolation_aiu>0</isolation_aiu>
+        <isolation_aue>1</isolation_aue>
+        <aiu_aue gt="" gte="8" lt="10" lte="" />
+        <b>0.25</b>
+    </row>
+    <row>
+        <uvue>9</uvue>
+        <isolation_aiu>0</isolation_aiu>
+        <isolation_aue>1</isolation_aue>
+        <aiu_aue gt="" gte="10" lt="25" lte="" />
+        <b>0.2</b>
+    </row>
+    <row>
+        <uvue>9</uvue>
+        <isolation_aiu>0</isolation_aiu>
+        <isolation_aue>1</isolation_aue>
+        <aiu_aue gt="" gte="25" lt="50" lte="" />
+        <b>0.1</b>
+    </row>
+    <row>
+        <uvue>9</uvue>
+        <isolation_aiu>0</isolation_aiu>
+        <isolation_aue>1</isolation_aue>
+        <aiu_aue gt="" gte="50" lt="" lte="" />
+        <b>0.05</b>
+    </row>
+    <row>
+        <uvue>0</uvue>
+        <isolation_aiu>1</isolation_aiu>
+        <isolation_aue>1</isolation_aue>
+        <aiu_aue gt="" gte="" lt="0.25" lte="" />
+        <b>0.8</b>
+    </row>
+    <row>
+        <uvue>0</uvue>
+        <isolation_aiu>1</isolation_aiu>
+        <isolation_aue>1</isolation_aue>
+        <aiu_aue gt="" gte="0.25" lt="0.5" lte="" />
+        <b>0.65</b>
+    </row>
+    <row>
+        <uvue>0</uvue>
+        <isolation_aiu>1</isolation_aiu>
+        <isolation_aue>1</isolation_aue>
+        <aiu_aue gt="" gte="0.5" lt="0.75" lte="" />
+        <b>0.55</b>
+    </row>
+    <row>
+        <uvue>0</uvue>
+        <isolation_aiu>1</isolation_aiu>
+        <isolation_aue>1</isolation_aue>
+        <aiu_aue gt="" gte="0.75" lt="1" lte="" />
+        <b>0.5</b>
+    </row>
+    <row>
+        <uvue>0</uvue>
+        <isolation_aiu>1</isolation_aiu>
+        <isolation_aue>1</isolation_aue>
+        <aiu_aue gt="" gte="1" lt="1.25" lte="" />
+        <b>0.45</b>
+    </row>
+    <row>
+        <uvue>0</uvue>
+        <isolation_aiu>1</isolation_aiu>
+        <isolation_aue>1</isolation_aue>
+        <aiu_aue gt="" gte="1.25" lt="2" lte="" />
+        <b>0.35</b>
+    </row>
+    <row>
+        <uvue>0</uvue>
+        <isolation_aiu>1</isolation_aiu>
+        <isolation_aue>1</isolation_aue>
+        <aiu_aue gt="" gte="2" lt="2.5" lte="" />
+        <b>0.3</b>
+    </row>
+    <row>
+        <uvue>0</uvue>
+        <isolation_aiu>1</isolation_aiu>
+        <isolation_aue>1</isolation_aue>
+        <aiu_aue gt="" gte="2.5" lt="3" lte="" />
+        <b>0.25</b>
+    </row>
+    <row>
+        <uvue>0</uvue>
+        <isolation_aiu>1</isolation_aiu>
+        <isolation_aue>1</isolation_aue>
+        <aiu_aue gt="" gte="3" lt="3.5" lte="" />
+        <b>0.2</b>
+    </row>
+    <row>
+        <uvue>0</uvue>
+        <isolation_aiu>1</isolation_aiu>
+        <isolation_aue>1</isolation_aue>
+        <aiu_aue gt="" gte="3.5" lt="4" lte="" />
+        <b>0.2</b>
+    </row>
+    <row>
+        <uvue>0</uvue>
+        <isolation_aiu>1</isolation_aiu>
+        <isolation_aue>1</isolation_aue>
+        <aiu_aue gt="" gte="4" lt="6" lte="" />
+        <b>0.15</b>
+    </row>
+    <row>
+        <uvue>0</uvue>
+        <isolation_aiu>1</isolation_aiu>
+        <isolation_aue>1</isolation_aue>
+        <aiu_aue gt="" gte="6" lt="8" lte="" />
+        <b>0.1</b>
+    </row>
+    <row>
+        <uvue>0</uvue>
+        <isolation_aiu>1</isolation_aiu>
+        <isolation_aue>1</isolation_aue>
+        <aiu_aue gt="" gte="8" lt="10" lte="" />
+        <b>0.1</b>
+    </row>
+    <row>
+        <uvue>0</uvue>
+        <isolation_aiu>1</isolation_aiu>
+        <isolation_aue>1</isolation_aue>
+        <aiu_aue gt="" gte="10" lt="25" lte="" />
+        <b>0.05</b>
+    </row>
+    <row>
+        <uvue>0</uvue>
+        <isolation_aiu>1</isolation_aiu>
+        <isolation_aue>1</isolation_aue>
+        <aiu_aue gt="" gte="25" lt="50" lte="" />
+        <b>0.05</b>
+    </row>
+    <row>
+        <uvue>0</uvue>
+        <isolation_aiu>1</isolation_aiu>
+        <isolation_aue>1</isolation_aue>
+        <aiu_aue gt="" gte="50" lt="" lte="" />
+        <b>0</b>
+    </row>
+    <row>
+        <uvue>0.3</uvue>
+        <isolation_aiu>1</isolation_aiu>
+        <isolation_aue>1</isolation_aue>
+        <aiu_aue gt="" gte="" lt="0.25" lte="" />
+        <b>0.9</b>
+    </row>
+    <row>
+        <uvue>0.3</uvue>
+        <isolation_aiu>1</isolation_aiu>
+        <isolation_aue>1</isolation_aue>
+        <aiu_aue gt="" gte="0.25" lt="0.5" lte="" />
+        <b>0.8</b>
+    </row>
+    <row>
+        <uvue>0.3</uvue>
+        <isolation_aiu>1</isolation_aiu>
+        <isolation_aue>1</isolation_aue>
+        <aiu_aue gt="" gte="0.5" lt="0.75" lte="" />
+        <b>0.7</b>
+    </row>
+    <row>
+        <uvue>0.3</uvue>
+        <isolation_aiu>1</isolation_aiu>
+        <isolation_aue>1</isolation_aue>
+        <aiu_aue gt="" gte="0.75" lt="1" lte="" />
+        <b>0.65</b>
+    </row>
+    <row>
+        <uvue>0.3</uvue>
+        <isolation_aiu>1</isolation_aiu>
+        <isolation_aue>1</isolation_aue>
+        <aiu_aue gt="" gte="1" lt="1.25" lte="" />
+        <b>0.6</b>
+    </row>
+    <row>
+        <uvue>0.3</uvue>
+        <isolation_aiu>1</isolation_aiu>
+        <isolation_aue>1</isolation_aue>
+        <aiu_aue gt="" gte="1.25" lt="2" lte="" />
+        <b>0.45</b>
+    </row>
+    <row>
+        <uvue>0.3</uvue>
+        <isolation_aiu>1</isolation_aiu>
+        <isolation_aue>1</isolation_aue>
+        <aiu_aue gt="" gte="2" lt="2.5" lte="" />
+        <b>0.4</b>
+    </row>
+    <row>
+        <uvue>0.3</uvue>
+        <isolation_aiu>1</isolation_aiu>
+        <isolation_aue>1</isolation_aue>
+        <aiu_aue gt="" gte="2.5" lt="3" lte="" />
+        <b>0.35</b>
+    </row>
+    <row>
+        <uvue>0.3</uvue>
+        <isolation_aiu>1</isolation_aiu>
+        <isolation_aue>1</isolation_aue>
+        <aiu_aue gt="" gte="3" lt="3.5" lte="" />
+        <b>0.35</b>
+    </row>
+    <row>
+        <uvue>0.3</uvue>
+        <isolation_aiu>1</isolation_aiu>
+        <isolation_aue>1</isolation_aue>
+        <aiu_aue gt="" gte="3.5" lt="4" lte="" />
+        <b>0.3</b>
+    </row>
+    <row>
+        <uvue>0.3</uvue>
+        <isolation_aiu>1</isolation_aiu>
+        <isolation_aue>1</isolation_aue>
+        <aiu_aue gt="" gte="4" lt="6" lte="" />
+        <b>0.25</b>
+    </row>
+    <row>
+        <uvue>0.3</uvue>
+        <isolation_aiu>1</isolation_aiu>
+        <isolation_aue>1</isolation_aue>
+        <aiu_aue gt="" gte="6" lt="8" lte="" />
+        <b>0.2</b>
+    </row>
+    <row>
+        <uvue>0.3</uvue>
+        <isolation_aiu>1</isolation_aiu>
+        <isolation_aue>1</isolation_aue>
+        <aiu_aue gt="" gte="8" lt="10" lte="" />
+        <b>0.15</b>
+    </row>
+    <row>
+        <uvue>0.3</uvue>
+        <isolation_aiu>1</isolation_aiu>
+        <isolation_aue>1</isolation_aue>
+        <aiu_aue gt="" gte="10" lt="25" lte="" />
+        <b>0.1</b>
+    </row>
+    <row>
+        <uvue>0.3</uvue>
+        <isolation_aiu>1</isolation_aiu>
+        <isolation_aue>1</isolation_aue>
+        <aiu_aue gt="" gte="25" lt="50" lte="" />
+        <b>0.05</b>
+    </row>
+    <row>
+        <uvue>0.3</uvue>
+        <isolation_aiu>1</isolation_aiu>
+        <isolation_aue>1</isolation_aue>
+        <aiu_aue gt="" gte="50" lt="" lte="" />
+        <b>0.05</b>
+    </row>
+    <row>
+        <uvue>3</uvue>
+        <isolation_aiu>1</isolation_aiu>
+        <isolation_aue>1</isolation_aue>
+        <aiu_aue gt="" gte="" lt="0.25" lte="" />
+        <b>0.95</b>
+    </row>
+    <row>
+        <uvue>3</uvue>
+        <isolation_aiu>1</isolation_aiu>
+        <isolation_aue>1</isolation_aue>
+        <aiu_aue gt="" gte="0.25" lt="0.5" lte="" />
+        <b>0.95</b>
+    </row>
+    <row>
+        <uvue>3</uvue>
+        <isolation_aiu>1</isolation_aiu>
+        <isolation_aue>1</isolation_aue>
+        <aiu_aue gt="" gte="0.5" lt="0.75" lte="" />
+        <b>0.9</b>
+    </row>
+    <row>
+        <uvue>3</uvue>
+        <isolation_aiu>1</isolation_aiu>
+        <isolation_aue>1</isolation_aue>
+        <aiu_aue gt="" gte="0.75" lt="1" lte="" />
+        <b>0.9</b>
+    </row>
+    <row>
+        <uvue>3</uvue>
+        <isolation_aiu>1</isolation_aiu>
+        <isolation_aue>1</isolation_aue>
+        <aiu_aue gt="" gte="1" lt="1.25" lte="" />
+        <b>0.9</b>
+    </row>
+    <row>
+        <uvue>3</uvue>
+        <isolation_aiu>1</isolation_aiu>
+        <isolation_aue>1</isolation_aue>
+        <aiu_aue gt="" gte="1.25" lt="2" lte="" />
+        <b>0.8</b>
+    </row>
+    <row>
+        <uvue>3</uvue>
+        <isolation_aiu>1</isolation_aiu>
+        <isolation_aue>1</isolation_aue>
+        <aiu_aue gt="" gte="2" lt="2.5" lte="" />
+        <b>0.8</b>
+    </row>
+    <row>
+        <uvue>3</uvue>
+        <isolation_aiu>1</isolation_aiu>
+        <isolation_aue>1</isolation_aue>
+        <aiu_aue gt="" gte="2.5" lt="3" lte="" />
+        <b>0.75</b>
+    </row>
+    <row>
+        <uvue>3</uvue>
+        <isolation_aiu>1</isolation_aiu>
+        <isolation_aue>1</isolation_aue>
+        <aiu_aue gt="" gte="3" lt="3.5" lte="" />
+        <b>0.7</b>
+    </row>
+    <row>
+        <uvue>3</uvue>
+        <isolation_aiu>1</isolation_aiu>
+        <isolation_aue>1</isolation_aue>
+        <aiu_aue gt="" gte="3.5" lt="4" lte="" />
+        <b>0.7</b>
+    </row>
+    <row>
+        <uvue>3</uvue>
+        <isolation_aiu>1</isolation_aiu>
+        <isolation_aue>1</isolation_aue>
+        <aiu_aue gt="" gte="4" lt="6" lte="" />
+        <b>0.6</b>
+    </row>
+    <row>
+        <uvue>3</uvue>
+        <isolation_aiu>1</isolation_aiu>
+        <isolation_aue>1</isolation_aue>
+        <aiu_aue gt="" gte="6" lt="8" lte="" />
+        <b>0.55</b>
+    </row>
+    <row>
+        <uvue>3</uvue>
+        <isolation_aiu>1</isolation_aiu>
+        <isolation_aue>1</isolation_aue>
+        <aiu_aue gt="" gte="8" lt="10" lte="" />
+        <b>0.45</b>
+    </row>
+    <row>
+        <uvue>3</uvue>
+        <isolation_aiu>1</isolation_aiu>
+        <isolation_aue>1</isolation_aue>
+        <aiu_aue gt="" gte="10" lt="25" lte="" />
+        <b>0.4</b>
+    </row>
+    <row>
+        <uvue>3</uvue>
+        <isolation_aiu>1</isolation_aiu>
+        <isolation_aue>1</isolation_aue>
+        <aiu_aue gt="" gte="25" lt="50" lte="" />
+        <b>0.25</b>
+    </row>
+    <row>
+        <uvue>3</uvue>
+        <isolation_aiu>1</isolation_aiu>
+        <isolation_aue>1</isolation_aue>
+        <aiu_aue gt="" gte="50" lt="" lte="" />
+        <b>0.1</b>
+    </row>
+    <row>
+        <uvue>9</uvue>
+        <isolation_aiu>1</isolation_aiu>
+        <isolation_aue>1</isolation_aue>
+        <aiu_aue gt="" gte="" lt="0.25" lte="" />
+        <b>1</b>
+    </row>
+    <row>
+        <uvue>9</uvue>
+        <isolation_aiu>1</isolation_aiu>
+        <isolation_aue>1</isolation_aue>
+        <aiu_aue gt="" gte="0.25" lt="0.5" lte="" />
+        <b>1</b>
+    </row>
+    <row>
+        <uvue>9</uvue>
+        <isolation_aiu>1</isolation_aiu>
+        <isolation_aue>1</isolation_aue>
+        <aiu_aue gt="" gte="0.5" lt="0.75" lte="" />
+        <b>0.95</b>
+    </row>
+    <row>
+        <uvue>9</uvue>
+        <isolation_aiu>1</isolation_aiu>
+        <isolation_aue>1</isolation_aue>
+        <aiu_aue gt="" gte="0.75" lt="1" lte="" />
+        <b>0.95</b>
+    </row>
+    <row>
+        <uvue>9</uvue>
+        <isolation_aiu>1</isolation_aiu>
+        <isolation_aue>1</isolation_aue>
+        <aiu_aue gt="" gte="1" lt="1.25" lte="" />
+        <b>0.95</b>
+    </row>
+    <row>
+        <uvue>9</uvue>
+        <isolation_aiu>1</isolation_aiu>
+        <isolation_aue>1</isolation_aue>
+        <aiu_aue gt="" gte="1.25" lt="2" lte="" />
+        <b>0.95</b>
+    </row>
+    <row>
+        <uvue>9</uvue>
+        <isolation_aiu>1</isolation_aiu>
+        <isolation_aue>1</isolation_aue>
+        <aiu_aue gt="" gte="2" lt="2.5" lte="" />
+        <b>0.9</b>
+    </row>
+    <row>
+        <uvue>9</uvue>
+        <isolation_aiu>1</isolation_aiu>
+        <isolation_aue>1</isolation_aue>
+        <aiu_aue gt="" gte="2.5" lt="3" lte="" />
+        <b>0.9</b>
+    </row>
+    <row>
+        <uvue>9</uvue>
+        <isolation_aiu>1</isolation_aiu>
+        <isolation_aue>1</isolation_aue>
+        <aiu_aue gt="" gte="3" lt="3.5" lte="" />
+        <b>0.9</b>
+    </row>
+    <row>
+        <uvue>9</uvue>
+        <isolation_aiu>1</isolation_aiu>
+        <isolation_aue>1</isolation_aue>
+        <aiu_aue gt="" gte="3.5" lt="4" lte="" />
+        <b>0.85</b>
+    </row>
+    <row>
+        <uvue>9</uvue>
+        <isolation_aiu>1</isolation_aiu>
+        <isolation_aue>1</isolation_aue>
+        <aiu_aue gt="" gte="4" lt="6" lte="" />
+        <b>0.8</b>
+    </row>
+    <row>
+        <uvue>9</uvue>
+        <isolation_aiu>1</isolation_aiu>
+        <isolation_aue>1</isolation_aue>
+        <aiu_aue gt="" gte="6" lt="8" lte="" />
+        <b>0.75</b>
+    </row>
+    <row>
+        <uvue>9</uvue>
+        <isolation_aiu>1</isolation_aiu>
+        <isolation_aue>1</isolation_aue>
+        <aiu_aue gt="" gte="8" lt="10" lte="" />
+        <b>0.7</b>
+    </row>
+    <row>
+        <uvue>9</uvue>
+        <isolation_aiu>1</isolation_aiu>
+        <isolation_aue>1</isolation_aue>
+        <aiu_aue gt="" gte="10" lt="25" lte="" />
+        <b>0.65</b>
+    </row>
+    <row>
+        <uvue>9</uvue>
+        <isolation_aiu>1</isolation_aiu>
+        <isolation_aue>1</isolation_aue>
+        <aiu_aue gt="" gte="25" lt="50" lte="" />
+        <b>0.45</b>
+    </row>
+    <row>
+        <uvue>9</uvue>
+        <isolation_aiu>1</isolation_aiu>
+        <isolation_aue>1</isolation_aue>
+        <aiu_aue gt="" gte="50" lt="" lte="" />
+        <b>0.3</b>
+    </row>
+</table>

@@ -1,0 +1,2551 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table name="plancher_bas.ue">
+    <row>
+        <mitoyennete>VIDE_SANITAIRE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>3</_2s_p>
+        <upb>3.33</upb>
+        <ue>0.45</ue>
+    </row>
+    <row>
+        <mitoyennete>VIDE_SANITAIRE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>4</_2s_p>
+        <upb>3.33</upb>
+        <ue>0.43</ue>
+    </row>
+    <row>
+        <mitoyennete>VIDE_SANITAIRE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>5</_2s_p>
+        <upb>3.33</upb>
+        <ue>0.38</ue>
+    </row>
+    <row>
+        <mitoyennete>VIDE_SANITAIRE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>6</_2s_p>
+        <upb>3.33</upb>
+        <ue>0.37</ue>
+    </row>
+    <row>
+        <mitoyennete>VIDE_SANITAIRE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>7</_2s_p>
+        <upb>3.33</upb>
+        <ue>0.36</ue>
+    </row>
+    <row>
+        <mitoyennete>VIDE_SANITAIRE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>8</_2s_p>
+        <upb>3.33</upb>
+        <ue>0.35</ue>
+    </row>
+    <row>
+        <mitoyennete>VIDE_SANITAIRE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>9</_2s_p>
+        <upb>3.33</upb>
+        <ue>0.34</ue>
+    </row>
+    <row>
+        <mitoyennete>VIDE_SANITAIRE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>10</_2s_p>
+        <upb>3.33</upb>
+        <ue>0.33</ue>
+    </row>
+    <row>
+        <mitoyennete>VIDE_SANITAIRE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>12</_2s_p>
+        <upb>3.33</upb>
+        <ue>0.28</ue>
+    </row>
+    <row>
+        <mitoyennete>VIDE_SANITAIRE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>14</_2s_p>
+        <upb>3.33</upb>
+        <ue>0.28</ue>
+    </row>
+    <row>
+        <mitoyennete>VIDE_SANITAIRE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>16</_2s_p>
+        <upb>3.33</upb>
+        <ue>0.28</ue>
+    </row>
+    <row>
+        <mitoyennete>VIDE_SANITAIRE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>18</_2s_p>
+        <upb>3.33</upb>
+        <ue>0.28</ue>
+    </row>
+    <row>
+        <mitoyennete>VIDE_SANITAIRE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>20</_2s_p>
+        <upb>3.33</upb>
+        <ue>0.24</ue>
+    </row>
+    <row>
+        <mitoyennete>VIDE_SANITAIRE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>3</_2s_p>
+        <upb>1.43</upb>
+        <ue>0.42</ue>
+    </row>
+    <row>
+        <mitoyennete>VIDE_SANITAIRE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>4</_2s_p>
+        <upb>1.43</upb>
+        <ue>0.4</ue>
+    </row>
+    <row>
+        <mitoyennete>VIDE_SANITAIRE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>5</_2s_p>
+        <upb>1.43</upb>
+        <ue>0.36</ue>
+    </row>
+    <row>
+        <mitoyennete>VIDE_SANITAIRE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>6</_2s_p>
+        <upb>1.43</upb>
+        <ue>0.35</ue>
+    </row>
+    <row>
+        <mitoyennete>VIDE_SANITAIRE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>7</_2s_p>
+        <upb>1.43</upb>
+        <ue>0.34</ue>
+    </row>
+    <row>
+        <mitoyennete>VIDE_SANITAIRE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>8</_2s_p>
+        <upb>1.43</upb>
+        <ue>0.33</ue>
+    </row>
+    <row>
+        <mitoyennete>VIDE_SANITAIRE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>9</_2s_p>
+        <upb>1.43</upb>
+        <ue>0.32</ue>
+    </row>
+    <row>
+        <mitoyennete>VIDE_SANITAIRE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>10</_2s_p>
+        <upb>1.43</upb>
+        <ue>0.31</ue>
+    </row>
+    <row>
+        <mitoyennete>VIDE_SANITAIRE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>12</_2s_p>
+        <upb>1.43</upb>
+        <ue>0.27</ue>
+    </row>
+    <row>
+        <mitoyennete>VIDE_SANITAIRE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>14</_2s_p>
+        <upb>1.43</upb>
+        <ue>0.27</ue>
+    </row>
+    <row>
+        <mitoyennete>VIDE_SANITAIRE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>16</_2s_p>
+        <upb>1.43</upb>
+        <ue>0.27</ue>
+    </row>
+    <row>
+        <mitoyennete>VIDE_SANITAIRE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>18</_2s_p>
+        <upb>1.43</upb>
+        <ue>0.26</ue>
+    </row>
+    <row>
+        <mitoyennete>VIDE_SANITAIRE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>20</_2s_p>
+        <upb>1.43</upb>
+        <ue>0.23</ue>
+    </row>
+    <row>
+        <mitoyennete>VIDE_SANITAIRE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>3</_2s_p>
+        <upb>0.83</upb>
+        <ue>0.39</ue>
+    </row>
+    <row>
+        <mitoyennete>VIDE_SANITAIRE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>4</_2s_p>
+        <upb>0.83</upb>
+        <ue>0.37</ue>
+    </row>
+    <row>
+        <mitoyennete>VIDE_SANITAIRE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>5</_2s_p>
+        <upb>0.83</upb>
+        <ue>0.34</ue>
+    </row>
+    <row>
+        <mitoyennete>VIDE_SANITAIRE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>6</_2s_p>
+        <upb>0.83</upb>
+        <ue>0.33</ue>
+    </row>
+    <row>
+        <mitoyennete>VIDE_SANITAIRE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>7</_2s_p>
+        <upb>0.83</upb>
+        <ue>0.32</ue>
+    </row>
+    <row>
+        <mitoyennete>VIDE_SANITAIRE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>8</_2s_p>
+        <upb>0.83</upb>
+        <ue>0.31</ue>
+    </row>
+    <row>
+        <mitoyennete>VIDE_SANITAIRE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>9</_2s_p>
+        <upb>0.83</upb>
+        <ue>0.3</ue>
+    </row>
+    <row>
+        <mitoyennete>VIDE_SANITAIRE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>10</_2s_p>
+        <upb>0.83</upb>
+        <ue>0.29</ue>
+    </row>
+    <row>
+        <mitoyennete>VIDE_SANITAIRE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>12</_2s_p>
+        <upb>0.83</upb>
+        <ue>0.26</ue>
+    </row>
+    <row>
+        <mitoyennete>VIDE_SANITAIRE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>14</_2s_p>
+        <upb>0.83</upb>
+        <ue>0.26</ue>
+    </row>
+    <row>
+        <mitoyennete>VIDE_SANITAIRE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>16</_2s_p>
+        <upb>0.83</upb>
+        <ue>0.25</ue>
+    </row>
+    <row>
+        <mitoyennete>VIDE_SANITAIRE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>18</_2s_p>
+        <upb>0.83</upb>
+        <ue>0.24</ue>
+    </row>
+    <row>
+        <mitoyennete>VIDE_SANITAIRE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>20</_2s_p>
+        <upb>0.83</upb>
+        <ue>0.22</ue>
+    </row>
+    <row>
+        <mitoyennete>VIDE_SANITAIRE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>3</_2s_p>
+        <upb>0.45</upb>
+        <ue>0.36</ue>
+    </row>
+    <row>
+        <mitoyennete>VIDE_SANITAIRE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>4</_2s_p>
+        <upb>0.45</upb>
+        <ue>0.34</ue>
+    </row>
+    <row>
+        <mitoyennete>VIDE_SANITAIRE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>5</_2s_p>
+        <upb>0.45</upb>
+        <ue>0.32</ue>
+    </row>
+    <row>
+        <mitoyennete>VIDE_SANITAIRE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>6</_2s_p>
+        <upb>0.45</upb>
+        <ue>0.31</ue>
+    </row>
+    <row>
+        <mitoyennete>VIDE_SANITAIRE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>7</_2s_p>
+        <upb>0.45</upb>
+        <ue>0.3</ue>
+    </row>
+    <row>
+        <mitoyennete>VIDE_SANITAIRE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>8</_2s_p>
+        <upb>0.45</upb>
+        <ue>0.29</ue>
+    </row>
+    <row>
+        <mitoyennete>VIDE_SANITAIRE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>9</_2s_p>
+        <upb>0.45</upb>
+        <ue>0.28</ue>
+    </row>
+    <row>
+        <mitoyennete>VIDE_SANITAIRE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>10</_2s_p>
+        <upb>0.45</upb>
+        <ue>0.27</ue>
+    </row>
+    <row>
+        <mitoyennete>VIDE_SANITAIRE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>12</_2s_p>
+        <upb>0.45</upb>
+        <ue>0.25</ue>
+    </row>
+    <row>
+        <mitoyennete>VIDE_SANITAIRE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>14</_2s_p>
+        <upb>0.45</upb>
+        <ue>0.24</ue>
+    </row>
+    <row>
+        <mitoyennete>VIDE_SANITAIRE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>16</_2s_p>
+        <upb>0.45</upb>
+        <ue>0.23</ue>
+    </row>
+    <row>
+        <mitoyennete>VIDE_SANITAIRE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>18</_2s_p>
+        <upb>0.45</upb>
+        <ue>0.22</ue>
+    </row>
+    <row>
+        <mitoyennete>VIDE_SANITAIRE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>20</_2s_p>
+        <upb>0.45</upb>
+        <ue>0.21</ue>
+    </row>
+    <row>
+        <mitoyennete>VIDE_SANITAIRE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>3</_2s_p>
+        <upb>0.41</upb>
+        <ue>0.33</ue>
+    </row>
+    <row>
+        <mitoyennete>VIDE_SANITAIRE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>4</_2s_p>
+        <upb>0.41</upb>
+        <ue>0.31</ue>
+    </row>
+    <row>
+        <mitoyennete>VIDE_SANITAIRE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>5</_2s_p>
+        <upb>0.41</upb>
+        <ue>0.3</ue>
+    </row>
+    <row>
+        <mitoyennete>VIDE_SANITAIRE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>6</_2s_p>
+        <upb>0.41</upb>
+        <ue>0.29</ue>
+    </row>
+    <row>
+        <mitoyennete>VIDE_SANITAIRE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>7</_2s_p>
+        <upb>0.41</upb>
+        <ue>0.28</ue>
+    </row>
+    <row>
+        <mitoyennete>VIDE_SANITAIRE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>8</_2s_p>
+        <upb>0.41</upb>
+        <ue>0.27</ue>
+    </row>
+    <row>
+        <mitoyennete>VIDE_SANITAIRE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>9</_2s_p>
+        <upb>0.41</upb>
+        <ue>0.26</ue>
+    </row>
+    <row>
+        <mitoyennete>VIDE_SANITAIRE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>10</_2s_p>
+        <upb>0.41</upb>
+        <ue>0.25</ue>
+    </row>
+    <row>
+        <mitoyennete>VIDE_SANITAIRE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>12</_2s_p>
+        <upb>0.41</upb>
+        <ue>0.24</ue>
+    </row>
+    <row>
+        <mitoyennete>VIDE_SANITAIRE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>14</_2s_p>
+        <upb>0.41</upb>
+        <ue>0.23</ue>
+    </row>
+    <row>
+        <mitoyennete>VIDE_SANITAIRE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>16</_2s_p>
+        <upb>0.41</upb>
+        <ue>0.21</ue>
+    </row>
+    <row>
+        <mitoyennete>VIDE_SANITAIRE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>18</_2s_p>
+        <upb>0.41</upb>
+        <ue>0.2</ue>
+    </row>
+    <row>
+        <mitoyennete>VIDE_SANITAIRE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>20</_2s_p>
+        <upb>0.41</upb>
+        <ue>0.2</ue>
+    </row>
+    <row>
+        <mitoyennete>VIDE_SANITAIRE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>3</_2s_p>
+        <upb>0.37</upb>
+        <ue>0.3</ue>
+    </row>
+    <row>
+        <mitoyennete>VIDE_SANITAIRE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>4</_2s_p>
+        <upb>0.37</upb>
+        <ue>0.29</ue>
+    </row>
+    <row>
+        <mitoyennete>VIDE_SANITAIRE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>5</_2s_p>
+        <upb>0.37</upb>
+        <ue>0.28</ue>
+    </row>
+    <row>
+        <mitoyennete>VIDE_SANITAIRE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>6</_2s_p>
+        <upb>0.37</upb>
+        <ue>0.27</ue>
+    </row>
+    <row>
+        <mitoyennete>VIDE_SANITAIRE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>7</_2s_p>
+        <upb>0.37</upb>
+        <ue>0.26</ue>
+    </row>
+    <row>
+        <mitoyennete>VIDE_SANITAIRE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>8</_2s_p>
+        <upb>0.37</upb>
+        <ue>0.25</ue>
+    </row>
+    <row>
+        <mitoyennete>VIDE_SANITAIRE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>9</_2s_p>
+        <upb>0.37</upb>
+        <ue>0.24</ue>
+    </row>
+    <row>
+        <mitoyennete>VIDE_SANITAIRE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>10</_2s_p>
+        <upb>0.37</upb>
+        <ue>0.24</ue>
+    </row>
+    <row>
+        <mitoyennete>VIDE_SANITAIRE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>12</_2s_p>
+        <upb>0.37</upb>
+        <ue>0.22</ue>
+    </row>
+    <row>
+        <mitoyennete>VIDE_SANITAIRE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>14</_2s_p>
+        <upb>0.37</upb>
+        <ue>0.21</ue>
+    </row>
+    <row>
+        <mitoyennete>VIDE_SANITAIRE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>16</_2s_p>
+        <upb>0.37</upb>
+        <ue>0.2</ue>
+    </row>
+    <row>
+        <mitoyennete>VIDE_SANITAIRE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>18</_2s_p>
+        <upb>0.37</upb>
+        <ue>0.19</ue>
+    </row>
+    <row>
+        <mitoyennete>VIDE_SANITAIRE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>20</_2s_p>
+        <upb>0.37</upb>
+        <ue>0.19</ue>
+    </row>
+    <row>
+        <mitoyennete>VIDE_SANITAIRE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>3</_2s_p>
+        <upb>0.34</upb>
+        <ue>0.28</ue>
+    </row>
+    <row>
+        <mitoyennete>VIDE_SANITAIRE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>4</_2s_p>
+        <upb>0.34</upb>
+        <ue>0.27</ue>
+    </row>
+    <row>
+        <mitoyennete>VIDE_SANITAIRE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>5</_2s_p>
+        <upb>0.34</upb>
+        <ue>0.26</ue>
+    </row>
+    <row>
+        <mitoyennete>VIDE_SANITAIRE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>6</_2s_p>
+        <upb>0.34</upb>
+        <ue>0.25</ue>
+    </row>
+    <row>
+        <mitoyennete>VIDE_SANITAIRE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>7</_2s_p>
+        <upb>0.34</upb>
+        <ue>0.24</ue>
+    </row>
+    <row>
+        <mitoyennete>VIDE_SANITAIRE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>8</_2s_p>
+        <upb>0.34</upb>
+        <ue>0.24</ue>
+    </row>
+    <row>
+        <mitoyennete>VIDE_SANITAIRE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>9</_2s_p>
+        <upb>0.34</upb>
+        <ue>0.23</ue>
+    </row>
+    <row>
+        <mitoyennete>VIDE_SANITAIRE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>10</_2s_p>
+        <upb>0.34</upb>
+        <ue>0.22</ue>
+    </row>
+    <row>
+        <mitoyennete>VIDE_SANITAIRE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>12</_2s_p>
+        <upb>0.34</upb>
+        <ue>0.21</ue>
+    </row>
+    <row>
+        <mitoyennete>VIDE_SANITAIRE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>14</_2s_p>
+        <upb>0.34</upb>
+        <ue>0.2</ue>
+    </row>
+    <row>
+        <mitoyennete>VIDE_SANITAIRE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>16</_2s_p>
+        <upb>0.34</upb>
+        <ue>0.19</ue>
+    </row>
+    <row>
+        <mitoyennete>VIDE_SANITAIRE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>18</_2s_p>
+        <upb>0.34</upb>
+        <ue>0.19</ue>
+    </row>
+    <row>
+        <mitoyennete>VIDE_SANITAIRE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>20</_2s_p>
+        <upb>0.34</upb>
+        <ue>0.18</ue>
+    </row>
+    <row>
+        <mitoyennete>VIDE_SANITAIRE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>3</_2s_p>
+        <upb>0.31</upb>
+        <ue>0.26</ue>
+    </row>
+    <row>
+        <mitoyennete>VIDE_SANITAIRE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>4</_2s_p>
+        <upb>0.31</upb>
+        <ue>0.25</ue>
+    </row>
+    <row>
+        <mitoyennete>VIDE_SANITAIRE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>5</_2s_p>
+        <upb>0.31</upb>
+        <ue>0.25</ue>
+    </row>
+    <row>
+        <mitoyennete>VIDE_SANITAIRE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>6</_2s_p>
+        <upb>0.31</upb>
+        <ue>0.24</ue>
+    </row>
+    <row>
+        <mitoyennete>VIDE_SANITAIRE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>7</_2s_p>
+        <upb>0.31</upb>
+        <ue>0.23</ue>
+    </row>
+    <row>
+        <mitoyennete>VIDE_SANITAIRE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>8</_2s_p>
+        <upb>0.31</upb>
+        <ue>0.22</ue>
+    </row>
+    <row>
+        <mitoyennete>VIDE_SANITAIRE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>9</_2s_p>
+        <upb>0.31</upb>
+        <ue>0.22</ue>
+    </row>
+    <row>
+        <mitoyennete>VIDE_SANITAIRE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>10</_2s_p>
+        <upb>0.31</upb>
+        <ue>0.21</ue>
+    </row>
+    <row>
+        <mitoyennete>VIDE_SANITAIRE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>12</_2s_p>
+        <upb>0.31</upb>
+        <ue>0.2</ue>
+    </row>
+    <row>
+        <mitoyennete>VIDE_SANITAIRE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>14</_2s_p>
+        <upb>0.31</upb>
+        <ue>0.19</ue>
+    </row>
+    <row>
+        <mitoyennete>VIDE_SANITAIRE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>16</_2s_p>
+        <upb>0.31</upb>
+        <ue>0.18</ue>
+    </row>
+    <row>
+        <mitoyennete>VIDE_SANITAIRE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>18</_2s_p>
+        <upb>0.31</upb>
+        <ue>0.18</ue>
+    </row>
+    <row>
+        <mitoyennete>VIDE_SANITAIRE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>20</_2s_p>
+        <upb>0.31</upb>
+        <ue>0.17</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="2000" />
+        <_2s_p>3</_2s_p>
+        <upb>3.4</upb>
+        <ue>0.78</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="2000" />
+        <_2s_p>4</_2s_p>
+        <upb>3.4</upb>
+        <ue>0.68</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="2000" />
+        <_2s_p>5</_2s_p>
+        <upb>3.4</upb>
+        <ue>0.6</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="2000" />
+        <_2s_p>6</_2s_p>
+        <upb>3.4</upb>
+        <ue>0.54</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="2000" />
+        <_2s_p>7</_2s_p>
+        <upb>3.4</upb>
+        <ue>0.49</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="2000" />
+        <_2s_p>8</_2s_p>
+        <upb>3.4</upb>
+        <ue>0.45</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="2000" />
+        <_2s_p>9</_2s_p>
+        <upb>3.4</upb>
+        <ue>0.42</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="2000" />
+        <_2s_p>10</_2s_p>
+        <upb>3.4</upb>
+        <ue>0.39</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="2000" />
+        <_2s_p>12</_2s_p>
+        <upb>3.4</upb>
+        <ue>0.35</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="2000" />
+        <_2s_p>14</_2s_p>
+        <upb>3.4</upb>
+        <ue>0.31</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="2000" />
+        <_2s_p>16</_2s_p>
+        <upb>3.4</upb>
+        <ue>0.28</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="2000" />
+        <_2s_p>18</_2s_p>
+        <upb>3.4</upb>
+        <ue>0.26</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="2000" />
+        <_2s_p>20</_2s_p>
+        <upb>3.4</upb>
+        <ue>0.24</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="2000" />
+        <_2s_p>3</_2s_p>
+        <upb>1.5</upb>
+        <ue>0.56</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="2000" />
+        <_2s_p>4</_2s_p>
+        <upb>1.5</upb>
+        <ue>0.51</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="2000" />
+        <_2s_p>5</_2s_p>
+        <upb>1.5</upb>
+        <ue>0.46</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="2000" />
+        <_2s_p>6</_2s_p>
+        <upb>1.5</upb>
+        <ue>0.43</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="2000" />
+        <_2s_p>7</_2s_p>
+        <upb>1.5</upb>
+        <ue>0.39</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="2000" />
+        <_2s_p>8</_2s_p>
+        <upb>1.5</upb>
+        <ue>0.37</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="2000" />
+        <_2s_p>9</_2s_p>
+        <upb>1.5</upb>
+        <ue>0.34</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="2000" />
+        <_2s_p>10</_2s_p>
+        <upb>1.5</upb>
+        <ue>0.32</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="2000" />
+        <_2s_p>12</_2s_p>
+        <upb>1.5</upb>
+        <ue>0.29</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="2000" />
+        <_2s_p>14</_2s_p>
+        <upb>1.5</upb>
+        <ue>0.26</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="2000" />
+        <_2s_p>16</_2s_p>
+        <upb>1.5</upb>
+        <ue>0.24</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="2000" />
+        <_2s_p>18</_2s_p>
+        <upb>1.5</upb>
+        <ue>0.22</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="2000" />
+        <_2s_p>20</_2s_p>
+        <upb>1.5</upb>
+        <ue>0.21</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="2000" />
+        <_2s_p>3</_2s_p>
+        <upb>0.85</upb>
+        <ue>0.43</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="2000" />
+        <_2s_p>4</_2s_p>
+        <upb>0.85</upb>
+        <ue>0.4</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="2000" />
+        <_2s_p>5</_2s_p>
+        <upb>0.85</upb>
+        <ue>0.38</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="2000" />
+        <_2s_p>6</_2s_p>
+        <upb>0.85</upb>
+        <ue>0.35</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="2000" />
+        <_2s_p>7</_2s_p>
+        <upb>0.85</upb>
+        <ue>0.33</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="2000" />
+        <_2s_p>8</_2s_p>
+        <upb>0.85</upb>
+        <ue>0.31</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="2000" />
+        <_2s_p>9</_2s_p>
+        <upb>0.85</upb>
+        <ue>0.29</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="2000" />
+        <_2s_p>10</_2s_p>
+        <upb>0.85</upb>
+        <ue>0.28</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="2000" />
+        <_2s_p>12</_2s_p>
+        <upb>0.85</upb>
+        <ue>0.25</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="2000" />
+        <_2s_p>14</_2s_p>
+        <upb>0.85</upb>
+        <ue>0.23</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="2000" />
+        <_2s_p>16</_2s_p>
+        <upb>0.85</upb>
+        <ue>0.21</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="2000" />
+        <_2s_p>18</_2s_p>
+        <upb>0.85</upb>
+        <ue>0.2</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="2000" />
+        <_2s_p>20</_2s_p>
+        <upb>0.85</upb>
+        <ue>0.18</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="2000" />
+        <_2s_p>3</_2s_p>
+        <upb>0.59</upb>
+        <ue>0.35</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="2000" />
+        <_2s_p>4</_2s_p>
+        <upb>0.59</upb>
+        <ue>0.33</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="2000" />
+        <_2s_p>5</_2s_p>
+        <upb>0.59</upb>
+        <ue>0.32</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="2000" />
+        <_2s_p>6</_2s_p>
+        <upb>0.59</upb>
+        <ue>0.3</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="2000" />
+        <_2s_p>7</_2s_p>
+        <upb>0.59</upb>
+        <ue>0.28</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="2000" />
+        <_2s_p>8</_2s_p>
+        <upb>0.59</upb>
+        <ue>0.27</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="2000" />
+        <_2s_p>9</_2s_p>
+        <upb>0.59</upb>
+        <ue>0.26</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="2000" />
+        <_2s_p>10</_2s_p>
+        <upb>0.59</upb>
+        <ue>0.24</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="2000" />
+        <_2s_p>12</_2s_p>
+        <upb>0.59</upb>
+        <ue>0.22</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="2000" />
+        <_2s_p>14</_2s_p>
+        <upb>0.59</upb>
+        <ue>0.2</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="2000" />
+        <_2s_p>16</_2s_p>
+        <upb>0.59</upb>
+        <ue>0.19</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="2000" />
+        <_2s_p>18</_2s_p>
+        <upb>0.59</upb>
+        <ue>0.18</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="2000" />
+        <_2s_p>20</_2s_p>
+        <upb>0.59</upb>
+        <ue>0.17</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="2000" />
+        <_2s_p>3</_2s_p>
+        <upb>0.46</upb>
+        <ue>0.3</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="2000" />
+        <_2s_p>4</_2s_p>
+        <upb>0.46</upb>
+        <ue>0.28</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="2000" />
+        <_2s_p>5</_2s_p>
+        <upb>0.46</upb>
+        <ue>0.27</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="2000" />
+        <_2s_p>6</_2s_p>
+        <upb>0.46</upb>
+        <ue>0.26</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="2000" />
+        <_2s_p>7</_2s_p>
+        <upb>0.46</upb>
+        <ue>0.25</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="2000" />
+        <_2s_p>8</_2s_p>
+        <upb>0.46</upb>
+        <ue>0.24</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="2000" />
+        <_2s_p>9</_2s_p>
+        <upb>0.46</upb>
+        <ue>0.23</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="2000" />
+        <_2s_p>10</_2s_p>
+        <upb>0.46</upb>
+        <ue>0.22</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="2000" />
+        <_2s_p>12</_2s_p>
+        <upb>0.46</upb>
+        <ue>0.2</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="2000" />
+        <_2s_p>14</_2s_p>
+        <upb>0.46</upb>
+        <ue>0.19</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="2000" />
+        <_2s_p>16</_2s_p>
+        <upb>0.46</upb>
+        <ue>0.17</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="2000" />
+        <_2s_p>18</_2s_p>
+        <upb>0.46</upb>
+        <ue>0.16</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="2000" />
+        <_2s_p>20</_2s_p>
+        <upb>0.46</upb>
+        <ue>0.15</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="2001" lt="" lte="" />
+        <_2s_p>3</_2s_p>
+        <upb>3.4</upb>
+        <ue>0.7</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="2001" lt="" lte="" />
+        <_2s_p>4</_2s_p>
+        <upb>3.4</upb>
+        <ue>0.65</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="2001" lt="" lte="" />
+        <_2s_p>5</_2s_p>
+        <upb>3.4</upb>
+        <ue>0.58</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="2001" lt="" lte="" />
+        <_2s_p>6</_2s_p>
+        <upb>3.4</upb>
+        <ue>0.52</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="2001" lt="" lte="" />
+        <_2s_p>7</_2s_p>
+        <upb>3.4</upb>
+        <ue>0.48</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="2001" lt="" lte="" />
+        <_2s_p>8</_2s_p>
+        <upb>3.4</upb>
+        <ue>0.45</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="2001" lt="" lte="" />
+        <_2s_p>9</_2s_p>
+        <upb>3.4</upb>
+        <ue>0.39</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="2001" lt="" lte="" />
+        <_2s_p>10</_2s_p>
+        <upb>3.4</upb>
+        <ue>0.38</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="2001" lt="" lte="" />
+        <_2s_p>12</_2s_p>
+        <upb>3.4</upb>
+        <ue>0.35</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="2001" lt="" lte="" />
+        <_2s_p>14</_2s_p>
+        <upb>3.4</upb>
+        <ue>0.3</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="2001" lt="" lte="" />
+        <_2s_p>16</_2s_p>
+        <upb>3.4</upb>
+        <ue>0.26</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="2001" lt="" lte="" />
+        <_2s_p>18</_2s_p>
+        <upb>3.4</upb>
+        <ue>0.25</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="2001" lt="" lte="" />
+        <_2s_p>20</_2s_p>
+        <upb>3.4</upb>
+        <ue>0.23</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="2001" lt="" lte="" />
+        <_2s_p>3</_2s_p>
+        <upb>1.5</upb>
+        <ue>0.6</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="2001" lt="" lte="" />
+        <_2s_p>4</_2s_p>
+        <upb>1.5</upb>
+        <ue>0.55</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="2001" lt="" lte="" />
+        <_2s_p>5</_2s_p>
+        <upb>1.5</upb>
+        <ue>0.5</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="2001" lt="" lte="" />
+        <_2s_p>6</_2s_p>
+        <upb>1.5</upb>
+        <ue>0.45</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="2001" lt="" lte="" />
+        <_2s_p>7</_2s_p>
+        <upb>1.5</upb>
+        <ue>0.42</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="2001" lt="" lte="" />
+        <_2s_p>8</_2s_p>
+        <upb>1.5</upb>
+        <ue>0.39</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="2001" lt="" lte="" />
+        <_2s_p>9</_2s_p>
+        <upb>1.5</upb>
+        <ue>0.35</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="2001" lt="" lte="" />
+        <_2s_p>10</_2s_p>
+        <upb>1.5</upb>
+        <ue>0.34</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="2001" lt="" lte="" />
+        <_2s_p>12</_2s_p>
+        <upb>1.5</upb>
+        <ue>0.31</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="2001" lt="" lte="" />
+        <_2s_p>14</_2s_p>
+        <upb>1.5</upb>
+        <ue>0.27</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="2001" lt="" lte="" />
+        <_2s_p>16</_2s_p>
+        <upb>1.5</upb>
+        <ue>0.24</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="2001" lt="" lte="" />
+        <_2s_p>18</_2s_p>
+        <upb>1.5</upb>
+        <ue>0.24</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="2001" lt="" lte="" />
+        <_2s_p>20</_2s_p>
+        <upb>1.5</upb>
+        <ue>0.21</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="2001" lt="" lte="" />
+        <_2s_p>3</_2s_p>
+        <upb>0.85</upb>
+        <ue>0.49</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="2001" lt="" lte="" />
+        <_2s_p>4</_2s_p>
+        <upb>0.85</upb>
+        <ue>0.45</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="2001" lt="" lte="" />
+        <_2s_p>5</_2s_p>
+        <upb>0.85</upb>
+        <ue>0.42</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="2001" lt="" lte="" />
+        <_2s_p>6</_2s_p>
+        <upb>0.85</upb>
+        <ue>0.38</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="2001" lt="" lte="" />
+        <_2s_p>7</_2s_p>
+        <upb>0.85</upb>
+        <ue>0.36</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="2001" lt="" lte="" />
+        <_2s_p>8</_2s_p>
+        <upb>0.85</upb>
+        <ue>0.33</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="2001" lt="" lte="" />
+        <_2s_p>9</_2s_p>
+        <upb>0.85</upb>
+        <ue>0.31</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="2001" lt="" lte="" />
+        <_2s_p>10</_2s_p>
+        <upb>0.85</upb>
+        <ue>0.3</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="2001" lt="" lte="" />
+        <_2s_p>12</_2s_p>
+        <upb>0.85</upb>
+        <ue>0.27</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="2001" lt="" lte="" />
+        <_2s_p>14</_2s_p>
+        <upb>0.85</upb>
+        <ue>0.24</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="2001" lt="" lte="" />
+        <_2s_p>16</_2s_p>
+        <upb>0.85</upb>
+        <ue>0.22</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="2001" lt="" lte="" />
+        <_2s_p>18</_2s_p>
+        <upb>0.85</upb>
+        <ue>0.21</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="2001" lt="" lte="" />
+        <_2s_p>20</_2s_p>
+        <upb>0.85</upb>
+        <ue>0.19</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="2001" lt="" lte="" />
+        <_2s_p>3</_2s_p>
+        <upb>0.6</upb>
+        <ue>0.39</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="2001" lt="" lte="" />
+        <_2s_p>4</_2s_p>
+        <upb>0.6</upb>
+        <ue>0.36</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="2001" lt="" lte="" />
+        <_2s_p>5</_2s_p>
+        <upb>0.6</upb>
+        <ue>0.34</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="2001" lt="" lte="" />
+        <_2s_p>6</_2s_p>
+        <upb>0.6</upb>
+        <ue>0.32</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="2001" lt="" lte="" />
+        <_2s_p>7</_2s_p>
+        <upb>0.6</upb>
+        <ue>0.3</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="2001" lt="" lte="" />
+        <_2s_p>8</_2s_p>
+        <upb>0.6</upb>
+        <ue>0.28</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="2001" lt="" lte="" />
+        <_2s_p>9</_2s_p>
+        <upb>0.6</upb>
+        <ue>0.27</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="2001" lt="" lte="" />
+        <_2s_p>10</_2s_p>
+        <upb>0.6</upb>
+        <ue>0.26</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="2001" lt="" lte="" />
+        <_2s_p>12</_2s_p>
+        <upb>0.6</upb>
+        <ue>0.23</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="2001" lt="" lte="" />
+        <_2s_p>14</_2s_p>
+        <upb>0.6</upb>
+        <ue>0.21</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="2001" lt="" lte="" />
+        <_2s_p>16</_2s_p>
+        <upb>0.6</upb>
+        <ue>0.2</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="2001" lt="" lte="" />
+        <_2s_p>18</_2s_p>
+        <upb>0.6</upb>
+        <ue>0.18</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="2001" lt="" lte="" />
+        <_2s_p>20</_2s_p>
+        <upb>0.6</upb>
+        <ue>0.17</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="2001" lt="" lte="" />
+        <_2s_p>3</_2s_p>
+        <upb>0.46</upb>
+        <ue>0.33</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="2001" lt="" lte="" />
+        <_2s_p>4</_2s_p>
+        <upb>0.46</upb>
+        <ue>0.31</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="2001" lt="" lte="" />
+        <_2s_p>5</_2s_p>
+        <upb>0.46</upb>
+        <ue>0.29</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="2001" lt="" lte="" />
+        <_2s_p>6</_2s_p>
+        <upb>0.46</upb>
+        <ue>0.27</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="2001" lt="" lte="" />
+        <_2s_p>7</_2s_p>
+        <upb>0.46</upb>
+        <ue>0.26</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="2001" lt="" lte="" />
+        <_2s_p>8</_2s_p>
+        <upb>0.46</upb>
+        <ue>0.25</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="2001" lt="" lte="" />
+        <_2s_p>9</_2s_p>
+        <upb>0.46</upb>
+        <ue>0.24</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="2001" lt="" lte="" />
+        <_2s_p>10</_2s_p>
+        <upb>0.46</upb>
+        <ue>0.23</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="2001" lt="" lte="" />
+        <_2s_p>12</_2s_p>
+        <upb>0.46</upb>
+        <ue>0.21</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="2001" lt="" lte="" />
+        <_2s_p>14</_2s_p>
+        <upb>0.46</upb>
+        <ue>0.19</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="2001" lt="" lte="" />
+        <_2s_p>16</_2s_p>
+        <upb>0.46</upb>
+        <ue>0.18</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="2001" lt="" lte="" />
+        <_2s_p>18</_2s_p>
+        <upb>0.46</upb>
+        <ue>0.17</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="2001" lt="" lte="" />
+        <_2s_p>20</_2s_p>
+        <upb>0.46</upb>
+        <ue>0.16</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="2001" lt="" lte="" />
+        <_2s_p>3</_2s_p>
+        <upb>0.37</upb>
+        <ue>0.28</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="2001" lt="" lte="" />
+        <_2s_p>4</_2s_p>
+        <upb>0.37</upb>
+        <ue>0.26</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="2001" lt="" lte="" />
+        <_2s_p>5</_2s_p>
+        <upb>0.37</upb>
+        <ue>0.25</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="2001" lt="" lte="" />
+        <_2s_p>6</_2s_p>
+        <upb>0.37</upb>
+        <ue>0.24</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="2001" lt="" lte="" />
+        <_2s_p>7</_2s_p>
+        <upb>0.37</upb>
+        <ue>0.23</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="2001" lt="" lte="" />
+        <_2s_p>8</_2s_p>
+        <upb>0.37</upb>
+        <ue>0.22</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="2001" lt="" lte="" />
+        <_2s_p>9</_2s_p>
+        <upb>0.37</upb>
+        <ue>0.21</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="2001" lt="" lte="" />
+        <_2s_p>10</_2s_p>
+        <upb>0.37</upb>
+        <ue>0.2</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="2001" lt="" lte="" />
+        <_2s_p>12</_2s_p>
+        <upb>0.37</upb>
+        <ue>0.19</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="2001" lt="" lte="" />
+        <_2s_p>14</_2s_p>
+        <upb>0.37</upb>
+        <ue>0.17</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="2001" lt="" lte="" />
+        <_2s_p>16</_2s_p>
+        <upb>0.37</upb>
+        <ue>0.16</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="2001" lt="" lte="" />
+        <_2s_p>18</_2s_p>
+        <upb>0.37</upb>
+        <ue>0.15</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="2001" lt="" lte="" />
+        <_2s_p>20</_2s_p>
+        <upb>0.37</upb>
+        <ue>0.14</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="2001" lt="" lte="" />
+        <_2s_p>3</_2s_p>
+        <upb>0.31</upb>
+        <ue>0.25</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="2001" lt="" lte="" />
+        <_2s_p>4</_2s_p>
+        <upb>0.31</upb>
+        <ue>0.23</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="2001" lt="" lte="" />
+        <_2s_p>5</_2s_p>
+        <upb>0.31</upb>
+        <ue>0.22</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="2001" lt="" lte="" />
+        <_2s_p>6</_2s_p>
+        <upb>0.31</upb>
+        <ue>0.21</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="2001" lt="" lte="" />
+        <_2s_p>7</_2s_p>
+        <upb>0.31</upb>
+        <ue>0.2</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="2001" lt="" lte="" />
+        <_2s_p>8</_2s_p>
+        <upb>0.31</upb>
+        <ue>0.2</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="2001" lt="" lte="" />
+        <_2s_p>9</_2s_p>
+        <upb>0.31</upb>
+        <ue>0.19</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="2001" lt="" lte="" />
+        <_2s_p>10</_2s_p>
+        <upb>0.31</upb>
+        <ue>0.18</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="2001" lt="" lte="" />
+        <_2s_p>12</_2s_p>
+        <upb>0.31</upb>
+        <ue>0.17</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="2001" lt="" lte="" />
+        <_2s_p>14</_2s_p>
+        <upb>0.31</upb>
+        <ue>0.16</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="2001" lt="" lte="" />
+        <_2s_p>16</_2s_p>
+        <upb>0.31</upb>
+        <ue>0.15</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="2001" lt="" lte="" />
+        <_2s_p>18</_2s_p>
+        <upb>0.31</upb>
+        <ue>0.14</ue>
+    </row>
+    <row>
+        <mitoyennete>TERRE_PLEIN</mitoyennete>
+        <annee_construction gt="" gte="2001" lt="" lte="" />
+        <_2s_p>20</_2s_p>
+        <upb>0.31</upb>
+        <ue>0.13</ue>
+    </row>
+    <row>
+        <mitoyennete>SOUS_SOL_NON_CHAUFFE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>3</_2s_p>
+        <upb>3.33</upb>
+        <ue>0.45</ue>
+    </row>
+    <row>
+        <mitoyennete>SOUS_SOL_NON_CHAUFFE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>4</_2s_p>
+        <upb>3.33</upb>
+        <ue>0.43</ue>
+    </row>
+    <row>
+        <mitoyennete>SOUS_SOL_NON_CHAUFFE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>5</_2s_p>
+        <upb>3.33</upb>
+        <ue>0.38</ue>
+    </row>
+    <row>
+        <mitoyennete>SOUS_SOL_NON_CHAUFFE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>6</_2s_p>
+        <upb>3.33</upb>
+        <ue>0.37</ue>
+    </row>
+    <row>
+        <mitoyennete>SOUS_SOL_NON_CHAUFFE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>7</_2s_p>
+        <upb>3.33</upb>
+        <ue>0.36</ue>
+    </row>
+    <row>
+        <mitoyennete>SOUS_SOL_NON_CHAUFFE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>8</_2s_p>
+        <upb>3.33</upb>
+        <ue>0.35</ue>
+    </row>
+    <row>
+        <mitoyennete>SOUS_SOL_NON_CHAUFFE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>9</_2s_p>
+        <upb>3.33</upb>
+        <ue>0.34</ue>
+    </row>
+    <row>
+        <mitoyennete>SOUS_SOL_NON_CHAUFFE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>10</_2s_p>
+        <upb>3.33</upb>
+        <ue>0.33</ue>
+    </row>
+    <row>
+        <mitoyennete>SOUS_SOL_NON_CHAUFFE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>12</_2s_p>
+        <upb>3.33</upb>
+        <ue>0.28</ue>
+    </row>
+    <row>
+        <mitoyennete>SOUS_SOL_NON_CHAUFFE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>14</_2s_p>
+        <upb>3.33</upb>
+        <ue>0.28</ue>
+    </row>
+    <row>
+        <mitoyennete>SOUS_SOL_NON_CHAUFFE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>16</_2s_p>
+        <upb>3.33</upb>
+        <ue>0.28</ue>
+    </row>
+    <row>
+        <mitoyennete>SOUS_SOL_NON_CHAUFFE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>18</_2s_p>
+        <upb>3.33</upb>
+        <ue>0.28</ue>
+    </row>
+    <row>
+        <mitoyennete>SOUS_SOL_NON_CHAUFFE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>20</_2s_p>
+        <upb>3.33</upb>
+        <ue>0.24</ue>
+    </row>
+    <row>
+        <mitoyennete>SOUS_SOL_NON_CHAUFFE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>3</_2s_p>
+        <upb>1.43</upb>
+        <ue>0.42</ue>
+    </row>
+    <row>
+        <mitoyennete>SOUS_SOL_NON_CHAUFFE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>4</_2s_p>
+        <upb>1.43</upb>
+        <ue>0.4</ue>
+    </row>
+    <row>
+        <mitoyennete>SOUS_SOL_NON_CHAUFFE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>5</_2s_p>
+        <upb>1.43</upb>
+        <ue>0.36</ue>
+    </row>
+    <row>
+        <mitoyennete>SOUS_SOL_NON_CHAUFFE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>6</_2s_p>
+        <upb>1.43</upb>
+        <ue>0.35</ue>
+    </row>
+    <row>
+        <mitoyennete>SOUS_SOL_NON_CHAUFFE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>7</_2s_p>
+        <upb>1.43</upb>
+        <ue>0.34</ue>
+    </row>
+    <row>
+        <mitoyennete>SOUS_SOL_NON_CHAUFFE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>8</_2s_p>
+        <upb>1.43</upb>
+        <ue>0.33</ue>
+    </row>
+    <row>
+        <mitoyennete>SOUS_SOL_NON_CHAUFFE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>9</_2s_p>
+        <upb>1.43</upb>
+        <ue>0.32</ue>
+    </row>
+    <row>
+        <mitoyennete>SOUS_SOL_NON_CHAUFFE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>10</_2s_p>
+        <upb>1.43</upb>
+        <ue>0.31</ue>
+    </row>
+    <row>
+        <mitoyennete>SOUS_SOL_NON_CHAUFFE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>12</_2s_p>
+        <upb>1.43</upb>
+        <ue>0.27</ue>
+    </row>
+    <row>
+        <mitoyennete>SOUS_SOL_NON_CHAUFFE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>14</_2s_p>
+        <upb>1.43</upb>
+        <ue>0.27</ue>
+    </row>
+    <row>
+        <mitoyennete>SOUS_SOL_NON_CHAUFFE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>16</_2s_p>
+        <upb>1.43</upb>
+        <ue>0.27</ue>
+    </row>
+    <row>
+        <mitoyennete>SOUS_SOL_NON_CHAUFFE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>18</_2s_p>
+        <upb>1.43</upb>
+        <ue>0.26</ue>
+    </row>
+    <row>
+        <mitoyennete>SOUS_SOL_NON_CHAUFFE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>20</_2s_p>
+        <upb>1.43</upb>
+        <ue>0.23</ue>
+    </row>
+    <row>
+        <mitoyennete>SOUS_SOL_NON_CHAUFFE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>3</_2s_p>
+        <upb>0.83</upb>
+        <ue>0.39</ue>
+    </row>
+    <row>
+        <mitoyennete>SOUS_SOL_NON_CHAUFFE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>4</_2s_p>
+        <upb>0.83</upb>
+        <ue>0.37</ue>
+    </row>
+    <row>
+        <mitoyennete>SOUS_SOL_NON_CHAUFFE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>5</_2s_p>
+        <upb>0.83</upb>
+        <ue>0.34</ue>
+    </row>
+    <row>
+        <mitoyennete>SOUS_SOL_NON_CHAUFFE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>6</_2s_p>
+        <upb>0.83</upb>
+        <ue>0.33</ue>
+    </row>
+    <row>
+        <mitoyennete>SOUS_SOL_NON_CHAUFFE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>7</_2s_p>
+        <upb>0.83</upb>
+        <ue>0.32</ue>
+    </row>
+    <row>
+        <mitoyennete>SOUS_SOL_NON_CHAUFFE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>8</_2s_p>
+        <upb>0.83</upb>
+        <ue>0.31</ue>
+    </row>
+    <row>
+        <mitoyennete>SOUS_SOL_NON_CHAUFFE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>9</_2s_p>
+        <upb>0.83</upb>
+        <ue>0.3</ue>
+    </row>
+    <row>
+        <mitoyennete>SOUS_SOL_NON_CHAUFFE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>10</_2s_p>
+        <upb>0.83</upb>
+        <ue>0.29</ue>
+    </row>
+    <row>
+        <mitoyennete>SOUS_SOL_NON_CHAUFFE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>12</_2s_p>
+        <upb>0.83</upb>
+        <ue>0.26</ue>
+    </row>
+    <row>
+        <mitoyennete>SOUS_SOL_NON_CHAUFFE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>14</_2s_p>
+        <upb>0.83</upb>
+        <ue>0.26</ue>
+    </row>
+    <row>
+        <mitoyennete>SOUS_SOL_NON_CHAUFFE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>16</_2s_p>
+        <upb>0.83</upb>
+        <ue>0.25</ue>
+    </row>
+    <row>
+        <mitoyennete>SOUS_SOL_NON_CHAUFFE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>18</_2s_p>
+        <upb>0.83</upb>
+        <ue>0.24</ue>
+    </row>
+    <row>
+        <mitoyennete>SOUS_SOL_NON_CHAUFFE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>20</_2s_p>
+        <upb>0.83</upb>
+        <ue>0.22</ue>
+    </row>
+    <row>
+        <mitoyennete>SOUS_SOL_NON_CHAUFFE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>3</_2s_p>
+        <upb>0.45</upb>
+        <ue>0.36</ue>
+    </row>
+    <row>
+        <mitoyennete>SOUS_SOL_NON_CHAUFFE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>4</_2s_p>
+        <upb>0.45</upb>
+        <ue>0.34</ue>
+    </row>
+    <row>
+        <mitoyennete>SOUS_SOL_NON_CHAUFFE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>5</_2s_p>
+        <upb>0.45</upb>
+        <ue>0.32</ue>
+    </row>
+    <row>
+        <mitoyennete>SOUS_SOL_NON_CHAUFFE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>6</_2s_p>
+        <upb>0.45</upb>
+        <ue>0.31</ue>
+    </row>
+    <row>
+        <mitoyennete>SOUS_SOL_NON_CHAUFFE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>7</_2s_p>
+        <upb>0.45</upb>
+        <ue>0.3</ue>
+    </row>
+    <row>
+        <mitoyennete>SOUS_SOL_NON_CHAUFFE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>8</_2s_p>
+        <upb>0.45</upb>
+        <ue>0.29</ue>
+    </row>
+    <row>
+        <mitoyennete>SOUS_SOL_NON_CHAUFFE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>9</_2s_p>
+        <upb>0.45</upb>
+        <ue>0.28</ue>
+    </row>
+    <row>
+        <mitoyennete>SOUS_SOL_NON_CHAUFFE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>10</_2s_p>
+        <upb>0.45</upb>
+        <ue>0.27</ue>
+    </row>
+    <row>
+        <mitoyennete>SOUS_SOL_NON_CHAUFFE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>12</_2s_p>
+        <upb>0.45</upb>
+        <ue>0.25</ue>
+    </row>
+    <row>
+        <mitoyennete>SOUS_SOL_NON_CHAUFFE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>14</_2s_p>
+        <upb>0.45</upb>
+        <ue>0.24</ue>
+    </row>
+    <row>
+        <mitoyennete>SOUS_SOL_NON_CHAUFFE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>16</_2s_p>
+        <upb>0.45</upb>
+        <ue>0.23</ue>
+    </row>
+    <row>
+        <mitoyennete>SOUS_SOL_NON_CHAUFFE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>18</_2s_p>
+        <upb>0.45</upb>
+        <ue>0.22</ue>
+    </row>
+    <row>
+        <mitoyennete>SOUS_SOL_NON_CHAUFFE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>20</_2s_p>
+        <upb>0.45</upb>
+        <ue>0.21</ue>
+    </row>
+    <row>
+        <mitoyennete>SOUS_SOL_NON_CHAUFFE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>3</_2s_p>
+        <upb>0.41</upb>
+        <ue>0.33</ue>
+    </row>
+    <row>
+        <mitoyennete>SOUS_SOL_NON_CHAUFFE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>4</_2s_p>
+        <upb>0.41</upb>
+        <ue>0.31</ue>
+    </row>
+    <row>
+        <mitoyennete>SOUS_SOL_NON_CHAUFFE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>5</_2s_p>
+        <upb>0.41</upb>
+        <ue>0.3</ue>
+    </row>
+    <row>
+        <mitoyennete>SOUS_SOL_NON_CHAUFFE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>6</_2s_p>
+        <upb>0.41</upb>
+        <ue>0.29</ue>
+    </row>
+    <row>
+        <mitoyennete>SOUS_SOL_NON_CHAUFFE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>7</_2s_p>
+        <upb>0.41</upb>
+        <ue>0.28</ue>
+    </row>
+    <row>
+        <mitoyennete>SOUS_SOL_NON_CHAUFFE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>8</_2s_p>
+        <upb>0.41</upb>
+        <ue>0.27</ue>
+    </row>
+    <row>
+        <mitoyennete>SOUS_SOL_NON_CHAUFFE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>9</_2s_p>
+        <upb>0.41</upb>
+        <ue>0.26</ue>
+    </row>
+    <row>
+        <mitoyennete>SOUS_SOL_NON_CHAUFFE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>10</_2s_p>
+        <upb>0.41</upb>
+        <ue>0.25</ue>
+    </row>
+    <row>
+        <mitoyennete>SOUS_SOL_NON_CHAUFFE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>12</_2s_p>
+        <upb>0.41</upb>
+        <ue>0.24</ue>
+    </row>
+    <row>
+        <mitoyennete>SOUS_SOL_NON_CHAUFFE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>14</_2s_p>
+        <upb>0.41</upb>
+        <ue>0.23</ue>
+    </row>
+    <row>
+        <mitoyennete>SOUS_SOL_NON_CHAUFFE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>16</_2s_p>
+        <upb>0.41</upb>
+        <ue>0.21</ue>
+    </row>
+    <row>
+        <mitoyennete>SOUS_SOL_NON_CHAUFFE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>18</_2s_p>
+        <upb>0.41</upb>
+        <ue>0.2</ue>
+    </row>
+    <row>
+        <mitoyennete>SOUS_SOL_NON_CHAUFFE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>20</_2s_p>
+        <upb>0.41</upb>
+        <ue>0.2</ue>
+    </row>
+    <row>
+        <mitoyennete>SOUS_SOL_NON_CHAUFFE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>3</_2s_p>
+        <upb>0.37</upb>
+        <ue>0.3</ue>
+    </row>
+    <row>
+        <mitoyennete>SOUS_SOL_NON_CHAUFFE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>4</_2s_p>
+        <upb>0.37</upb>
+        <ue>0.29</ue>
+    </row>
+    <row>
+        <mitoyennete>SOUS_SOL_NON_CHAUFFE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>5</_2s_p>
+        <upb>0.37</upb>
+        <ue>0.28</ue>
+    </row>
+    <row>
+        <mitoyennete>SOUS_SOL_NON_CHAUFFE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>6</_2s_p>
+        <upb>0.37</upb>
+        <ue>0.27</ue>
+    </row>
+    <row>
+        <mitoyennete>SOUS_SOL_NON_CHAUFFE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>7</_2s_p>
+        <upb>0.37</upb>
+        <ue>0.26</ue>
+    </row>
+    <row>
+        <mitoyennete>SOUS_SOL_NON_CHAUFFE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>8</_2s_p>
+        <upb>0.37</upb>
+        <ue>0.25</ue>
+    </row>
+    <row>
+        <mitoyennete>SOUS_SOL_NON_CHAUFFE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>9</_2s_p>
+        <upb>0.37</upb>
+        <ue>0.24</ue>
+    </row>
+    <row>
+        <mitoyennete>SOUS_SOL_NON_CHAUFFE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>10</_2s_p>
+        <upb>0.37</upb>
+        <ue>0.24</ue>
+    </row>
+    <row>
+        <mitoyennete>SOUS_SOL_NON_CHAUFFE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>12</_2s_p>
+        <upb>0.37</upb>
+        <ue>0.22</ue>
+    </row>
+    <row>
+        <mitoyennete>SOUS_SOL_NON_CHAUFFE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>14</_2s_p>
+        <upb>0.37</upb>
+        <ue>0.21</ue>
+    </row>
+    <row>
+        <mitoyennete>SOUS_SOL_NON_CHAUFFE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>16</_2s_p>
+        <upb>0.37</upb>
+        <ue>0.2</ue>
+    </row>
+    <row>
+        <mitoyennete>SOUS_SOL_NON_CHAUFFE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>18</_2s_p>
+        <upb>0.37</upb>
+        <ue>0.19</ue>
+    </row>
+    <row>
+        <mitoyennete>SOUS_SOL_NON_CHAUFFE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>20</_2s_p>
+        <upb>0.37</upb>
+        <ue>0.19</ue>
+    </row>
+    <row>
+        <mitoyennete>SOUS_SOL_NON_CHAUFFE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>3</_2s_p>
+        <upb>0.34</upb>
+        <ue>0.28</ue>
+    </row>
+    <row>
+        <mitoyennete>SOUS_SOL_NON_CHAUFFE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>4</_2s_p>
+        <upb>0.34</upb>
+        <ue>0.27</ue>
+    </row>
+    <row>
+        <mitoyennete>SOUS_SOL_NON_CHAUFFE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>5</_2s_p>
+        <upb>0.34</upb>
+        <ue>0.26</ue>
+    </row>
+    <row>
+        <mitoyennete>SOUS_SOL_NON_CHAUFFE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>6</_2s_p>
+        <upb>0.34</upb>
+        <ue>0.25</ue>
+    </row>
+    <row>
+        <mitoyennete>SOUS_SOL_NON_CHAUFFE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>7</_2s_p>
+        <upb>0.34</upb>
+        <ue>0.24</ue>
+    </row>
+    <row>
+        <mitoyennete>SOUS_SOL_NON_CHAUFFE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>8</_2s_p>
+        <upb>0.34</upb>
+        <ue>0.24</ue>
+    </row>
+    <row>
+        <mitoyennete>SOUS_SOL_NON_CHAUFFE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>9</_2s_p>
+        <upb>0.34</upb>
+        <ue>0.23</ue>
+    </row>
+    <row>
+        <mitoyennete>SOUS_SOL_NON_CHAUFFE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>10</_2s_p>
+        <upb>0.34</upb>
+        <ue>0.22</ue>
+    </row>
+    <row>
+        <mitoyennete>SOUS_SOL_NON_CHAUFFE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>12</_2s_p>
+        <upb>0.34</upb>
+        <ue>0.21</ue>
+    </row>
+    <row>
+        <mitoyennete>SOUS_SOL_NON_CHAUFFE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>14</_2s_p>
+        <upb>0.34</upb>
+        <ue>0.2</ue>
+    </row>
+    <row>
+        <mitoyennete>SOUS_SOL_NON_CHAUFFE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>16</_2s_p>
+        <upb>0.34</upb>
+        <ue>0.19</ue>
+    </row>
+    <row>
+        <mitoyennete>SOUS_SOL_NON_CHAUFFE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>18</_2s_p>
+        <upb>0.34</upb>
+        <ue>0.19</ue>
+    </row>
+    <row>
+        <mitoyennete>SOUS_SOL_NON_CHAUFFE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>20</_2s_p>
+        <upb>0.34</upb>
+        <ue>0.18</ue>
+    </row>
+    <row>
+        <mitoyennete>SOUS_SOL_NON_CHAUFFE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>3</_2s_p>
+        <upb>0.31</upb>
+        <ue>0.26</ue>
+    </row>
+    <row>
+        <mitoyennete>SOUS_SOL_NON_CHAUFFE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>4</_2s_p>
+        <upb>0.31</upb>
+        <ue>0.25</ue>
+    </row>
+    <row>
+        <mitoyennete>SOUS_SOL_NON_CHAUFFE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>5</_2s_p>
+        <upb>0.31</upb>
+        <ue>0.25</ue>
+    </row>
+    <row>
+        <mitoyennete>SOUS_SOL_NON_CHAUFFE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>6</_2s_p>
+        <upb>0.31</upb>
+        <ue>0.24</ue>
+    </row>
+    <row>
+        <mitoyennete>SOUS_SOL_NON_CHAUFFE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>7</_2s_p>
+        <upb>0.31</upb>
+        <ue>0.23</ue>
+    </row>
+    <row>
+        <mitoyennete>SOUS_SOL_NON_CHAUFFE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>8</_2s_p>
+        <upb>0.31</upb>
+        <ue>0.22</ue>
+    </row>
+    <row>
+        <mitoyennete>SOUS_SOL_NON_CHAUFFE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>9</_2s_p>
+        <upb>0.31</upb>
+        <ue>0.22</ue>
+    </row>
+    <row>
+        <mitoyennete>SOUS_SOL_NON_CHAUFFE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>10</_2s_p>
+        <upb>0.31</upb>
+        <ue>0.21</ue>
+    </row>
+    <row>
+        <mitoyennete>SOUS_SOL_NON_CHAUFFE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>12</_2s_p>
+        <upb>0.31</upb>
+        <ue>0.2</ue>
+    </row>
+    <row>
+        <mitoyennete>SOUS_SOL_NON_CHAUFFE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>14</_2s_p>
+        <upb>0.31</upb>
+        <ue>0.19</ue>
+    </row>
+    <row>
+        <mitoyennete>SOUS_SOL_NON_CHAUFFE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>16</_2s_p>
+        <upb>0.31</upb>
+        <ue>0.18</ue>
+    </row>
+    <row>
+        <mitoyennete>SOUS_SOL_NON_CHAUFFE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>18</_2s_p>
+        <upb>0.31</upb>
+        <ue>0.18</ue>
+    </row>
+    <row>
+        <mitoyennete>SOUS_SOL_NON_CHAUFFE</mitoyennete>
+        <annee_construction gt="" gte="" lt="" lte="" />
+        <_2s_p>20</_2s_p>
+        <upb>0.31</upb>
+        <ue>0.17</ue>
+    </row>
+</table>

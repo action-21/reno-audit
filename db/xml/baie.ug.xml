@@ -1,0 +1,3283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table name="baie.ug">
+    <row>
+        <type_baie>BRIQUE_VERRE_PLEINE</type_baie>
+        <type_vitrage></type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame></nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="" lte="" />
+        <epaisseur_lame></epaisseur_lame>
+        <ug>3.5</ug>
+    </row>
+    <row>
+        <type_baie>BRIQUE_VERRE_CREUSE</type_baie>
+        <type_vitrage></type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame></nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="" lte="" />
+        <epaisseur_lame></epaisseur_lame>
+        <ug>2</ug>
+    </row>
+    <row>
+        <type_baie>POLYCARBONATE</type_baie>
+        <type_vitrage></type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame></nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="" lte="" />
+        <epaisseur_lame></epaisseur_lame>
+        <ug>3</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>SIMPLE_VITRAGE</type_vitrage>
+        <presence_survitrage>0</presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame></nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="" lte="" />
+        <epaisseur_lame></epaisseur_lame>
+        <ug>5.8</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>SIMPLE_VITRAGE</type_vitrage>
+        <presence_survitrage>1</presence_survitrage>
+        <epaisseur_survitrage>6</epaisseur_survitrage>
+        <nature_gaz_lame></nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>6</epaisseur_lame>
+        <ug>3.4</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>SIMPLE_VITRAGE</type_vitrage>
+        <presence_survitrage>1</presence_survitrage>
+        <epaisseur_survitrage>8</epaisseur_survitrage>
+        <nature_gaz_lame></nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>8</epaisseur_lame>
+        <ug>3.2</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>SIMPLE_VITRAGE</type_vitrage>
+        <presence_survitrage>1</presence_survitrage>
+        <epaisseur_survitrage>10</epaisseur_survitrage>
+        <nature_gaz_lame></nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>10</epaisseur_lame>
+        <ug>3</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>SIMPLE_VITRAGE</type_vitrage>
+        <presence_survitrage>1</presence_survitrage>
+        <epaisseur_survitrage>12</epaisseur_survitrage>
+        <nature_gaz_lame></nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>12</epaisseur_lame>
+        <ug>2.9</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>SIMPLE_VITRAGE</type_vitrage>
+        <presence_survitrage>1</presence_survitrage>
+        <epaisseur_survitrage>14</epaisseur_survitrage>
+        <nature_gaz_lame></nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>14</epaisseur_lame>
+        <ug>2.9</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>SIMPLE_VITRAGE</type_vitrage>
+        <presence_survitrage>1</presence_survitrage>
+        <epaisseur_survitrage>15</epaisseur_survitrage>
+        <nature_gaz_lame></nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>15</epaisseur_lame>
+        <ug>2.8</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>SIMPLE_VITRAGE</type_vitrage>
+        <presence_survitrage>1</presence_survitrage>
+        <epaisseur_survitrage>16</epaisseur_survitrage>
+        <nature_gaz_lame></nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>16</epaisseur_lame>
+        <ug>2.8</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>SIMPLE_VITRAGE</type_vitrage>
+        <presence_survitrage>1</presence_survitrage>
+        <epaisseur_survitrage>18</epaisseur_survitrage>
+        <nature_gaz_lame></nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>18</epaisseur_lame>
+        <ug>2.8</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>SIMPLE_VITRAGE</type_vitrage>
+        <presence_survitrage>1</presence_survitrage>
+        <epaisseur_survitrage>20</epaisseur_survitrage>
+        <nature_gaz_lame></nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>20</epaisseur_lame>
+        <ug>2.8</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>SIMPLE_VITRAGE</type_vitrage>
+        <presence_survitrage>1</presence_survitrage>
+        <epaisseur_survitrage>6</epaisseur_survitrage>
+        <nature_gaz_lame></nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>6</epaisseur_lame>
+        <ug>2.55</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>SIMPLE_VITRAGE</type_vitrage>
+        <presence_survitrage>1</presence_survitrage>
+        <epaisseur_survitrage>8</epaisseur_survitrage>
+        <nature_gaz_lame></nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>8</epaisseur_lame>
+        <ug>2.2</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>SIMPLE_VITRAGE</type_vitrage>
+        <presence_survitrage>1</presence_survitrage>
+        <epaisseur_survitrage>10</epaisseur_survitrage>
+        <nature_gaz_lame></nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>10</epaisseur_lame>
+        <ug>1.9</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>SIMPLE_VITRAGE</type_vitrage>
+        <presence_survitrage>1</presence_survitrage>
+        <epaisseur_survitrage>12</epaisseur_survitrage>
+        <nature_gaz_lame></nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>12</epaisseur_lame>
+        <ug>1.7</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>SIMPLE_VITRAGE</type_vitrage>
+        <presence_survitrage>1</presence_survitrage>
+        <epaisseur_survitrage>14</epaisseur_survitrage>
+        <nature_gaz_lame></nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>14</epaisseur_lame>
+        <ug>1.6</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>SIMPLE_VITRAGE</type_vitrage>
+        <presence_survitrage>1</presence_survitrage>
+        <epaisseur_survitrage>15</epaisseur_survitrage>
+        <nature_gaz_lame></nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>15</epaisseur_lame>
+        <ug>1.5</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>SIMPLE_VITRAGE</type_vitrage>
+        <presence_survitrage>1</presence_survitrage>
+        <epaisseur_survitrage>16</epaisseur_survitrage>
+        <nature_gaz_lame></nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>16</epaisseur_lame>
+        <ug>1.5</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>SIMPLE_VITRAGE</type_vitrage>
+        <presence_survitrage>1</presence_survitrage>
+        <epaisseur_survitrage>18</epaisseur_survitrage>
+        <nature_gaz_lame></nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>18</epaisseur_lame>
+        <ug>1.5</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>SIMPLE_VITRAGE</type_vitrage>
+        <presence_survitrage>1</presence_survitrage>
+        <epaisseur_survitrage>20</epaisseur_survitrage>
+        <nature_gaz_lame></nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>20</epaisseur_lame>
+        <ug>1.5</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>SIMPLE_VITRAGE</type_vitrage>
+        <presence_survitrage>1</presence_survitrage>
+        <epaisseur_survitrage>6</epaisseur_survitrage>
+        <nature_gaz_lame></nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>6</epaisseur_lame>
+        <ug>3.8</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>SIMPLE_VITRAGE</type_vitrage>
+        <presence_survitrage>1</presence_survitrage>
+        <epaisseur_survitrage>8</epaisseur_survitrage>
+        <nature_gaz_lame></nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>8</epaisseur_lame>
+        <ug>3.5</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>SIMPLE_VITRAGE</type_vitrage>
+        <presence_survitrage>1</presence_survitrage>
+        <epaisseur_survitrage>10</epaisseur_survitrage>
+        <nature_gaz_lame></nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>10</epaisseur_lame>
+        <ug>3.3</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>SIMPLE_VITRAGE</type_vitrage>
+        <presence_survitrage>1</presence_survitrage>
+        <epaisseur_survitrage>12</epaisseur_survitrage>
+        <nature_gaz_lame></nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>12</epaisseur_lame>
+        <ug>3.2</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>SIMPLE_VITRAGE</type_vitrage>
+        <presence_survitrage>1</presence_survitrage>
+        <epaisseur_survitrage>14</epaisseur_survitrage>
+        <nature_gaz_lame></nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>14</epaisseur_lame>
+        <ug>3.2</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>SIMPLE_VITRAGE</type_vitrage>
+        <presence_survitrage>1</presence_survitrage>
+        <epaisseur_survitrage>15</epaisseur_survitrage>
+        <nature_gaz_lame></nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>15</epaisseur_lame>
+        <ug>3</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>SIMPLE_VITRAGE</type_vitrage>
+        <presence_survitrage>1</presence_survitrage>
+        <epaisseur_survitrage>16</epaisseur_survitrage>
+        <nature_gaz_lame></nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>16</epaisseur_lame>
+        <ug>3</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>SIMPLE_VITRAGE</type_vitrage>
+        <presence_survitrage>1</presence_survitrage>
+        <epaisseur_survitrage>18</epaisseur_survitrage>
+        <nature_gaz_lame></nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>18</epaisseur_lame>
+        <ug>3</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>SIMPLE_VITRAGE</type_vitrage>
+        <presence_survitrage>1</presence_survitrage>
+        <epaisseur_survitrage>20</epaisseur_survitrage>
+        <nature_gaz_lame></nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>20</epaisseur_lame>
+        <ug>3</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>SIMPLE_VITRAGE</type_vitrage>
+        <presence_survitrage>1</presence_survitrage>
+        <epaisseur_survitrage>6</epaisseur_survitrage>
+        <nature_gaz_lame></nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>6</epaisseur_lame>
+        <ug>2.7</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>SIMPLE_VITRAGE</type_vitrage>
+        <presence_survitrage>1</presence_survitrage>
+        <epaisseur_survitrage>8</epaisseur_survitrage>
+        <nature_gaz_lame></nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>8</epaisseur_lame>
+        <ug>2.3</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>SIMPLE_VITRAGE</type_vitrage>
+        <presence_survitrage>1</presence_survitrage>
+        <epaisseur_survitrage>10</epaisseur_survitrage>
+        <nature_gaz_lame></nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>10</epaisseur_lame>
+        <ug>2</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>SIMPLE_VITRAGE</type_vitrage>
+        <presence_survitrage>1</presence_survitrage>
+        <epaisseur_survitrage>12</epaisseur_survitrage>
+        <nature_gaz_lame></nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>12</epaisseur_lame>
+        <ug>1.8</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>SIMPLE_VITRAGE</type_vitrage>
+        <presence_survitrage>1</presence_survitrage>
+        <epaisseur_survitrage>14</epaisseur_survitrage>
+        <nature_gaz_lame></nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>14</epaisseur_lame>
+        <ug>1.7</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>SIMPLE_VITRAGE</type_vitrage>
+        <presence_survitrage>1</presence_survitrage>
+        <epaisseur_survitrage>15</epaisseur_survitrage>
+        <nature_gaz_lame></nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>15</epaisseur_lame>
+        <ug>1.6</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>SIMPLE_VITRAGE</type_vitrage>
+        <presence_survitrage>1</presence_survitrage>
+        <epaisseur_survitrage>16</epaisseur_survitrage>
+        <nature_gaz_lame></nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>16</epaisseur_lame>
+        <ug>1.6</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>SIMPLE_VITRAGE</type_vitrage>
+        <presence_survitrage>1</presence_survitrage>
+        <epaisseur_survitrage>18</epaisseur_survitrage>
+        <nature_gaz_lame></nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>18</epaisseur_lame>
+        <ug>1.6</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>SIMPLE_VITRAGE</type_vitrage>
+        <presence_survitrage>1</presence_survitrage>
+        <epaisseur_survitrage>20</epaisseur_survitrage>
+        <nature_gaz_lame></nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>20</epaisseur_lame>
+        <ug>1.6</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>AIR</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>6</epaisseur_lame>
+        <ug>3.3</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>AIR</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>8</epaisseur_lame>
+        <ug>3.1</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>AIR</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>10</epaisseur_lame>
+        <ug>2.9</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>AIR</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>12</epaisseur_lame>
+        <ug>2.8</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>AIR</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>14</epaisseur_lame>
+        <ug>2.8</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>AIR</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>15</epaisseur_lame>
+        <ug>2.7</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>AIR</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>16</epaisseur_lame>
+        <ug>2.7</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>AIR</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>18</epaisseur_lame>
+        <ug>2.7</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>AIR</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>20</epaisseur_lame>
+        <ug>2.7</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>AIR</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>6</epaisseur_lame>
+        <ug>3.7</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>AIR</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>8</epaisseur_lame>
+        <ug>3.4</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>AIR</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>10</epaisseur_lame>
+        <ug>3.2</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>AIR</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>12</epaisseur_lame>
+        <ug>3.1</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>AIR</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>14</epaisseur_lame>
+        <ug>3.1</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>AIR</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>15</epaisseur_lame>
+        <ug>2.9</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>AIR</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>16</epaisseur_lame>
+        <ug>2.9</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>AIR</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>18</epaisseur_lame>
+        <ug>2.9</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>AIR</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>20</epaisseur_lame>
+        <ug>2.9</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>KRYPTON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>6</epaisseur_lame>
+        <ug>3</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>KRYPTON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>8</epaisseur_lame>
+        <ug>2.9</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>KRYPTON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>10</epaisseur_lame>
+        <ug>2.8</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>KRYPTON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>12</epaisseur_lame>
+        <ug>2.7</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>KRYPTON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>14</epaisseur_lame>
+        <ug>2.6</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>KRYPTON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>15</epaisseur_lame>
+        <ug>2.6</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>KRYPTON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>16</epaisseur_lame>
+        <ug>2.6</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>KRYPTON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>18</epaisseur_lame>
+        <ug>2.6</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>KRYPTON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>20</epaisseur_lame>
+        <ug>2.6</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>KRYPTON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>6</epaisseur_lame>
+        <ug>3.3</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>KRYPTON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>8</epaisseur_lame>
+        <ug>3.2</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>KRYPTON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>10</epaisseur_lame>
+        <ug>3.1</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>KRYPTON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>12</epaisseur_lame>
+        <ug>2.9</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>KRYPTON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>14</epaisseur_lame>
+        <ug>2.8</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>KRYPTON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>15</epaisseur_lame>
+        <ug>2.8</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>KRYPTON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>16</epaisseur_lame>
+        <ug>2.8</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>KRYPTON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>18</epaisseur_lame>
+        <ug>2.8</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>KRYPTON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>20</epaisseur_lame>
+        <ug>2.8</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>ARGON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>6</epaisseur_lame>
+        <ug>3</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>ARGON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>8</epaisseur_lame>
+        <ug>2.9</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>ARGON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>10</epaisseur_lame>
+        <ug>2.8</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>ARGON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>12</epaisseur_lame>
+        <ug>2.7</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>ARGON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>14</epaisseur_lame>
+        <ug>2.6</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>ARGON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>15</epaisseur_lame>
+        <ug>2.6</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>ARGON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>16</epaisseur_lame>
+        <ug>2.6</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>ARGON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>18</epaisseur_lame>
+        <ug>2.6</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>ARGON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>20</epaisseur_lame>
+        <ug>2.6</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>ARGON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>6</epaisseur_lame>
+        <ug>3.3</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>ARGON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>8</epaisseur_lame>
+        <ug>3.2</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>ARGON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>10</epaisseur_lame>
+        <ug>3.1</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>ARGON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>12</epaisseur_lame>
+        <ug>2.9</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>ARGON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>14</epaisseur_lame>
+        <ug>2.8</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>ARGON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>15</epaisseur_lame>
+        <ug>2.8</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>ARGON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>16</epaisseur_lame>
+        <ug>2.8</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>ARGON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>18</epaisseur_lame>
+        <ug>2.8</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>ARGON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>20</epaisseur_lame>
+        <ug>2.8</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>INCONNU</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>6</epaisseur_lame>
+        <ug>3.3</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>INCONNU</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>8</epaisseur_lame>
+        <ug>3.1</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>INCONNU</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>10</epaisseur_lame>
+        <ug>2.9</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>INCONNU</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>12</epaisseur_lame>
+        <ug>2.8</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>INCONNU</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>14</epaisseur_lame>
+        <ug>2.8</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>INCONNU</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>15</epaisseur_lame>
+        <ug>2.7</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>INCONNU</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>16</epaisseur_lame>
+        <ug>2.7</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>INCONNU</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>18</epaisseur_lame>
+        <ug>2.7</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>INCONNU</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>20</epaisseur_lame>
+        <ug>2.7</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>INCONNU</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>6</epaisseur_lame>
+        <ug>3.7</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>INCONNU</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>8</epaisseur_lame>
+        <ug>3.4</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>INCONNU</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>10</epaisseur_lame>
+        <ug>3.2</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>INCONNU</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>12</epaisseur_lame>
+        <ug>3.1</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>INCONNU</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>14</epaisseur_lame>
+        <ug>3.1</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>INCONNU</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>15</epaisseur_lame>
+        <ug>2.9</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>INCONNU</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>16</epaisseur_lame>
+        <ug>2.9</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>INCONNU</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>18</epaisseur_lame>
+        <ug>2.9</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>INCONNU</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>20</epaisseur_lame>
+        <ug>2.9</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>AIR</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>6</epaisseur_lame>
+        <ug>2.45</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>AIR</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>8</epaisseur_lame>
+        <ug>2.1</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>AIR</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>10</epaisseur_lame>
+        <ug>1.8</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>AIR</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>12</epaisseur_lame>
+        <ug>1.6</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>AIR</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>14</epaisseur_lame>
+        <ug>1.5</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>AIR</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>15</epaisseur_lame>
+        <ug>1.4</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>AIR</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>16</epaisseur_lame>
+        <ug>1.4</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>AIR</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>18</epaisseur_lame>
+        <ug>1.4</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>AIR</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>20</epaisseur_lame>
+        <ug>1.4</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>AIR</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>6</epaisseur_lame>
+        <ug>2.6</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>AIR</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>8</epaisseur_lame>
+        <ug>2.2</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>AIR</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>10</epaisseur_lame>
+        <ug>1.9</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>AIR</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>12</epaisseur_lame>
+        <ug>1.7</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>AIR</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>14</epaisseur_lame>
+        <ug>1.6</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>AIR</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>15</epaisseur_lame>
+        <ug>1.5</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>AIR</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>16</epaisseur_lame>
+        <ug>1.5</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>AIR</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>18</epaisseur_lame>
+        <ug>1.5</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>AIR</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>20</epaisseur_lame>
+        <ug>1.5</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>KRYPTON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>6</epaisseur_lame>
+        <ug>2</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>KRYPTON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>8</epaisseur_lame>
+        <ug>1.7</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>KRYPTON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>10</epaisseur_lame>
+        <ug>1.4</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>KRYPTON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>12</epaisseur_lame>
+        <ug>1.3</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>KRYPTON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>14</epaisseur_lame>
+        <ug>1.2</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>KRYPTON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>15</epaisseur_lame>
+        <ug>1.1</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>KRYPTON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>16</epaisseur_lame>
+        <ug>1.1</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>KRYPTON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>18</epaisseur_lame>
+        <ug>1.1</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>KRYPTON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>20</epaisseur_lame>
+        <ug>1.1</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>KRYPTON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>6</epaisseur_lame>
+        <ug>2.1</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>KRYPTON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>8</epaisseur_lame>
+        <ug>1.8</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>KRYPTON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>10</epaisseur_lame>
+        <ug>1.5</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>KRYPTON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>12</epaisseur_lame>
+        <ug>1.4</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>KRYPTON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>14</epaisseur_lame>
+        <ug>1.2</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>KRYPTON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>15</epaisseur_lame>
+        <ug>1.1</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>KRYPTON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>16</epaisseur_lame>
+        <ug>1.1</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>KRYPTON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>18</epaisseur_lame>
+        <ug>1.1</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>KRYPTON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>20</epaisseur_lame>
+        <ug>1.1</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>ARGON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>6</epaisseur_lame>
+        <ug>2</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>ARGON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>8</epaisseur_lame>
+        <ug>1.7</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>ARGON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>10</epaisseur_lame>
+        <ug>1.4</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>ARGON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>12</epaisseur_lame>
+        <ug>1.3</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>ARGON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>14</epaisseur_lame>
+        <ug>1.2</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>ARGON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>15</epaisseur_lame>
+        <ug>1.1</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>ARGON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>16</epaisseur_lame>
+        <ug>1.1</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>ARGON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>18</epaisseur_lame>
+        <ug>1.1</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>ARGON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>20</epaisseur_lame>
+        <ug>1.1</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>ARGON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>6</epaisseur_lame>
+        <ug>2.1</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>ARGON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>8</epaisseur_lame>
+        <ug>1.8</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>ARGON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>10</epaisseur_lame>
+        <ug>1.5</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>ARGON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>12</epaisseur_lame>
+        <ug>1.4</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>ARGON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>14</epaisseur_lame>
+        <ug>1.2</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>ARGON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>15</epaisseur_lame>
+        <ug>1.1</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>ARGON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>16</epaisseur_lame>
+        <ug>1.1</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>ARGON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>18</epaisseur_lame>
+        <ug>1.1</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>ARGON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>20</epaisseur_lame>
+        <ug>1.1</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>INCONNU</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>6</epaisseur_lame>
+        <ug>2.45</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>INCONNU</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>8</epaisseur_lame>
+        <ug>2.1</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>INCONNU</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>10</epaisseur_lame>
+        <ug>1.8</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>INCONNU</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>12</epaisseur_lame>
+        <ug>1.6</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>INCONNU</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>14</epaisseur_lame>
+        <ug>1.5</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>INCONNU</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>15</epaisseur_lame>
+        <ug>1.4</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>INCONNU</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>16</epaisseur_lame>
+        <ug>1.4</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>INCONNU</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>18</epaisseur_lame>
+        <ug>1.4</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>INCONNU</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>20</epaisseur_lame>
+        <ug>1.4</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>INCONNU</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>6</epaisseur_lame>
+        <ug>2.6</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>INCONNU</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>8</epaisseur_lame>
+        <ug>2.2</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>INCONNU</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>10</epaisseur_lame>
+        <ug>1.9</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>INCONNU</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>12</epaisseur_lame>
+        <ug>1.7</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>INCONNU</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>14</epaisseur_lame>
+        <ug>1.6</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>INCONNU</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>15</epaisseur_lame>
+        <ug>1.5</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>INCONNU</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>16</epaisseur_lame>
+        <ug>1.5</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>INCONNU</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>18</epaisseur_lame>
+        <ug>1.5</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>DOUBLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>INCONNU</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>20</epaisseur_lame>
+        <ug>1.5</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>AIR</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>6</epaisseur_lame>
+        <ug>2.3</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>AIR</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>8</epaisseur_lame>
+        <ug>2.1</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>AIR</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>10</epaisseur_lame>
+        <ug>2</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>AIR</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>12</epaisseur_lame>
+        <ug>1.9</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>AIR</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>14</epaisseur_lame>
+        <ug>1.8</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>AIR</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>15</epaisseur_lame>
+        <ug>1.8</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>AIR</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>16</epaisseur_lame>
+        <ug>1.8</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>AIR</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>18</epaisseur_lame>
+        <ug>1.7</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>AIR</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>20</epaisseur_lame>
+        <ug>1.7</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>AIR</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>6</epaisseur_lame>
+        <ug>2.5</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>AIR</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>8</epaisseur_lame>
+        <ug>2.2</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>AIR</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>10</epaisseur_lame>
+        <ug>2.1</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>AIR</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>12</epaisseur_lame>
+        <ug>2</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>AIR</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>14</epaisseur_lame>
+        <ug>1.9</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>AIR</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>15</epaisseur_lame>
+        <ug>1.9</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>AIR</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>16</epaisseur_lame>
+        <ug>1.9</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>AIR</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>18</epaisseur_lame>
+        <ug>1.8</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>AIR</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>20</epaisseur_lame>
+        <ug>1.8</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>KRYPTON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>6</epaisseur_lame>
+        <ug>2.1</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>KRYPTON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>8</epaisseur_lame>
+        <ug>1.9</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>KRYPTON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>10</epaisseur_lame>
+        <ug>1.8</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>KRYPTON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>12</epaisseur_lame>
+        <ug>1.8</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>KRYPTON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>14</epaisseur_lame>
+        <ug>1.7</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>KRYPTON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>15</epaisseur_lame>
+        <ug>1.7</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>KRYPTON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>16</epaisseur_lame>
+        <ug>1.7</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>KRYPTON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>18</epaisseur_lame>
+        <ug>1.6</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>KRYPTON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>20</epaisseur_lame>
+        <ug>1.6</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>KRYPTON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>6</epaisseur_lame>
+        <ug>2.2</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>KRYPTON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>8</epaisseur_lame>
+        <ug>2</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>KRYPTON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>10</epaisseur_lame>
+        <ug>1.9</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>KRYPTON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>12</epaisseur_lame>
+        <ug>1.9</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>KRYPTON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>14</epaisseur_lame>
+        <ug>1.8</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>KRYPTON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>15</epaisseur_lame>
+        <ug>1.8</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>KRYPTON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>16</epaisseur_lame>
+        <ug>1.8</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>KRYPTON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>18</epaisseur_lame>
+        <ug>1.7</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>KRYPTON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>20</epaisseur_lame>
+        <ug>1.7</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>ARGON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>6</epaisseur_lame>
+        <ug>2.1</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>ARGON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>8</epaisseur_lame>
+        <ug>1.9</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>ARGON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>10</epaisseur_lame>
+        <ug>1.8</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>ARGON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>12</epaisseur_lame>
+        <ug>1.8</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>ARGON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>14</epaisseur_lame>
+        <ug>1.7</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>ARGON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>15</epaisseur_lame>
+        <ug>1.7</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>ARGON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>16</epaisseur_lame>
+        <ug>1.7</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>ARGON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>18</epaisseur_lame>
+        <ug>1.6</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>ARGON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>20</epaisseur_lame>
+        <ug>1.6</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>ARGON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>6</epaisseur_lame>
+        <ug>2.2</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>ARGON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>8</epaisseur_lame>
+        <ug>2</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>ARGON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>10</epaisseur_lame>
+        <ug>1.9</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>ARGON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>12</epaisseur_lame>
+        <ug>1.9</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>ARGON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>14</epaisseur_lame>
+        <ug>1.8</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>ARGON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>15</epaisseur_lame>
+        <ug>1.8</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>ARGON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>16</epaisseur_lame>
+        <ug>1.8</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>ARGON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>18</epaisseur_lame>
+        <ug>1.7</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>ARGON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>20</epaisseur_lame>
+        <ug>1.7</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>INCONNU</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>6</epaisseur_lame>
+        <ug>2.3</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>INCONNU</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>8</epaisseur_lame>
+        <ug>2.1</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>INCONNU</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>10</epaisseur_lame>
+        <ug>2</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>INCONNU</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>12</epaisseur_lame>
+        <ug>1.9</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>INCONNU</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>14</epaisseur_lame>
+        <ug>1.8</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>INCONNU</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>15</epaisseur_lame>
+        <ug>1.8</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>INCONNU</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>16</epaisseur_lame>
+        <ug>1.8</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>INCONNU</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>18</epaisseur_lame>
+        <ug>1.7</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>INCONNU</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>20</epaisseur_lame>
+        <ug>1.7</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>INCONNU</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>6</epaisseur_lame>
+        <ug>2.5</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>INCONNU</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>8</epaisseur_lame>
+        <ug>2.2</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>INCONNU</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>10</epaisseur_lame>
+        <ug>2.1</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>INCONNU</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>12</epaisseur_lame>
+        <ug>2</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>INCONNU</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>14</epaisseur_lame>
+        <ug>1.9</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>INCONNU</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>15</epaisseur_lame>
+        <ug>1.9</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>INCONNU</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>16</epaisseur_lame>
+        <ug>1.9</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>INCONNU</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>18</epaisseur_lame>
+        <ug>1.8</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>INCONNU</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>20</epaisseur_lame>
+        <ug>1.8</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>AIR</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>6</epaisseur_lame>
+        <ug>1.7</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>AIR</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>8</epaisseur_lame>
+        <ug>1.4</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>AIR</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>10</epaisseur_lame>
+        <ug>1.2</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>AIR</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>12</epaisseur_lame>
+        <ug>1.1</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>AIR</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>14</epaisseur_lame>
+        <ug>1</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>AIR</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>15</epaisseur_lame>
+        <ug>0.9</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>AIR</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>16</epaisseur_lame>
+        <ug>0.9</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>AIR</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>18</epaisseur_lame>
+        <ug>0.8</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>AIR</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>20</epaisseur_lame>
+        <ug>0.8</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>AIR</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>6</epaisseur_lame>
+        <ug>1.8</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>AIR</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>8</epaisseur_lame>
+        <ug>1.5</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>AIR</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>10</epaisseur_lame>
+        <ug>1.2</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>AIR</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>12</epaisseur_lame>
+        <ug>1.1</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>AIR</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>14</epaisseur_lame>
+        <ug>1</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>AIR</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>15</epaisseur_lame>
+        <ug>0.9</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>AIR</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>16</epaisseur_lame>
+        <ug>0.9</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>AIR</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>18</epaisseur_lame>
+        <ug>0.8</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>AIR</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>20</epaisseur_lame>
+        <ug>0.8</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>ARGON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>6</epaisseur_lame>
+        <ug>1.5</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>ARGON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>8</epaisseur_lame>
+        <ug>1.2</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>ARGON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>10</epaisseur_lame>
+        <ug>1</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>ARGON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>12</epaisseur_lame>
+        <ug>0.9</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>ARGON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>14</epaisseur_lame>
+        <ug>0.8</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>ARGON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>15</epaisseur_lame>
+        <ug>0.7</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>ARGON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>16</epaisseur_lame>
+        <ug>0.7</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>ARGON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>18</epaisseur_lame>
+        <ug>0.6</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>ARGON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>20</epaisseur_lame>
+        <ug>0.6</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>ARGON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>6</epaisseur_lame>
+        <ug>1.6</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>ARGON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>8</epaisseur_lame>
+        <ug>1.2</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>ARGON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>10</epaisseur_lame>
+        <ug>1</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>ARGON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>12</epaisseur_lame>
+        <ug>0.9</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>ARGON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>14</epaisseur_lame>
+        <ug>0.8</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>ARGON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>15</epaisseur_lame>
+        <ug>0.7</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>ARGON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>16</epaisseur_lame>
+        <ug>0.7</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>ARGON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>18</epaisseur_lame>
+        <ug>0.6</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>ARGON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>20</epaisseur_lame>
+        <ug>0.6</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>INCONNU</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>6</epaisseur_lame>
+        <ug>1.7</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>INCONNU</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>8</epaisseur_lame>
+        <ug>1.4</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>INCONNU</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>10</epaisseur_lame>
+        <ug>1.2</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>INCONNU</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>12</epaisseur_lame>
+        <ug>1.1</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>INCONNU</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>14</epaisseur_lame>
+        <ug>1</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>INCONNU</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>15</epaisseur_lame>
+        <ug>0.9</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>INCONNU</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>16</epaisseur_lame>
+        <ug>0.9</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>INCONNU</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>18</epaisseur_lame>
+        <ug>0.8</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>INCONNU</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>20</epaisseur_lame>
+        <ug>0.8</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>INCONNU</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>6</epaisseur_lame>
+        <ug>1.8</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>INCONNU</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>8</epaisseur_lame>
+        <ug>1.5</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>INCONNU</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>10</epaisseur_lame>
+        <ug>1.2</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>INCONNU</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>12</epaisseur_lame>
+        <ug>1.1</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>INCONNU</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>14</epaisseur_lame>
+        <ug>1</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>INCONNU</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>15</epaisseur_lame>
+        <ug>0.9</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>INCONNU</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>16</epaisseur_lame>
+        <ug>0.9</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>INCONNU</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>18</epaisseur_lame>
+        <ug>0.8</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>INCONNU</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>20</epaisseur_lame>
+        <ug>0.8</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>KRYPTON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>6</epaisseur_lame>
+        <ug>1.5</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>KRYPTON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>8</epaisseur_lame>
+        <ug>1.2</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>KRYPTON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>10</epaisseur_lame>
+        <ug>1</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>KRYPTON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>12</epaisseur_lame>
+        <ug>0.9</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>KRYPTON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>14</epaisseur_lame>
+        <ug>0.8</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>KRYPTON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>15</epaisseur_lame>
+        <ug>0.7</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>KRYPTON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>16</epaisseur_lame>
+        <ug>0.7</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>KRYPTON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>18</epaisseur_lame>
+        <ug>0.6</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>KRYPTON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="75" lt="" lte="" />
+        <epaisseur_lame>20</epaisseur_lame>
+        <ug>0.6</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>KRYPTON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>6</epaisseur_lame>
+        <ug>1.6</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>KRYPTON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>8</epaisseur_lame>
+        <ug>1.2</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>KRYPTON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>10</epaisseur_lame>
+        <ug>1</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>KRYPTON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>12</epaisseur_lame>
+        <ug>0.9</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>KRYPTON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>14</epaisseur_lame>
+        <ug>0.8</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>KRYPTON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>15</epaisseur_lame>
+        <ug>0.7</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>KRYPTON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>16</epaisseur_lame>
+        <ug>0.7</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>KRYPTON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>18</epaisseur_lame>
+        <ug>0.6</ug>
+    </row>
+    <row>
+        <type_baie></type_baie>
+        <type_vitrage>TRIPLE_VITRAGE_FE</type_vitrage>
+        <presence_survitrage></presence_survitrage>
+        <epaisseur_survitrage></epaisseur_survitrage>
+        <nature_gaz_lame>KRYPTON</nature_gaz_lame>
+        <inclinaison_vitrage gt="" gte="" lt="75" lte="" />
+        <epaisseur_lame>20</epaisseur_lame>
+        <ug>0.6</ug>
+    </row>
+</table>
