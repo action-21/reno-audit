@@ -148,18 +148,11 @@ Ce dépôt vise également à recenser les défauts de la méthode 3CL et de pro
 
 ## Wiki
 
-Un wiki de la méthode PCL sera publié sur un site dédié.
+Un wiki de la méthode PCL est disponible sur ce dépot.
 
 ## Démo
 
 Une démo s'appuyant sur la base de données des [DPE Logements existants](https://www.data.gouv.fr/fr/datasets/dpe-logements-existants-depuis-juillet-2021/) sera publiée sur le site du projet.
-
-## Roadmap
-
-1. ~~Définition du projet~~
-2. **Conception des modèles de données**
-3. Site de présentation
-4. Démo en ligne
 
 ## Contact
 
