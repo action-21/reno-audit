@@ -138,6 +138,8 @@ Devient
 
 Les modèles de données déduits de la méthode de calcul sont présentés dans le dossier /modele et /schemas (Open API).
 
+Pour une meilleur visualisation des schémas de données, copier le schéma openapi.yaml dans [l'éditeur Swagger](https://editor-next.swagger.io/).
+
 ## Bases de données
 
 Les données statiques (réseaux de chaleurs, valeurs conventionnelles) sont regroupées dans le dossier /db aux formats csv et xml.
