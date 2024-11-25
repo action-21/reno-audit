@@ -136,7 +136,7 @@ Devient
 
 ## Modèles de données
 
-Les modèles de données déduits de la méthode de calcul sont présentés dans le dossier /modele.
+Les modèles de données déduits de la méthode de calcul sont présentés dans le dossier /modele et /schemas (Open API).
 
 ## Bases de données
 

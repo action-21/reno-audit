@@ -1,0 +1,3449 @@
+openapi: 3.1.0
+info:
+  title: Moteur DPE-Audit
+  description: ''
+  version: 1.0.0
+servers:
+  - url: /
+    description: ''
+paths:
+  /audit/{id}:
+    get:
+      operationId: get_audit
+      tags:
+        - Audit
+      responses:
+        '200':
+          description: Audit resource
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Audit.AuditResource'
+        '404':
+          description: Resource not found
+      summary: Retrieves a Audit resource.
+      description: Retrieves a Audit resource.
+      parameters:
+        - name: id
+          in: path
+          description: Audit identifier
+          required: true
+          deprecated: false
+          allowEmptyValue: false
+          schema:
+            type: string
+          style: simple
+          explode: false
+          allowReserved: false
+      deprecated: false
+  /audit/{id}/chauffage:
+    get:
+      operationId: chauffage.get
+      tags:
+        - Chauffage
+      responses:
+        '200':
+          description: Chauffage resource
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Chauffage.ChauffageResource'
+        '404':
+          description: Resource not found
+      summary: Retrieves a Chauffage resource.
+      description: Retrieves a Chauffage resource.
+      parameters:
+        - name: id
+          in: path
+          description: Chauffage identifier
+          required: true
+          deprecated: false
+          allowEmptyValue: false
+          schema:
+            type: string
+          style: simple
+          explode: false
+          allowReserved: false
+      deprecated: false
+  /audit/{id}/eclairage:
+    get:
+      operationId: eclairage.get
+      tags:
+        - Eclairage
+      responses:
+        '200':
+          description: Eclairage resource
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Eclairage.EclairageResource'
+        '404':
+          description: Resource not found
+      summary: Retrieves a Eclairage resource.
+      description: Retrieves a Eclairage resource.
+      parameters:
+        - name: id
+          in: path
+          description: Eclairage identifier
+          required: true
+          deprecated: false
+          allowEmptyValue: false
+          schema:
+            type: string
+          style: simple
+          explode: false
+          allowReserved: false
+      deprecated: false
+  /audit/{id}/ecs:
+    get:
+      operationId: ecs.get
+      tags:
+        - Ecs
+      responses:
+        '200':
+          description: Ecs resource
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Ecs.EcsResource'
+        '404':
+          description: Resource not found
+      summary: Retrieves a Ecs resource.
+      description: Retrieves a Ecs resource.
+      parameters:
+        - name: id
+          in: path
+          description: Ecs identifier
+          required: true
+          deprecated: false
+          allowEmptyValue: false
+          schema:
+            type: string
+          style: simple
+          explode: false
+          allowReserved: false
+      deprecated: false
+  /audit/{id}/enveloppe:
+    get:
+      operationId: enveloppe.get
+      tags:
+        - Enveloppe
+      responses:
+        '200':
+          description: Enveloppe resource
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Enveloppe.EnveloppeResource'
+        '404':
+          description: Resource not found
+      summary: Retrieves a Enveloppe resource.
+      description: Retrieves a Enveloppe resource.
+      parameters:
+        - name: id
+          in: path
+          description: Enveloppe identifier
+          required: true
+          deprecated: false
+          allowEmptyValue: false
+          schema:
+            type: string
+          style: simple
+          explode: false
+          allowReserved: false
+      deprecated: false
+  /audit/{id}/production:
+    get:
+      operationId: production.get
+      tags:
+        - Production
+      responses:
+        '200':
+          description: Production resource
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Production.ProductionResource'
+        '404':
+          description: Resource not found
+      summary: Retrieves a Production resource.
+      description: Retrieves a Production resource.
+      parameters:
+        - name: id
+          in: path
+          description: Production identifier
+          required: true
+          deprecated: false
+          allowEmptyValue: false
+          schema:
+            type: string
+          style: simple
+          explode: false
+          allowReserved: false
+      deprecated: false
+  /audit/{id}/refroidissement:
+    get:
+      operationId: refroidissement.get
+      tags:
+        - Refroidissement
+      responses:
+        '200':
+          description: Refroidissement resource
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Refroidissement.RefroidissementResource'
+        '404':
+          description: Resource not found
+      summary: Retrieves a Refroidissement resource.
+      description: Retrieves a Refroidissement resource.
+      parameters:
+        - name: id
+          in: path
+          description: Refroidissement identifier
+          required: true
+          deprecated: false
+          allowEmptyValue: false
+          schema:
+            type: string
+          style: simple
+          explode: false
+          allowReserved: false
+      deprecated: false
+  /audit/{id}/simulation:
+    get:
+      operationId: simulation.get
+      tags:
+        - Simulation
+      responses:
+        '200':
+          description: Simulation resource
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Simulation.SimulationResource'
+        '404':
+          description: Resource not found
+      summary: Retrieves a Simulation resource.
+      description: Retrieves a Simulation resource.
+      parameters:
+        - name: id
+          in: path
+          description: Simulation identifier
+          required: true
+          deprecated: false
+          allowEmptyValue: false
+          schema:
+            type: string
+          style: simple
+          explode: false
+          allowReserved: false
+      deprecated: false
+  /audit/{id}/ventilation:
+    get:
+      operationId: ventilation.get
+      tags:
+        - Ventilation
+      responses:
+        '200':
+          description: Ventilation resource
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Ventilation.VentilationResource'
+        '404':
+          description: Resource not found
+      summary: Retrieves a Ventilation resource.
+      description: Retrieves a Ventilation resource.
+      parameters:
+        - name: id
+          in: path
+          description: Ventilation identifier
+          required: true
+          deprecated: false
+          allowEmptyValue: false
+          schema:
+            type: string
+          style: simple
+          explode: false
+          allowReserved: false
+      deprecated: false
+  /audit/{id}/visite:
+    get:
+      operationId: visite.get
+      tags:
+        - Visite
+      responses:
+        '200':
+          description: Visite resource
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Visite.VisiteResource'
+        '404':
+          description: Resource not found
+      summary: Retrieves a Visite resource.
+      description: Retrieves a Visite resource.
+      parameters:
+        - name: id
+          in: path
+          description: Visite identifier
+          required: true
+          deprecated: false
+          allowEmptyValue: false
+          schema:
+            type: string
+          style: simple
+          explode: false
+          allowReserved: false
+      deprecated: false
+components:
+  schemas:
+    Adresse:
+      type: object
+      description: ''
+      deprecated: false
+      properties:
+        libelle:
+          type: string
+        code_postal:
+          type: string
+        commune:
+          type: string
+        ban_id:
+          type:
+            - string
+            - 'null'
+        rnb_id:
+          type:
+            - string
+            - 'null'
+        code_departement:
+          type: string
+        zone_climatique:
+          type: string
+          enum:
+            - H1a
+            - H1b
+            - H1c
+            - H2a
+            - H2b
+            - H2c
+            - H2d
+            - H3
+    Apport:
+      type: object
+      description: ''
+      deprecated: false
+      properties:
+        mois:
+          type: string
+          enum:
+            - '01'
+            - '02'
+            - '03'
+            - '04'
+            - '05'
+            - '06'
+            - '07'
+            - '08'
+            - '09'
+            - '10'
+            - '11'
+            - '12'
+        scenario:
+          type: string
+          enum:
+            - CONVENTIONNEL
+            - DEPENSIER
+        f:
+          type: number
+        apport:
+          type: number
+        apport_interne:
+          type: number
+        apport_solaire:
+          type: number
+        apport_fr:
+          type: number
+        apport_interne_fr:
+          type: number
+        apport_solaire_fr:
+          type: number
+        sse:
+          type: number
+    ArrayIterator:
+      type: object
+      description: ''
+      deprecated: false
+      properties:
+        arrayCopy:
+          readOnly: true
+        flags:
+          type: integer
+    Audit.AuditResource:
+      type: object
+      description: ''
+      deprecated: false
+      properties:
+        id:
+          $ref: '#/components/schemas/Id'
+        date_creation:
+          type: string
+        adresse:
+          $ref: '#/components/schemas/Adresse'
+        batiment:
+          $ref: '#/components/schemas/Batiment'
+        logement:
+          anyOf:
+            - $ref: '#/components/schemas/Logement'
+            - type: 'null'
+        occupation:
+          anyOf:
+            - $ref: '#/components/schemas/Occupation'
+            - type: 'null'
+    AuditResource:
+      type: object
+      description: ''
+      deprecated: false
+      properties:
+        id:
+          $ref: '#/components/schemas/Id'
+        date_creation:
+          type: string
+        adresse:
+          $ref: '#/components/schemas/Adresse'
+        batiment:
+          $ref: '#/components/schemas/Batiment'
+        logement:
+          anyOf:
+            - $ref: '#/components/schemas/Logement'
+            - type: 'null'
+        occupation:
+          anyOf:
+            - $ref: '#/components/schemas/Occupation'
+            - type: 'null'
+    Baie.ValueObject.Caracteristique:
+      type: object
+      description: ''
+      deprecated: false
+      properties:
+        type:
+          type: string
+          enum:
+            - BRIQUE_VERRE_PLEINE
+            - BRIQUE_VERRE_CREUSE
+            - POLYCARBONATE
+            - FENETRE_BATTANTE
+            - FENETRE_COULISSANTE
+            - PORTE_FENETRE_COULISSANTE
+            - PORTE_FENETRE_BATTANTE
+        surface:
+          type: number
+        inclinaison:
+          type: number
+        type_fermeture:
+          type: string
+          enum:
+            - SANS_FERMETURE
+            - JALOUSIE_ACCORDEON
+            - FERMETURE_LAMES_ORIENTABLES
+            - VENITIENS_EXTERIEURS_METAL
+            - VOLET_BATTANT_AVEC_AJOURS_FIXES
+            - PERSIENNES_AVEC_AJOURS_FIXES
+            - FERMETURE_SANS_AJOURS
+            - VOLETS_ROULANTS_ALUMINIUM
+            - VOLETS_ROULANTS_PVC_BOIS_EPAISSEUR_LTE_12MM
+            - VOLETS_ROULANTS_PVC_BOIS_EPAISSEUR_GT_12MM
+            - PERSIENNE_COULISSANTE_EPAISSEUR_LTE_22MM
+            - PERSIENNE_COULISSANTE_EPAISSEUR_GT_22MM
+            - VOLET_BATTANT_PVC_BOIS_EPAISSEUR_LTE_22MM
+            - VOLET_BATTANT_PVC_BOIS_EPAISSEUR_GT_22MM
+            - FERMETURE_ISOLEE_SANS_AJOURS
+        presence_protection_solaire:
+          type: boolean
+        annee_installation:
+          type:
+            - integer
+            - 'null'
+        presence_soubassement:
+          type:
+            - boolean
+            - 'null'
+        menuiserie:
+          anyOf:
+            - $ref: '#/components/schemas/ValueObject.Menuiserie'
+            - type: 'null'
+        ug:
+          type:
+            - number
+            - 'null'
+        uw:
+          type:
+            - number
+            - 'null'
+        ujn:
+          type:
+            - number
+            - 'null'
+        sw:
+          type:
+            - number
+            - 'null'
+    Baie.ValueObject.Performance:
+      type: object
+      description: ''
+      deprecated: false
+      properties:
+        u:
+          type: number
+        b:
+          type: number
+        dp:
+          type: number
+        etat:
+          type: string
+          enum:
+            - TRES_BONNE
+            - BONNE
+            - MOYENNE
+            - INSUFFISANTE
+    Baie.ValueObject.Position:
+      type: object
+      description: ''
+      deprecated: false
+      properties:
+        paroi_id:
+          anyOf:
+            - $ref: '#/components/schemas/Id'
+            - type: 'null'
+        local_non_chauffe_id:
+          anyOf:
+            - $ref: '#/components/schemas/Id'
+            - type: 'null'
+        mitoyennete:
+          type:
+            - string
+            - 'null'
+          enum:
+            - EXTERIEUR
+            - PAROI_ENTERREE
+            - VIDE_SANITAIRE
+            - TERRE_PLEIN
+            - SOUS_SOL_NON_CHAUFFE
+            - LOCAL_NON_CHAUFFE
+            - LOCAL_NON_RESIDENTIEL
+            - LOCAL_RESIDENTIEL
+            - LOCAL_NON_ACCESSIBLE
+            - null
+        orientation:
+          type:
+            - number
+            - 'null'
+    BaieResource:
+      type: object
+      description: ''
+      deprecated: false
+      properties:
+        id:
+          $ref: '#/components/schemas/Id'
+        description:
+          type: string
+        position:
+          $ref: '#/components/schemas/Position'
+        type:
+          type: string
+          enum:
+            - POLYCARBONATE
+            - FENETRE_BATTANTE
+            - FENETRE_COULISSANTE
+            - PORTE_FENETRE_COULISSANTE
+            - PORTE_FENETRE_BATTANTE
+        etat_isolation:
+          type: string
+          enum:
+            - INCONNU
+            - NON_ISOLE
+            - ISOLE
+        surface:
+          type: number
+        inclinaison:
+          type: number
+        menuiserie:
+          anyOf:
+            - $ref: '#/components/schemas/Menuiserie'
+            - type: 'null'
+        aiu:
+          type:
+            - number
+            - 'null'
+        aue:
+          type:
+            - number
+            - 'null'
+        ensoleillements:
+          type: array
+          items:
+            $ref: '#/components/schemas/EnsoleillementBaie'
+    Batiment:
+      type: object
+      description: ''
+      deprecated: false
+      properties:
+        type:
+          type: string
+          enum:
+            - MAISON
+            - IMMEUBLE
+        annee_construction:
+          type: integer
+        altitude:
+          type: integer
+        logements:
+          type: integer
+        surface_habitable:
+          type: number
+        hauteur_sous_plafond:
+          type: number
+        volume_habitable:
+          type: number
+    Besoin:
+      type: object
+      description: ''
+      deprecated: false
+      properties:
+        usage:
+          type: string
+          enum:
+            - CHAUFFAGE
+            - ECS
+            - REFROIDISSEMENT
+            - ECLAIRAGE
+            - AUXILIAIRE
+            - ENSEMBLE
+        scenario:
+          type: string
+          enum:
+            - CONVENTIONNEL
+            - DEPENSIER
+        mois:
+          type: string
+          enum:
+            - '01'
+            - '02'
+            - '03'
+            - '04'
+            - '05'
+            - '06'
+            - '07'
+            - '08'
+            - '09'
+            - '10'
+            - '11'
+            - '12'
+        besoin:
+          type: number
+    Bilan:
+      type: object
+      description: ''
+      deprecated: false
+      properties:
+        consommation:
+          type: number
+        emission:
+          type: number
+        etiquette_energie:
+          type: string
+          enum:
+            - A
+            - B
+            - C
+            - D
+            - E
+            - F
+            - G
+        etiquette_climat:
+          type: string
+          enum:
+            - A
+            - B
+            - C
+            - D
+            - E
+            - F
+            - G
+    BverCollection:
+      type: object
+      description: ''
+      deprecated: false
+      properties:
+        keys:
+          readOnly: true
+          type: array
+          items:
+            type: string
+        empty:
+          readOnly: true
+          type: boolean
+        iterator:
+          readOnly: true
+          $ref: '#/components/schemas/ArrayIterator'
+    Caracteristique:
+      type: object
+      description: ''
+      deprecated: false
+      properties:
+        type:
+          type: string
+          enum:
+            - INCONNU
+            - PIERRE_MOELLONS
+            - PIERRE_MOELLONS_AVEC_REMPLISSAGE
+            - PISE_OU_BETON_TERRE
+            - PAN_BOIS_SANS_REMPLISSAGE
+            - PAN_BOIS_AVEC_REMPLISSAGE
+            - BOIS_RONDIN
+            - BRIQUE_PLEINE_SIMPLE
+            - BRIQUE_PLEINE_DOUBLE_AVEC_LAME_AIR
+            - BRIQUE_CREUSE
+            - BLOC_BETON_PLEIN
+            - BLOC_BETON_CREUX
+            - BETON_BANCHE
+            - BETON_MACHEFER
+            - BRIQUE_TERRE_CUITE_ALVEOLAIRE
+            - SANDWICH_BETON_ISOLANT_BETON_SANS_ISOLATION_RAPPORTEE
+            - CLOISON_PLATRE
+            - OSSATURE_BOIS_SANS_REMPLISSAGE
+            - OSSATURE_BOIS_AVEC_REMPLISSAGE_TOUT_VENANT
+            - OSSATURE_BOIS_AVEC_REMPLISSAGE_ISOLANT
+            - BETON_CELLULAIRE
+        type_doublage:
+          type: string
+          enum:
+            - INCONNU
+            - SANS_DOUBLAGE
+            - INDETERMINE
+            - LAME_AIR_INFERIEUR_15MM
+            - LAME_AIR_SUPERIEUR_15MM
+            - MATERIAUX_CONNU
+        inertie:
+          type: string
+          enum:
+            - INCONNU
+            - LOURDE
+            - LEGERE
+        surface:
+          type: number
+        presence_enduit_isolant:
+          type: boolean
+        paroi_ancienne:
+          type: boolean
+        epaisseur:
+          type:
+            - integer
+            - 'null'
+        annee_construction:
+          type:
+            - integer
+            - 'null'
+        annee_renovation:
+          type:
+            - integer
+            - 'null'
+        u0:
+          type:
+            - number
+            - 'null'
+        u:
+          type:
+            - number
+            - 'null'
+    Chauffage.ChauffageResource:
+      type: object
+      description: ''
+      deprecated: false
+      properties:
+        audit_id:
+          $ref: '#/components/schemas/Id'
+        generateurs:
+          type: array
+          items:
+            $ref: '#/components/schemas/GenerateurResource'
+        emetteurs:
+          type: array
+          items:
+            $ref: '#/components/schemas/EmetteurResource'
+        installations:
+          type: array
+          items:
+            $ref: '#/components/schemas/InstallationResource'
+        besoins_bruts:
+          type: array
+          items:
+            $ref: '#/components/schemas/Besoin'
+        besoins:
+          type: array
+          items:
+            $ref: '#/components/schemas/Besoin'
+        consommations:
+          type: array
+          items:
+            $ref: '#/components/schemas/Consommation'
+    ChauffageResource:
+      type: object
+      description: ''
+      deprecated: false
+      properties:
+        audit_id:
+          $ref: '#/components/schemas/Id'
+        generateurs:
+          type: array
+          items:
+            $ref: '#/components/schemas/GenerateurResource'
+        emetteurs:
+          type: array
+          items:
+            $ref: '#/components/schemas/EmetteurResource'
+        installations:
+          type: array
+          items:
+            $ref: '#/components/schemas/InstallationResource'
+        besoins_bruts:
+          type: array
+          items:
+            $ref: '#/components/schemas/Besoin'
+        besoins:
+          type: array
+          items:
+            $ref: '#/components/schemas/Besoin'
+        consommations:
+          type: array
+          items:
+            $ref: '#/components/schemas/Consommation'
+    Consommation:
+      type: object
+      description: ''
+      deprecated: false
+      properties:
+        usage:
+          type: string
+          enum:
+            - CHAUFFAGE
+            - ECS
+            - REFROIDISSEMENT
+            - ECLAIRAGE
+            - AUXILIAIRE
+            - ENSEMBLE
+        energie:
+          type: string
+          enum:
+            - ELECTRICITE
+            - GAZ_NATUREL
+            - GPL
+            - FIOUL
+            - BOIS
+            - CHARBON
+            - RESEAU_CHALEUR
+            - RESEAU_FROID
+        scenario:
+          type: string
+          enum:
+            - CONVENTIONNEL
+            - DEPENSIER
+        consommation_ef:
+          type: number
+        consommation_ep:
+          type: number
+    DoubleFenetre:
+      type: object
+      description: ''
+      deprecated: false
+      properties:
+        type:
+          type: string
+          enum:
+            - BRIQUE_VERRE_PLEINE
+            - BRIQUE_VERRE_CREUSE
+            - POLYCARBONATE
+            - FENETRE_BATTANTE
+            - FENETRE_COULISSANTE
+            - PORTE_FENETRE_COULISSANTE
+            - PORTE_FENETRE_BATTANTE
+        presence_soubassement:
+          type:
+            - boolean
+            - 'null'
+        menuiserie:
+          anyOf:
+            - $ref: '#/components/schemas/ValueObject.Menuiserie'
+            - type: 'null'
+        ug:
+          type:
+            - number
+            - 'null'
+        uw:
+          type:
+            - number
+            - 'null'
+        sw:
+          type:
+            - number
+            - 'null'
+    Eclairage.EclairageResource:
+      type: object
+      description: ''
+      deprecated: false
+      properties:
+        audit_id:
+          $ref: '#/components/schemas/Id'
+        consommations:
+          type: array
+          items:
+            $ref: '#/components/schemas/Consommation'
+    EclairageResource:
+      type: object
+      description: ''
+      deprecated: false
+      properties:
+        audit_id:
+          $ref: '#/components/schemas/Id'
+        consommations:
+          type: array
+          items:
+            $ref: '#/components/schemas/Consommation'
+    Ecs.EcsResource:
+      type: object
+      description: ''
+      deprecated: false
+      properties:
+        audit_id:
+          $ref: '#/components/schemas/Id'
+        generateurs:
+          type: array
+          items:
+            $ref: '#/components/schemas/Resource.GenerateurResource'
+        installations:
+          type: array
+          items:
+            $ref: '#/components/schemas/Resource.InstallationResource'
+        besoins:
+          type: array
+          items:
+            $ref: '#/components/schemas/Besoin'
+        consommations:
+          type: array
+          items:
+            $ref: '#/components/schemas/Consommation'
+    EcsResource:
+      type: object
+      description: ''
+      deprecated: false
+      properties:
+        audit_id:
+          $ref: '#/components/schemas/Id'
+        generateurs:
+          type: array
+          items:
+            $ref: '#/components/schemas/Resource.GenerateurResource'
+        installations:
+          type: array
+          items:
+            $ref: '#/components/schemas/Resource.InstallationResource'
+        besoins:
+          type: array
+          items:
+            $ref: '#/components/schemas/Besoin'
+        consommations:
+          type: array
+          items:
+            $ref: '#/components/schemas/Consommation'
+    EmetteurResource:
+      type: object
+      description: ''
+      deprecated: false
+      properties:
+        id:
+          $ref: '#/components/schemas/Id'
+        description:
+          type: string
+        type:
+          type: string
+          enum:
+            - PLANCHER_CHAUFFANT
+            - PLAFOND_CHAUFFANT
+            - RADIATEUR_MONOTUBE
+            - RADIATEUR_BITUBE
+            - RADIATEUR
+        type_emission:
+          type: string
+          enum:
+            - AIR_SOUFFLE
+            - PLANCHER_CHAUFFANT
+            - PLAFOND_CHAUFFANT
+            - RADIATEUR
+        temperature_distribution:
+          type: string
+          enum:
+            - BASSE_TEMPERATURE
+            - MOYENNE_TEMPERATURE
+            - HAUTE_TEMPERATURE
+        presence_robinet_thermostatique:
+          type: boolean
+        annee_installation:
+          type:
+            - integer
+            - 'null'
+    Ensoleillement:
+      type: object
+      description: ''
+      deprecated: false
+      properties:
+        mois:
+          type: string
+          enum:
+            - '01'
+            - '02'
+            - '03'
+            - '04'
+            - '05'
+            - '06'
+            - '07'
+            - '08'
+            - '09'
+            - '10'
+            - '11'
+            - '12'
+        t:
+          type: number
+        sst:
+          type: number
+    EnsoleillementBaie:
+      type: object
+      description: ''
+      deprecated: false
+      properties:
+        mois:
+          type: string
+          enum:
+            - '01'
+            - '02'
+            - '03'
+            - '04'
+            - '05'
+            - '06'
+            - '07'
+            - '08'
+            - '09'
+            - '10'
+            - '11'
+            - '12'
+        fe:
+          type: number
+        t:
+          type: number
+        c1:
+          type: number
+        sst:
+          type: number
+    Enveloppe.EnveloppeResource:
+      type: object
+      description: ''
+      deprecated: false
+      properties:
+        audit_id:
+          $ref: '#/components/schemas/Id'
+        exposition:
+          type: string
+          enum:
+            - SIMPLE
+            - MULTIPLE
+        q4pa_conv:
+          type:
+            - number
+            - 'null'
+        inertie:
+          anyOf:
+            - $ref: '#/components/schemas/Inertie'
+            - type: 'null'
+        permeabilite:
+          anyOf:
+            - $ref: '#/components/schemas/Permeabilite'
+            - type: 'null'
+        performance:
+          anyOf:
+            - $ref: '#/components/schemas/Enveloppe.ValueObject.Performance'
+            - type: 'null'
+        locaux_non_chauffes:
+          type: array
+          items:
+            $ref: '#/components/schemas/LncResource'
+        murs:
+          type: array
+          items:
+            $ref: '#/components/schemas/MurResource'
+        planchers_bas:
+          type: array
+          items:
+            $ref: '#/components/schemas/PlancherBasResource'
+        planchers_hauts:
+          type: array
+          items:
+            $ref: '#/components/schemas/PlancherHautResource'
+        baies:
+          type: array
+          items:
+            $ref: '#/components/schemas/Resource.BaieResource'
+        portes:
+          type: array
+          items:
+            $ref: '#/components/schemas/PorteResource'
+        ponts_thermiques:
+          type: array
+          items:
+            $ref: '#/components/schemas/PontThermiqueResource'
+        refends:
+          type: array
+          items:
+            $ref: '#/components/schemas/RefendResource'
+        planchers_intermediaires:
+          type: array
+          items:
+            $ref: '#/components/schemas/PlancherIntermediaireResource'
+        apports:
+          type: array
+          items:
+            $ref: '#/components/schemas/Apport'
+    Enveloppe.ValueObject.Performance:
+      type: object
+      description: ''
+      deprecated: false
+      properties:
+        ubat:
+          type: number
+        dp:
+          type: number
+        pt:
+          type: number
+        dr:
+          type: number
+        gv:
+          type: number
+        etat:
+          type: string
+          enum:
+            - TRES_BONNE
+            - BONNE
+            - MOYENNE
+            - INSUFFISANTE
+    EnveloppeResource:
+      type: object
+      description: ''
+      deprecated: false
+      properties:
+        audit_id:
+          $ref: '#/components/schemas/Id'
+        exposition:
+          type: string
+          enum:
+            - SIMPLE
+            - MULTIPLE
+        q4pa_conv:
+          type:
+            - number
+            - 'null'
+        inertie:
+          anyOf:
+            - $ref: '#/components/schemas/Inertie'
+            - type: 'null'
+        permeabilite:
+          anyOf:
+            - $ref: '#/components/schemas/Permeabilite'
+            - type: 'null'
+        performance:
+          anyOf:
+            - $ref: '#/components/schemas/Enveloppe.ValueObject.Performance'
+            - type: 'null'
+        locaux_non_chauffes:
+          type: array
+          items:
+            $ref: '#/components/schemas/LncResource'
+        murs:
+          type: array
+          items:
+            $ref: '#/components/schemas/MurResource'
+        planchers_bas:
+          type: array
+          items:
+            $ref: '#/components/schemas/PlancherBasResource'
+        planchers_hauts:
+          type: array
+          items:
+            $ref: '#/components/schemas/PlancherHautResource'
+        baies:
+          type: array
+          items:
+            $ref: '#/components/schemas/Resource.BaieResource'
+        portes:
+          type: array
+          items:
+            $ref: '#/components/schemas/PorteResource'
+        ponts_thermiques:
+          type: array
+          items:
+            $ref: '#/components/schemas/PontThermiqueResource'
+        refends:
+          type: array
+          items:
+            $ref: '#/components/schemas/RefendResource'
+        planchers_intermediaires:
+          type: array
+          items:
+            $ref: '#/components/schemas/PlancherIntermediaireResource'
+        apports:
+          type: array
+          items:
+            $ref: '#/components/schemas/Apport'
+    GenerateurResource:
+      type: object
+      description: ''
+      deprecated: false
+      properties:
+        id:
+          $ref: '#/components/schemas/Id'
+        generateur_mixte_id:
+          anyOf:
+            - $ref: '#/components/schemas/Id'
+            - type: 'null'
+        reseau_chaleur_id:
+          anyOf:
+            - $ref: '#/components/schemas/Id'
+            - type: 'null'
+        description:
+          type: string
+        categorie:
+          type: string
+          enum:
+            - CHAUDIERE_BASSE_TEMPERATURE
+            - CHAUDIERE_BOIS
+            - CHAUDIERE_CONDENSATION
+            - CHAUDIERE_ELECTRIQUE
+            - CHAUDIERE_MULTI_BATIMENT
+            - CHAUDIERE_STANDARD
+            - CHAUFFAGE_ELECTRIQUE
+            - GENERATEUR_AIR_CHAUD
+            - PAC
+            - PAC_HYBRIDE
+            - PAC_MULTI_BATIMENT
+            - POELE_BOIS_BOUILLEUR
+            - POELE_INSERT
+            - RADIATEUR_GAZ
+            - RESEAU_CHALEUR
+        type:
+          type: string
+          enum:
+            - CHAUDIERE_BASSE_TEMPERATURE
+            - CHAUDIERE_CONDENSATION
+            - CHAUDIERE_MULTI_BATIMENT
+            - CHAUDIERE_STANDARD
+            - CONVECTEUR_BI_JONCTION
+            - CONVECTEUR_ELECTRIQUE
+            - CUISINIERE
+            - FOYER_FERME
+            - GENERATEUR_AIR_CHAUD
+            - GENERATEUR_AIR_CHAUD_CONDENSATION
+            - INSERT
+            - PAC_AIR_AIR
+            - PAC_AIR_EAU
+            - PAC_EAU_EAU
+            - PAC_EAU_GLYCOLEE_EAU
+            - PAC_GEOTHERMIQUE
+            - PAC_HYBRIDE_AIR_EAU
+            - PAC_HYBRIDE_EAU_EAU
+            - PAC_HYBRIDE_EAU_GLYCOLEE_EAU
+            - PAC_HYBRIDE_GEOTHERMIQUE
+            - PAC_MULTI_BATIMENT
+            - PANNEAU_RAYONNANT_ELECTRIQUE
+            - PLAFOND_RAYONNANT_ELECTRIQUE
+            - PLANCHER_RAYONNANT_ELECTRIQUE
+            - POELE
+            - POELE_BOUILLEUR
+            - RADIATEUR_ELECTRIQUE
+            - RADIATEUR_ELECTRIQUE_ACCUMULATION
+            - RADIATEUR_INDEPENDANT
+            - RESEAU_CHALEUR
+            - SYSTEME_COLLECTIF_PAR_DEFAUT
+        energie:
+          type: string
+          enum:
+            - ELECTRICITE
+            - GAZ_NATUREL
+            - GPL
+            - FIOUL
+            - BOIS_BUCHE
+            - BOIS_PLAQUETTE
+            - BOIS_GRANULE
+            - CHARBON
+            - RESEAU_CHALEUR
+        position_volume_chauffe:
+          type: boolean
+        generateur_collectif:
+          type: boolean
+        signaletique:
+          $ref: '#/components/schemas/Signaletique'
+        annee_installation:
+          type:
+            - integer
+            - 'null'
+        type_partie_chaudiere:
+          type:
+            - string
+            - 'null'
+          enum:
+            - CHAUDIERE_BASSE_TEMPERATURE
+            - CHAUDIERE_CONDENSATION
+            - CHAUDIERE_MULTI_BATIMENT
+            - CHAUDIERE_STANDARD
+            - CONVECTEUR_BI_JONCTION
+            - CONVECTEUR_ELECTRIQUE
+            - CUISINIERE
+            - FOYER_FERME
+            - GENERATEUR_AIR_CHAUD
+            - GENERATEUR_AIR_CHAUD_CONDENSATION
+            - INSERT
+            - PAC_AIR_AIR
+            - PAC_AIR_EAU
+            - PAC_EAU_EAU
+            - PAC_EAU_GLYCOLEE_EAU
+            - PAC_GEOTHERMIQUE
+            - PAC_HYBRIDE_AIR_EAU
+            - PAC_HYBRIDE_EAU_EAU
+            - PAC_HYBRIDE_EAU_GLYCOLEE_EAU
+            - PAC_HYBRIDE_GEOTHERMIQUE
+            - PAC_MULTI_BATIMENT
+            - PANNEAU_RAYONNANT_ELECTRIQUE
+            - PLAFOND_RAYONNANT_ELECTRIQUE
+            - PLANCHER_RAYONNANT_ELECTRIQUE
+            - POELE
+            - POELE_BOUILLEUR
+            - RADIATEUR_ELECTRIQUE
+            - RADIATEUR_ELECTRIQUE_ACCUMULATION
+            - RADIATEUR_INDEPENDANT
+            - RESEAU_CHALEUR
+            - SYSTEME_COLLECTIF_PAR_DEFAUT
+            - null
+        energie_partie_chaudiere:
+          type:
+            - string
+            - 'null'
+          enum:
+            - ELECTRICITE
+            - GAZ_NATUREL
+            - GPL
+            - FIOUL
+            - BOIS_BUCHE
+            - BOIS_PLAQUETTE
+            - BOIS_GRANULE
+            - CHARBON
+            - RESEAU_CHALEUR
+            - null
+        performance:
+          anyOf:
+            - $ref: '#/components/schemas/Performance'
+            - type: 'null'
+        pertes_generation:
+          type: array
+          items:
+            $ref: '#/components/schemas/Perte'
+    Id:
+      type: object
+      description: ''
+      deprecated: false
+      properties:
+        value:
+          type: string
+    Inertie:
+      type: object
+      description: ''
+      deprecated: false
+      properties:
+        inertie:
+          type: string
+          enum:
+            - INCONNUE
+            - TRES_LOURDE
+            - LOURDE
+            - MOYENNE
+            - LEGERE
+        paroi_ancienne:
+          type: boolean
+    InstallationResource:
+      type: object
+      description: ''
+      deprecated: false
+      properties:
+        id:
+          $ref: '#/components/schemas/Id'
+        description:
+          type: string
+        surface:
+          type: number
+        comptage_individuel:
+          type: boolean
+        solaire:
+          anyOf:
+            - $ref: '#/components/schemas/Solaire'
+            - type: 'null'
+        regulation_centrale:
+          $ref: '#/components/schemas/Regulation'
+        regulation_terminale:
+          $ref: '#/components/schemas/Regulation'
+        rdim:
+          type:
+            - number
+            - 'null'
+        systemes:
+          type: array
+          items:
+            $ref: '#/components/schemas/SystemeResource'
+        consommations:
+          type: array
+          items:
+            $ref: '#/components/schemas/Consommation'
+    Isolation:
+      type: object
+      description: ''
+      deprecated: false
+      properties:
+        etat_isolation:
+          type: string
+          enum:
+            - INCONNU
+            - NON_ISOLE
+            - ISOLE
+        type_isolation:
+          type:
+            - string
+            - 'null'
+          enum:
+            - INCONNU
+            - ITI
+            - ITE
+            - ITR
+            - ITI_ITE
+            - ITI_ITR
+            - ITE_ITR
+            - ITR_ITE_ITI
+            - null
+        annee_isolation:
+          type:
+            - integer
+            - 'null'
+        epaisseur_isolation:
+          type:
+            - integer
+            - 'null'
+        resistance_thermique_isolation:
+          type:
+            - number
+            - 'null'
+    Liaison:
+      type: object
+      description: ''
+      deprecated: false
+      properties:
+        type:
+          type: string
+          enum:
+            - PLANCHER_BAS_MUR
+            - PLANCHER_INTERMEDIAIRE_MUR
+            - PLANCHER_HAUT_MUR
+            - REFEND_MUR
+            - MENUISERIE_MUR
+        pont_thermique_partiel:
+          type: boolean
+        mur_id:
+          $ref: '#/components/schemas/Id'
+        plancher_id:
+          anyOf:
+            - $ref: '#/components/schemas/Id'
+            - type: 'null'
+        ouverture_id:
+          anyOf:
+            - $ref: '#/components/schemas/Id'
+            - type: 'null'
+    Lnc.ValueObject.Performance:
+      type: object
+      description: ''
+      deprecated: false
+      properties:
+        uvue:
+          type:
+            - number
+            - 'null'
+        b:
+          type:
+            - number
+            - 'null'
+        bvers:
+          anyOf:
+            - $ref: '#/components/schemas/BverCollection'
+            - type: 'null'
+    LncResource:
+      type: object
+      description: ''
+      deprecated: false
+      properties:
+        id:
+          $ref: '#/components/schemas/Id'
+        description:
+          type: string
+        type:
+          type: string
+          enum:
+            - GARAGE
+            - CELLIER
+            - ESPACE_TAMPON_SOLARISE
+            - COMBLE_FORTEMENT_VENTILE
+            - COMBLE_FAIBLEMENT_VENTILE
+            - COMBLE_TRES_FAIBLEMENT_VENTILE
+            - CIRCULATION_SANS_OUVERTURE_EXTERIEURE
+            - CIRCULATION_AVEC_OUVERTURE_EXTERIEURE
+            - CIRCULATION_AVEC_BOUCHE_OU_GAINE_DESENFUMAGE_OUVERTE
+            - HALL_ENTREE_AVEC_FERMETURE_AUTOMATIQUE
+            - HALL_ENTREE_SANS_FERMETURE_AUTOMATIQUE
+            - GARAGE_COLLECTIF
+            - AUTRES
+        aiu:
+          type:
+            - number
+            - 'null'
+        aue:
+          type:
+            - number
+            - 'null'
+        isolation_aiu:
+          type:
+            - boolean
+            - 'null'
+        isolation_aue:
+          type:
+            - boolean
+            - 'null'
+        performance:
+          anyOf:
+            - $ref: '#/components/schemas/Lnc.ValueObject.Performance'
+            - type: 'null'
+        parois:
+          type: array
+          items:
+            $ref: '#/components/schemas/ParoiResource'
+        baies:
+          type: array
+          items:
+            $ref: '#/components/schemas/BaieResource'
+        ensoleillements:
+          type: array
+          items:
+            $ref: '#/components/schemas/Ensoleillement'
+    Logement:
+      type: object
+      description: ''
+      deprecated: false
+      properties:
+        description:
+          type: string
+        surface_habitable:
+          type: number
+        hauteur_sous_plafond:
+          type: number
+    LogementResource:
+      type: object
+      description: ''
+      deprecated: false
+      properties:
+        id:
+          $ref: '#/components/schemas/Id'
+        description:
+          type: string
+        typologie:
+          type: string
+          enum:
+            - T1
+            - T2
+            - T3
+            - T4
+            - T5
+            - T6
+            - T7
+        surface_habitable:
+          type: number
+    MasqueLointainResource:
+      type: object
+      description: ''
+      deprecated: false
+      properties:
+        id:
+          $ref: '#/components/schemas/Id'
+        description:
+          type: string
+        type:
+          type: string
+          enum:
+            - HOMOGENE
+            - NON_HOMOGENE
+        hauteur:
+          type: number
+        orientation:
+          type: number
+    MasqueProcheResource:
+      type: object
+      description: ''
+      deprecated: false
+      properties:
+        id:
+          $ref: '#/components/schemas/Id'
+        description:
+          type: string
+        type:
+          type: string
+          enum:
+            - FOND_BALCON_OU_FOND_ET_FLANC_LOGGIAS
+            - BALCON_OU_AUVENT
+            - PAROI_LATERALE_SANS_OBSTACLE_AU_SUD
+            - PAROI_LATERALE_AVEC_OBSTACLE_AU_SUD
+        avancee:
+          type:
+            - number
+            - 'null'
+    Menuiserie:
+      type: object
+      description: ''
+      deprecated: false
+      properties:
+        nature_menuiserie:
+          type: string
+          enum:
+            - BOIS
+            - BOIS_METAL
+            - PVC
+            - METAL
+        type_vitrage:
+          type: string
+          enum:
+            - SIMPLE_VITRAGE
+            - DOUBLE_VITRAGE
+            - DOUBLE_VITRAGE_FE
+            - TRIPLE_VITRAGE
+            - TRIPLE_VITRAGE_FE
+        presence_rupteur_pont_thermique:
+          type:
+            - boolean
+            - 'null'
+    Mur.ValueObject.Performance:
+      type: object
+      description: ''
+      deprecated: false
+      properties:
+        u0:
+          type: number
+        u:
+          type: number
+        b:
+          type: number
+        dp:
+          type: number
+        etat:
+          type: string
+          enum:
+            - TRES_BONNE
+            - BONNE
+            - MOYENNE
+            - INSUFFISANTE
+    MurResource:
+      type: object
+      description: ''
+      deprecated: false
+      properties:
+        id:
+          $ref: '#/components/schemas/Id'
+        description:
+          type: string
+        position:
+          $ref: '#/components/schemas/ValueObject.Position'
+        caracteristique:
+          $ref: '#/components/schemas/Caracteristique'
+        isolation:
+          $ref: '#/components/schemas/Isolation'
+        surface_deperditive:
+          type:
+            - number
+            - 'null'
+        performance:
+          anyOf:
+            - $ref: '#/components/schemas/Mur.ValueObject.Performance'
+            - type: 'null'
+    Occupation:
+      type: object
+      description: ''
+      deprecated: false
+      properties:
+        nadeq:
+          type: number
+        nmax:
+          type: number
+    PanneauPhotovoltaiqueResource:
+      type: object
+      description: ''
+      deprecated: false
+      properties:
+        id:
+          $ref: '#/components/schemas/Id'
+        orientation:
+          type: number
+        inclinaison:
+          type: number
+        modules:
+          type: integer
+        surface_capteurs:
+          type:
+            - number
+            - 'null'
+        productions:
+          type: array
+          items:
+            $ref: '#/components/schemas/ProductionPhotovoltaique'
+    Paroi:
+      type: object
+      description: ''
+      deprecated: false
+      properties:
+        aiu:
+          readOnly: true
+          type:
+            - number
+            - 'null'
+        aue:
+          readOnly: true
+          type:
+            - number
+            - 'null'
+        id:
+          $ref: '#/components/schemas/Id'
+        description:
+          type: string
+        position:
+          $ref: '#/components/schemas/Position'
+        surface:
+          type: number
+    ParoiResource:
+      type: object
+      description: ''
+      deprecated: false
+      properties:
+        id:
+          $ref: '#/components/schemas/Id'
+        description:
+          type: string
+        position:
+          $ref: '#/components/schemas/Position'
+        surface:
+          type: number
+        etat_isolation:
+          type: string
+          enum:
+            - INCONNU
+            - NON_ISOLE
+            - ISOLE
+        aiu:
+          type:
+            - number
+            - 'null'
+        aue:
+          type:
+            - number
+            - 'null'
+    Performance:
+      type: object
+      description: ''
+      deprecated: false
+      properties:
+        pn:
+          type: number
+        paux:
+          type: number
+        scop:
+          type:
+            - number
+            - 'null'
+        rpn:
+          type:
+            - number
+            - 'null'
+        rpint:
+          type:
+            - number
+            - 'null'
+        qp0:
+          type:
+            - number
+            - 'null'
+        pveilleuse:
+          type:
+            - number
+            - 'null'
+        tfonc30:
+          type:
+            - number
+            - 'null'
+        tfonc100:
+          type:
+            - number
+            - 'null'
+    Permeabilite:
+      type: object
+      description: ''
+      deprecated: false
+      properties:
+        hvent:
+          type: number
+        hperm:
+          type: number
+        q4pa_conv:
+          type: number
+    Perte:
+      type: object
+      description: ''
+      deprecated: false
+      properties:
+        scenario:
+          type: string
+          enum:
+            - CONVENTIONNEL
+            - DEPENSIER
+        mois:
+          type: string
+          enum:
+            - '01'
+            - '02'
+            - '03'
+            - '04'
+            - '05'
+            - '06'
+            - '07'
+            - '08'
+            - '09'
+            - '10'
+            - '11'
+            - '12'
+        pertes:
+          type: number
+        pertes_recuperables:
+          type: number
+    PlancherBas.ValueObject.Performance:
+      type: object
+      description: ''
+      deprecated: false
+      properties:
+        u0:
+          type: number
+        u:
+          type: number
+        b:
+          type: number
+        dp:
+          type: number
+        etat:
+          type: string
+          enum:
+            - TRES_BONNE
+            - BONNE
+            - MOYENNE
+            - INSUFFISANTE
+    PlancherBas.ValueObject.Position:
+      type: object
+      description: ''
+      deprecated: false
+      properties:
+        mitoyennete:
+          type: string
+          enum:
+            - EXTERIEUR
+            - PAROI_ENTERREE
+            - VIDE_SANITAIRE
+            - TERRE_PLEIN
+            - SOUS_SOL_NON_CHAUFFE
+            - LOCAL_NON_CHAUFFE
+            - LOCAL_NON_RESIDENTIEL
+            - LOCAL_RESIDENTIEL
+            - LOCAL_NON_ACCESSIBLE
+        local_non_chauffe_id:
+          anyOf:
+            - $ref: '#/components/schemas/Id'
+            - type: 'null'
+    PlancherBasResource:
+      type: object
+      description: ''
+      deprecated: false
+      properties:
+        id:
+          $ref: '#/components/schemas/Id'
+        description:
+          type: string
+        position:
+          $ref: '#/components/schemas/PlancherBas.ValueObject.Position'
+        caracteristique:
+          $ref: '#/components/schemas/ValueObject.Caracteristique'
+        isolation:
+          $ref: '#/components/schemas/ValueObject.Isolation'
+        surface_deperditive:
+          type:
+            - number
+            - 'null'
+        performance:
+          anyOf:
+            - $ref: '#/components/schemas/PlancherBas.ValueObject.Performance'
+            - type: 'null'
+    PlancherHaut.ValueObject.Caracteristique:
+      type: object
+      description: ''
+      deprecated: false
+      properties:
+        type:
+          type: string
+          enum:
+            - INCONNU
+            - PLAFOND_AVEC_OU_SANS_REMPLISSAGE
+            - PLAFOND_ENTRE_SOLIVES_METALLIQUES
+            - PLAFOND_ENTRE_SOLIVES_BOIS
+            - PLAFOND_BOIS_SUR_SOLIVES_METALLIQUES
+            - PLAFOND_BOIS_SOUS_SOLIVES_METALLIQUES
+            - BARDEAUX_ET_REMPLISSAGE
+            - PLAFOND_BOIS_SUR_SOLIVES_BOIS
+            - PLAFOND_BOIS_SOUS_SOLIVES_BOIS
+            - DALLE_BETON
+            - PLAFOND_LOURD
+            - COMBLES_AMENAGES_SOUS_RAMPANT
+            - TOITURE_CHAUME
+            - PLAFOND_PATRE
+            - BAC_ACIER
+        inertie:
+          type: string
+          enum:
+            - INCONNU
+            - LOURDE
+            - LEGERE
+        surface:
+          type: number
+        annee_construction:
+          type:
+            - integer
+            - 'null'
+        annee_renovation:
+          type:
+            - integer
+            - 'null'
+        u0:
+          type:
+            - number
+            - 'null'
+        u:
+          type:
+            - number
+            - 'null'
+    PlancherHaut.ValueObject.Isolation:
+      type: object
+      description: ''
+      deprecated: false
+      properties:
+        etat_isolation:
+          type: string
+          enum:
+            - INCONNU
+            - NON_ISOLE
+            - ISOLE
+        type_isolation:
+          type:
+            - string
+            - 'null'
+          enum:
+            - INCONNU
+            - ITI
+            - ITE
+            - ITR
+            - ITI_ITE
+            - ITI_ITR
+            - ITE_ITR
+            - ITR_ITE_ITI
+            - null
+        annee_isolation:
+          type:
+            - integer
+            - 'null'
+        epaisseur_isolation:
+          type:
+            - integer
+            - 'null'
+        resistance_thermique_isolation:
+          type:
+            - number
+            - 'null'
+    PlancherHaut.ValueObject.Performance:
+      type: object
+      description: ''
+      deprecated: false
+      properties:
+        u0:
+          type: number
+        u:
+          type: number
+        b:
+          type: number
+        dp:
+          type: number
+        etat:
+          type: string
+          enum:
+            - TRES_BONNE
+            - BONNE
+            - MOYENNE
+            - INSUFFISANTE
+    PlancherHaut.ValueObject.Position:
+      type: object
+      description: ''
+      deprecated: false
+      properties:
+        mitoyennete:
+          type: string
+          enum:
+            - EXTERIEUR
+            - PAROI_ENTERREE
+            - VIDE_SANITAIRE
+            - TERRE_PLEIN
+            - SOUS_SOL_NON_CHAUFFE
+            - LOCAL_NON_CHAUFFE
+            - LOCAL_NON_RESIDENTIEL
+            - LOCAL_RESIDENTIEL
+            - LOCAL_NON_ACCESSIBLE
+        local_non_chauffe_id:
+          anyOf:
+            - $ref: '#/components/schemas/Id'
+            - type: 'null'
+        orientation:
+          type:
+            - number
+            - 'null'
+    PlancherHautResource:
+      type: object
+      description: ''
+      deprecated: false
+      properties:
+        id:
+          $ref: '#/components/schemas/Id'
+        description:
+          type: string
+        categorie:
+          type: string
+          enum:
+            - INCONNU
+            - COMBLES_PERDUS
+            - RAMPANTS
+            - TERRASSE
+        position:
+          $ref: '#/components/schemas/PlancherHaut.ValueObject.Position'
+        caracteristique:
+          $ref: '#/components/schemas/PlancherHaut.ValueObject.Caracteristique'
+        isolation:
+          $ref: '#/components/schemas/PlancherHaut.ValueObject.Isolation'
+        surface_deperditive:
+          type:
+            - number
+            - 'null'
+        performance:
+          anyOf:
+            - $ref: '#/components/schemas/PlancherHaut.ValueObject.Performance'
+            - type: 'null'
+    PlancherIntermediaireResource:
+      type: object
+      description: ''
+      deprecated: false
+      properties:
+        id:
+          $ref: '#/components/schemas/Id'
+        description:
+          type: string
+        surface:
+          type: number
+        inertie:
+          type: string
+          enum:
+            - INCONNUE
+            - TRES_LOURDE
+            - LOURDE
+            - MOYENNE
+            - LEGERE
+    PontThermique.ValueObject.Performance:
+      type: object
+      description: ''
+      deprecated: false
+      properties:
+        kpt:
+          type: number
+        pt:
+          type: number
+    PontThermiqueResource:
+      type: object
+      description: ''
+      deprecated: false
+      properties:
+        id:
+          $ref: '#/components/schemas/Id'
+        description:
+          type: string
+        longueur:
+          type: number
+        liaison:
+          $ref: '#/components/schemas/Liaison'
+        kpt:
+          type:
+            - number
+            - 'null'
+        performance:
+          anyOf:
+            - $ref: '#/components/schemas/PontThermique.ValueObject.Performance'
+            - type: 'null'
+    Porte.ValueObject.Caracteristique:
+      type: object
+      description: ''
+      deprecated: false
+      properties:
+        surface:
+          type: number
+        isolation:
+          type: string
+          enum:
+            - INCONNU
+            - NON_ISOLE
+            - ISOLE
+        nature_menuiserie:
+          type: string
+          enum:
+            - INCONNU
+            - PVC
+            - BOIS
+            - BOIS_METAL
+            - METAL
+        type_pose:
+          type: string
+          enum:
+            - NU_EXTERIEUR
+            - NU_INTERIEUR
+            - TUNNEL
+        taux_vitrage:
+          type: integer
+        largeur_dormant:
+          type:
+            - integer
+            - 'null'
+        presence_sas:
+          type: boolean
+        presence_joint:
+          type: boolean
+        presence_retour_isolation:
+          type: boolean
+        annee_installation:
+          type:
+            - integer
+            - 'null'
+        type_vitrage:
+          type:
+            - string
+            - 'null'
+          enum:
+            - SIMPLE_VITRAGE
+            - DOUBLE_VITRAGE
+            - TRIPLE_VITRAGE
+            - null
+        u:
+          type:
+            - number
+            - 'null'
+    Porte.ValueObject.Performance:
+      type: object
+      description: ''
+      deprecated: false
+      properties:
+        u:
+          type: number
+        b:
+          type: number
+        dp:
+          type: number
+        etat:
+          type: string
+          enum:
+            - TRES_BONNE
+            - BONNE
+            - MOYENNE
+            - INSUFFISANTE
+    Porte.ValueObject.Position:
+      type: object
+      description: ''
+      deprecated: false
+      properties:
+        paroi_id:
+          anyOf:
+            - $ref: '#/components/schemas/Id'
+            - type: 'null'
+        local_non_chauffe_id:
+          anyOf:
+            - $ref: '#/components/schemas/Id'
+            - type: 'null'
+        mitoyennete:
+          type:
+            - string
+            - 'null'
+          enum:
+            - EXTERIEUR
+            - PAROI_ENTERREE
+            - VIDE_SANITAIRE
+            - TERRE_PLEIN
+            - SOUS_SOL_NON_CHAUFFE
+            - LOCAL_NON_CHAUFFE
+            - LOCAL_NON_RESIDENTIEL
+            - LOCAL_RESIDENTIEL
+            - LOCAL_NON_ACCESSIBLE
+            - null
+        orientation:
+          type:
+            - number
+            - 'null'
+    PorteResource:
+      type: object
+      description: ''
+      deprecated: false
+      properties:
+        id:
+          $ref: '#/components/schemas/Id'
+        description:
+          type: string
+        position:
+          $ref: '#/components/schemas/Porte.ValueObject.Position'
+        caracteristique:
+          $ref: '#/components/schemas/Porte.ValueObject.Caracteristique'
+        performance:
+          anyOf:
+            - $ref: '#/components/schemas/Porte.ValueObject.Performance'
+            - type: 'null'
+    Position:
+      type: object
+      description: ''
+      deprecated: false
+      properties:
+        orientation:
+          type:
+            - number
+            - 'null'
+        paroi:
+          anyOf:
+            - $ref: '#/components/schemas/Paroi'
+            - type: 'null'
+        mitoyennete:
+          type:
+            - string
+            - 'null'
+          enum:
+            - EXTERIEUR
+            - PAROI_ENTERREE
+            - VIDE_SANITAIRE
+            - TERRE_PLEIN
+            - SOUS_SOL_NON_CHAUFFE
+            - LOCAL_NON_CHAUFFE
+            - LOCAL_NON_RESIDENTIEL
+            - LOCAL_RESIDENTIEL
+            - LOCAL_NON_ACCESSIBLE
+            - null
+    Production.ProductionResource:
+      type: object
+      description: ''
+      deprecated: false
+      properties:
+        audit_id:
+          $ref: '#/components/schemas/Id'
+        panneaux_photovoltaiques:
+          type: array
+          items:
+            $ref: '#/components/schemas/PanneauPhotovoltaiqueResource'
+        productions:
+          type: array
+          items:
+            $ref: '#/components/schemas/ProductionPhotovoltaique'
+    ProductionPhotovoltaique:
+      type: object
+      description: ''
+      deprecated: false
+      properties:
+        mois:
+          type: string
+          enum:
+            - '01'
+            - '02'
+            - '03'
+            - '04'
+            - '05'
+            - '06'
+            - '07'
+            - '08'
+            - '09'
+            - '10'
+            - '11'
+            - '12'
+        ppv:
+          type: number
+    RefendResource:
+      type: object
+      description: ''
+      deprecated: false
+      properties:
+        id:
+          $ref: '#/components/schemas/Id'
+        description:
+          type: string
+        surface:
+          type: number
+        inertie:
+          type: string
+          enum:
+            - INCONNUE
+            - TRES_LOURDE
+            - LOURDE
+            - MOYENNE
+            - LEGERE
+    Refroidissement.RefroidissementResource:
+      type: object
+      description: ''
+      deprecated: false
+      properties:
+        audit_id:
+          $ref: '#/components/schemas/Id'
+        generateurs:
+          type: array
+          items:
+            $ref: '#/components/schemas/Refroidissement.Resource.GenerateurResource'
+        installations:
+          type: array
+          items:
+            $ref: '#/components/schemas/Refroidissement.Resource.InstallationResource'
+        besoins:
+          type: array
+          items:
+            $ref: '#/components/schemas/Besoin'
+        consommations:
+          type: array
+          items:
+            $ref: '#/components/schemas/Consommation'
+    Refroidissement.Resource.GenerateurResource:
+      type: object
+      description: ''
+      deprecated: false
+      properties:
+        id:
+          $ref: '#/components/schemas/Id'
+        description:
+          type: string
+        type_generateur:
+          type: string
+          enum:
+            - PAC_AIR_AIR
+            - PAC_AIR_EAU
+            - PAC_EAU_EAU
+            - PAC_EAU_GLYCOLEE_EAU
+            - PAC_GEOTHERMIQUE
+            - RESEAU_FROID
+            - AUTRE_SYSTEME_THERMODYNAMIQUE
+            - AUTRE
+        energie_generateur:
+          type: string
+          enum:
+            - ELECTRICITE
+            - GAZ_NATUREL
+            - GPL
+            - RESEAU_FROID
+        annee_installation:
+          type:
+            - integer
+            - 'null'
+        seer:
+          type:
+            - number
+            - 'null'
+    Refroidissement.Resource.InstallationResource:
+      type: object
+      description: ''
+      deprecated: false
+      properties:
+        id:
+          $ref: '#/components/schemas/Id'
+        description:
+          type: string
+        surface:
+          type: number
+        systemes:
+          type: array
+          items:
+            $ref: '#/components/schemas/Refroidissement.Resource.SystemeResource'
+        consommations:
+          type: array
+          items:
+            $ref: '#/components/schemas/Consommation'
+    Refroidissement.Resource.SystemeResource:
+      type: object
+      description: ''
+      deprecated: false
+      properties:
+        id:
+          $ref: '#/components/schemas/Id'
+        generateur_id:
+          $ref: '#/components/schemas/Id'
+        rdim:
+          type:
+            - number
+            - 'null'
+        performance:
+          anyOf:
+            - $ref: '#/components/schemas/Refroidissement.ValueObject.Performance'
+            - type: 'null'
+        consommations:
+          type: array
+          items:
+            type: string
+    Refroidissement.ValueObject.Performance:
+      type: object
+      description: ''
+      deprecated: false
+      properties:
+        eer:
+          type: number
+    RefroidissementResource:
+      type: object
+      description: ''
+      deprecated: false
+      properties:
+        audit_id:
+          $ref: '#/components/schemas/Id'
+        generateurs:
+          type: array
+          items:
+            $ref: '#/components/schemas/Refroidissement.Resource.GenerateurResource'
+        installations:
+          type: array
+          items:
+            $ref: '#/components/schemas/Refroidissement.Resource.InstallationResource'
+        besoins:
+          type: array
+          items:
+            $ref: '#/components/schemas/Besoin'
+        consommations:
+          type: array
+          items:
+            $ref: '#/components/schemas/Consommation'
+    Regulation:
+      type: object
+      description: ''
+      deprecated: false
+      properties:
+        presence_regulation:
+          type: boolean
+        minimum_temperature:
+          type: boolean
+        detection_presence:
+          type: boolean
+    Rendement:
+      type: object
+      description: ''
+      deprecated: false
+      properties:
+        scenario:
+          type: string
+          enum:
+            - CONVENTIONNEL
+            - DEPENSIER
+        fch:
+          type: number
+        i0:
+          type: number
+        int:
+          type: number
+        ich:
+          type: number
+        rg:
+          type: number
+        rd:
+          type: number
+        re:
+          type: number
+        rr:
+          type: number
+    Reseau:
+      type: object
+      description: ''
+      deprecated: false
+      properties:
+        presence_circulateur_externe:
+          type: boolean
+        niveaux_desservis:
+          type: integer
+        isolation_reseau:
+          type: string
+          enum:
+            - INCONNU
+            - NON_ISOLE
+            - ISOLE
+    Resource.BaieResource:
+      type: object
+      description: ''
+      deprecated: false
+      properties:
+        id:
+          $ref: '#/components/schemas/Id'
+        description:
+          type: string
+        position:
+          $ref: '#/components/schemas/Baie.ValueObject.Position'
+        caracteristique:
+          $ref: '#/components/schemas/Baie.ValueObject.Caracteristique'
+        double_fenetre:
+          anyOf:
+            - $ref: '#/components/schemas/DoubleFenetre'
+            - type: 'null'
+        performance:
+          anyOf:
+            - $ref: '#/components/schemas/Baie.ValueObject.Performance'
+            - type: 'null'
+        masques_proches:
+          type: array
+          items:
+            $ref: '#/components/schemas/MasqueProcheResource'
+        masques_lointains:
+          type: array
+          items:
+            $ref: '#/components/schemas/MasqueLointainResource'
+        ensoleillements:
+          type: array
+          items:
+            $ref: '#/components/schemas/ValueObject.Ensoleillement'
+    Resource.GenerateurResource:
+      type: object
+      description: ''
+      deprecated: false
+      properties:
+        id:
+          $ref: '#/components/schemas/Id'
+        generateur_mixte_id:
+          anyOf:
+            - $ref: '#/components/schemas/Id'
+            - type: 'null'
+        reseau_chaleur_id:
+          anyOf:
+            - $ref: '#/components/schemas/Id'
+            - type: 'null'
+        description:
+          type: string
+        categorie:
+          type: string
+          enum:
+            - PAC
+            - PAC_MULTI_BATIMENT
+            - CHAUDIERE_BOIS
+            - CHAUDIERE_ELECTRIQUE
+            - CHAUDIERE_STANDARD
+            - CHAUDIERE_BASSE_TEMPERATURE
+            - CHAUDIERE_CONDENSATION
+            - CHAUDIERE_MULTI_BATIMENT
+            - POELE_BOIS_BOUILLEUR
+            - RESEAU_CHALEUR
+            - CHAUFFE_EAU_THERMODYNAMIQUE
+            - ACCUMULATEUR
+            - CHAUFFE_EAU_ELECTRIQUE
+            - CHAUFFE_EAU_INSTANTANE
+        type:
+          type: string
+          enum:
+            - PAC_DOUBLE_SERVICE
+            - PAC_MULTI_BATIMENT
+            - CHAUDIERE_STANDARD
+            - CHAUDIERE_BASSE_TEMPERATURE
+            - CHAUDIERE_CONDENSATION
+            - CHAUDIERE_MULTI_BATIMENT
+            - POELE_BOUILLEUR
+            - RESEAU_CHALEUR
+            - SYSTEME_COLLECTIF_PAR_DEFAUT
+            - CET_AIR_AMBIANT
+            - CET_AIR_EXTERIEUR
+            - CET_AIR_EXTRAIT
+            - ACCUMULATEUR_CONDENSATION
+            - ACCUMULATEUR_STANDARD
+            - BALLON_ELECTRIQUE_HORIZONTAL
+            - BALLON_ELECTRIQUE_VERTICAL
+            - CHAUFFE_EAU_INSTANTANE
+        energie:
+          type: string
+          enum:
+            - ELECTRICITE
+            - GAZ_NATUREL
+            - GPL
+            - FIOUL
+            - BOIS
+            - BOIS_BUCHE
+            - BOIS_PLAQUETTE
+            - BOIS_GRANULE
+            - CHARBON
+            - RESEAU_CHALEUR
+        usage:
+          type: string
+          enum:
+            - ECS
+            - CHAUFFAGE_ECS
+        volume_stockage:
+          type: integer
+        position_volume_chauffe:
+          type: boolean
+        generateur_collectif:
+          type: boolean
+        signaletique:
+          $ref: '#/components/schemas/ValueObject.Signaletique'
+        annee_installation:
+          type:
+            - integer
+            - 'null'
+        performance:
+          anyOf:
+            - $ref: '#/components/schemas/ValueObject.Performance'
+            - type: 'null'
+        pertes_generation:
+          type: array
+          items:
+            $ref: '#/components/schemas/ValueObject.Perte'
+        pertes_stockage:
+          type: array
+          items:
+            $ref: '#/components/schemas/ValueObject.Perte'
+    Resource.InstallationResource:
+      type: object
+      description: ''
+      deprecated: false
+      properties:
+        id:
+          $ref: '#/components/schemas/Id'
+        description:
+          type: string
+        surface:
+          type: number
+        solaire:
+          anyOf:
+            - $ref: '#/components/schemas/ValueObject.Solaire'
+            - type: 'null'
+        systemes:
+          type: array
+          items:
+            $ref: '#/components/schemas/Resource.SystemeResource'
+        consommations:
+          type: array
+          items:
+            $ref: '#/components/schemas/Consommation'
+    Resource.SystemeResource:
+      type: object
+      description: ''
+      deprecated: false
+      properties:
+        id:
+          $ref: '#/components/schemas/Id'
+        generateur_id:
+          $ref: '#/components/schemas/Id'
+        reseau:
+          $ref: '#/components/schemas/ValueObject.Reseau'
+        stockage:
+          anyOf:
+            - $ref: '#/components/schemas/Stockage'
+            - type: 'null'
+        rdim:
+          type:
+            - number
+            - 'null'
+        performance:
+          anyOf:
+            - $ref: '#/components/schemas/ValueObject.Performance'
+            - type: 'null'
+        pertes_distribution:
+          type: array
+          items:
+            $ref: '#/components/schemas/ValueObject.Perte'
+        pertes_stockage:
+          type: array
+          items:
+            $ref: '#/components/schemas/ValueObject.Perte'
+        rendements:
+          type: array
+          items:
+            $ref: '#/components/schemas/ValueObject.Rendement'
+        consommations:
+          type: array
+          items:
+            $ref: '#/components/schemas/Consommation'
+        consommations_auxiliaires:
+          type: array
+          items:
+            $ref: '#/components/schemas/Consommation'
+    Signaletique:
+      type: object
+      description: ''
+      deprecated: false
+      properties:
+        type_chaudiere:
+          type:
+            - string
+            - 'null'
+          enum:
+            - CHAUDIERE_MURALE
+            - CHAUDIERE_SOL
+            - null
+        label:
+          type:
+            - string
+            - 'null'
+          enum:
+            - FLAMME_VERTE
+            - NF_PERFORMANCE
+            - SANS
+            - INCONNU
+            - null
+        presence_regulation_combustion:
+          type:
+            - boolean
+            - 'null'
+        presence_ventouse:
+          type:
+            - boolean
+            - 'null'
+        priorite_cascade:
+          type:
+            - integer
+            - 'null'
+        pn:
+          type:
+            - number
+            - 'null'
+        rpn:
+          type:
+            - number
+            - 'null'
+        rpint:
+          type:
+            - number
+            - 'null'
+        qp0:
+          type:
+            - number
+            - 'null'
+        pveilleuse:
+          type:
+            - number
+            - 'null'
+        scop:
+          type:
+            - number
+            - 'null'
+        tfonc30:
+          type:
+            - number
+            - 'null'
+        tfonc100:
+          type:
+            - number
+            - 'null'
+    Simulation.SimulationResource:
+      type: object
+      description: ''
+      deprecated: false
+      properties:
+        id:
+          $ref: '#/components/schemas/Id'
+        audit:
+          $ref: '#/components/schemas/AuditResource'
+        enveloppe:
+          $ref: '#/components/schemas/EnveloppeResource'
+        chauffage:
+          $ref: '#/components/schemas/ChauffageResource'
+        ecs:
+          $ref: '#/components/schemas/EcsResource'
+        ventilation:
+          $ref: '#/components/schemas/VentilationResource'
+        refroidissement:
+          $ref: '#/components/schemas/RefroidissementResource'
+        eclairage:
+          $ref: '#/components/schemas/EclairageResource'
+        visite:
+          $ref: '#/components/schemas/VisiteResource'
+        bilan:
+          anyOf:
+            - $ref: '#/components/schemas/Bilan'
+            - type: 'null'
+        performances:
+          type: array
+          items:
+            $ref: '#/components/schemas/Simulation.ValueObject.Performance'
+    Simulation.ValueObject.Performance:
+      type: object
+      description: ''
+      deprecated: false
+      properties:
+        scenario:
+          type: string
+          enum:
+            - CONVENTIONNEL
+            - DEPENSIER
+        usage:
+          type: string
+          enum:
+            - CHAUFFAGE
+            - ECS
+            - REFROIDISSEMENT
+            - ECLAIRAGE
+            - AUXILIAIRE
+            - ENSEMBLE
+        consommation_ef:
+          type: number
+        consommation_ep:
+          type: number
+        emission:
+          type: number
+    Solaire:
+      type: object
+      description: ''
+      deprecated: false
+      properties:
+        fch:
+          type:
+            - number
+            - 'null'
+    Stockage:
+      type: object
+      description: ''
+      deprecated: false
+      properties:
+        volume_stockage:
+          type: integer
+        position_volume_chauffe:
+          type: boolean
+    Survitrage:
+      type: object
+      description: ''
+      deprecated: false
+      properties:
+        type_survitrage:
+          type: string
+          enum:
+            - SURVITRAGE_INCONNU
+            - SURVITRAGE_SIMPLE
+            - SURVITRAGE_FE
+        epaisseur_lame:
+          type:
+            - integer
+            - 'null'
+    SystemeResource:
+      type: object
+      description: ''
+      deprecated: false
+      properties:
+        id:
+          $ref: '#/components/schemas/Id'
+        generateur_id:
+          $ref: '#/components/schemas/Id'
+        type_distribution:
+          type: string
+          enum:
+            - SANS
+            - HYDRAULIQUE
+            - AERAULIQUE
+            - FLUIDE_FRIGORIGENE
+        reseau:
+          anyOf:
+            - $ref: '#/components/schemas/Reseau'
+            - type: 'null'
+        position_volume_chauffe:
+          type: boolean
+        rdim:
+          type:
+            - number
+            - 'null'
+        performance:
+          anyOf:
+            - $ref: '#/components/schemas/Performance'
+            - type: 'null'
+        emetteurs:
+          type: array
+          items:
+            $ref: '#/components/schemas/EmetteurResource'
+        rendements:
+          type: array
+          items:
+            $ref: '#/components/schemas/Rendement'
+        consommations:
+          type: array
+          items:
+            $ref: '#/components/schemas/Consommation'
+        consommations_auxiliaires:
+          type: array
+          items:
+            $ref: '#/components/schemas/Consommation'
+    ValueObject.Caracteristique:
+      type: object
+      description: ''
+      deprecated: false
+      properties:
+        type:
+          type: string
+          enum:
+            - INCONNU
+            - PLANCHER_AVEC_OU_SANS_REMPLISSAGE
+            - PLANCHER_ENTRE_SOLIVES_METALLIQUES
+            - PLANCHER_ENTRE_SOLIVES_BOIS
+            - PLANCHER_BOIS_SUR_SOLIVES_METALLIQUES
+            - BARDEAUX_ET_REMPLISSAGE
+            - VOUTAINS_SUR_SOLIVES_METALLIQUES
+            - VOUTAINS_BRIQUES_OU_MOELLONS
+            - DALLE_BETON
+            - PLANCHER_BOIS_SUR_SOLIVES_BOIS
+            - PLANCHER_LOURD_TYPE_ENTREVOUS_TERRE_CUITE_OU_POUTRELLES_BETON
+            - PLANCHER_ENTREVOUS_ISOLANT
+        inertie:
+          type: string
+          enum:
+            - INCONNU
+            - LOURDE
+            - LEGERE
+        perimetre:
+          type: number
+        surface:
+          type: number
+        annee_construction:
+          type:
+            - integer
+            - 'null'
+        annee_renovation:
+          type:
+            - integer
+            - 'null'
+        u0:
+          type:
+            - number
+            - 'null'
+        u:
+          type:
+            - number
+            - 'null'
+    ValueObject.Ensoleillement:
+      type: object
+      description: ''
+      deprecated: false
+      properties:
+        mois:
+          type: string
+          enum:
+            - '01'
+            - '02'
+            - '03'
+            - '04'
+            - '05'
+            - '06'
+            - '07'
+            - '08'
+            - '09'
+            - '10'
+            - '11'
+            - '12'
+        fe:
+          type: number
+        sw:
+          type: number
+        c1:
+          type: number
+        sse:
+          type: number
+    ValueObject.Isolation:
+      type: object
+      description: ''
+      deprecated: false
+      properties:
+        etat_isolation:
+          type: string
+          enum:
+            - INCONNU
+            - NON_ISOLE
+            - ISOLE
+        type_isolation:
+          type:
+            - string
+            - 'null'
+          enum:
+            - INCONNU
+            - ITI
+            - ITE
+            - ITR
+            - ITI_ITE
+            - ITI_ITR
+            - ITE_ITR
+            - ITR_ITE_ITI
+            - null
+        annee_isolation:
+          type:
+            - integer
+            - 'null'
+        epaisseur_isolation:
+          type:
+            - integer
+            - 'null'
+        resistance_thermique_isolation:
+          type:
+            - number
+            - 'null'
+    ValueObject.Menuiserie:
+      type: object
+      description: ''
+      deprecated: false
+      properties:
+        nature:
+          type: string
+          enum:
+            - BOIS
+            - BOIS_METAL
+            - PVC
+            - METAL
+        type_vitrage:
+          type: string
+          enum:
+            - SIMPLE_VITRAGE
+            - DOUBLE_VITRAGE
+            - DOUBLE_VITRAGE_FE
+            - TRIPLE_VITRAGE
+            - TRIPLE_VITRAGE_FE
+        type_pose:
+          type: string
+          enum:
+            - NU_EXTERIEUR
+            - NU_INTERIEUR
+            - TUNNEL
+        presence_joint:
+          type: boolean
+        presence_retour_isolation:
+          type: boolean
+        largeur_dormant:
+          type:
+            - integer
+            - 'null'
+        survitrage:
+          anyOf:
+            - $ref: '#/components/schemas/Survitrage'
+            - type: 'null'
+        presence_rupteur_pont_thermique:
+          type:
+            - boolean
+            - 'null'
+        nature_gaz_lame:
+          type:
+            - string
+            - 'null'
+          enum:
+            - AIR
+            - ARGON
+            - KRYPTON
+            - INCONNU
+            - null
+        epaisseur_lame:
+          type:
+            - integer
+            - 'null'
+    ValueObject.Performance:
+      type: object
+      description: ''
+      deprecated: false
+      properties:
+        pn:
+          type: number
+        paux:
+          type: number
+        cop:
+          type:
+            - number
+            - 'null'
+        rpn:
+          type:
+            - number
+            - 'null'
+        qp0:
+          type:
+            - number
+            - 'null'
+        pveilleuse:
+          type:
+            - number
+            - 'null'
+    ValueObject.Perte:
+      type: object
+      description: ''
+      deprecated: false
+      properties:
+        scenario:
+          type: string
+          enum:
+            - CONVENTIONNEL
+            - DEPENSIER
+        mois:
+          type: string
+          enum:
+            - '01'
+            - '02'
+            - '03'
+            - '04'
+            - '05'
+            - '06'
+            - '07'
+            - '08'
+            - '09'
+            - '10'
+            - '11'
+            - '12'
+        type:
+          type: string
+          enum:
+            - DISTRIBUTION
+            - GENERATION
+            - STOCKAGE
+        pertes:
+          type: number
+        pertes_recuperables:
+          type: number
+    ValueObject.Position:
+      type: object
+      description: ''
+      deprecated: false
+      properties:
+        mitoyennete:
+          type: string
+          enum:
+            - EXTERIEUR
+            - PAROI_ENTERREE
+            - VIDE_SANITAIRE
+            - TERRE_PLEIN
+            - SOUS_SOL_NON_CHAUFFE
+            - LOCAL_NON_CHAUFFE
+            - LOCAL_NON_RESIDENTIEL
+            - LOCAL_RESIDENTIEL
+            - LOCAL_NON_ACCESSIBLE
+        orientation:
+          type: number
+        local_non_chauffe_id:
+          anyOf:
+            - $ref: '#/components/schemas/Id'
+            - type: 'null'
+    ValueObject.Rendement:
+      type: object
+      description: ''
+      deprecated: false
+      properties:
+        scenario:
+          type: string
+          enum:
+            - CONVENTIONNEL
+            - DEPENSIER
+        fecs:
+          type: number
+        iecs:
+          type: number
+        rd:
+          type: number
+        rs:
+          type: number
+        rg:
+          type: number
+        rgs:
+          type: number
+    ValueObject.Reseau:
+      type: object
+      description: ''
+      deprecated: false
+      properties:
+        alimentation_contigues:
+          type: boolean
+        niveaux_desservis:
+          type: integer
+        isolation_reseau:
+          type: string
+          enum:
+            - ISOLE
+            - NON_ISOLE
+            - INCONNU
+        type_bouclage:
+          type: string
+          enum:
+            - INCONNU
+            - RESEAU_NON_BOUCLE
+            - RESEAU_BOUCLE
+            - RESEAU_TRACE
+    ValueObject.Signaletique:
+      type: object
+      description: ''
+      deprecated: false
+      properties:
+        type_chaudiere:
+          type:
+            - string
+            - 'null'
+          enum:
+            - CHAUDIERE_MURALE
+            - CHAUDIERE_SOL
+            - null
+        label:
+          type:
+            - string
+            - 'null'
+          enum:
+            - INCONNU
+            - SANS
+            - NE_PERFORMANCE_A
+            - NE_PERFORMANCE_B
+            - NE_PERFORMANCE_C
+            - null
+        presence_ventouse:
+          type:
+            - boolean
+            - 'null'
+        pn:
+          type:
+            - number
+            - 'null'
+        rpn:
+          type:
+            - number
+            - 'null'
+        qp0:
+          type:
+            - number
+            - 'null'
+        pveilleuse:
+          type:
+            - number
+            - 'null'
+        cop:
+          type:
+            - number
+            - 'null'
+    ValueObject.Solaire:
+      type: object
+      description: ''
+      deprecated: false
+      properties:
+        usage:
+          type: string
+          enum:
+            - ECS
+            - CHAUFFAGE_ECS
+        annee_installation:
+          type:
+            - integer
+            - 'null'
+        fecs:
+          type:
+            - number
+            - 'null'
+    Ventilation.Resource.GenerateurResource:
+      type: object
+      description: ''
+      deprecated: false
+      properties:
+        id:
+          $ref: '#/components/schemas/Id'
+        description:
+          type: string
+        type_ventilation:
+          type: string
+          enum:
+            - VENTILATION_NATURELLE
+            - VENTILATION_MECANIQUE_CENTRALISEE
+            - VENTILATION_MECANIQUE_DIVISEE
+        type:
+          type: string
+          enum:
+            - VMC_SIMPLE_FLUX
+            - VMC_SIMPLE_FLUX_GAZ
+            - VMC_BASSE_PRESSION
+            - VMC_DOUBLE_FLUX
+            - VENTILATION_HYBRIDE
+            - VENTILATION_MECANIQUE
+            - PUIT_CLIMATIQUE
+            - VMI
+            - VMR
+        presence_echangeur_thermique:
+          type: boolean
+        generateur_collectif:
+          type: boolean
+        annee_installation:
+          type:
+            - integer
+            - 'null'
+    Ventilation.Resource.InstallationResource:
+      type: object
+      description: ''
+      deprecated: false
+      properties:
+        id:
+          $ref: '#/components/schemas/Id'
+        surface:
+          type: number
+        systemes:
+          type: array
+          items:
+            $ref: '#/components/schemas/Ventilation.Resource.SystemeResource'
+        consommations:
+          type: array
+          items:
+            $ref: '#/components/schemas/Consommation'
+    Ventilation.Resource.SystemeResource:
+      type: object
+      description: ''
+      deprecated: false
+      properties:
+        id:
+          $ref: '#/components/schemas/Id'
+        generateur_id:
+          anyOf:
+            - $ref: '#/components/schemas/Id'
+            - type: 'null'
+        type:
+          type: string
+          enum:
+            - VENTILATION_NATURELLE
+            - VMC_SIMPLE_FLUX
+            - VMC_SIMPLE_FLUX_GAZ
+            - VMC_BASSE_PRESSION
+            - VMC_DOUBLE_FLUX
+            - VENTILATION_HYBRIDE
+            - VENTILATION_MECANIQUE
+            - PUIT_CLIMATIQUE
+            - VMI
+            - VMR
+        mode_extraction:
+          type:
+            - string
+            - 'null'
+          enum:
+            - AUTOREGLABLE
+            - HYGROREGLABLE
+            - INCONNU
+            - null
+        mode_insufflation:
+          type:
+            - string
+            - 'null'
+          enum:
+            - AUTOREGLABLE
+            - HYGROREGLABLE
+            - INCONNU
+            - null
+        rdim:
+          type:
+            - number
+            - 'null'
+        performance:
+          anyOf:
+            - $ref: '#/components/schemas/Ventilation.ValueObject.Performance'
+            - type: 'null'
+        consommations:
+          type: array
+          items:
+            $ref: '#/components/schemas/Consommation'
+    Ventilation.ValueObject.Performance:
+      type: object
+      description: ''
+      deprecated: false
+      properties:
+        qvarep_conv:
+          type: number
+        qvasouf_conv:
+          type: number
+        smea_conv:
+          type: number
+        ratio_utilisation:
+          type: number
+        pvent_moy:
+          type: number
+        pvent:
+          type: number
+    Ventilation.VentilationResource:
+      type: object
+      description: ''
+      deprecated: false
+      properties:
+        audit_id:
+          $ref: '#/components/schemas/Id'
+        generateurs:
+          type: array
+          items:
+            $ref: '#/components/schemas/Ventilation.Resource.GenerateurResource'
+        installations:
+          type: array
+          items:
+            $ref: '#/components/schemas/Ventilation.Resource.InstallationResource'
+        consommations:
+          type: array
+          items:
+            $ref: '#/components/schemas/Consommation'
+    VentilationResource:
+      type: object
+      description: ''
+      deprecated: false
+      properties:
+        audit_id:
+          $ref: '#/components/schemas/Id'
+        generateurs:
+          type: array
+          items:
+            $ref: '#/components/schemas/Ventilation.Resource.GenerateurResource'
+        installations:
+          type: array
+          items:
+            $ref: '#/components/schemas/Ventilation.Resource.InstallationResource'
+        consommations:
+          type: array
+          items:
+            $ref: '#/components/schemas/Consommation'
+    Visite.VisiteResource:
+      type: object
+      description: ''
+      deprecated: false
+      properties:
+        audit_id:
+          $ref: '#/components/schemas/Id'
+        logements:
+          type: array
+          items:
+            $ref: '#/components/schemas/LogementResource'
+    VisiteResource:
+      type: object
+      description: ''
+      deprecated: false
+      properties:
+        audit_id:
+          $ref: '#/components/schemas/Id'
+        logements:
+          type: array
+          items:
+            $ref: '#/components/schemas/LogementResource'
+  responses: {}
+  parameters: {}
+  examples: {}
+  requestBodies: {}
+  headers: {}
+  securitySchemes: {}
+security: []
+tags: []
+webhooks: {}
