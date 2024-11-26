@@ -1,0 +1,4598 @@
+{
+  "id": {
+    "value": "01936775-5a42-7bd0-82b8-e60e8658ec51"
+  },
+  "audit": {
+    "id": {
+      "value": "2121E1047675A"
+    },
+    "date_creation": "2021-07-01",
+    "adresse": {
+      "libelle": " 6 Lotissement du Pres Maillot",
+      "code_postal": "21570",
+      "commune": "BELAN-SUR-OURCE",
+      "ban_id": null,
+      "rnb_id": null,
+      "code_departement": "21",
+      "zone_climatique": "H1c"
+    },
+    "batiment": {
+      "type": "MAISON",
+      "annee_construction": 1983,
+      "altitude": 350,
+      "logements": 1,
+      "surface_habitable": 100.5,
+      "hauteur_sous_plafond": 2.5,
+      "volume_habitable": 251.25
+    },
+    "logement": {
+      "description": "Logement",
+      "surface_habitable": 100.5,
+      "hauteur_sous_plafond": 2.5
+    },
+    "occupation": {
+      "nadeq": 1.97875,
+      "nmax": 2.5125
+    }
+  },
+  "enveloppe": {
+    "audit_id": {
+      "value": "2121E1047675A"
+    },
+    "exposition": "MULTIPLE",
+    "q4pa_conv": null,
+    "inertie": {
+      "inertie": "LEGERE",
+      "paroi_ancienne": false
+    },
+    "permeabilite": {
+      "hvent": 51.255,
+      "hperm": 65.87907739384866,
+      "q4pa_conv": 1.9
+    },
+    "performance": {
+      "ubat": 0.8459913028887461,
+      "dp": 138.5921736433615,
+      "pt": 10.8567,
+      "dr": 117.13407739384866,
+      "gv": 266.58295103721014,
+      "etat": "MOYENNE"
+    },
+    "locaux_non_chauffes": [
+      {
+        "id": {
+          "value": "01936775-5a17-7db1-ac30-3bbcc1c1c79e"
+        },
+        "description": "Local non chauff\u00e9 non d\u00e9crit",
+        "type": "COMBLE_TRES_FAIBLEMENT_VENTILE",
+        "aiu": 18.97,
+        "aue": 74,
+        "isolation_aiu": true,
+        "isolation_aue": true,
+        "performance": {
+          "uvue": 0.3,
+          "b": 0.8,
+          "bvers": null
+        },
+        "parois": [
+          {
+            "id": {
+              "value": "01936775-5a18-7bad-8b9e-641476fc9e78"
+            },
+            "description": "Paroi non d\u00e9crite",
+            "position": {
+              "orientation": null,
+              "paroi": null,
+              "mitoyennete": "EXTERIEUR"
+            },
+            "surface": 74,
+            "etat_isolation": "ISOLE",
+            "aiu": 0,
+            "aue": 74
+          }
+        ],
+        "baies": [],
+        "ensoleillements": [
+          {
+            "mois": "01",
+            "t": 0,
+            "sst": 0
+          },
+          {
+            "mois": "02",
+            "t": 0,
+            "sst": 0
+          },
+          {
+            "mois": "03",
+            "t": 0,
+            "sst": 0
+          },
+          {
+            "mois": "04",
+            "t": 0,
+            "sst": 0
+          },
+          {
+            "mois": "05",
+            "t": 0,
+            "sst": 0
+          },
+          {
+            "mois": "06",
+            "t": 0,
+            "sst": 0
+          },
+          {
+            "mois": "07",
+            "t": 0,
+            "sst": 0
+          },
+          {
+            "mois": "08",
+            "t": 0,
+            "sst": 0
+          },
+          {
+            "mois": "09",
+            "t": 0,
+            "sst": 0
+          },
+          {
+            "mois": "10",
+            "t": 0,
+            "sst": 0
+          },
+          {
+            "mois": "11",
+            "t": 0,
+            "sst": 0
+          },
+          {
+            "mois": "12",
+            "t": 0,
+            "sst": 0
+          }
+        ]
+      },
+      {
+        "id": {
+          "value": "01936775-5a19-767d-b0c3-d5cce0e1840d"
+        },
+        "description": "Local non chauff\u00e9 non d\u00e9crit",
+        "type": "GARAGE",
+        "aiu": 18,
+        "aue": 63,
+        "isolation_aiu": false,
+        "isolation_aue": false,
+        "performance": {
+          "uvue": 3,
+          "b": 0.8,
+          "bvers": null
+        },
+        "parois": [
+          {
+            "id": {
+              "value": "01936775-5a19-767d-b0c3-d5cce12bd233"
+            },
+            "description": "Paroi non d\u00e9crite",
+            "position": {
+              "orientation": null,
+              "paroi": null,
+              "mitoyennete": "EXTERIEUR"
+            },
+            "surface": 63,
+            "etat_isolation": "NON_ISOLE",
+            "aiu": 0,
+            "aue": 63
+          }
+        ],
+        "baies": [],
+        "ensoleillements": [
+          {
+            "mois": "01",
+            "t": 0,
+            "sst": 0
+          },
+          {
+            "mois": "02",
+            "t": 0,
+            "sst": 0
+          },
+          {
+            "mois": "03",
+            "t": 0,
+            "sst": 0
+          },
+          {
+            "mois": "04",
+            "t": 0,
+            "sst": 0
+          },
+          {
+            "mois": "05",
+            "t": 0,
+            "sst": 0
+          },
+          {
+            "mois": "06",
+            "t": 0,
+            "sst": 0
+          },
+          {
+            "mois": "07",
+            "t": 0,
+            "sst": 0
+          },
+          {
+            "mois": "08",
+            "t": 0,
+            "sst": 0
+          },
+          {
+            "mois": "09",
+            "t": 0,
+            "sst": 0
+          },
+          {
+            "mois": "10",
+            "t": 0,
+            "sst": 0
+          },
+          {
+            "mois": "11",
+            "t": 0,
+            "sst": 0
+          },
+          {
+            "mois": "12",
+            "t": 0,
+            "sst": 0
+          }
+        ]
+      },
+      {
+        "id": {
+          "value": "01936775-5a1c-7546-94fa-2664bb1bbd4f"
+        },
+        "description": "Local non chauff\u00e9 non d\u00e9crit",
+        "type": "COMBLE_TRES_FAIBLEMENT_VENTILE",
+        "aiu": 20.96,
+        "aue": 15.22,
+        "isolation_aiu": true,
+        "isolation_aue": true,
+        "performance": {
+          "uvue": 0.3,
+          "b": 0.45,
+          "bvers": null
+        },
+        "parois": [
+          {
+            "id": {
+              "value": "01936775-5a1c-7546-94fa-2664bb25d96a"
+            },
+            "description": "Paroi non d\u00e9crite",
+            "position": {
+              "orientation": null,
+              "paroi": null,
+              "mitoyennete": "EXTERIEUR"
+            },
+            "surface": 15.22,
+            "etat_isolation": "ISOLE",
+            "aiu": 0,
+            "aue": 15.22
+          }
+        ],
+        "baies": [],
+        "ensoleillements": [
+          {
+            "mois": "01",
+            "t": 0,
+            "sst": 0
+          },
+          {
+            "mois": "02",
+            "t": 0,
+            "sst": 0
+          },
+          {
+            "mois": "03",
+            "t": 0,
+            "sst": 0
+          },
+          {
+            "mois": "04",
+            "t": 0,
+            "sst": 0
+          },
+          {
+            "mois": "05",
+            "t": 0,
+            "sst": 0
+          },
+          {
+            "mois": "06",
+            "t": 0,
+            "sst": 0
+          },
+          {
+            "mois": "07",
+            "t": 0,
+            "sst": 0
+          },
+          {
+            "mois": "08",
+            "t": 0,
+            "sst": 0
+          },
+          {
+            "mois": "09",
+            "t": 0,
+            "sst": 0
+          },
+          {
+            "mois": "10",
+            "t": 0,
+            "sst": 0
+          },
+          {
+            "mois": "11",
+            "t": 0,
+            "sst": 0
+          },
+          {
+            "mois": "12",
+            "t": 0,
+            "sst": 0
+          }
+        ]
+      },
+      {
+        "id": {
+          "value": "01936775-5a1f-7637-9fbc-cc7c6d8997b7"
+        },
+        "description": "Local non chauff\u00e9 non d\u00e9crit",
+        "type": "COMBLE_TRES_FAIBLEMENT_VENTILE",
+        "aiu": 43.3,
+        "aue": 74,
+        "isolation_aiu": true,
+        "isolation_aue": true,
+        "performance": {
+          "uvue": 0.3,
+          "b": 0.7,
+          "bvers": null
+        },
+        "parois": [
+          {
+            "id": {
+              "value": "01936775-5a1f-7637-9fbc-cc7c6e3e46eb"
+            },
+            "description": "Paroi non d\u00e9crite",
+            "position": {
+              "orientation": null,
+              "paroi": null,
+              "mitoyennete": "EXTERIEUR"
+            },
+            "surface": 74,
+            "etat_isolation": "ISOLE",
+            "aiu": 0,
+            "aue": 74
+          }
+        ],
+        "baies": [],
+        "ensoleillements": [
+          {
+            "mois": "01",
+            "t": 0,
+            "sst": 0
+          },
+          {
+            "mois": "02",
+            "t": 0,
+            "sst": 0
+          },
+          {
+            "mois": "03",
+            "t": 0,
+            "sst": 0
+          },
+          {
+            "mois": "04",
+            "t": 0,
+            "sst": 0
+          },
+          {
+            "mois": "05",
+            "t": 0,
+            "sst": 0
+          },
+          {
+            "mois": "06",
+            "t": 0,
+            "sst": 0
+          },
+          {
+            "mois": "07",
+            "t": 0,
+            "sst": 0
+          },
+          {
+            "mois": "08",
+            "t": 0,
+            "sst": 0
+          },
+          {
+            "mois": "09",
+            "t": 0,
+            "sst": 0
+          },
+          {
+            "mois": "10",
+            "t": 0,
+            "sst": 0
+          },
+          {
+            "mois": "11",
+            "t": 0,
+            "sst": 0
+          },
+          {
+            "mois": "12",
+            "t": 0,
+            "sst": 0
+          }
+        ]
+      }
+    ],
+    "murs": [
+      {
+        "id": {
+          "value": "M01O01"
+        },
+        "description": "Mur en blocs de b\u00e9ton creux Ep <=20cm avec isolant (ITI+ITR) Ep=10 cm ",
+        "position": {
+          "mitoyennete": "EXTERIEUR",
+          "orientation": 180,
+          "local_non_chauffe_id": null
+        },
+        "caracteristique": {
+          "type": "BLOC_BETON_CREUX",
+          "type_doublage": "SANS_DOUBLAGE",
+          "inertie": "LEGERE",
+          "surface": 34.68,
+          "presence_enduit_isolant": false,
+          "paroi_ancienne": false,
+          "epaisseur": 20,
+          "annee_construction": null,
+          "annee_renovation": null,
+          "u0": null,
+          "u": null
+        },
+        "isolation": {
+          "etat_isolation": "ISOLE",
+          "type_isolation": "ITI_ITR",
+          "annee_isolation": 1988,
+          "epaisseur_isolation": 100,
+          "resistance_thermique_isolation": null
+        },
+        "surface_deperditive": 34.68,
+        "performance": {
+          "u0": 2.5,
+          "u": 0.3448275862068966,
+          "b": 1,
+          "dp": 11.958620689655174,
+          "etat": "BONNE"
+        }
+      },
+      {
+        "id": {
+          "value": "M01O02"
+        },
+        "description": "Mur en blocs de b\u00e9ton creux Ep <=20cm avec isolant (ITI+ITR) Ep=10 cm ",
+        "position": {
+          "mitoyennete": "EXTERIEUR",
+          "orientation": 270,
+          "local_non_chauffe_id": null
+        },
+        "caracteristique": {
+          "type": "BLOC_BETON_CREUX",
+          "type_doublage": "SANS_DOUBLAGE",
+          "inertie": "LEGERE",
+          "surface": 29.07,
+          "presence_enduit_isolant": false,
+          "paroi_ancienne": false,
+          "epaisseur": 20,
+          "annee_construction": null,
+          "annee_renovation": null,
+          "u0": null,
+          "u": null
+        },
+        "isolation": {
+          "etat_isolation": "ISOLE",
+          "type_isolation": "ITI_ITR",
+          "annee_isolation": 1988,
+          "epaisseur_isolation": 100,
+          "resistance_thermique_isolation": null
+        },
+        "surface_deperditive": 21.279,
+        "performance": {
+          "u0": 2.5,
+          "u": 0.3448275862068966,
+          "b": 1,
+          "dp": 7.337586206896552,
+          "etat": "BONNE"
+        }
+      },
+      {
+        "id": {
+          "value": "M01O03"
+        },
+        "description": "Mur en blocs de b\u00e9ton creux Ep <=20cm avec isolant (ITI+ITR) Ep=10 cm ",
+        "position": {
+          "mitoyennete": "EXTERIEUR",
+          "orientation": 90,
+          "local_non_chauffe_id": null
+        },
+        "caracteristique": {
+          "type": "BLOC_BETON_CREUX",
+          "type_doublage": "SANS_DOUBLAGE",
+          "inertie": "LEGERE",
+          "surface": 29.07,
+          "presence_enduit_isolant": false,
+          "paroi_ancienne": false,
+          "epaisseur": 20,
+          "annee_construction": null,
+          "annee_renovation": null,
+          "u0": null,
+          "u": null
+        },
+        "isolation": {
+          "etat_isolation": "ISOLE",
+          "type_isolation": "ITI_ITR",
+          "annee_isolation": 1988,
+          "epaisseur_isolation": 100,
+          "resistance_thermique_isolation": null
+        },
+        "surface_deperditive": 24.096,
+        "performance": {
+          "u0": 2.5,
+          "u": 0.3448275862068966,
+          "b": 1,
+          "dp": 8.30896551724138,
+          "etat": "BONNE"
+        }
+      },
+      {
+        "id": {
+          "value": "M01O04"
+        },
+        "description": "Mur en blocs de b\u00e9ton creux Ep <=20cm avec isolant (ITI+ITR) Ep=10 cm ",
+        "position": {
+          "mitoyennete": "EXTERIEUR",
+          "orientation": 0,
+          "local_non_chauffe_id": null
+        },
+        "caracteristique": {
+          "type": "BLOC_BETON_CREUX",
+          "type_doublage": "SANS_DOUBLAGE",
+          "inertie": "LEGERE",
+          "surface": 2.37,
+          "presence_enduit_isolant": false,
+          "paroi_ancienne": false,
+          "epaisseur": 20,
+          "annee_construction": null,
+          "annee_renovation": null,
+          "u0": null,
+          "u": null
+        },
+        "isolation": {
+          "etat_isolation": "ISOLE",
+          "type_isolation": "ITI_ITR",
+          "annee_isolation": 1988,
+          "epaisseur_isolation": 100,
+          "resistance_thermique_isolation": null
+        },
+        "surface_deperditive": 2.37,
+        "performance": {
+          "u0": 2.5,
+          "u": 0.3448275862068966,
+          "b": 1,
+          "dp": 0.8172413793103449,
+          "etat": "BONNE"
+        }
+      },
+      {
+        "id": {
+          "value": "M02O06"
+        },
+        "description": "Mur en blocs de b\u00e9ton creux Ep <=20cm avec isolant (ITI) Ep=10 cm ",
+        "position": {
+          "mitoyennete": "LOCAL_NON_CHAUFFE",
+          "orientation": 180,
+          "local_non_chauffe_id": {
+            "value": "01936775-5a17-7db1-ac30-3bbcc1c1c79e"
+          }
+        },
+        "caracteristique": {
+          "type": "BLOC_BETON_CREUX",
+          "type_doublage": "SANS_DOUBLAGE",
+          "inertie": "LEGERE",
+          "surface": 18.97,
+          "presence_enduit_isolant": false,
+          "paroi_ancienne": false,
+          "epaisseur": 20,
+          "annee_construction": null,
+          "annee_renovation": null,
+          "u0": null,
+          "u": null
+        },
+        "isolation": {
+          "etat_isolation": "ISOLE",
+          "type_isolation": "ITI",
+          "annee_isolation": 1988,
+          "epaisseur_isolation": 100,
+          "resistance_thermique_isolation": null
+        },
+        "surface_deperditive": 17.177799999999998,
+        "performance": {
+          "u0": 2.5,
+          "u": 0.3448275862068966,
+          "b": 0.8,
+          "dp": 4.738703448275863,
+          "etat": "BONNE"
+        }
+      },
+      {
+        "id": {
+          "value": "M03O06"
+        },
+        "description": "Mur en b\u00e9ton cellulaire Ep 15cm non isol\u00e9 ",
+        "position": {
+          "mitoyennete": "LOCAL_NON_CHAUFFE",
+          "orientation": 180,
+          "local_non_chauffe_id": {
+            "value": "01936775-5a19-767d-b0c3-d5cce0e1840d"
+          }
+        },
+        "caracteristique": {
+          "type": "BETON_CELLULAIRE",
+          "type_doublage": "SANS_DOUBLAGE",
+          "inertie": "LEGERE",
+          "surface": 18,
+          "presence_enduit_isolant": false,
+          "paroi_ancienne": false,
+          "epaisseur": 15,
+          "annee_construction": null,
+          "annee_renovation": null,
+          "u0": null,
+          "u": null
+        },
+        "isolation": {
+          "etat_isolation": "NON_ISOLE",
+          "type_isolation": null,
+          "annee_isolation": null,
+          "epaisseur_isolation": null,
+          "resistance_thermique_isolation": null
+        },
+        "surface_deperditive": 16.53,
+        "performance": {
+          "u0": 0.9,
+          "u": 0.9,
+          "b": 0.8,
+          "dp": 11.901600000000002,
+          "etat": "INSUFFISANTE"
+        }
+      }
+    ],
+    "planchers_bas": [
+      {
+        "id": {
+          "value": "S01"
+        },
+        "description": "Plancher sur terre-plein non isol\u00e9 ",
+        "position": {
+          "mitoyennete": "TERRE_PLEIN",
+          "local_non_chauffe_id": null
+        },
+        "caracteristique": {
+          "type": "INCONNU",
+          "inertie": "LEGERE",
+          "perimetre": 31,
+          "surface": 79.4,
+          "annee_construction": null,
+          "annee_renovation": null,
+          "u0": null,
+          "u": null
+        },
+        "isolation": {
+          "etat_isolation": "NON_ISOLE",
+          "type_isolation": null,
+          "annee_isolation": null,
+          "epaisseur_isolation": null,
+          "resistance_thermique_isolation": null
+        },
+        "surface_deperditive": 79.4,
+        "performance": {
+          "u0": 2,
+          "u": 0.4968421052631579,
+          "b": 1,
+          "dp": 39.44926315789474,
+          "etat": "MOYENNE"
+        }
+      }
+    ],
+    "planchers_hauts": [
+      {
+        "id": {
+          "value": "T01O06"
+        },
+        "description": "Type de plafond inconnuisol\u00e9 (ITE) Ep=20 cm ",
+        "categorie": "COMBLES_PERDUS",
+        "position": {
+          "mitoyennete": "LOCAL_NON_CHAUFFE",
+          "local_non_chauffe_id": {
+            "value": "01936775-5a1c-7546-94fa-2664bb1bbd4f"
+          },
+          "orientation": null
+        },
+        "caracteristique": {
+          "type": "INCONNU",
+          "inertie": "LEGERE",
+          "surface": 20.96,
+          "annee_construction": null,
+          "annee_renovation": null,
+          "u0": null,
+          "u": null
+        },
+        "isolation": {
+          "etat_isolation": "ISOLE",
+          "type_isolation": "ITE",
+          "annee_isolation": 1988,
+          "epaisseur_isolation": 200,
+          "resistance_thermique_isolation": null
+        },
+        "surface_deperditive": 20.96,
+        "performance": {
+          "u0": 2.5,
+          "u": 0.18518518518518517,
+          "b": 0.45,
+          "dp": 1.7466666666666666,
+          "etat": "BONNE"
+        }
+      },
+      {
+        "id": {
+          "value": "T02O02"
+        },
+        "description": "Combles am\u00e9nag\u00e9s sous rampant isol\u00e9 (ITE) Ep=15 cm ",
+        "categorie": "RAMPANTS",
+        "position": {
+          "mitoyennete": "EXTERIEUR",
+          "local_non_chauffe_id": null,
+          "orientation": null
+        },
+        "caracteristique": {
+          "type": "COMBLES_AMENAGES_SOUS_RAMPANT",
+          "inertie": "LEGERE",
+          "surface": 13.23,
+          "annee_construction": null,
+          "annee_renovation": null,
+          "u0": null,
+          "u": null
+        },
+        "isolation": {
+          "etat_isolation": "ISOLE",
+          "type_isolation": "ITE",
+          "annee_isolation": 1988,
+          "epaisseur_isolation": 150,
+          "resistance_thermique_isolation": null
+        },
+        "surface_deperditive": 13.23,
+        "performance": {
+          "u0": 2.5,
+          "u": 0.24096385542168672,
+          "b": 1,
+          "dp": 3.1879518072289152,
+          "etat": "MOYENNE"
+        }
+      },
+      {
+        "id": {
+          "value": "T02O03"
+        },
+        "description": "Combles am\u00e9nag\u00e9s sous rampant isol\u00e9 (ITE) Ep=15 cm ",
+        "categorie": "RAMPANTS",
+        "position": {
+          "mitoyennete": "EXTERIEUR",
+          "local_non_chauffe_id": null,
+          "orientation": null
+        },
+        "caracteristique": {
+          "type": "COMBLES_AMENAGES_SOUS_RAMPANT",
+          "inertie": "LEGERE",
+          "surface": 13.23,
+          "annee_construction": null,
+          "annee_renovation": null,
+          "u0": null,
+          "u": null
+        },
+        "isolation": {
+          "etat_isolation": "ISOLE",
+          "type_isolation": "ITE",
+          "annee_isolation": 1988,
+          "epaisseur_isolation": 150,
+          "resistance_thermique_isolation": null
+        },
+        "surface_deperditive": 13.23,
+        "performance": {
+          "u0": 2.5,
+          "u": 0.24096385542168672,
+          "b": 1,
+          "dp": 3.1879518072289152,
+          "etat": "MOYENNE"
+        }
+      },
+      {
+        "id": {
+          "value": "T03O06"
+        },
+        "description": "Type de plafond inconnuisol\u00e9 (ITI) Ep=20 cm ",
+        "categorie": "COMBLES_PERDUS",
+        "position": {
+          "mitoyennete": "LOCAL_NON_CHAUFFE",
+          "local_non_chauffe_id": {
+            "value": "01936775-5a1f-7637-9fbc-cc7c6d8997b7"
+          },
+          "orientation": null
+        },
+        "caracteristique": {
+          "type": "INCONNU",
+          "inertie": "LEGERE",
+          "surface": 43.3,
+          "annee_construction": null,
+          "annee_renovation": null,
+          "u0": null,
+          "u": null
+        },
+        "isolation": {
+          "etat_isolation": "ISOLE",
+          "type_isolation": "ITI",
+          "annee_isolation": 1988,
+          "epaisseur_isolation": 200,
+          "resistance_thermique_isolation": null
+        },
+        "surface_deperditive": 43.3,
+        "performance": {
+          "u0": 2.5,
+          "u": 0.18518518518518517,
+          "b": 0.7,
+          "dp": 5.612962962962962,
+          "etat": "BONNE"
+        }
+      }
+    ],
+    "baies": [
+      {
+        "id": {
+          "value": "F01O02"
+        },
+        "description": "Fen.bat. bois double vitrage(VNT) air 12mm Avec ferm. ",
+        "position": {
+          "paroi_id": {
+            "value": "M01O02"
+          },
+          "local_non_chauffe_id": null,
+          "mitoyennete": "EXTERIEUR",
+          "orientation": 270
+        },
+        "caracteristique": {
+          "type": "FENETRE_BATTANTE",
+          "surface": 1.656,
+          "inclinaison": 90,
+          "type_fermeture": "VOLET_BATTANT_PVC_BOIS_EPAISSEUR_GT_22MM",
+          "presence_protection_solaire": false,
+          "annee_installation": null,
+          "presence_soubassement": null,
+          "menuiserie": {
+            "nature": "BOIS",
+            "type_vitrage": "DOUBLE_VITRAGE",
+            "type_pose": "NU_INTERIEUR",
+            "presence_joint": true,
+            "presence_retour_isolation": false,
+            "largeur_dormant": 50,
+            "survitrage": null,
+            "presence_rupteur_pont_thermique": false,
+            "nature_gaz_lame": "AIR",
+            "epaisseur_lame": 12
+          },
+          "ug": null,
+          "uw": null,
+          "ujn": null,
+          "sw": null
+        },
+        "double_fenetre": null,
+        "performance": {
+          "u": 2.4999999999999987,
+          "b": 1,
+          "dp": 4.139999999999998,
+          "etat": "MOYENNE"
+        },
+        "masques_proches": [],
+        "masques_lointains": [],
+        "ensoleillements": [
+          {
+            "mois": "01",
+            "fe": 1,
+            "sw": 0.47,
+            "c1": 0.46,
+            "sse": 0.3580272
+          },
+          {
+            "mois": "02",
+            "fe": 1,
+            "sw": 0.47,
+            "c1": 0.48,
+            "sse": 0.3735935999999999
+          },
+          {
+            "mois": "03",
+            "fe": 1,
+            "sw": 0.47,
+            "c1": 0.64,
+            "sse": 0.4981247999999999
+          },
+          {
+            "mois": "04",
+            "fe": 1,
+            "sw": 0.47,
+            "c1": 0.6,
+            "sse": 0.4669919999999999
+          },
+          {
+            "mois": "05",
+            "fe": 1,
+            "sw": 0.47,
+            "c1": 1.22,
+            "sse": 0.9495503999999999
+          },
+          {
+            "mois": "06",
+            "fe": 1,
+            "sw": 0.47,
+            "c1": 1.26,
+            "sse": 0.9806831999999999
+          },
+          {
+            "mois": "07",
+            "fe": 1,
+            "sw": 0.47,
+            "c1": 1.26,
+            "sse": 0.9806831999999999
+          },
+          {
+            "mois": "08",
+            "fe": 1,
+            "sw": 0.47,
+            "c1": 1.03,
+            "sse": 0.8016695999999999
+          },
+          {
+            "mois": "09",
+            "fe": 1,
+            "sw": 0.47,
+            "c1": 0.78,
+            "sse": 0.6070895999999999
+          },
+          {
+            "mois": "10",
+            "fe": 1,
+            "sw": 0.47,
+            "c1": 0.62,
+            "sse": 0.48255839999999994
+          },
+          {
+            "mois": "11",
+            "fe": 1,
+            "sw": 0.47,
+            "c1": 0.53,
+            "sse": 0.4125096
+          },
+          {
+            "mois": "12",
+            "fe": 1,
+            "sw": 0.47,
+            "c1": 0.42,
+            "sse": 0.3268944
+          }
+        ]
+      },
+      {
+        "id": {
+          "value": "F01O02"
+        },
+        "description": "Fen.bat. bois double vitrage(VNT) air 12mm Avec ferm. ",
+        "position": {
+          "paroi_id": {
+            "value": "M01O02"
+          },
+          "local_non_chauffe_id": null,
+          "mitoyennete": "EXTERIEUR",
+          "orientation": 270
+        },
+        "caracteristique": {
+          "type": "FENETRE_BATTANTE",
+          "surface": 1.656,
+          "inclinaison": 90,
+          "type_fermeture": "VOLET_BATTANT_PVC_BOIS_EPAISSEUR_GT_22MM",
+          "presence_protection_solaire": false,
+          "annee_installation": null,
+          "presence_soubassement": null,
+          "menuiserie": {
+            "nature": "BOIS",
+            "type_vitrage": "DOUBLE_VITRAGE",
+            "type_pose": "NU_INTERIEUR",
+            "presence_joint": true,
+            "presence_retour_isolation": false,
+            "largeur_dormant": 50,
+            "survitrage": null,
+            "presence_rupteur_pont_thermique": false,
+            "nature_gaz_lame": "AIR",
+            "epaisseur_lame": 12
+          },
+          "ug": null,
+          "uw": null,
+          "ujn": null,
+          "sw": null
+        },
+        "double_fenetre": null,
+        "performance": {
+          "u": 2.4999999999999987,
+          "b": 1,
+          "dp": 4.139999999999998,
+          "etat": "MOYENNE"
+        },
+        "masques_proches": [],
+        "masques_lointains": [],
+        "ensoleillements": [
+          {
+            "mois": "01",
+            "fe": 1,
+            "sw": 0.47,
+            "c1": 0.46,
+            "sse": 0.3580272
+          },
+          {
+            "mois": "02",
+            "fe": 1,
+            "sw": 0.47,
+            "c1": 0.48,
+            "sse": 0.3735935999999999
+          },
+          {
+            "mois": "03",
+            "fe": 1,
+            "sw": 0.47,
+            "c1": 0.64,
+            "sse": 0.4981247999999999
+          },
+          {
+            "mois": "04",
+            "fe": 1,
+            "sw": 0.47,
+            "c1": 0.6,
+            "sse": 0.4669919999999999
+          },
+          {
+            "mois": "05",
+            "fe": 1,
+            "sw": 0.47,
+            "c1": 1.22,
+            "sse": 0.9495503999999999
+          },
+          {
+            "mois": "06",
+            "fe": 1,
+            "sw": 0.47,
+            "c1": 1.26,
+            "sse": 0.9806831999999999
+          },
+          {
+            "mois": "07",
+            "fe": 1,
+            "sw": 0.47,
+            "c1": 1.26,
+            "sse": 0.9806831999999999
+          },
+          {
+            "mois": "08",
+            "fe": 1,
+            "sw": 0.47,
+            "c1": 1.03,
+            "sse": 0.8016695999999999
+          },
+          {
+            "mois": "09",
+            "fe": 1,
+            "sw": 0.47,
+            "c1": 0.78,
+            "sse": 0.6070895999999999
+          },
+          {
+            "mois": "10",
+            "fe": 1,
+            "sw": 0.47,
+            "c1": 0.62,
+            "sse": 0.48255839999999994
+          },
+          {
+            "mois": "11",
+            "fe": 1,
+            "sw": 0.47,
+            "c1": 0.53,
+            "sse": 0.4125096
+          },
+          {
+            "mois": "12",
+            "fe": 1,
+            "sw": 0.47,
+            "c1": 0.42,
+            "sse": 0.3268944
+          }
+        ]
+      },
+      {
+        "id": {
+          "value": "F02O02"
+        },
+        "description": "PF. avec soub. bois double vitrage(VNT) air 12mm Avec ferm. ",
+        "position": {
+          "paroi_id": {
+            "value": "M01O02"
+          },
+          "local_non_chauffe_id": null,
+          "mitoyennete": "EXTERIEUR",
+          "orientation": 270
+        },
+        "caracteristique": {
+          "type": "PORTE_FENETRE_BATTANTE",
+          "surface": 2.736,
+          "inclinaison": 90,
+          "type_fermeture": "VOLET_BATTANT_PVC_BOIS_EPAISSEUR_GT_22MM",
+          "presence_protection_solaire": false,
+          "annee_installation": null,
+          "presence_soubassement": true,
+          "menuiserie": {
+            "nature": "BOIS",
+            "type_vitrage": "DOUBLE_VITRAGE",
+            "type_pose": "NU_INTERIEUR",
+            "presence_joint": true,
+            "presence_retour_isolation": false,
+            "largeur_dormant": 50,
+            "survitrage": null,
+            "presence_rupteur_pont_thermique": false,
+            "nature_gaz_lame": "AIR",
+            "epaisseur_lame": 12
+          },
+          "ug": null,
+          "uw": null,
+          "ujn": null,
+          "sw": null
+        },
+        "double_fenetre": null,
+        "performance": {
+          "u": 2,
+          "b": 1,
+          "dp": 5.472,
+          "etat": "BONNE"
+        },
+        "masques_proches": [],
+        "masques_lointains": [],
+        "ensoleillements": [
+          {
+            "mois": "01",
+            "fe": 1,
+            "sw": 0.43,
+            "c1": 0.46,
+            "sse": 0.5411808
+          },
+          {
+            "mois": "02",
+            "fe": 1,
+            "sw": 0.43,
+            "c1": 0.48,
+            "sse": 0.5647104
+          },
+          {
+            "mois": "03",
+            "fe": 1,
+            "sw": 0.43,
+            "c1": 0.64,
+            "sse": 0.7529472
+          },
+          {
+            "mois": "04",
+            "fe": 1,
+            "sw": 0.43,
+            "c1": 0.6,
+            "sse": 0.705888
+          },
+          {
+            "mois": "05",
+            "fe": 1,
+            "sw": 0.43,
+            "c1": 1.22,
+            "sse": 1.4353056
+          },
+          {
+            "mois": "06",
+            "fe": 1,
+            "sw": 0.43,
+            "c1": 1.26,
+            "sse": 1.4823648
+          },
+          {
+            "mois": "07",
+            "fe": 1,
+            "sw": 0.43,
+            "c1": 1.26,
+            "sse": 1.4823648
+          },
+          {
+            "mois": "08",
+            "fe": 1,
+            "sw": 0.43,
+            "c1": 1.03,
+            "sse": 1.2117744
+          },
+          {
+            "mois": "09",
+            "fe": 1,
+            "sw": 0.43,
+            "c1": 0.78,
+            "sse": 0.9176544
+          },
+          {
+            "mois": "10",
+            "fe": 1,
+            "sw": 0.43,
+            "c1": 0.62,
+            "sse": 0.7294176
+          },
+          {
+            "mois": "11",
+            "fe": 1,
+            "sw": 0.43,
+            "c1": 0.53,
+            "sse": 0.6235344
+          },
+          {
+            "mois": "12",
+            "fe": 1,
+            "sw": 0.43,
+            "c1": 0.42,
+            "sse": 0.4941216
+          }
+        ]
+      },
+      {
+        "id": {
+          "value": "F03O03"
+        },
+        "description": "Fen.bat. bois double vitrage(VNT) air 12mm Avec ferm. ",
+        "position": {
+          "paroi_id": {
+            "value": "M01O03"
+          },
+          "local_non_chauffe_id": null,
+          "mitoyennete": "EXTERIEUR",
+          "orientation": 90
+        },
+        "caracteristique": {
+          "type": "FENETRE_BATTANTE",
+          "surface": 1.656,
+          "inclinaison": 90,
+          "type_fermeture": "VOLET_BATTANT_PVC_BOIS_EPAISSEUR_GT_22MM",
+          "presence_protection_solaire": false,
+          "annee_installation": null,
+          "presence_soubassement": null,
+          "menuiserie": {
+            "nature": "BOIS",
+            "type_vitrage": "DOUBLE_VITRAGE",
+            "type_pose": "NU_INTERIEUR",
+            "presence_joint": true,
+            "presence_retour_isolation": false,
+            "largeur_dormant": 50,
+            "survitrage": null,
+            "presence_rupteur_pont_thermique": false,
+            "nature_gaz_lame": "AIR",
+            "epaisseur_lame": 12
+          },
+          "ug": null,
+          "uw": null,
+          "ujn": null,
+          "sw": null
+        },
+        "double_fenetre": null,
+        "performance": {
+          "u": 2.4999999999999987,
+          "b": 1,
+          "dp": 4.139999999999998,
+          "etat": "MOYENNE"
+        },
+        "masques_proches": [],
+        "masques_lointains": [],
+        "ensoleillements": [
+          {
+            "mois": "01",
+            "fe": 1,
+            "sw": 0.47,
+            "c1": 0.49,
+            "sse": 0.38137679999999996
+          },
+          {
+            "mois": "02",
+            "fe": 1,
+            "sw": 0.47,
+            "c1": 0.47,
+            "sse": 0.3658103999999999
+          },
+          {
+            "mois": "03",
+            "fe": 1,
+            "sw": 0.47,
+            "c1": 0.58,
+            "sse": 0.4514255999999999
+          },
+          {
+            "mois": "04",
+            "fe": 1,
+            "sw": 0.47,
+            "c1": 1.09,
+            "sse": 0.8483687999999999
+          },
+          {
+            "mois": "05",
+            "fe": 1,
+            "sw": 0.47,
+            "c1": 1,
+            "sse": 0.7783199999999999
+          },
+          {
+            "mois": "06",
+            "fe": 1,
+            "sw": 0.47,
+            "c1": 1.2,
+            "sse": 0.9339839999999998
+          },
+          {
+            "mois": "07",
+            "fe": 1,
+            "sw": 0.47,
+            "c1": 1.1,
+            "sse": 0.8561519999999999
+          },
+          {
+            "mois": "08",
+            "fe": 1,
+            "sw": 0.47,
+            "c1": 0.9,
+            "sse": 0.7004879999999999
+          },
+          {
+            "mois": "09",
+            "fe": 1,
+            "sw": 0.47,
+            "c1": 0.67,
+            "sse": 0.5214744
+          },
+          {
+            "mois": "10",
+            "fe": 1,
+            "sw": 0.47,
+            "c1": 0.47,
+            "sse": 0.3658103999999999
+          },
+          {
+            "mois": "11",
+            "fe": 1,
+            "sw": 0.47,
+            "c1": 0.42,
+            "sse": 0.3268944
+          },
+          {
+            "mois": "12",
+            "fe": 1,
+            "sw": 0.47,
+            "c1": 0.35,
+            "sse": 0.27241199999999993
+          }
+        ]
+      },
+      {
+        "id": {
+          "value": "F04O03"
+        },
+        "description": "PF. avec soub. bois double vitrage(VNT) air 12mm Avec ferm. ",
+        "position": {
+          "paroi_id": {
+            "value": "M01O03"
+          },
+          "local_non_chauffe_id": null,
+          "mitoyennete": "EXTERIEUR",
+          "orientation": 90
+        },
+        "caracteristique": {
+          "type": "PORTE_FENETRE_BATTANTE",
+          "surface": 2.736,
+          "inclinaison": 90,
+          "type_fermeture": "VOLET_BATTANT_PVC_BOIS_EPAISSEUR_GT_22MM",
+          "presence_protection_solaire": false,
+          "annee_installation": null,
+          "presence_soubassement": true,
+          "menuiserie": {
+            "nature": "BOIS",
+            "type_vitrage": "DOUBLE_VITRAGE",
+            "type_pose": "NU_INTERIEUR",
+            "presence_joint": true,
+            "presence_retour_isolation": false,
+            "largeur_dormant": 50,
+            "survitrage": null,
+            "presence_rupteur_pont_thermique": false,
+            "nature_gaz_lame": "AIR",
+            "epaisseur_lame": 12
+          },
+          "ug": null,
+          "uw": null,
+          "ujn": null,
+          "sw": null
+        },
+        "double_fenetre": null,
+        "performance": {
+          "u": 2,
+          "b": 1,
+          "dp": 5.472,
+          "etat": "BONNE"
+        },
+        "masques_proches": [],
+        "masques_lointains": [],
+        "ensoleillements": [
+          {
+            "mois": "01",
+            "fe": 1,
+            "sw": 0.43,
+            "c1": 0.49,
+            "sse": 0.5764752
+          },
+          {
+            "mois": "02",
+            "fe": 1,
+            "sw": 0.43,
+            "c1": 0.47,
+            "sse": 0.5529455999999999
+          },
+          {
+            "mois": "03",
+            "fe": 1,
+            "sw": 0.43,
+            "c1": 0.58,
+            "sse": 0.6823583999999999
+          },
+          {
+            "mois": "04",
+            "fe": 1,
+            "sw": 0.43,
+            "c1": 1.09,
+            "sse": 1.2823632
+          },
+          {
+            "mois": "05",
+            "fe": 1,
+            "sw": 0.43,
+            "c1": 1,
+            "sse": 1.17648
+          },
+          {
+            "mois": "06",
+            "fe": 1,
+            "sw": 0.43,
+            "c1": 1.2,
+            "sse": 1.411776
+          },
+          {
+            "mois": "07",
+            "fe": 1,
+            "sw": 0.43,
+            "c1": 1.1,
+            "sse": 1.2941280000000002
+          },
+          {
+            "mois": "08",
+            "fe": 1,
+            "sw": 0.43,
+            "c1": 0.9,
+            "sse": 1.058832
+          },
+          {
+            "mois": "09",
+            "fe": 1,
+            "sw": 0.43,
+            "c1": 0.67,
+            "sse": 0.7882416
+          },
+          {
+            "mois": "10",
+            "fe": 1,
+            "sw": 0.43,
+            "c1": 0.47,
+            "sse": 0.5529455999999999
+          },
+          {
+            "mois": "11",
+            "fe": 1,
+            "sw": 0.43,
+            "c1": 0.42,
+            "sse": 0.4941216
+          },
+          {
+            "mois": "12",
+            "fe": 1,
+            "sw": 0.43,
+            "c1": 0.35,
+            "sse": 0.41176799999999997
+          }
+        ]
+      },
+      {
+        "id": {
+          "value": "F05O03"
+        },
+        "description": "Fen.bat.\/ocil. bois double vitrage(VNT) air 12mm Sans volet ",
+        "position": {
+          "paroi_id": {
+            "value": "M01O03"
+          },
+          "local_non_chauffe_id": null,
+          "mitoyennete": "EXTERIEUR",
+          "orientation": 90
+        },
+        "caracteristique": {
+          "type": "FENETRE_BATTANTE",
+          "surface": 0.582,
+          "inclinaison": 90,
+          "type_fermeture": "SANS_FERMETURE",
+          "presence_protection_solaire": false,
+          "annee_installation": null,
+          "presence_soubassement": null,
+          "menuiserie": {
+            "nature": "BOIS",
+            "type_vitrage": "DOUBLE_VITRAGE",
+            "type_pose": "NU_INTERIEUR",
+            "presence_joint": true,
+            "presence_retour_isolation": false,
+            "largeur_dormant": 50,
+            "survitrage": null,
+            "presence_rupteur_pont_thermique": false,
+            "nature_gaz_lame": "AIR",
+            "epaisseur_lame": 12
+          },
+          "ug": null,
+          "uw": null,
+          "ujn": null,
+          "sw": null
+        },
+        "double_fenetre": null,
+        "performance": {
+          "u": 2.9999999999999987,
+          "b": 1,
+          "dp": 1.745999999999999,
+          "etat": "MOYENNE"
+        },
+        "masques_proches": [],
+        "masques_lointains": [],
+        "ensoleillements": [
+          {
+            "mois": "01",
+            "fe": 1,
+            "sw": 0.47,
+            "c1": 0.49,
+            "sse": 0.13403459999999998
+          },
+          {
+            "mois": "02",
+            "fe": 1,
+            "sw": 0.47,
+            "c1": 0.47,
+            "sse": 0.12856379999999998
+          },
+          {
+            "mois": "03",
+            "fe": 1,
+            "sw": 0.47,
+            "c1": 0.58,
+            "sse": 0.15865319999999997
+          },
+          {
+            "mois": "04",
+            "fe": 1,
+            "sw": 0.47,
+            "c1": 1.09,
+            "sse": 0.29815859999999994
+          },
+          {
+            "mois": "05",
+            "fe": 1,
+            "sw": 0.47,
+            "c1": 1,
+            "sse": 0.27353999999999995
+          },
+          {
+            "mois": "06",
+            "fe": 1,
+            "sw": 0.47,
+            "c1": 1.2,
+            "sse": 0.32824799999999993
+          },
+          {
+            "mois": "07",
+            "fe": 1,
+            "sw": 0.47,
+            "c1": 1.1,
+            "sse": 0.300894
+          },
+          {
+            "mois": "08",
+            "fe": 1,
+            "sw": 0.47,
+            "c1": 0.9,
+            "sse": 0.24618599999999996
+          },
+          {
+            "mois": "09",
+            "fe": 1,
+            "sw": 0.47,
+            "c1": 0.67,
+            "sse": 0.18327179999999998
+          },
+          {
+            "mois": "10",
+            "fe": 1,
+            "sw": 0.47,
+            "c1": 0.47,
+            "sse": 0.12856379999999998
+          },
+          {
+            "mois": "11",
+            "fe": 1,
+            "sw": 0.47,
+            "c1": 0.42,
+            "sse": 0.11488679999999997
+          },
+          {
+            "mois": "12",
+            "fe": 1,
+            "sw": 0.47,
+            "c1": 0.35,
+            "sse": 0.09573899999999998
+          }
+        ]
+      }
+    ],
+    "portes": [
+      {
+        "id": {
+          "value": "P01O02"
+        },
+        "description": "Porte en bois avec double vitrage ",
+        "position": {
+          "paroi_id": {
+            "value": "M01O02"
+          },
+          "local_non_chauffe_id": null,
+          "mitoyennete": "EXTERIEUR",
+          "orientation": null
+        },
+        "caracteristique": {
+          "surface": 1.743,
+          "isolation": "NON_ISOLE",
+          "nature_menuiserie": "BOIS",
+          "type_pose": "NU_INTERIEUR",
+          "taux_vitrage": 0,
+          "largeur_dormant": 50,
+          "presence_sas": false,
+          "presence_joint": true,
+          "presence_retour_isolation": false,
+          "annee_installation": null,
+          "type_vitrage": "DOUBLE_VITRAGE",
+          "u": null
+        },
+        "performance": {
+          "u": 3.5,
+          "b": 1,
+          "dp": 6.1005,
+          "etat": "INSUFFISANTE"
+        }
+      },
+      {
+        "id": {
+          "value": "P02O06"
+        },
+        "description": "Porte en PVC avec double vitrage ",
+        "position": {
+          "paroi_id": {
+            "value": "M02O06"
+          },
+          "local_non_chauffe_id": null,
+          "mitoyennete": "LOCAL_NON_CHAUFFE",
+          "orientation": null
+        },
+        "caracteristique": {
+          "surface": 1.7922,
+          "isolation": "NON_ISOLE",
+          "nature_menuiserie": "PVC",
+          "type_pose": "NU_INTERIEUR",
+          "taux_vitrage": 30,
+          "largeur_dormant": 50,
+          "presence_sas": false,
+          "presence_joint": true,
+          "presence_retour_isolation": false,
+          "annee_installation": null,
+          "type_vitrage": "DOUBLE_VITRAGE",
+          "u": null
+        },
+        "performance": {
+          "u": 3.5,
+          "b": 0.8,
+          "dp": 5.018160000000001,
+          "etat": "INSUFFISANTE"
+        }
+      },
+      {
+        "id": {
+          "value": "P03O06"
+        },
+        "description": "Porte opaque pleine simple en bois ",
+        "position": {
+          "paroi_id": {
+            "value": "M03O06"
+          },
+          "local_non_chauffe_id": null,
+          "mitoyennete": "LOCAL_NON_CHAUFFE",
+          "orientation": null
+        },
+        "caracteristique": {
+          "surface": 1.47,
+          "isolation": "NON_ISOLE",
+          "nature_menuiserie": "BOIS",
+          "type_pose": "NU_INTERIEUR",
+          "taux_vitrage": 0,
+          "largeur_dormant": 50,
+          "presence_sas": false,
+          "presence_joint": true,
+          "presence_retour_isolation": false,
+          "annee_installation": null,
+          "type_vitrage": null,
+          "u": null
+        },
+        "performance": {
+          "u": 3.5,
+          "b": 0.8,
+          "dp": 4.116,
+          "etat": "INSUFFISANTE"
+        }
+      }
+    ],
+    "ponts_thermiques": [
+      {
+        "id": {
+          "value": "i01j01num01"
+        },
+        "description": "Liaison Mur ext\u00e9rieur \/ Plancher bas",
+        "longueur": 31.07,
+        "liaison": {
+          "type": "PLANCHER_BAS_MUR",
+          "pont_thermique_partiel": false,
+          "mur_id": {
+            "value": "M01O02"
+          },
+          "plancher_id": {
+            "value": "S01"
+          },
+          "ouverture_id": null
+        },
+        "kpt": null,
+        "performance": {
+          "kpt": 0.31,
+          "pt": 9.6317
+        }
+      },
+      {
+        "id": {
+          "value": "i06num001"
+        },
+        "description": "Liaison Mur ext\u00e9rieur \/ Fen\u00eatre et Portes-fen\u00eatre",
+        "longueur": 10.32,
+        "liaison": {
+          "type": "MENUISERIE_MUR",
+          "pont_thermique_partiel": false,
+          "mur_id": {
+            "value": "M01O02"
+          },
+          "plancher_id": null,
+          "ouverture_id": {
+            "value": "F01O02"
+          }
+        },
+        "kpt": null,
+        "performance": {
+          "kpt": 0,
+          "pt": 0
+        }
+      },
+      {
+        "id": {
+          "value": "i06num002"
+        },
+        "description": "Liaison Mur ext\u00e9rieur \/ Fen\u00eatre et Portes-fen\u00eatre",
+        "longueur": 5.76,
+        "liaison": {
+          "type": "MENUISERIE_MUR",
+          "pont_thermique_partiel": false,
+          "mur_id": {
+            "value": "M01O02"
+          },
+          "plancher_id": null,
+          "ouverture_id": {
+            "value": "F02O02"
+          }
+        },
+        "kpt": null,
+        "performance": {
+          "kpt": 0,
+          "pt": 0
+        }
+      },
+      {
+        "id": {
+          "value": "i06num003"
+        },
+        "description": "Liaison Mur ext\u00e9rieur \/ Fen\u00eatre et Portes-fen\u00eatre",
+        "longueur": 5.16,
+        "liaison": {
+          "type": "MENUISERIE_MUR",
+          "pont_thermique_partiel": false,
+          "mur_id": {
+            "value": "M01O03"
+          },
+          "plancher_id": null,
+          "ouverture_id": {
+            "value": "F03O03"
+          }
+        },
+        "kpt": null,
+        "performance": {
+          "kpt": 0,
+          "pt": 0
+        }
+      },
+      {
+        "id": {
+          "value": "i06num004"
+        },
+        "description": "Liaison Mur ext\u00e9rieur \/ Fen\u00eatre et Portes-fen\u00eatre",
+        "longueur": 5.76,
+        "liaison": {
+          "type": "MENUISERIE_MUR",
+          "pont_thermique_partiel": false,
+          "mur_id": {
+            "value": "M01O03"
+          },
+          "plancher_id": null,
+          "ouverture_id": {
+            "value": "F04O03"
+          }
+        },
+        "kpt": null,
+        "performance": {
+          "kpt": 0,
+          "pt": 0
+        }
+      },
+      {
+        "id": {
+          "value": "i06num005"
+        },
+        "description": "Liaison Mur ext\u00e9rieur \/ Fen\u00eatre et Portes-fen\u00eatre",
+        "longueur": 3.14,
+        "liaison": {
+          "type": "MENUISERIE_MUR",
+          "pont_thermique_partiel": false,
+          "mur_id": {
+            "value": "M01O03"
+          },
+          "plancher_id": null,
+          "ouverture_id": {
+            "value": "F05O03"
+          }
+        },
+        "kpt": null,
+        "performance": {
+          "kpt": 0,
+          "pt": 0
+        }
+      },
+      {
+        "id": {
+          "value": "i07num001"
+        },
+        "description": "Liaison Mur \/ Portes",
+        "longueur": 5.03,
+        "liaison": {
+          "type": "MENUISERIE_MUR",
+          "pont_thermique_partiel": false,
+          "mur_id": {
+            "value": "M01O02"
+          },
+          "plancher_id": null,
+          "ouverture_id": {
+            "value": "P01O02"
+          }
+        },
+        "kpt": null,
+        "performance": {
+          "kpt": 0,
+          "pt": 0
+        }
+      },
+      {
+        "id": {
+          "value": "i07num002"
+        },
+        "description": "Liaison Mur \/ Portes",
+        "longueur": 4.99,
+        "liaison": {
+          "type": "MENUISERIE_MUR",
+          "pont_thermique_partiel": false,
+          "mur_id": {
+            "value": "M02O06"
+          },
+          "plancher_id": null,
+          "ouverture_id": {
+            "value": "P02O06"
+          }
+        },
+        "kpt": null,
+        "performance": {
+          "kpt": 0,
+          "pt": 0
+        }
+      },
+      {
+        "id": {
+          "value": "i07num003"
+        },
+        "description": "Liaison Mur \/ Portes",
+        "longueur": 4.9,
+        "liaison": {
+          "type": "MENUISERIE_MUR",
+          "pont_thermique_partiel": false,
+          "mur_id": {
+            "value": "M03O06"
+          },
+          "plancher_id": null,
+          "ouverture_id": {
+            "value": "P03O06"
+          }
+        },
+        "kpt": null,
+        "performance": {
+          "kpt": 0.25,
+          "pt": 1.225
+        }
+      }
+    ],
+    "refends": [],
+    "planchers_intermediaires": [],
+    "apports": [
+      {
+        "mois": "01",
+        "scenario": "CONVENTIONNEL",
+        "f": 0.15589264757386181,
+        "apport": 478250.21595514286,
+        "apport_interne": 365821.24660714285,
+        "apport_solaire": 112428.96934800001,
+        "apport_fr": 0,
+        "apport_interne_fr": 0,
+        "apport_solaire_fr": 0,
+        "sse": 2.3491218000000003
+      },
+      {
+        "mois": "02",
+        "scenario": "CONVENTIONNEL",
+        "f": 0.1681247444017055,
+        "apport": 463637.1726599999,
+        "apport_interne": 331756.92,
+        "apport_solaire": 131880.25265999997,
+        "apport_fr": 0,
+        "apport_interne_fr": 0,
+        "apport_solaire_fr": 0,
+        "sse": 2.3592173999999995
+      },
+      {
+        "mois": "03",
+        "scenario": "CONVENTIONNEL",
+        "f": 0.28148712844894386,
+        "apport": 637787.7225857142,
+        "apport_interne": 360390.70178571425,
+        "apport_solaire": 277397.02079999994,
+        "apport_fr": 0,
+        "apport_interne_fr": 0,
+        "apport_solaire_fr": 0,
+        "sse": 3.0416339999999997
+      },
+      {
+        "mois": "04",
+        "scenario": "CONVENTIONNEL",
+        "f": 0.38977937225149356,
+        "apport": 669249.6279865714,
+        "apport_interne": 315958.97142857144,
+        "apport_solaire": 353290.65655799996,
+        "apport_fr": 0,
+        "apport_interne_fr": 0,
+        "apport_solaire_fr": 0,
+        "sse": 4.0687625999999995
+      },
+      {
+        "mois": "05",
+        "scenario": "CONVENTIONNEL",
+        "f": 1,
+        "apport": 700213.7393117142,
+        "apport_interne": 246349.26053571427,
+        "apport_solaire": 453864.4787759999,
+        "apport_fr": 21082.74605485714,
+        "apport_interne_fr": 3949.4871428571428,
+        "apport_solaire_fr": 17133.258911999998,
+        "sse": 5.562746399999999
+      },
+      {
+        "mois": "06",
+        "scenario": "CONVENTIONNEL",
+        "f": 0.5873310579008738,
+        "apport": 104793.92527285714,
+        "apport_interne": 35051.69839285714,
+        "apport_solaire": 69742.22688,
+        "apport_fr": 94898.87363142858,
+        "apport_interne_fr": 22709.55107142857,
+        "apport_solaire_fr": 72189.32256,
+        "sse": 6.1177392
+      },
+      {
+        "mois": "07",
+        "scenario": "CONVENTIONNEL",
+        "f": 0,
+        "apport": 0,
+        "apport_interne": 0,
+        "apport_solaire": 0,
+        "apport_fr": 191524.3771954286,
+        "apport_interne_fr": 43444.35857142857,
+        "apport_solaire_fr": 148080.01862400002,
+        "sse": 5.8949052
+      },
+      {
+        "mois": "08",
+        "scenario": "CONVENTIONNEL",
+        "f": 0,
+        "apport": 0,
+        "apport_interne": 0,
+        "apport_solaire": 0,
+        "apport_fr": 200824.25411400004,
+        "apport_interne_fr": 44925.41625,
+        "apport_solaire_fr": 155898.83786400003,
+        "sse": 4.8206196
+      },
+      {
+        "mois": "09",
+        "scenario": "CONVENTIONNEL",
+        "f": 0,
+        "apport": 0,
+        "apport_interne": 0,
+        "apport_solaire": 0,
+        "apport_fr": 15498.878305714286,
+        "apport_interne_fr": 4443.173035714286,
+        "apport_solaire_fr": 11055.70527,
+        "sse": 3.6248214
+      },
+      {
+        "mois": "10",
+        "scenario": "CONVENTIONNEL",
+        "f": 0.29274394399567427,
+        "apport": 302459.3459134286,
+        "apport_interne": 195499.61357142858,
+        "apport_solaire": 106959.73234199997,
+        "apport_fr": 0,
+        "apport_interne_fr": 0,
+        "apport_solaire_fr": 0,
+        "sse": 2.7418541999999992
+      },
+      {
+        "mois": "11",
+        "scenario": "CONVENTIONNEL",
+        "f": 0.20594373580776687,
+        "apport": 463085.5100425714,
+        "apport_interne": 353972.7851785714,
+        "apport_solaire": 109112.724864,
+        "apport_fr": 0,
+        "apport_interne_fr": 0,
+        "apport_solaire_fr": 0,
+        "sse": 2.3844564
+      },
+      {
+        "mois": "12",
+        "scenario": "CONVENTIONNEL",
+        "f": 0.1415589347044465,
+        "apport": 432058.0938317143,
+        "apport_interne": 367302.3042857143,
+        "apport_solaire": 64755.789546,
+        "apport_fr": 0,
+        "apport_interne_fr": 0,
+        "apport_solaire_fr": 0,
+        "sse": 1.9278293999999998
+      },
+      {
+        "mois": "01",
+        "scenario": "DEPENSIER",
+        "f": 0.13882486420386694,
+        "apport": 479731.2736337143,
+        "apport_interne": 367302.3042857143,
+        "apport_solaire": 112428.96934800001,
+        "apport_fr": 0,
+        "apport_interne_fr": 0,
+        "apport_solaire_fr": 0,
+        "sse": 2.3491218000000003
+      },
+      {
+        "mois": "02",
+        "scenario": "DEPENSIER",
+        "f": 0.14922521632763258,
+        "apport": 463637.1726599999,
+        "apport_interne": 331756.92,
+        "apport_solaire": 131880.25265999997,
+        "apport_fr": 0,
+        "apport_interne_fr": 0,
+        "apport_solaire_fr": 0,
+        "sse": 2.3592173999999995
+      },
+      {
+        "mois": "03",
+        "scenario": "DEPENSIER",
+        "f": 0.24374587864284086,
+        "apport": 644205.6391928571,
+        "apport_interne": 366808.61839285714,
+        "apport_solaire": 277397.02079999994,
+        "apport_fr": 0,
+        "apport_interne_fr": 0,
+        "apport_solaire_fr": 0,
+        "sse": 3.0416339999999997
+      },
+      {
+        "mois": "04",
+        "scenario": "DEPENSIER",
+        "f": 0.3350495456535838,
+        "apport": 688997.0637008571,
+        "apport_interne": 335706.40714285715,
+        "apport_solaire": 353290.65655799996,
+        "apport_fr": 0,
+        "apport_interne_fr": 0,
+        "apport_solaire_fr": 0,
+        "sse": 4.0687625999999995
+      },
+      {
+        "mois": "05",
+        "scenario": "DEPENSIER",
+        "f": 0.5367177940665329,
+        "apport": 741189.668418857,
+        "apport_interne": 287325.1896428571,
+        "apport_solaire": 453864.4787759999,
+        "apport_fr": 118478.97182657142,
+        "apport_interne_fr": 36039.07017857143,
+        "apport_solaire_fr": 82439.90164799998,
+        "sse": 5.562746399999999
+      },
+      {
+        "mois": "06",
+        "scenario": "DEPENSIER",
+        "f": 0.5092821438982659,
+        "apport": 112199.21366571428,
+        "apport_interne": 42456.98678571428,
+        "apport_solaire": 69742.22688,
+        "apport_fr": 222974.21865685715,
+        "apport_interne_fr": 104167.72339285714,
+        "apport_solaire_fr": 118806.49526400001,
+        "sse": 6.1177392
+      },
+      {
+        "mois": "07",
+        "scenario": "DEPENSIER",
+        "f": 0,
+        "apport": 0,
+        "apport_interne": 0,
+        "apport_solaire": 0,
+        "apport_fr": 455921.2665034286,
+        "apport_interne_fr": 216234.42107142857,
+        "apport_solaire_fr": 239686.84543199997,
+        "sse": 5.8949052
+      },
+      {
+        "mois": "08",
+        "scenario": "DEPENSIER",
+        "f": 0,
+        "apport": 0,
+        "apport_interne": 0,
+        "apport_solaire": 0,
+        "apport_fr": 442201.82005371427,
+        "apport_interne_fr": 215247.04928571428,
+        "apport_solaire_fr": 226954.770768,
+        "sse": 4.8206196
+      },
+      {
+        "mois": "09",
+        "scenario": "DEPENSIER",
+        "f": 0,
+        "apport": 0,
+        "apport_interne": 0,
+        "apport_solaire": 0,
+        "apport_fr": 74969.23746857143,
+        "apport_interne_fr": 25671.66642857143,
+        "apport_solaire_fr": 49297.57104,
+        "sse": 3.6248214
+      },
+      {
+        "mois": "10",
+        "scenario": "DEPENSIER",
+        "f": 0.2542405588098004,
+        "apport": 318257.2944848571,
+        "apport_interne": 211297.56214285715,
+        "apport_solaire": 106959.73234199997,
+        "apport_fr": 0,
+        "apport_interne_fr": 0,
+        "apport_solaire_fr": 0,
+        "sse": 2.7418541999999992
+      },
+      {
+        "mois": "11",
+        "scenario": "DEPENSIER",
+        "f": 0.17701997897802965,
+        "apport": 463579.19593542855,
+        "apport_interne": 354466.47107142856,
+        "apport_solaire": 109112.724864,
+        "apport_fr": 0,
+        "apport_interne_fr": 0,
+        "apport_solaire_fr": 0,
+        "sse": 2.3844564
+      },
+      {
+        "mois": "12",
+        "scenario": "DEPENSIER",
+        "f": 0.1255644883899847,
+        "apport": 432058.0938317143,
+        "apport_interne": 367302.3042857143,
+        "apport_solaire": 64755.789546,
+        "apport_fr": 0,
+        "apport_interne_fr": 0,
+        "apport_solaire_fr": 0,
+        "sse": 1.9278293999999998
+      }
+    ]
+  },
+  "chauffage": {
+    "audit_id": {
+      "value": "2121E1047675A"
+    },
+    "generateurs": [
+      {
+        "id": {
+          "value": "I01Gene_Ch01"
+        },
+        "generateur_mixte_id": null,
+        "reseau_chaleur_id": null,
+        "description": "Generateur Effet joule",
+        "categorie": "CHAUFFAGE_ELECTRIQUE",
+        "type": "RADIATEUR_ELECTRIQUE",
+        "energie": "ELECTRICITE",
+        "position_volume_chauffe": false,
+        "generateur_collectif": false,
+        "signaletique": {
+          "type_chaudiere": null,
+          "label": "NF_PERFORMANCE",
+          "presence_regulation_combustion": null,
+          "presence_ventouse": null,
+          "priorite_cascade": 1,
+          "pn": null,
+          "rpn": null,
+          "rpint": null,
+          "qp0": null,
+          "pveilleuse": null,
+          "scop": null,
+          "tfonc30": null,
+          "tfonc100": null
+        },
+        "annee_installation": null,
+        "type_partie_chaudiere": null,
+        "energie_partie_chaudiere": null,
+        "performance": {
+          "pn": 5.316889882182585,
+          "paux": 0,
+          "scop": null,
+          "rpn": null,
+          "rpint": null,
+          "qp0": null,
+          "pveilleuse": null,
+          "tfonc30": null,
+          "tfonc100": null
+        },
+        "pertes_generation": [
+          {
+            "scenario": "CONVENTIONNEL",
+            "mois": "01",
+            "pertes": 0,
+            "pertes_recuperables": 0
+          },
+          {
+            "scenario": "CONVENTIONNEL",
+            "mois": "02",
+            "pertes": 0,
+            "pertes_recuperables": 0
+          },
+          {
+            "scenario": "CONVENTIONNEL",
+            "mois": "03",
+            "pertes": 0,
+            "pertes_recuperables": 0
+          },
+          {
+            "scenario": "CONVENTIONNEL",
+            "mois": "04",
+            "pertes": 0,
+            "pertes_recuperables": 0
+          },
+          {
+            "scenario": "CONVENTIONNEL",
+            "mois": "05",
+            "pertes": 0,
+            "pertes_recuperables": 0
+          },
+          {
+            "scenario": "CONVENTIONNEL",
+            "mois": "06",
+            "pertes": 0,
+            "pertes_recuperables": 0
+          },
+          {
+            "scenario": "CONVENTIONNEL",
+            "mois": "07",
+            "pertes": 0,
+            "pertes_recuperables": 0
+          },
+          {
+            "scenario": "CONVENTIONNEL",
+            "mois": "08",
+            "pertes": 0,
+            "pertes_recuperables": 0
+          },
+          {
+            "scenario": "CONVENTIONNEL",
+            "mois": "09",
+            "pertes": 0,
+            "pertes_recuperables": 0
+          },
+          {
+            "scenario": "CONVENTIONNEL",
+            "mois": "10",
+            "pertes": 0,
+            "pertes_recuperables": 0
+          },
+          {
+            "scenario": "CONVENTIONNEL",
+            "mois": "11",
+            "pertes": 0,
+            "pertes_recuperables": 0
+          },
+          {
+            "scenario": "CONVENTIONNEL",
+            "mois": "12",
+            "pertes": 0,
+            "pertes_recuperables": 0
+          },
+          {
+            "scenario": "DEPENSIER",
+            "mois": "01",
+            "pertes": 0,
+            "pertes_recuperables": 0
+          },
+          {
+            "scenario": "DEPENSIER",
+            "mois": "02",
+            "pertes": 0,
+            "pertes_recuperables": 0
+          },
+          {
+            "scenario": "DEPENSIER",
+            "mois": "03",
+            "pertes": 0,
+            "pertes_recuperables": 0
+          },
+          {
+            "scenario": "DEPENSIER",
+            "mois": "04",
+            "pertes": 0,
+            "pertes_recuperables": 0
+          },
+          {
+            "scenario": "DEPENSIER",
+            "mois": "05",
+            "pertes": 0,
+            "pertes_recuperables": 0
+          },
+          {
+            "scenario": "DEPENSIER",
+            "mois": "06",
+            "pertes": 0,
+            "pertes_recuperables": 0
+          },
+          {
+            "scenario": "DEPENSIER",
+            "mois": "07",
+            "pertes": 0,
+            "pertes_recuperables": 0
+          },
+          {
+            "scenario": "DEPENSIER",
+            "mois": "08",
+            "pertes": 0,
+            "pertes_recuperables": 0
+          },
+          {
+            "scenario": "DEPENSIER",
+            "mois": "09",
+            "pertes": 0,
+            "pertes_recuperables": 0
+          },
+          {
+            "scenario": "DEPENSIER",
+            "mois": "10",
+            "pertes": 0,
+            "pertes_recuperables": 0
+          },
+          {
+            "scenario": "DEPENSIER",
+            "mois": "11",
+            "pertes": 0,
+            "pertes_recuperables": 0
+          },
+          {
+            "scenario": "DEPENSIER",
+            "mois": "12",
+            "pertes": 0,
+            "pertes_recuperables": 0
+          }
+        ]
+      },
+      {
+        "id": {
+          "value": "I01Gene_Ch02"
+        },
+        "generateur_mixte_id": null,
+        "reseau_chaleur_id": null,
+        "description": "Cuisiniere, Foyer ferme, Poele buche, insert",
+        "categorie": "POELE_INSERT",
+        "type": "POELE",
+        "energie": "BOIS_BUCHE",
+        "position_volume_chauffe": false,
+        "generateur_collectif": false,
+        "signaletique": {
+          "type_chaudiere": null,
+          "label": null,
+          "presence_regulation_combustion": null,
+          "presence_ventouse": null,
+          "priorite_cascade": 1,
+          "pn": null,
+          "rpn": null,
+          "rpint": null,
+          "qp0": null,
+          "pveilleuse": null,
+          "scop": null,
+          "tfonc30": null,
+          "tfonc100": null
+        },
+        "annee_installation": 2004,
+        "type_partie_chaudiere": null,
+        "energie_partie_chaudiere": null,
+        "performance": {
+          "pn": 5.316889882182585,
+          "paux": 0,
+          "scop": null,
+          "rpn": null,
+          "rpint": null,
+          "qp0": null,
+          "pveilleuse": null,
+          "tfonc30": null,
+          "tfonc100": null
+        },
+        "pertes_generation": [
+          {
+            "scenario": "CONVENTIONNEL",
+            "mois": "01",
+            "pertes": 0,
+            "pertes_recuperables": 0
+          },
+          {
+            "scenario": "CONVENTIONNEL",
+            "mois": "02",
+            "pertes": 0,
+            "pertes_recuperables": 0
+          },
+          {
+            "scenario": "CONVENTIONNEL",
+            "mois": "03",
+            "pertes": 0,
+            "pertes_recuperables": 0
+          },
+          {
+            "scenario": "CONVENTIONNEL",
+            "mois": "04",
+            "pertes": 0,
+            "pertes_recuperables": 0
+          },
+          {
+            "scenario": "CONVENTIONNEL",
+            "mois": "05",
+            "pertes": 0,
+            "pertes_recuperables": 0
+          },
+          {
+            "scenario": "CONVENTIONNEL",
+            "mois": "06",
+            "pertes": 0,
+            "pertes_recuperables": 0
+          },
+          {
+            "scenario": "CONVENTIONNEL",
+            "mois": "07",
+            "pertes": 0,
+            "pertes_recuperables": 0
+          },
+          {
+            "scenario": "CONVENTIONNEL",
+            "mois": "08",
+            "pertes": 0,
+            "pertes_recuperables": 0
+          },
+          {
+            "scenario": "CONVENTIONNEL",
+            "mois": "09",
+            "pertes": 0,
+            "pertes_recuperables": 0
+          },
+          {
+            "scenario": "CONVENTIONNEL",
+            "mois": "10",
+            "pertes": 0,
+            "pertes_recuperables": 0
+          },
+          {
+            "scenario": "CONVENTIONNEL",
+            "mois": "11",
+            "pertes": 0,
+            "pertes_recuperables": 0
+          },
+          {
+            "scenario": "CONVENTIONNEL",
+            "mois": "12",
+            "pertes": 0,
+            "pertes_recuperables": 0
+          },
+          {
+            "scenario": "DEPENSIER",
+            "mois": "01",
+            "pertes": 0,
+            "pertes_recuperables": 0
+          },
+          {
+            "scenario": "DEPENSIER",
+            "mois": "02",
+            "pertes": 0,
+            "pertes_recuperables": 0
+          },
+          {
+            "scenario": "DEPENSIER",
+            "mois": "03",
+            "pertes": 0,
+            "pertes_recuperables": 0
+          },
+          {
+            "scenario": "DEPENSIER",
+            "mois": "04",
+            "pertes": 0,
+            "pertes_recuperables": 0
+          },
+          {
+            "scenario": "DEPENSIER",
+            "mois": "05",
+            "pertes": 0,
+            "pertes_recuperables": 0
+          },
+          {
+            "scenario": "DEPENSIER",
+            "mois": "06",
+            "pertes": 0,
+            "pertes_recuperables": 0
+          },
+          {
+            "scenario": "DEPENSIER",
+            "mois": "07",
+            "pertes": 0,
+            "pertes_recuperables": 0
+          },
+          {
+            "scenario": "DEPENSIER",
+            "mois": "08",
+            "pertes": 0,
+            "pertes_recuperables": 0
+          },
+          {
+            "scenario": "DEPENSIER",
+            "mois": "09",
+            "pertes": 0,
+            "pertes_recuperables": 0
+          },
+          {
+            "scenario": "DEPENSIER",
+            "mois": "10",
+            "pertes": 0,
+            "pertes_recuperables": 0
+          },
+          {
+            "scenario": "DEPENSIER",
+            "mois": "11",
+            "pertes": 0,
+            "pertes_recuperables": 0
+          },
+          {
+            "scenario": "DEPENSIER",
+            "mois": "12",
+            "pertes": 0,
+            "pertes_recuperables": 0
+          }
+        ]
+      }
+    ],
+    "emetteurs": [],
+    "installations": [
+      {
+        "id": {
+          "value": "Instal_Ch01"
+        },
+        "description": "Emission n\u00b01",
+        "surface": 100.5,
+        "comptage_individuel": true,
+        "solaire": null,
+        "regulation_centrale": {
+          "presence_regulation": false,
+          "minimum_temperature": false,
+          "detection_presence": false
+        },
+        "regulation_terminale": {
+          "presence_regulation": true,
+          "minimum_temperature": false,
+          "detection_presence": false
+        },
+        "rdim": 1,
+        "systemes": [
+          {
+            "id": {
+              "value": "I01Gene_Ch01"
+            },
+            "generateur_id": {
+              "value": "I01Gene_Ch01"
+            },
+            "type_distribution": "SANS",
+            "reseau": null,
+            "position_volume_chauffe": false,
+            "rdim": 0.5,
+            "performance": {
+              "pn": 5.316889882182585,
+              "paux": 0,
+              "scop": null,
+              "rpn": null,
+              "rpint": null,
+              "qp0": null,
+              "pveilleuse": null,
+              "tfonc30": null,
+              "tfonc100": null
+            },
+            "emetteurs": [],
+            "rendements": [
+              {
+                "scenario": "CONVENTIONNEL",
+                "fch": 0,
+                "i0": 0.84,
+                "int": 0.8349048536352167,
+                "ich": 1.0413412475268147,
+                "rg": 1,
+                "rd": 1,
+                "re": 0.97,
+                "rr": 0.99
+              },
+              {
+                "scenario": "DEPENSIER",
+                "fch": 0,
+                "i0": 0.84,
+                "int": 0.8349048536352167,
+                "ich": 1.0413412475268147,
+                "rg": 1,
+                "rd": 1,
+                "re": 0.97,
+                "rr": 0.99
+              }
+            ],
+            "consommations": [
+              {
+                "usage": "CHAUFFAGE",
+                "energie": "ELECTRICITE",
+                "scenario": "CONVENTIONNEL",
+                "consommation_ef": 5052.854131144262,
+                "consommation_ep": 11621.564501631803
+              },
+              {
+                "usage": "CHAUFFAGE",
+                "energie": "ELECTRICITE",
+                "scenario": "DEPENSIER",
+                "consommation_ef": 6287.52333644017,
+                "consommation_ep": 14461.30367381239
+              }
+            ],
+            "consommations_auxiliaires": [
+              {
+                "usage": "AUXILIAIRE",
+                "energie": "ELECTRICITE",
+                "scenario": "CONVENTIONNEL",
+                "consommation_ef": 0,
+                "consommation_ep": 0
+              },
+              {
+                "usage": "AUXILIAIRE",
+                "energie": "ELECTRICITE",
+                "scenario": "DEPENSIER",
+                "consommation_ef": 0,
+                "consommation_ep": 0
+              }
+            ]
+          },
+          {
+            "id": {
+              "value": "I01Gene_Ch02"
+            },
+            "generateur_id": {
+              "value": "I01Gene_Ch02"
+            },
+            "type_distribution": "SANS",
+            "reseau": null,
+            "position_volume_chauffe": false,
+            "rdim": 0.5,
+            "performance": {
+              "pn": 5.316889882182585,
+              "paux": 0,
+              "scop": null,
+              "rpn": null,
+              "rpint": null,
+              "qp0": null,
+              "pveilleuse": null,
+              "tfonc30": null,
+              "tfonc100": null
+            },
+            "emetteurs": [],
+            "rendements": [
+              {
+                "scenario": "CONVENTIONNEL",
+                "fch": 0,
+                "i0": 0.84,
+                "int": 0.8349048536352167,
+                "ich": 2.192982456140351,
+                "rg": 0.6,
+                "rd": 1,
+                "re": 0.95,
+                "rr": 0.8
+              },
+              {
+                "scenario": "DEPENSIER",
+                "fch": 0,
+                "i0": 0.84,
+                "int": 0.8349048536352167,
+                "ich": 2.192982456140351,
+                "rg": 0.6,
+                "rd": 1,
+                "re": 0.95,
+                "rr": 0.8
+              }
+            ],
+            "consommations": [
+              {
+                "usage": "CHAUFFAGE",
+                "energie": "BOIS",
+                "scenario": "CONVENTIONNEL",
+                "consommation_ef": 10640.911890653146,
+                "consommation_ep": 10640.911890653146
+              },
+              {
+                "usage": "CHAUFFAGE",
+                "energie": "BOIS",
+                "scenario": "DEPENSIER",
+                "consommation_ef": 13241.0277631217,
+                "consommation_ep": 13241.0277631217
+              }
+            ],
+            "consommations_auxiliaires": [
+              {
+                "usage": "AUXILIAIRE",
+                "energie": "ELECTRICITE",
+                "scenario": "CONVENTIONNEL",
+                "consommation_ef": 0,
+                "consommation_ep": 0
+              },
+              {
+                "usage": "AUXILIAIRE",
+                "energie": "ELECTRICITE",
+                "scenario": "DEPENSIER",
+                "consommation_ef": 0,
+                "consommation_ep": 0
+              }
+            ]
+          }
+        ],
+        "consommations": [
+          {
+            "usage": "CHAUFFAGE",
+            "energie": "ELECTRICITE",
+            "scenario": "CONVENTIONNEL",
+            "consommation_ef": 5052.854131144262,
+            "consommation_ep": 11621.564501631803
+          },
+          {
+            "usage": "CHAUFFAGE",
+            "energie": "ELECTRICITE",
+            "scenario": "DEPENSIER",
+            "consommation_ef": 6287.52333644017,
+            "consommation_ep": 14461.30367381239
+          },
+          {
+            "usage": "AUXILIAIRE",
+            "energie": "ELECTRICITE",
+            "scenario": "CONVENTIONNEL",
+            "consommation_ef": 0,
+            "consommation_ep": 0
+          },
+          {
+            "usage": "AUXILIAIRE",
+            "energie": "ELECTRICITE",
+            "scenario": "DEPENSIER",
+            "consommation_ef": 0,
+            "consommation_ep": 0
+          },
+          {
+            "usage": "CHAUFFAGE",
+            "energie": "BOIS",
+            "scenario": "CONVENTIONNEL",
+            "consommation_ef": 10640.911890653146,
+            "consommation_ep": 10640.911890653146
+          },
+          {
+            "usage": "CHAUFFAGE",
+            "energie": "BOIS",
+            "scenario": "DEPENSIER",
+            "consommation_ef": 13241.0277631217,
+            "consommation_ep": 13241.0277631217
+          },
+          {
+            "usage": "AUXILIAIRE",
+            "energie": "ELECTRICITE",
+            "scenario": "CONVENTIONNEL",
+            "consommation_ef": 0,
+            "consommation_ep": 0
+          },
+          {
+            "usage": "AUXILIAIRE",
+            "energie": "ELECTRICITE",
+            "scenario": "DEPENSIER",
+            "consommation_ef": 0,
+            "consommation_ep": 0
+          }
+        ]
+      }
+    ],
+    "besoins_bruts": [
+      {
+        "usage": "CHAUFFAGE",
+        "scenario": "CONVENTIONNEL",
+        "mois": "01",
+        "besoin": 225.02462900196628
+      },
+      {
+        "usage": "CHAUFFAGE",
+        "scenario": "CONVENTIONNEL",
+        "mois": "02",
+        "besoin": 221.7637605322268
+      },
+      {
+        "usage": "CHAUFFAGE",
+        "scenario": "CONVENTIONNEL",
+        "mois": "03",
+        "besoin": 191.54328165630045
+      },
+      {
+        "usage": "CHAUFFAGE",
+        "scenario": "CONVENTIONNEL",
+        "mois": "04",
+        "besoin": 162.67441572897573
+      },
+      {
+        "usage": "CHAUFFAGE",
+        "scenario": "CONVENTIONNEL",
+        "mois": "05",
+        "besoin": 0
+      },
+      {
+        "usage": "CHAUFFAGE",
+        "scenario": "CONVENTIONNEL",
+        "mois": "06",
+        "besoin": 110.01050438618866
+      },
+      {
+        "usage": "CHAUFFAGE",
+        "scenario": "CONVENTIONNEL",
+        "mois": "07",
+        "besoin": 266.58295103721014
+      },
+      {
+        "usage": "CHAUFFAGE",
+        "scenario": "CONVENTIONNEL",
+        "mois": "08",
+        "besoin": 266.58295103721014
+      },
+      {
+        "usage": "CHAUFFAGE",
+        "scenario": "CONVENTIONNEL",
+        "mois": "09",
+        "besoin": 266.58295103721014
+      },
+      {
+        "usage": "CHAUFFAGE",
+        "scenario": "CONVENTIONNEL",
+        "mois": "10",
+        "besoin": 188.5424065485715
+      },
+      {
+        "usage": "CHAUFFAGE",
+        "scenario": "CONVENTIONNEL",
+        "mois": "11",
+        "besoin": 211.68186219794808
+      },
+      {
+        "usage": "CHAUFFAGE",
+        "scenario": "CONVENTIONNEL",
+        "mois": "12",
+        "besoin": 228.84575247801504
+      },
+      {
+        "usage": "CHAUFFAGE",
+        "scenario": "DEPENSIER",
+        "mois": "01",
+        "besoin": 229.57460906040333
+      },
+      {
+        "usage": "CHAUFFAGE",
+        "scenario": "DEPENSIER",
+        "mois": "02",
+        "besoin": 226.80205249942375
+      },
+      {
+        "usage": "CHAUFFAGE",
+        "scenario": "DEPENSIER",
+        "mois": "03",
+        "besoin": 201.60445540544393
+      },
+      {
+        "usage": "CHAUFFAGE",
+        "scenario": "DEPENSIER",
+        "mois": "04",
+        "besoin": 177.2644544132013
+      },
+      {
+        "usage": "CHAUFFAGE",
+        "scenario": "DEPENSIER",
+        "mois": "05",
+        "besoin": 123.50313762077218
+      },
+      {
+        "usage": "CHAUFFAGE",
+        "scenario": "DEPENSIER",
+        "mois": "06",
+        "besoin": 130.81701420625333
+      },
+      {
+        "usage": "CHAUFFAGE",
+        "scenario": "DEPENSIER",
+        "mois": "07",
+        "besoin": 266.58295103721014
+      },
+      {
+        "usage": "CHAUFFAGE",
+        "scenario": "DEPENSIER",
+        "mois": "08",
+        "besoin": 266.58295103721014
+      },
+      {
+        "usage": "CHAUFFAGE",
+        "scenario": "DEPENSIER",
+        "mois": "09",
+        "besoin": 266.58295103721014
+      },
+      {
+        "usage": "CHAUFFAGE",
+        "scenario": "DEPENSIER",
+        "mois": "10",
+        "besoin": 198.80675259634415
+      },
+      {
+        "usage": "CHAUFFAGE",
+        "scenario": "DEPENSIER",
+        "mois": "11",
+        "besoin": 219.3924426487021
+      },
+      {
+        "usage": "CHAUFFAGE",
+        "scenario": "DEPENSIER",
+        "mois": "12",
+        "besoin": 233.1095991767305
+      }
+    ],
+    "besoins": [
+      {
+        "usage": "CHAUFFAGE",
+        "scenario": "CONVENTIONNEL",
+        "mois": "01",
+        "besoin": 2442.1599657382044
+      },
+      {
+        "usage": "CHAUFFAGE",
+        "scenario": "CONVENTIONNEL",
+        "mois": "02",
+        "besoin": 2148.4843556566884
+      },
+      {
+        "usage": "CHAUFFAGE",
+        "scenario": "CONVENTIONNEL",
+        "mois": "03",
+        "besoin": 1411.1323030014232
+      },
+      {
+        "usage": "CHAUFFAGE",
+        "scenario": "CONVENTIONNEL",
+        "mois": "04",
+        "besoin": 824.6968721056833
+      },
+      {
+        "usage": "CHAUFFAGE",
+        "scenario": "CONVENTIONNEL",
+        "mois": "05",
+        "besoin": 0
+      },
+      {
+        "usage": "CHAUFFAGE",
+        "scenario": "CONVENTIONNEL",
+        "mois": "06",
+        "besoin": 45.067757278333126
+      },
+      {
+        "usage": "CHAUFFAGE",
+        "scenario": "CONVENTIONNEL",
+        "mois": "07",
+        "besoin": 0
+      },
+      {
+        "usage": "CHAUFFAGE",
+        "scenario": "CONVENTIONNEL",
+        "mois": "08",
+        "besoin": 0
+      },
+      {
+        "usage": "CHAUFFAGE",
+        "scenario": "CONVENTIONNEL",
+        "mois": "09",
+        "besoin": 0
+      },
+      {
+        "usage": "CHAUFFAGE",
+        "scenario": "CONVENTIONNEL",
+        "mois": "10",
+        "besoin": 627.768411575849
+      },
+      {
+        "usage": "CHAUFFAGE",
+        "scenario": "CONVENTIONNEL",
+        "mois": "11",
+        "besoin": 1633.7480448126298
+      },
+      {
+        "usage": "CHAUFFAGE",
+        "scenario": "CONVENTIONNEL",
+        "mois": "12",
+        "besoin": 2490.4363946046215
+      },
+      {
+        "usage": "CHAUFFAGE",
+        "scenario": "DEPENSIER",
+        "mois": "01",
+        "besoin": 2832.447287774485
+      },
+      {
+        "usage": "CHAUFFAGE",
+        "scenario": "DEPENSIER",
+        "mois": "02",
+        "besoin": 2501.9346016574063
+      },
+      {
+        "usage": "CHAUFFAGE",
+        "scenario": "DEPENSIER",
+        "mois": "03",
+        "besoin": 1782.085596571556
+      },
+      {
+        "usage": "CHAUFFAGE",
+        "scenario": "DEPENSIER",
+        "mois": "04",
+        "besoin": 1133.2421027059024
+      },
+      {
+        "usage": "CHAUFFAGE",
+        "scenario": "DEPENSIER",
+        "mois": "05",
+        "besoin": 422.50804612841137
+      },
+      {
+        "usage": "CHAUFFAGE",
+        "scenario": "DEPENSIER",
+        "mois": "06",
+        "besoin": 74.13695637355434
+      },
+      {
+        "usage": "CHAUFFAGE",
+        "scenario": "DEPENSIER",
+        "mois": "07",
+        "besoin": 0
+      },
+      {
+        "usage": "CHAUFFAGE",
+        "scenario": "DEPENSIER",
+        "mois": "08",
+        "besoin": 0
+      },
+      {
+        "usage": "CHAUFFAGE",
+        "scenario": "DEPENSIER",
+        "mois": "09",
+        "besoin": 0
+      },
+      {
+        "usage": "CHAUFFAGE",
+        "scenario": "DEPENSIER",
+        "mois": "10",
+        "besoin": 826.0601716392407
+      },
+      {
+        "usage": "CHAUFFAGE",
+        "scenario": "DEPENSIER",
+        "mois": "11",
+        "besoin": 2007.7464661987651
+      },
+      {
+        "usage": "CHAUFFAGE",
+        "scenario": "DEPENSIER",
+        "mois": "12",
+        "besoin": 2883.5435480738274
+      }
+    ],
+    "consommations": [
+      {
+        "usage": "CHAUFFAGE",
+        "energie": "ELECTRICITE",
+        "scenario": "CONVENTIONNEL",
+        "consommation_ef": 5052.854131144262,
+        "consommation_ep": 11621.564501631803
+      },
+      {
+        "usage": "CHAUFFAGE",
+        "energie": "ELECTRICITE",
+        "scenario": "DEPENSIER",
+        "consommation_ef": 6287.52333644017,
+        "consommation_ep": 14461.30367381239
+      },
+      {
+        "usage": "AUXILIAIRE",
+        "energie": "ELECTRICITE",
+        "scenario": "CONVENTIONNEL",
+        "consommation_ef": 0,
+        "consommation_ep": 0
+      },
+      {
+        "usage": "AUXILIAIRE",
+        "energie": "ELECTRICITE",
+        "scenario": "DEPENSIER",
+        "consommation_ef": 0,
+        "consommation_ep": 0
+      },
+      {
+        "usage": "CHAUFFAGE",
+        "energie": "BOIS",
+        "scenario": "CONVENTIONNEL",
+        "consommation_ef": 10640.911890653146,
+        "consommation_ep": 10640.911890653146
+      },
+      {
+        "usage": "CHAUFFAGE",
+        "energie": "BOIS",
+        "scenario": "DEPENSIER",
+        "consommation_ef": 13241.0277631217,
+        "consommation_ep": 13241.0277631217
+      },
+      {
+        "usage": "AUXILIAIRE",
+        "energie": "ELECTRICITE",
+        "scenario": "CONVENTIONNEL",
+        "consommation_ef": 0,
+        "consommation_ep": 0
+      },
+      {
+        "usage": "AUXILIAIRE",
+        "energie": "ELECTRICITE",
+        "scenario": "DEPENSIER",
+        "consommation_ef": 0,
+        "consommation_ep": 0
+      }
+    ]
+  },
+  "ecs": {
+    "audit_id": {
+      "value": "2121E1047675A"
+    },
+    "generateurs": [
+      {
+        "id": {
+          "value": "I01Gene_Ecs01"
+        },
+        "generateur_mixte_id": null,
+        "reseau_chaleur_id": null,
+        "description": "",
+        "categorie": "CHAUFFE_EAU_ELECTRIQUE",
+        "type": "BALLON_ELECTRIQUE_VERTICAL",
+        "energie": "ELECTRICITE",
+        "usage": "ECS",
+        "volume_stockage": 200,
+        "position_volume_chauffe": false,
+        "generateur_collectif": false,
+        "signaletique": {
+          "type_chaudiere": null,
+          "label": "NE_PERFORMANCE_B",
+          "presence_ventouse": null,
+          "pn": null,
+          "rpn": null,
+          "qp0": null,
+          "pveilleuse": null,
+          "cop": null
+        },
+        "annee_installation": null,
+        "performance": {
+          "pn": 21,
+          "paux": 0,
+          "cop": null,
+          "rpn": null,
+          "qp0": null,
+          "pveilleuse": null
+        },
+        "pertes_generation": [
+          {
+            "scenario": "CONVENTIONNEL",
+            "mois": "01",
+            "type": "GENERATION",
+            "pertes": 0,
+            "pertes_recuperables": 0
+          },
+          {
+            "scenario": "CONVENTIONNEL",
+            "mois": "02",
+            "type": "GENERATION",
+            "pertes": 0,
+            "pertes_recuperables": 0
+          },
+          {
+            "scenario": "CONVENTIONNEL",
+            "mois": "03",
+            "type": "GENERATION",
+            "pertes": 0,
+            "pertes_recuperables": 0
+          },
+          {
+            "scenario": "CONVENTIONNEL",
+            "mois": "04",
+            "type": "GENERATION",
+            "pertes": 0,
+            "pertes_recuperables": 0
+          },
+          {
+            "scenario": "CONVENTIONNEL",
+            "mois": "05",
+            "type": "GENERATION",
+            "pertes": 0,
+            "pertes_recuperables": 0
+          },
+          {
+            "scenario": "CONVENTIONNEL",
+            "mois": "06",
+            "type": "GENERATION",
+            "pertes": 0,
+            "pertes_recuperables": 0
+          },
+          {
+            "scenario": "CONVENTIONNEL",
+            "mois": "07",
+            "type": "GENERATION",
+            "pertes": 0,
+            "pertes_recuperables": 0
+          },
+          {
+            "scenario": "CONVENTIONNEL",
+            "mois": "08",
+            "type": "GENERATION",
+            "pertes": 0,
+            "pertes_recuperables": 0
+          },
+          {
+            "scenario": "CONVENTIONNEL",
+            "mois": "09",
+            "type": "GENERATION",
+            "pertes": 0,
+            "pertes_recuperables": 0
+          },
+          {
+            "scenario": "CONVENTIONNEL",
+            "mois": "10",
+            "type": "GENERATION",
+            "pertes": 0,
+            "pertes_recuperables": 0
+          },
+          {
+            "scenario": "CONVENTIONNEL",
+            "mois": "11",
+            "type": "GENERATION",
+            "pertes": 0,
+            "pertes_recuperables": 0
+          },
+          {
+            "scenario": "CONVENTIONNEL",
+            "mois": "12",
+            "type": "GENERATION",
+            "pertes": 0,
+            "pertes_recuperables": 0
+          },
+          {
+            "scenario": "DEPENSIER",
+            "mois": "01",
+            "type": "GENERATION",
+            "pertes": 0,
+            "pertes_recuperables": 0
+          },
+          {
+            "scenario": "DEPENSIER",
+            "mois": "02",
+            "type": "GENERATION",
+            "pertes": 0,
+            "pertes_recuperables": 0
+          },
+          {
+            "scenario": "DEPENSIER",
+            "mois": "03",
+            "type": "GENERATION",
+            "pertes": 0,
+            "pertes_recuperables": 0
+          },
+          {
+            "scenario": "DEPENSIER",
+            "mois": "04",
+            "type": "GENERATION",
+            "pertes": 0,
+            "pertes_recuperables": 0
+          },
+          {
+            "scenario": "DEPENSIER",
+            "mois": "05",
+            "type": "GENERATION",
+            "pertes": 0,
+            "pertes_recuperables": 0
+          },
+          {
+            "scenario": "DEPENSIER",
+            "mois": "06",
+            "type": "GENERATION",
+            "pertes": 0,
+            "pertes_recuperables": 0
+          },
+          {
+            "scenario": "DEPENSIER",
+            "mois": "07",
+            "type": "GENERATION",
+            "pertes": 0,
+            "pertes_recuperables": 0
+          },
+          {
+            "scenario": "DEPENSIER",
+            "mois": "08",
+            "type": "GENERATION",
+            "pertes": 0,
+            "pertes_recuperables": 0
+          },
+          {
+            "scenario": "DEPENSIER",
+            "mois": "09",
+            "type": "GENERATION",
+            "pertes": 0,
+            "pertes_recuperables": 0
+          },
+          {
+            "scenario": "DEPENSIER",
+            "mois": "10",
+            "type": "GENERATION",
+            "pertes": 0,
+            "pertes_recuperables": 0
+          },
+          {
+            "scenario": "DEPENSIER",
+            "mois": "11",
+            "type": "GENERATION",
+            "pertes": 0,
+            "pertes_recuperables": 0
+          },
+          {
+            "scenario": "DEPENSIER",
+            "mois": "12",
+            "type": "GENERATION",
+            "pertes": 0,
+            "pertes_recuperables": 0
+          }
+        ],
+        "pertes_stockage": [
+          {
+            "scenario": "CONVENTIONNEL",
+            "mois": "01",
+            "type": "STOCKAGE",
+            "pertes": 59070,
+            "pertes_recuperables": 0
+          },
+          {
+            "scenario": "CONVENTIONNEL",
+            "mois": "02",
+            "type": "STOCKAGE",
+            "pertes": 59070,
+            "pertes_recuperables": 0
+          },
+          {
+            "scenario": "CONVENTIONNEL",
+            "mois": "03",
+            "type": "STOCKAGE",
+            "pertes": 59070,
+            "pertes_recuperables": 0
+          },
+          {
+            "scenario": "CONVENTIONNEL",
+            "mois": "04",
+            "type": "STOCKAGE",
+            "pertes": 59070,
+            "pertes_recuperables": 0
+          },
+          {
+            "scenario": "CONVENTIONNEL",
+            "mois": "05",
+            "type": "STOCKAGE",
+            "pertes": 59070,
+            "pertes_recuperables": 0
+          },
+          {
+            "scenario": "CONVENTIONNEL",
+            "mois": "06",
+            "type": "STOCKAGE",
+            "pertes": 59070,
+            "pertes_recuperables": 0
+          },
+          {
+            "scenario": "CONVENTIONNEL",
+            "mois": "07",
+            "type": "STOCKAGE",
+            "pertes": 59070,
+            "pertes_recuperables": 0
+          },
+          {
+            "scenario": "CONVENTIONNEL",
+            "mois": "08",
+            "type": "STOCKAGE",
+            "pertes": 59070,
+            "pertes_recuperables": 0
+          },
+          {
+            "scenario": "CONVENTIONNEL",
+            "mois": "09",
+            "type": "STOCKAGE",
+            "pertes": 59070,
+            "pertes_recuperables": 0
+          },
+          {
+            "scenario": "CONVENTIONNEL",
+            "mois": "10",
+            "type": "STOCKAGE",
+            "pertes": 59070,
+            "pertes_recuperables": 0
+          },
+          {
+            "scenario": "CONVENTIONNEL",
+            "mois": "11",
+            "type": "STOCKAGE",
+            "pertes": 59070,
+            "pertes_recuperables": 0
+          },
+          {
+            "scenario": "CONVENTIONNEL",
+            "mois": "12",
+            "type": "STOCKAGE",
+            "pertes": 59070,
+            "pertes_recuperables": 0
+          },
+          {
+            "scenario": "DEPENSIER",
+            "mois": "01",
+            "type": "STOCKAGE",
+            "pertes": 59070,
+            "pertes_recuperables": 0
+          },
+          {
+            "scenario": "DEPENSIER",
+            "mois": "02",
+            "type": "STOCKAGE",
+            "pertes": 59070,
+            "pertes_recuperables": 0
+          },
+          {
+            "scenario": "DEPENSIER",
+            "mois": "03",
+            "type": "STOCKAGE",
+            "pertes": 59070,
+            "pertes_recuperables": 0
+          },
+          {
+            "scenario": "DEPENSIER",
+            "mois": "04",
+            "type": "STOCKAGE",
+            "pertes": 59070,
+            "pertes_recuperables": 0
+          },
+          {
+            "scenario": "DEPENSIER",
+            "mois": "05",
+            "type": "STOCKAGE",
+            "pertes": 59070,
+            "pertes_recuperables": 0
+          },
+          {
+            "scenario": "DEPENSIER",
+            "mois": "06",
+            "type": "STOCKAGE",
+            "pertes": 59070,
+            "pertes_recuperables": 0
+          },
+          {
+            "scenario": "DEPENSIER",
+            "mois": "07",
+            "type": "STOCKAGE",
+            "pertes": 59070,
+            "pertes_recuperables": 0
+          },
+          {
+            "scenario": "DEPENSIER",
+            "mois": "08",
+            "type": "STOCKAGE",
+            "pertes": 59070,
+            "pertes_recuperables": 0
+          },
+          {
+            "scenario": "DEPENSIER",
+            "mois": "09",
+            "type": "STOCKAGE",
+            "pertes": 59070,
+            "pertes_recuperables": 0
+          },
+          {
+            "scenario": "DEPENSIER",
+            "mois": "10",
+            "type": "STOCKAGE",
+            "pertes": 59070,
+            "pertes_recuperables": 0
+          },
+          {
+            "scenario": "DEPENSIER",
+            "mois": "11",
+            "type": "STOCKAGE",
+            "pertes": 59070,
+            "pertes_recuperables": 0
+          },
+          {
+            "scenario": "DEPENSIER",
+            "mois": "12",
+            "type": "STOCKAGE",
+            "pertes": 59070,
+            "pertes_recuperables": 0
+          }
+        ]
+      }
+    ],
+    "installations": [
+      {
+        "id": {
+          "value": "Instal_Ecs01"
+        },
+        "description": "ECS Electrique",
+        "surface": 100.5,
+        "solaire": null,
+        "systemes": [
+          {
+            "id": {
+              "value": "I01Gene_Ecs01"
+            },
+            "generateur_id": {
+              "value": "I01Gene_Ecs01"
+            },
+            "reseau": {
+              "alimentation_contigues": false,
+              "niveaux_desservis": 1,
+              "isolation_reseau": "NON_ISOLE",
+              "type_bouclage": "RESEAU_NON_BOUCLE"
+            },
+            "stockage": null,
+            "rdim": 1,
+            "performance": {
+              "pn": 21,
+              "paux": 0,
+              "cop": null,
+              "rpn": null,
+              "qp0": null,
+              "pveilleuse": null
+            },
+            "pertes_distribution": [
+              {
+                "scenario": "CONVENTIONNEL",
+                "mois": "01",
+                "type": "DISTRIBUTION",
+                "pertes": 13543.161632700001,
+                "pertes_recuperables": 549.8894668400385
+              },
+              {
+                "scenario": "CONVENTIONNEL",
+                "mois": "02",
+                "type": "DISTRIBUTION",
+                "pertes": 12845.9639504,
+                "pertes_recuperables": 473.01302874897533
+              },
+              {
+                "scenario": "CONVENTIONNEL",
+                "mois": "03",
+                "type": "DISTRIBUTION",
+                "pertes": 12584.3537295,
+                "pertes_recuperables": 503.37414918
+              },
+              {
+                "scenario": "CONVENTIONNEL",
+                "mois": "04",
+                "type": "DISTRIBUTION",
+                "pertes": 11985.09879,
+                "pertes_recuperables": 420.2993548273972
+              },
+              {
+                "scenario": "CONVENTIONNEL",
+                "mois": "05",
+                "type": "DISTRIBUTION",
+                "pertes": 10347.1352887,
+                "pertes_recuperables": 282.9161922773315
+              },
+              {
+                "scenario": "CONVENTIONNEL",
+                "mois": "06",
+                "type": "DISTRIBUTION",
+                "pertes": 9394.770987000002,
+                "pertes_recuperables": 36.54952000421918
+              },
+              {
+                "scenario": "CONVENTIONNEL",
+                "mois": "07",
+                "type": "DISTRIBUTION",
+                "pertes": 8709.1717874,
+                "pertes_recuperables": 0
+              },
+              {
+                "scenario": "CONVENTIONNEL",
+                "mois": "08",
+                "type": "DISTRIBUTION",
+                "pertes": 8469.4698116,
+                "pertes_recuperables": 0
+              },
+              {
+                "scenario": "CONVENTIONNEL",
+                "mois": "09",
+                "type": "DISTRIBUTION",
+                "pertes": 8505.55398,
+                "pertes_recuperables": 0
+              },
+              {
+                "scenario": "CONVENTIONNEL",
+                "mois": "10",
+                "type": "DISTRIBUTION",
+                "pertes": 9667.979690600001,
+                "pertes_recuperables": 209.78191547822468
+              },
+              {
+                "scenario": "CONVENTIONNEL",
+                "mois": "11",
+                "type": "DISTRIBUTION",
+                "pertes": 11095.881782999999,
+                "pertes_recuperables": 435.9313555293698
+              },
+              {
+                "scenario": "CONVENTIONNEL",
+                "mois": "12",
+                "type": "DISTRIBUTION",
+                "pertes": 10113.876914400002,
+                "pertes_recuperables": 412.31366708567674
+              },
+              {
+                "scenario": "DEPENSIER",
+                "mois": "01",
+                "type": "DISTRIBUTION",
+                "pertes": 19105.5315889875,
+                "pertes_recuperables": 778.8775617647506
+              },
+              {
+                "scenario": "DEPENSIER",
+                "mois": "02",
+                "type": "DISTRIBUTION",
+                "pertes": 18121.9848586,
+                "pertes_recuperables": 667.2862369851616
+              },
+              {
+                "scenario": "DEPENSIER",
+                "mois": "03",
+                "type": "DISTRIBUTION",
+                "pertes": 17752.927582687502,
+                "pertes_recuperables": 722.7630243253049
+              },
+              {
+                "scenario": "DEPENSIER",
+                "mois": "04",
+                "type": "DISTRIBUTION",
+                "pertes": 16907.550078750002,
+                "pertes_recuperables": 629.979948139726
+              },
+              {
+                "scenario": "DEPENSIER",
+                "mois": "05",
+                "type": "DISTRIBUTION",
+                "pertes": 14596.851567987498,
+                "pertes_recuperables": 465.4995952092452
+              },
+              {
+                "scenario": "DEPENSIER",
+                "mois": "06",
+                "type": "DISTRIBUTION",
+                "pertes": 13253.337642375001,
+                "pertes_recuperables": 62.454084232561655
+              },
+              {
+                "scenario": "DEPENSIER",
+                "mois": "07",
+                "type": "DISTRIBUTION",
+                "pertes": 12286.153057225001,
+                "pertes_recuperables": 0
+              },
+              {
+                "scenario": "DEPENSIER",
+                "mois": "08",
+                "type": "DISTRIBUTION",
+                "pertes": 11948.00205565,
+                "pertes_recuperables": 0
+              },
+              {
+                "scenario": "DEPENSIER",
+                "mois": "09",
+                "type": "DISTRIBUTION",
+                "pertes": 11998.906507500002,
+                "pertes_recuperables": 0
+              },
+              {
+                "scenario": "DEPENSIER",
+                "mois": "10",
+                "type": "DISTRIBUTION",
+                "pertes": 13638.757063525,
+                "pertes_recuperables": 319.8568779829424
+              },
+              {
+                "scenario": "DEPENSIER",
+                "mois": "11",
+                "type": "DISTRIBUTION",
+                "pertes": 15653.118943875,
+                "pertes_recuperables": 615.832295983685
+              },
+              {
+                "scenario": "DEPENSIER",
+                "mois": "12",
+                "type": "DISTRIBUTION",
+                "pertes": 14267.790647100004,
+                "pertes_recuperables": 581.6567803530085
+              }
+            ],
+            "pertes_stockage": [
+              {
+                "scenario": "CONVENTIONNEL",
+                "mois": "01",
+                "type": "STOCKAGE",
+                "pertes": 0,
+                "pertes_recuperables": 0
+              },
+              {
+                "scenario": "CONVENTIONNEL",
+                "mois": "02",
+                "type": "STOCKAGE",
+                "pertes": 0,
+                "pertes_recuperables": 0
+              },
+              {
+                "scenario": "CONVENTIONNEL",
+                "mois": "03",
+                "type": "STOCKAGE",
+                "pertes": 0,
+                "pertes_recuperables": 0
+              },
+              {
+                "scenario": "CONVENTIONNEL",
+                "mois": "04",
+                "type": "STOCKAGE",
+                "pertes": 0,
+                "pertes_recuperables": 0
+              },
+              {
+                "scenario": "CONVENTIONNEL",
+                "mois": "05",
+                "type": "STOCKAGE",
+                "pertes": 0,
+                "pertes_recuperables": 0
+              },
+              {
+                "scenario": "CONVENTIONNEL",
+                "mois": "06",
+                "type": "STOCKAGE",
+                "pertes": 0,
+                "pertes_recuperables": 0
+              },
+              {
+                "scenario": "CONVENTIONNEL",
+                "mois": "07",
+                "type": "STOCKAGE",
+                "pertes": 0,
+                "pertes_recuperables": 0
+              },
+              {
+                "scenario": "CONVENTIONNEL",
+                "mois": "08",
+                "type": "STOCKAGE",
+                "pertes": 0,
+                "pertes_recuperables": 0
+              },
+              {
+                "scenario": "CONVENTIONNEL",
+                "mois": "09",
+                "type": "STOCKAGE",
+                "pertes": 0,
+                "pertes_recuperables": 0
+              },
+              {
+                "scenario": "CONVENTIONNEL",
+                "mois": "10",
+                "type": "STOCKAGE",
+                "pertes": 0,
+                "pertes_recuperables": 0
+              },
+              {
+                "scenario": "CONVENTIONNEL",
+                "mois": "11",
+                "type": "STOCKAGE",
+                "pertes": 0,
+                "pertes_recuperables": 0
+              },
+              {
+                "scenario": "CONVENTIONNEL",
+                "mois": "12",
+                "type": "STOCKAGE",
+                "pertes": 0,
+                "pertes_recuperables": 0
+              },
+              {
+                "scenario": "DEPENSIER",
+                "mois": "01",
+                "type": "STOCKAGE",
+                "pertes": 0,
+                "pertes_recuperables": 0
+              },
+              {
+                "scenario": "DEPENSIER",
+                "mois": "02",
+                "type": "STOCKAGE",
+                "pertes": 0,
+                "pertes_recuperables": 0
+              },
+              {
+                "scenario": "DEPENSIER",
+                "mois": "03",
+                "type": "STOCKAGE",
+                "pertes": 0,
+                "pertes_recuperables": 0
+              },
+              {
+                "scenario": "DEPENSIER",
+                "mois": "04",
+                "type": "STOCKAGE",
+                "pertes": 0,
+                "pertes_recuperables": 0
+              },
+              {
+                "scenario": "DEPENSIER",
+                "mois": "05",
+                "type": "STOCKAGE",
+                "pertes": 0,
+                "pertes_recuperables": 0
+              },
+              {
+                "scenario": "DEPENSIER",
+                "mois": "06",
+                "type": "STOCKAGE",
+                "pertes": 0,
+                "pertes_recuperables": 0
+              },
+              {
+                "scenario": "DEPENSIER",
+                "mois": "07",
+                "type": "STOCKAGE",
+                "pertes": 0,
+                "pertes_recuperables": 0
+              },
+              {
+                "scenario": "DEPENSIER",
+                "mois": "08",
+                "type": "STOCKAGE",
+                "pertes": 0,
+                "pertes_recuperables": 0
+              },
+              {
+                "scenario": "DEPENSIER",
+                "mois": "09",
+                "type": "STOCKAGE",
+                "pertes": 0,
+                "pertes_recuperables": 0
+              },
+              {
+                "scenario": "DEPENSIER",
+                "mois": "10",
+                "type": "STOCKAGE",
+                "pertes": 0,
+                "pertes_recuperables": 0
+              },
+              {
+                "scenario": "DEPENSIER",
+                "mois": "11",
+                "type": "STOCKAGE",
+                "pertes": 0,
+                "pertes_recuperables": 0
+              },
+              {
+                "scenario": "DEPENSIER",
+                "mois": "12",
+                "type": "STOCKAGE",
+                "pertes": 0,
+                "pertes_recuperables": 0
+              }
+            ],
+            "rendements": [
+              {
+                "scenario": "CONVENTIONNEL",
+                "fecs": 0,
+                "iecs": 1.957566785484344,
+                "rd": 0.83,
+                "rs": 0.6838530851680841,
+                "rg": 0.9,
+                "rgs": 1
+              },
+              {
+                "scenario": "DEPENSIER",
+                "fecs": 0,
+                "iecs": 1.777386910856609,
+                "rd": 0.83,
+                "rs": 0.7531776438203085,
+                "rg": 0.9,
+                "rgs": 1
+              }
+            ],
+            "consommations": [
+              {
+                "usage": "ECS",
+                "energie": "ELECTRICITE",
+                "scenario": "CONVENTIONNEL",
+                "consommation_ef": 2491.2468319317272,
+                "consommation_ep": 5729.867713442972
+              },
+              {
+                "usage": "ECS",
+                "energie": "ELECTRICITE",
+                "scenario": "DEPENSIER",
+                "consommation_ef": 3190.958923617972,
+                "consommation_ep": 7339.205524321334
+              }
+            ],
+            "consommations_auxiliaires": []
+          }
+        ],
+        "consommations": [
+          {
+            "usage": "ECS",
+            "energie": "ELECTRICITE",
+            "scenario": "CONVENTIONNEL",
+            "consommation_ef": 2491.2468319317272,
+            "consommation_ep": 5729.867713442972
+          },
+          {
+            "usage": "ECS",
+            "energie": "ELECTRICITE",
+            "scenario": "DEPENSIER",
+            "consommation_ef": 3190.958923617972,
+            "consommation_ep": 7339.205524321334
+          }
+        ]
+      }
+    ],
+    "besoins": [
+      {
+        "usage": "ECS",
+        "scenario": "CONVENTIONNEL",
+        "mois": "01",
+        "besoin": 135.431616327
+      },
+      {
+        "usage": "ECS",
+        "scenario": "CONVENTIONNEL",
+        "mois": "02",
+        "besoin": 128.459639504
+      },
+      {
+        "usage": "ECS",
+        "scenario": "CONVENTIONNEL",
+        "mois": "03",
+        "besoin": 125.84353729499999
+      },
+      {
+        "usage": "ECS",
+        "scenario": "CONVENTIONNEL",
+        "mois": "04",
+        "besoin": 119.85098789999999
+      },
+      {
+        "usage": "ECS",
+        "scenario": "CONVENTIONNEL",
+        "mois": "05",
+        "besoin": 103.47135288699998
+      },
+      {
+        "usage": "ECS",
+        "scenario": "CONVENTIONNEL",
+        "mois": "06",
+        "besoin": 93.94770987000001
+      },
+      {
+        "usage": "ECS",
+        "scenario": "CONVENTIONNEL",
+        "mois": "07",
+        "besoin": 87.091717874
+      },
+      {
+        "usage": "ECS",
+        "scenario": "CONVENTIONNEL",
+        "mois": "08",
+        "besoin": 84.694698116
+      },
+      {
+        "usage": "ECS",
+        "scenario": "CONVENTIONNEL",
+        "mois": "09",
+        "besoin": 85.0555398
+      },
+      {
+        "usage": "ECS",
+        "scenario": "CONVENTIONNEL",
+        "mois": "10",
+        "besoin": 96.679796906
+      },
+      {
+        "usage": "ECS",
+        "scenario": "CONVENTIONNEL",
+        "mois": "11",
+        "besoin": 110.95881782999999
+      },
+      {
+        "usage": "ECS",
+        "scenario": "CONVENTIONNEL",
+        "mois": "12",
+        "besoin": 101.13876914400002
+      },
+      {
+        "usage": "ECS",
+        "scenario": "DEPENSIER",
+        "mois": "01",
+        "besoin": 191.055315889875
+      },
+      {
+        "usage": "ECS",
+        "scenario": "DEPENSIER",
+        "mois": "02",
+        "besoin": 181.219848586
+      },
+      {
+        "usage": "ECS",
+        "scenario": "DEPENSIER",
+        "mois": "03",
+        "besoin": 177.529275826875
+      },
+      {
+        "usage": "ECS",
+        "scenario": "DEPENSIER",
+        "mois": "04",
+        "besoin": 169.0755007875
+      },
+      {
+        "usage": "ECS",
+        "scenario": "DEPENSIER",
+        "mois": "05",
+        "besoin": 145.96851567987497
+      },
+      {
+        "usage": "ECS",
+        "scenario": "DEPENSIER",
+        "mois": "06",
+        "besoin": 132.53337642375
+      },
+      {
+        "usage": "ECS",
+        "scenario": "DEPENSIER",
+        "mois": "07",
+        "besoin": 122.86153057225
+      },
+      {
+        "usage": "ECS",
+        "scenario": "DEPENSIER",
+        "mois": "08",
+        "besoin": 119.4800205565
+      },
+      {
+        "usage": "ECS",
+        "scenario": "DEPENSIER",
+        "mois": "09",
+        "besoin": 119.989065075
+      },
+      {
+        "usage": "ECS",
+        "scenario": "DEPENSIER",
+        "mois": "10",
+        "besoin": 136.38757063524997
+      },
+      {
+        "usage": "ECS",
+        "scenario": "DEPENSIER",
+        "mois": "11",
+        "besoin": 156.53118943875
+      },
+      {
+        "usage": "ECS",
+        "scenario": "DEPENSIER",
+        "mois": "12",
+        "besoin": 142.67790647100003
+      }
+    ],
+    "consommations": [
+      {
+        "usage": "ECS",
+        "energie": "ELECTRICITE",
+        "scenario": "CONVENTIONNEL",
+        "consommation_ef": 2491.2468319317272,
+        "consommation_ep": 5729.867713442972
+      },
+      {
+        "usage": "ECS",
+        "energie": "ELECTRICITE",
+        "scenario": "DEPENSIER",
+        "consommation_ef": 3190.958923617972,
+        "consommation_ep": 7339.205524321334
+      }
+    ]
+  },
+  "ventilation": {
+    "audit_id": {
+      "value": "2121E1047675A"
+    },
+    "generateurs": [
+      {
+        "id": {
+          "value": "Ventil01"
+        },
+        "description": "",
+        "type_ventilation": "VENTILATION_MECANIQUE_CENTRALISEE",
+        "type": "VMC_SIMPLE_FLUX",
+        "presence_echangeur_thermique": false,
+        "generateur_collectif": false,
+        "annee_installation": 2000
+      }
+    ],
+    "installations": [
+      {
+        "id": {
+          "value": "Ventil01"
+        },
+        "surface": 100.5,
+        "systemes": [
+          {
+            "id": {
+              "value": "Ventil01"
+            },
+            "generateur_id": {
+              "value": "Ventil01"
+            },
+            "type": "VMC_SIMPLE_FLUX",
+            "mode_extraction": "HYGROREGLABLE",
+            "mode_insufflation": "AUTOREGLABLE",
+            "rdim": 1,
+            "performance": {
+              "qvarep_conv": 1.5,
+              "qvasouf_conv": 0,
+              "smea_conv": 2,
+              "ratio_utilisation": 1,
+              "pvent_moy": 50,
+              "pvent": 0.46
+            },
+            "consommations": [
+              {
+                "usage": "AUXILIAIRE",
+                "energie": "ELECTRICITE",
+                "scenario": "CONVENTIONNEL",
+                "consommation_ef": 438,
+                "consommation_ep": 1007.4
+              },
+              {
+                "usage": "AUXILIAIRE",
+                "energie": "ELECTRICITE",
+                "scenario": "DEPENSIER",
+                "consommation_ef": 438,
+                "consommation_ep": 1007.4
+              }
+            ]
+          }
+        ],
+        "consommations": [
+          {
+            "usage": "AUXILIAIRE",
+            "energie": "ELECTRICITE",
+            "scenario": "CONVENTIONNEL",
+            "consommation_ef": 438,
+            "consommation_ep": 1007.4
+          },
+          {
+            "usage": "AUXILIAIRE",
+            "energie": "ELECTRICITE",
+            "scenario": "DEPENSIER",
+            "consommation_ef": 438,
+            "consommation_ep": 1007.4
+          }
+        ]
+      }
+    ],
+    "consommations": [
+      {
+        "usage": "AUXILIAIRE",
+        "energie": "ELECTRICITE",
+        "scenario": "CONVENTIONNEL",
+        "consommation_ef": 438,
+        "consommation_ep": 1007.4
+      },
+      {
+        "usage": "AUXILIAIRE",
+        "energie": "ELECTRICITE",
+        "scenario": "DEPENSIER",
+        "consommation_ef": 438,
+        "consommation_ep": 1007.4
+      }
+    ]
+  },
+  "refroidissement": {
+    "audit_id": {
+      "value": "2121E1047675A"
+    },
+    "generateurs": [],
+    "installations": [],
+    "besoins": [
+      {
+        "usage": "REFROIDISSEMENT",
+        "scenario": "CONVENTIONNEL",
+        "mois": "01",
+        "besoin": 0
+      },
+      {
+        "usage": "REFROIDISSEMENT",
+        "scenario": "CONVENTIONNEL",
+        "mois": "02",
+        "besoin": 0
+      },
+      {
+        "usage": "REFROIDISSEMENT",
+        "scenario": "CONVENTIONNEL",
+        "mois": "03",
+        "besoin": 0
+      },
+      {
+        "usage": "REFROIDISSEMENT",
+        "scenario": "CONVENTIONNEL",
+        "mois": "04",
+        "besoin": 0
+      },
+      {
+        "usage": "REFROIDISSEMENT",
+        "scenario": "CONVENTIONNEL",
+        "mois": "05",
+        "besoin": 29.213233561495834
+      },
+      {
+        "usage": "REFROIDISSEMENT",
+        "scenario": "CONVENTIONNEL",
+        "mois": "06",
+        "besoin": 135.15583114096862
+      },
+      {
+        "usage": "REFROIDISSEMENT",
+        "scenario": "CONVENTIONNEL",
+        "mois": "07",
+        "besoin": 272.490570248583
+      },
+      {
+        "usage": "REFROIDISSEMENT",
+        "scenario": "CONVENTIONNEL",
+        "mois": "08",
+        "besoin": 284.8594498421729
+      },
+      {
+        "usage": "REFROIDISSEMENT",
+        "scenario": "CONVENTIONNEL",
+        "mois": "09",
+        "besoin": 21.412353716633234
+      },
+      {
+        "usage": "REFROIDISSEMENT",
+        "scenario": "CONVENTIONNEL",
+        "mois": "10",
+        "besoin": 0
+      },
+      {
+        "usage": "REFROIDISSEMENT",
+        "scenario": "CONVENTIONNEL",
+        "mois": "11",
+        "besoin": 0
+      },
+      {
+        "usage": "REFROIDISSEMENT",
+        "scenario": "CONVENTIONNEL",
+        "mois": "12",
+        "besoin": 0
+      },
+      {
+        "usage": "REFROIDISSEMENT",
+        "scenario": "DEPENSIER",
+        "mois": "01",
+        "besoin": 0
+      },
+      {
+        "usage": "REFROIDISSEMENT",
+        "scenario": "DEPENSIER",
+        "mois": "02",
+        "besoin": 0
+      },
+      {
+        "usage": "REFROIDISSEMENT",
+        "scenario": "DEPENSIER",
+        "mois": "03",
+        "besoin": 0
+      },
+      {
+        "usage": "REFROIDISSEMENT",
+        "scenario": "DEPENSIER",
+        "mois": "04",
+        "besoin": 0
+      },
+      {
+        "usage": "REFROIDISSEMENT",
+        "scenario": "DEPENSIER",
+        "mois": "05",
+        "besoin": 0
+      },
+      {
+        "usage": "REFROIDISSEMENT",
+        "scenario": "DEPENSIER",
+        "mois": "06",
+        "besoin": 270.7052036379871
+      },
+      {
+        "usage": "REFROIDISSEMENT",
+        "scenario": "DEPENSIER",
+        "mois": "07",
+        "besoin": 544.7711892738382
+      },
+      {
+        "usage": "REFROIDISSEMENT",
+        "scenario": "DEPENSIER",
+        "mois": "08",
+        "besoin": 550.1559431688072
+      },
+      {
+        "usage": "REFROIDISSEMENT",
+        "scenario": "DEPENSIER",
+        "mois": "09",
+        "besoin": 0
+      },
+      {
+        "usage": "REFROIDISSEMENT",
+        "scenario": "DEPENSIER",
+        "mois": "10",
+        "besoin": 0
+      },
+      {
+        "usage": "REFROIDISSEMENT",
+        "scenario": "DEPENSIER",
+        "mois": "11",
+        "besoin": 0
+      },
+      {
+        "usage": "REFROIDISSEMENT",
+        "scenario": "DEPENSIER",
+        "mois": "12",
+        "besoin": 0
+      }
+    ],
+    "consommations": []
+  },
+  "eclairage": {
+    "audit_id": {
+      "value": "2121E1047675A"
+    },
+    "consommations": [
+      {
+        "usage": "ECLAIRAGE",
+        "energie": "ELECTRICITE",
+        "scenario": "CONVENTIONNEL",
+        "consommation_ef": 1.8597599999999999,
+        "consommation_ep": 4.277448
+      },
+      {
+        "usage": "ECLAIRAGE",
+        "energie": "ELECTRICITE",
+        "scenario": "DEPENSIER",
+        "consommation_ef": 1.8597599999999999,
+        "consommation_ep": 4.277448
+      }
+    ]
+  },
+  "visite": {
+    "audit_id": {
+      "value": "2121E1047675A"
+    },
+    "logements": [
+      {
+        "id": {
+          "value": "01936775-5a41-7772-ac72-3ec6e34bbea8"
+        },
+        "description": "Logement visit\u00e9 reconstitu\u00e9",
+        "typologie": "T5",
+        "surface_habitable": 100.5
+      }
+    ]
+  },
+  "bilan": {
+    "consommation": 288.5546677186858,
+    "emission": 0,
+    "etiquette_energie": "E",
+    "etiquette_climat": "A"
+  },
+  "performances": [
+    {
+      "scenario": "CONVENTIONNEL",
+      "usage": "CHAUFFAGE",
+      "consommation_ef": 156.15687583878017,
+      "consommation_ep": 221.51717803268605,
+      "emission": 0
+    },
+    {
+      "scenario": "DEPENSIER",
+      "usage": "CHAUFFAGE",
+      "consommation_ef": 194.31394128917282,
+      "consommation_ep": 275.6450889247173,
+      "emission": 0
+    },
+    {
+      "scenario": "CONVENTIONNEL",
+      "usage": "ECS",
+      "consommation_ef": 24.788525690862958,
+      "consommation_ep": 57.01360908898479,
+      "emission": 0
+    },
+    {
+      "scenario": "DEPENSIER",
+      "usage": "ECS",
+      "consommation_ef": 31.750835060875342,
+      "consommation_ep": 73.02692064001327,
+      "emission": 0
+    },
+    {
+      "scenario": "CONVENTIONNEL",
+      "usage": "REFROIDISSEMENT",
+      "consommation_ef": 0,
+      "consommation_ep": 0,
+      "emission": 0
+    },
+    {
+      "scenario": "DEPENSIER",
+      "usage": "REFROIDISSEMENT",
+      "consommation_ef": 0,
+      "consommation_ep": 0,
+      "emission": 0
+    },
+    {
+      "scenario": "CONVENTIONNEL",
+      "usage": "ECLAIRAGE",
+      "consommation_ef": 0,
+      "consommation_ep": 0,
+      "emission": 0
+    },
+    {
+      "scenario": "DEPENSIER",
+      "usage": "ECLAIRAGE",
+      "consommation_ef": 0,
+      "consommation_ep": 0,
+      "emission": 0
+    },
+    {
+      "scenario": "CONVENTIONNEL",
+      "usage": "AUXILIAIRE",
+      "consommation_ef": 4.358208955223881,
+      "consommation_ep": 10.023880597014925,
+      "emission": 0
+    },
+    {
+      "scenario": "DEPENSIER",
+      "usage": "AUXILIAIRE",
+      "consommation_ef": 4.358208955223881,
+      "consommation_ep": 10.023880597014925,
+      "emission": 0
+    }
+  ]
+}
