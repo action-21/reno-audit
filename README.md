@@ -1,9 +1,12 @@
 # Moteur de calcul de la Performance Conventionnelle des Logements (PCL)
 
-> [!IMPORTANT]
+> [!NOTE]
 > Ce dépôt couvre uniquement les modèle de données du moteur de calcul et centralise les échanges relatifs à la
 > méthode 3CL (améliorations, failles, interprétations...). La base de code de l'API fait l'objet d'un dépôt
 > dédié accessible [ici](https://github.com/action-21/reno-audit-api).
+
+> [!IMPORTANT]
+> Ce projet est actuellement en cours de développement.
 
 ## Présentation
 
@@ -11,11 +14,11 @@ Ce projet poursuit deux objectifs qui s'inscrivent dans la stratégie nationale 
 
 1. Mettre à la disposition de tous les acteurs un moteur d'évaluation des performances énergétiques d'un bâtiment ou d'un logement.
 
-Pour le moment, deux audits réalisés pour un même logement avec une fiabilité des données d'entrée identiques peuvent aboutir à des résultats différents. Un moteur de calcul commun et transparent est la garantie de fournir une information fiable et cohérente à tous les usagers.
+Deux audits réalisés pour un même logement avec une fiabilité des données d'entrée identiques peuvent aboutir à des résultats différents. Un moteur de calcul commun et transparent est la garantie de fournir une information fiable et cohérente à tous les usagers et acteurs de la filière.
 
 2. Améliorer la qualité des données relatives à la performance du parc de bâtiments.
 
-Le modèle de données actuellement disponible souffre d'un manque de lisibilité du fait de sa conception à des fins de contrôle de cohérence. Ce projet repart du besoin des usagers et propose un modèle de données métier. La cohérence des informations renseignées est assurée par le moteur et non par le modèle.
+Le modèle de données actuellement disponible souffre d'un manque de lisibilité du fait de sa conception à des fins de contrôle de cohérence. Ce projet repart du besoin des usagers et propose un modèle de données orienté métier. La cohérence des informations renseignées est assurée par le moteur et non par le modèle.
 
 ```
 <mur>

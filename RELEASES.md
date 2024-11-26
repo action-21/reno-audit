@@ -4,11 +4,14 @@
 
 Version de développement
 
-### Compatibilité opendata
+### Roadmap
 
-- ✅ Maison individuelle
-- ✅ Appartement
+- [x] Production des modèles de données
+- [x] Documentation
+- [] Validation des modèles de données
 
 ## @next - v1.x.x
 
 Version stable
+
+Date provisoire : 01/01/2025
