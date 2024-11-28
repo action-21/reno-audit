@@ -48,4 +48,8 @@
         <type_local_non_chauffe>AUTRES</type_local_non_chauffe>
         <uvue>3</uvue>
     </row>
+    <row>
+        <type_local_non_chauffe>ESPACE_TAMPON_SOLARISE</type_local_non_chauffe>
+        <uvue>3</uvue>
+    </row>
 </table>

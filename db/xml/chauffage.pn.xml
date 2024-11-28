@@ -52,7 +52,7 @@
         <type_chaudiere>CHAUDIERE_MURALE</type_chaudiere>
         <pdim gt="40" gte="" lt="" lte="" />
         <annee_installation_generateur gt="" gte="" lt="" lte="2005" />
-        <pn><![CDATA[((Pdim / 5 ) + 1) * 5]]>></pn>
+        <pn><![CDATA[((Pdim / 5 ) + 1) * 5]]></pn>
     </row>
     <row>
         <type_chaudiere>CHAUDIERE_MURALE</type_chaudiere>
@@ -106,7 +106,7 @@
         <type_chaudiere>CHAUDIERE_MURALE</type_chaudiere>
         <pdim gt="40" gte="" lt="" lte="" />
         <annee_installation_generateur gt="2005" gte="" lt="" lte="" />
-        <pn><![CDATA[((Pdim / 5 ) + 1) * 5]]>></pn>
+        <pn><![CDATA[((Pdim / 5 ) + 1) * 5]]></pn>
     </row>
     <row>
         <type_chaudiere>CHAUDIERE_SOL</type_chaudiere>
@@ -160,6 +160,6 @@
         <type_chaudiere>CHAUDIERE_SOL</type_chaudiere>
         <pdim gt="40" gte="" lt="" lte="" />
         <annee_installation_generateur gt="" gte="" lt="" lte="" />
-        <pn><![CDATA[((Pdim / 5 ) + 1) * 5]]>></pn>
+        <pn><![CDATA[((Pdim / 5 ) + 1) * 5]]></pn>
     </row>
 </table>

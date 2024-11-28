@@ -10,8 +10,15 @@
     <row>
         <type_batiment>MAISON</type_batiment>
         <annee_construction gt="" gte="" lt="" lte="1947" />
+        <presence_joints_menuiserie></presence_joints_menuiserie>
+        <isolation_murs_plafonds>1</isolation_murs_plafonds>
+        <q4pa_conv>2</q4pa_conv>
+    </row>
+    <row>
+        <type_batiment>MAISON</type_batiment>
+        <annee_construction gt="" gte="" lt="" lte="1947" />
         <presence_joints_menuiserie>1</presence_joints_menuiserie>
-        <isolation_murs_plafonds>0</isolation_murs_plafonds>
+        <isolation_murs_plafonds></isolation_murs_plafonds>
         <q4pa_conv>2.5</q4pa_conv>
     </row>
     <row>
@@ -52,7 +59,7 @@
     <row>
         <type_batiment>IMMEUBLE</type_batiment>
         <annee_construction gt="" gte="" lt="" lte="1947" />
-        <presence_joints_menuiserie></presence_joints_menuiserie>
+        <presence_joints_menuiserie>0</presence_joints_menuiserie>
         <isolation_murs_plafonds>0</isolation_murs_plafonds>
         <q4pa_conv>4.6</q4pa_conv>
     </row>
@@ -67,7 +74,7 @@
         <type_batiment>IMMEUBLE</type_batiment>
         <annee_construction gt="" gte="" lt="" lte="1947" />
         <presence_joints_menuiserie>1</presence_joints_menuiserie>
-        <isolation_murs_plafonds>0</isolation_murs_plafonds>
+        <isolation_murs_plafonds></isolation_murs_plafonds>
         <q4pa_conv>2.5</q4pa_conv>
     </row>
     <row>
@@ -86,7 +93,7 @@
     </row>
     <row>
         <type_batiment>IMMEUBLE</type_batiment>
-        <annee_construction gt="" gte="1975" lt="" lte="1977" />
+        <annee_construction gt="" gte="1975" lt="" lte="2012" />
         <presence_joints_menuiserie></presence_joints_menuiserie>
         <isolation_murs_plafonds></isolation_murs_plafonds>
         <q4pa_conv>1.5</q4pa_conv>

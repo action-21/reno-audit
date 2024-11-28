@@ -4,7 +4,7 @@
         <type_baie>BRIQUE_VERRE_PLEINE</type_baie>
         <presence_soubassement></presence_soubassement>
         <nature_menuiserie></nature_menuiserie>
-        <presence_presence_rupteur_pont_thermique></presence_presence_rupteur_pont_thermique>
+        <presence_rupteur_pont_thermique></presence_rupteur_pont_thermique>
         <ug></ug>
         <uw>3.5</uw>
     </row>

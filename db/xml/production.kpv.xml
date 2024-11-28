@@ -6,7 +6,7 @@
         <kpv>0</kpv>
     </row>
     <row>
-        <orientation_pv gt="" gte="67.5" lt="112.5" lte="" />
+        <orientation_pv gt="" gte="67.5" lt="" lte="292.5" />
         <inclinaison_pv gt="" gte="" lt="" lte="15" />
         <kpv>1</kpv>
     </row>

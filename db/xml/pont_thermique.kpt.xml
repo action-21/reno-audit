@@ -66,7 +66,7 @@
     <row>
         <type_liaison>PLANCHER_BAS_MUR</type_liaison>
         <type_isolation_mur>NON_ISOLE</type_isolation_mur>
-        <type_isolation_plancher>ITI_ITE_ITR</type_isolation_plancher>
+        <type_isolation_plancher>ITR_ITE_ITI</type_isolation_plancher>
         <type_pose_ouverture></type_pose_ouverture>
         <presence_retour_isolation></presence_retour_isolation>
         <largeur_dormant></largeur_dormant>
@@ -138,7 +138,7 @@
     <row>
         <type_liaison>PLANCHER_BAS_MUR</type_liaison>
         <type_isolation_mur>ITI</type_isolation_mur>
-        <type_isolation_plancher>ITI_ITE_ITR</type_isolation_plancher>
+        <type_isolation_plancher>ITR_ITE_ITI</type_isolation_plancher>
         <type_pose_ouverture></type_pose_ouverture>
         <presence_retour_isolation></presence_retour_isolation>
         <largeur_dormant></largeur_dormant>
@@ -210,7 +210,7 @@
     <row>
         <type_liaison>PLANCHER_BAS_MUR</type_liaison>
         <type_isolation_mur>ITE</type_isolation_mur>
-        <type_isolation_plancher>ITI_ITE_ITR</type_isolation_plancher>
+        <type_isolation_plancher>ITR_ITE_ITI</type_isolation_plancher>
         <type_pose_ouverture></type_pose_ouverture>
         <presence_retour_isolation></presence_retour_isolation>
         <largeur_dormant></largeur_dormant>
@@ -282,7 +282,7 @@
     <row>
         <type_liaison>PLANCHER_BAS_MUR</type_liaison>
         <type_isolation_mur>ITR</type_isolation_mur>
-        <type_isolation_plancher>ITI_ITE_ITR</type_isolation_plancher>
+        <type_isolation_plancher>ITR_ITE_ITI</type_isolation_plancher>
         <type_pose_ouverture></type_pose_ouverture>
         <presence_retour_isolation></presence_retour_isolation>
         <largeur_dormant></largeur_dormant>
@@ -354,7 +354,7 @@
     <row>
         <type_liaison>PLANCHER_BAS_MUR</type_liaison>
         <type_isolation_mur>ITI_ITE</type_isolation_mur>
-        <type_isolation_plancher>ITI_ITE_ITR</type_isolation_plancher>
+        <type_isolation_plancher>ITR_ITE_ITI</type_isolation_plancher>
         <type_pose_ouverture></type_pose_ouverture>
         <presence_retour_isolation></presence_retour_isolation>
         <largeur_dormant></largeur_dormant>
@@ -471,7 +471,7 @@
     <row>
         <type_liaison>PLANCHER_BAS_MUR</type_liaison>
         <type_isolation_mur>ITI_ITR</type_isolation_mur>
-        <type_isolation_plancher>ITI_ITE_ITR</type_isolation_plancher>
+        <type_isolation_plancher>ITR_ITE_ITI</type_isolation_plancher>
         <type_pose_ouverture></type_pose_ouverture>
         <presence_retour_isolation></presence_retour_isolation>
         <largeur_dormant></largeur_dormant>
@@ -498,7 +498,7 @@
     <row>
         <type_liaison>PLANCHER_BAS_MUR</type_liaison>
         <type_isolation_mur>ITR_ITE_ITI</type_isolation_mur>
-        <type_isolation_plancher>ITI_ITE_ITR</type_isolation_plancher>
+        <type_isolation_plancher>ITR_ITE_ITI</type_isolation_plancher>
         <type_pose_ouverture></type_pose_ouverture>
         <presence_retour_isolation></presence_retour_isolation>
         <largeur_dormant></largeur_dormant>
@@ -570,7 +570,7 @@
     <row>
         <type_liaison>PLANCHER_BAS_MUR</type_liaison>
         <type_isolation_mur>ITE_ITR</type_isolation_mur>
-        <type_isolation_plancher>ITI_ITE_ITR</type_isolation_plancher>
+        <type_isolation_plancher>ITR_ITE_ITI</type_isolation_plancher>
         <type_pose_ouverture></type_pose_ouverture>
         <presence_retour_isolation></presence_retour_isolation>
         <largeur_dormant></largeur_dormant>
@@ -714,7 +714,7 @@
     <row>
         <type_liaison>PLANCHER_HAUT_MUR</type_liaison>
         <type_isolation_mur>NON_ISOLE</type_isolation_mur>
-        <type_isolation_plancher>ITI_ITE_ITR</type_isolation_plancher>
+        <type_isolation_plancher>ITR_ITE_ITI</type_isolation_plancher>
         <type_pose_ouverture></type_pose_ouverture>
         <presence_retour_isolation></presence_retour_isolation>
         <largeur_dormant></largeur_dormant>
@@ -786,7 +786,7 @@
     <row>
         <type_liaison>PLANCHER_HAUT_MUR</type_liaison>
         <type_isolation_mur>ITI</type_isolation_mur>
-        <type_isolation_plancher>ITI_ITE_ITR</type_isolation_plancher>
+        <type_isolation_plancher>ITR_ITE_ITI</type_isolation_plancher>
         <type_pose_ouverture></type_pose_ouverture>
         <presence_retour_isolation></presence_retour_isolation>
         <largeur_dormant></largeur_dormant>
@@ -858,7 +858,7 @@
     <row>
         <type_liaison>PLANCHER_HAUT_MUR</type_liaison>
         <type_isolation_mur>ITE</type_isolation_mur>
-        <type_isolation_plancher>ITI_ITE_ITR</type_isolation_plancher>
+        <type_isolation_plancher>ITR_ITE_ITI</type_isolation_plancher>
         <type_pose_ouverture></type_pose_ouverture>
         <presence_retour_isolation></presence_retour_isolation>
         <largeur_dormant></largeur_dormant>
@@ -930,7 +930,7 @@
     <row>
         <type_liaison>PLANCHER_HAUT_MUR</type_liaison>
         <type_isolation_mur>ITR</type_isolation_mur>
-        <type_isolation_plancher>ITI_ITE_ITR</type_isolation_plancher>
+        <type_isolation_plancher>ITR_ITE_ITI</type_isolation_plancher>
         <type_pose_ouverture></type_pose_ouverture>
         <presence_retour_isolation></presence_retour_isolation>
         <largeur_dormant></largeur_dormant>
@@ -1002,7 +1002,7 @@
     <row>
         <type_liaison>PLANCHER_HAUT_MUR</type_liaison>
         <type_isolation_mur>ITI_ITE</type_isolation_mur>
-        <type_isolation_plancher>ITI_ITE_ITR</type_isolation_plancher>
+        <type_isolation_plancher>ITR_ITE_ITI</type_isolation_plancher>
         <type_pose_ouverture></type_pose_ouverture>
         <presence_retour_isolation></presence_retour_isolation>
         <largeur_dormant></largeur_dormant>
@@ -1119,7 +1119,7 @@
     <row>
         <type_liaison>PLANCHER_HAUT_MUR</type_liaison>
         <type_isolation_mur>ITI_ITR</type_isolation_mur>
-        <type_isolation_plancher>ITI_ITE_ITR</type_isolation_plancher>
+        <type_isolation_plancher>ITR_ITE_ITI</type_isolation_plancher>
         <type_pose_ouverture></type_pose_ouverture>
         <presence_retour_isolation></presence_retour_isolation>
         <largeur_dormant></largeur_dormant>
@@ -1146,7 +1146,7 @@
     <row>
         <type_liaison>PLANCHER_HAUT_MUR</type_liaison>
         <type_isolation_mur>ITR_ITE_ITI</type_isolation_mur>
-        <type_isolation_plancher>ITI_ITE_ITR</type_isolation_plancher>
+        <type_isolation_plancher>ITR_ITE_ITI</type_isolation_plancher>
         <type_pose_ouverture></type_pose_ouverture>
         <presence_retour_isolation></presence_retour_isolation>
         <largeur_dormant></largeur_dormant>
@@ -1218,7 +1218,7 @@
     <row>
         <type_liaison>PLANCHER_HAUT_MUR</type_liaison>
         <type_isolation_mur>ITE_ITR</type_isolation_mur>
-        <type_isolation_plancher>ITI_ITE_ITR</type_isolation_plancher>
+        <type_isolation_plancher>ITR_ITE_ITI</type_isolation_plancher>
         <type_pose_ouverture></type_pose_ouverture>
         <presence_retour_isolation></presence_retour_isolation>
         <largeur_dormant></largeur_dormant>
