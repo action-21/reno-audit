@@ -1302,7 +1302,7 @@
         <type_isolation_plancher></type_isolation_plancher>
         <type_pose_ouverture>NU_EXTERIEUR</type_pose_ouverture>
         <presence_retour_isolation></presence_retour_isolation>
-        <largeur_dormant>5</largeur_dormant>
+        <largeur_dormant>50</largeur_dormant>
         <kpt>0.43</kpt>
     </row>
     <row>
@@ -1311,7 +1311,7 @@
         <type_isolation_plancher></type_isolation_plancher>
         <type_pose_ouverture>NU_EXTERIEUR</type_pose_ouverture>
         <presence_retour_isolation></presence_retour_isolation>
-        <largeur_dormant>10</largeur_dormant>
+        <largeur_dormant>100</largeur_dormant>
         <kpt>0.29</kpt>
     </row>
     <row>
@@ -1320,7 +1320,7 @@
         <type_isolation_plancher></type_isolation_plancher>
         <type_pose_ouverture>TUNNEL</type_pose_ouverture>
         <presence_retour_isolation></presence_retour_isolation>
-        <largeur_dormant>5</largeur_dormant>
+        <largeur_dormant>50</largeur_dormant>
         <kpt>0.31</kpt>
     </row>
     <row>
@@ -1329,7 +1329,7 @@
         <type_isolation_plancher></type_isolation_plancher>
         <type_pose_ouverture>TUNNEL</type_pose_ouverture>
         <presence_retour_isolation></presence_retour_isolation>
-        <largeur_dormant>10</largeur_dormant>
+        <largeur_dormant>100</largeur_dormant>
         <kpt>0.19</kpt>
     </row>
     <row>
@@ -1338,7 +1338,7 @@
         <type_isolation_plancher></type_isolation_plancher>
         <type_pose_ouverture>NU_INTERIEUR</type_pose_ouverture>
         <presence_retour_isolation></presence_retour_isolation>
-        <largeur_dormant>5</largeur_dormant>
+        <largeur_dormant>50</largeur_dormant>
         <kpt>0.38</kpt>
     </row>
     <row>
@@ -1347,7 +1347,7 @@
         <type_isolation_plancher></type_isolation_plancher>
         <type_pose_ouverture>NU_INTERIEUR</type_pose_ouverture>
         <presence_retour_isolation></presence_retour_isolation>
-        <largeur_dormant>10</largeur_dormant>
+        <largeur_dormant>100</largeur_dormant>
         <kpt>0.25</kpt>
     </row>
     <row>
@@ -1356,7 +1356,7 @@
         <type_isolation_plancher></type_isolation_plancher>
         <type_pose_ouverture>NU_EXTERIEUR</type_pose_ouverture>
         <presence_retour_isolation>1</presence_retour_isolation>
-        <largeur_dormant>5</largeur_dormant>
+        <largeur_dormant>50</largeur_dormant>
         <kpt>0.22</kpt>
     </row>
     <row>
@@ -1365,7 +1365,7 @@
         <type_isolation_plancher></type_isolation_plancher>
         <type_pose_ouverture>NU_EXTERIEUR</type_pose_ouverture>
         <presence_retour_isolation>1</presence_retour_isolation>
-        <largeur_dormant>10</largeur_dormant>
+        <largeur_dormant>100</largeur_dormant>
         <kpt>0.18</kpt>
     </row>
     <row>
@@ -1374,7 +1374,7 @@
         <type_isolation_plancher></type_isolation_plancher>
         <type_pose_ouverture>TUNNEL</type_pose_ouverture>
         <presence_retour_isolation>1</presence_retour_isolation>
-        <largeur_dormant>5</largeur_dormant>
+        <largeur_dormant>50</largeur_dormant>
         <kpt>0.16</kpt>
     </row>
     <row>
@@ -1383,7 +1383,7 @@
         <type_isolation_plancher></type_isolation_plancher>
         <type_pose_ouverture>TUNNEL</type_pose_ouverture>
         <presence_retour_isolation>1</presence_retour_isolation>
-        <largeur_dormant>10</largeur_dormant>
+        <largeur_dormant>100</largeur_dormant>
         <kpt>0.13</kpt>
     </row>
     <row>
@@ -1392,7 +1392,7 @@
         <type_isolation_plancher></type_isolation_plancher>
         <type_pose_ouverture>NU_INTERIEUR</type_pose_ouverture>
         <presence_retour_isolation>1</presence_retour_isolation>
-        <largeur_dormant>5</largeur_dormant>
+        <largeur_dormant>50</largeur_dormant>
         <kpt>0</kpt>
     </row>
     <row>
@@ -1401,7 +1401,7 @@
         <type_isolation_plancher></type_isolation_plancher>
         <type_pose_ouverture>NU_INTERIEUR</type_pose_ouverture>
         <presence_retour_isolation>1</presence_retour_isolation>
-        <largeur_dormant>10</largeur_dormant>
+        <largeur_dormant>100</largeur_dormant>
         <kpt>0</kpt>
     </row>
     <row>
@@ -1410,7 +1410,7 @@
         <type_isolation_plancher></type_isolation_plancher>
         <type_pose_ouverture>NU_EXTERIEUR</type_pose_ouverture>
         <presence_retour_isolation>0</presence_retour_isolation>
-        <largeur_dormant>5</largeur_dormant>
+        <largeur_dormant>50</largeur_dormant>
         <kpt>0.43</kpt>
     </row>
     <row>
@@ -1419,7 +1419,7 @@
         <type_isolation_plancher></type_isolation_plancher>
         <type_pose_ouverture>NU_EXTERIEUR</type_pose_ouverture>
         <presence_retour_isolation>0</presence_retour_isolation>
-        <largeur_dormant>10</largeur_dormant>
+        <largeur_dormant>100</largeur_dormant>
         <kpt>0.29</kpt>
     </row>
     <row>
@@ -1428,7 +1428,7 @@
         <type_isolation_plancher></type_isolation_plancher>
         <type_pose_ouverture>TUNNEL</type_pose_ouverture>
         <presence_retour_isolation>0</presence_retour_isolation>
-        <largeur_dormant>5</largeur_dormant>
+        <largeur_dormant>50</largeur_dormant>
         <kpt>0.31</kpt>
     </row>
     <row>
@@ -1437,7 +1437,7 @@
         <type_isolation_plancher></type_isolation_plancher>
         <type_pose_ouverture>TUNNEL</type_pose_ouverture>
         <presence_retour_isolation>0</presence_retour_isolation>
-        <largeur_dormant>10</largeur_dormant>
+        <largeur_dormant>100</largeur_dormant>
         <kpt>0.19</kpt>
     </row>
     <row>
@@ -1446,7 +1446,7 @@
         <type_isolation_plancher></type_isolation_plancher>
         <type_pose_ouverture>NU_INTERIEUR</type_pose_ouverture>
         <presence_retour_isolation>0</presence_retour_isolation>
-        <largeur_dormant>5</largeur_dormant>
+        <largeur_dormant>50</largeur_dormant>
         <kpt>0</kpt>
     </row>
     <row>
@@ -1455,7 +1455,7 @@
         <type_isolation_plancher></type_isolation_plancher>
         <type_pose_ouverture>NU_INTERIEUR</type_pose_ouverture>
         <presence_retour_isolation>0</presence_retour_isolation>
-        <largeur_dormant>10</largeur_dormant>
+        <largeur_dormant>100</largeur_dormant>
         <kpt>0</kpt>
     </row>
     <row>
@@ -1464,7 +1464,7 @@
         <type_isolation_plancher></type_isolation_plancher>
         <type_pose_ouverture>NU_EXTERIEUR</type_pose_ouverture>
         <presence_retour_isolation>1</presence_retour_isolation>
-        <largeur_dormant>5</largeur_dormant>
+        <largeur_dormant>50</largeur_dormant>
         <kpt>0</kpt>
     </row>
     <row>
@@ -1473,7 +1473,7 @@
         <type_isolation_plancher></type_isolation_plancher>
         <type_pose_ouverture>NU_EXTERIEUR</type_pose_ouverture>
         <presence_retour_isolation>1</presence_retour_isolation>
-        <largeur_dormant>10</largeur_dormant>
+        <largeur_dormant>100</largeur_dormant>
         <kpt>0</kpt>
     </row>
     <row>
@@ -1482,7 +1482,7 @@
         <type_isolation_plancher></type_isolation_plancher>
         <type_pose_ouverture>TUNNEL</type_pose_ouverture>
         <presence_retour_isolation>1</presence_retour_isolation>
-        <largeur_dormant>5</largeur_dormant>
+        <largeur_dormant>50</largeur_dormant>
         <kpt>0.19</kpt>
     </row>
     <row>
@@ -1491,7 +1491,7 @@
         <type_isolation_plancher></type_isolation_plancher>
         <type_pose_ouverture>TUNNEL</type_pose_ouverture>
         <presence_retour_isolation>1</presence_retour_isolation>
-        <largeur_dormant>10</largeur_dormant>
+        <largeur_dormant>100</largeur_dormant>
         <kpt>0.15</kpt>
     </row>
     <row>
@@ -1500,7 +1500,7 @@
         <type_isolation_plancher></type_isolation_plancher>
         <type_pose_ouverture>NU_INTERIEUR</type_pose_ouverture>
         <presence_retour_isolation>1</presence_retour_isolation>
-        <largeur_dormant>5</largeur_dormant>
+        <largeur_dormant>50</largeur_dormant>
         <kpt>0.25</kpt>
     </row>
     <row>
@@ -1509,7 +1509,7 @@
         <type_isolation_plancher></type_isolation_plancher>
         <type_pose_ouverture>NU_INTERIEUR</type_pose_ouverture>
         <presence_retour_isolation>1</presence_retour_isolation>
-        <largeur_dormant>10</largeur_dormant>
+        <largeur_dormant>100</largeur_dormant>
         <kpt>0.2</kpt>
     </row>
     <row>
@@ -1518,7 +1518,7 @@
         <type_isolation_plancher></type_isolation_plancher>
         <type_pose_ouverture>NU_EXTERIEUR</type_pose_ouverture>
         <presence_retour_isolation>0</presence_retour_isolation>
-        <largeur_dormant>5</largeur_dormant>
+        <largeur_dormant>50</largeur_dormant>
         <kpt>0</kpt>
     </row>
     <row>
@@ -1527,7 +1527,7 @@
         <type_isolation_plancher></type_isolation_plancher>
         <type_pose_ouverture>NU_EXTERIEUR</type_pose_ouverture>
         <presence_retour_isolation>0</presence_retour_isolation>
-        <largeur_dormant>10</largeur_dormant>
+        <largeur_dormant>100</largeur_dormant>
         <kpt>0</kpt>
     </row>
     <row>
@@ -1536,7 +1536,7 @@
         <type_isolation_plancher></type_isolation_plancher>
         <type_pose_ouverture>TUNNEL</type_pose_ouverture>
         <presence_retour_isolation>0</presence_retour_isolation>
-        <largeur_dormant>5</largeur_dormant>
+        <largeur_dormant>50</largeur_dormant>
         <kpt>0.45</kpt>
     </row>
     <row>
@@ -1545,7 +1545,7 @@
         <type_isolation_plancher></type_isolation_plancher>
         <type_pose_ouverture>TUNNEL</type_pose_ouverture>
         <presence_retour_isolation>0</presence_retour_isolation>
-        <largeur_dormant>10</largeur_dormant>
+        <largeur_dormant>100</largeur_dormant>
         <kpt>0.4</kpt>
     </row>
     <row>
@@ -1554,7 +1554,7 @@
         <type_isolation_plancher></type_isolation_plancher>
         <type_pose_ouverture>NU_INTERIEUR</type_pose_ouverture>
         <presence_retour_isolation>0</presence_retour_isolation>
-        <largeur_dormant>5</largeur_dormant>
+        <largeur_dormant>50</largeur_dormant>
         <kpt>0.9</kpt>
     </row>
     <row>
@@ -1563,7 +1563,7 @@
         <type_isolation_plancher></type_isolation_plancher>
         <type_pose_ouverture>NU_INTERIEUR</type_pose_ouverture>
         <presence_retour_isolation>0</presence_retour_isolation>
-        <largeur_dormant>10</largeur_dormant>
+        <largeur_dormant>100</largeur_dormant>
         <kpt>0.8</kpt>
     </row>
     <row>
@@ -1581,7 +1581,7 @@
         <type_isolation_plancher></type_isolation_plancher>
         <type_pose_ouverture>NU_EXTERIEUR</type_pose_ouverture>
         <presence_retour_isolation>1</presence_retour_isolation>
-        <largeur_dormant>5</largeur_dormant>
+        <largeur_dormant>50</largeur_dormant>
         <kpt>0</kpt>
     </row>
     <row>
@@ -1590,7 +1590,7 @@
         <type_isolation_plancher></type_isolation_plancher>
         <type_pose_ouverture>NU_EXTERIEUR</type_pose_ouverture>
         <presence_retour_isolation>1</presence_retour_isolation>
-        <largeur_dormant>10</largeur_dormant>
+        <largeur_dormant>100</largeur_dormant>
         <kpt>0</kpt>
     </row>
     <row>
@@ -1599,7 +1599,7 @@
         <type_isolation_plancher></type_isolation_plancher>
         <type_pose_ouverture>TUNNEL</type_pose_ouverture>
         <presence_retour_isolation>1</presence_retour_isolation>
-        <largeur_dormant>5</largeur_dormant>
+        <largeur_dormant>50</largeur_dormant>
         <kpt>0.16</kpt>
     </row>
     <row>
@@ -1608,7 +1608,7 @@
         <type_isolation_plancher></type_isolation_plancher>
         <type_pose_ouverture>TUNNEL</type_pose_ouverture>
         <presence_retour_isolation>1</presence_retour_isolation>
-        <largeur_dormant>10</largeur_dormant>
+        <largeur_dormant>100</largeur_dormant>
         <kpt>0.13</kpt>
     </row>
     <row>
@@ -1617,7 +1617,7 @@
         <type_isolation_plancher></type_isolation_plancher>
         <type_pose_ouverture>NU_INTERIEUR</type_pose_ouverture>
         <presence_retour_isolation>1</presence_retour_isolation>
-        <largeur_dormant>5</largeur_dormant>
+        <largeur_dormant>50</largeur_dormant>
         <kpt>0</kpt>
     </row>
     <row>
@@ -1626,7 +1626,7 @@
         <type_isolation_plancher></type_isolation_plancher>
         <type_pose_ouverture>NU_INTERIEUR</type_pose_ouverture>
         <presence_retour_isolation>1</presence_retour_isolation>
-        <largeur_dormant>10</largeur_dormant>
+        <largeur_dormant>100</largeur_dormant>
         <kpt>0</kpt>
     </row>
     <row>
@@ -1635,7 +1635,7 @@
         <type_isolation_plancher></type_isolation_plancher>
         <type_pose_ouverture>NU_EXTERIEUR</type_pose_ouverture>
         <presence_retour_isolation>0</presence_retour_isolation>
-        <largeur_dormant>5</largeur_dormant>
+        <largeur_dormant>50</largeur_dormant>
         <kpt>0</kpt>
     </row>
     <row>
@@ -1644,7 +1644,7 @@
         <type_isolation_plancher></type_isolation_plancher>
         <type_pose_ouverture>NU_EXTERIEUR</type_pose_ouverture>
         <presence_retour_isolation>0</presence_retour_isolation>
-        <largeur_dormant>10</largeur_dormant>
+        <largeur_dormant>100</largeur_dormant>
         <kpt>0</kpt>
     </row>
     <row>
@@ -1653,7 +1653,7 @@
         <type_isolation_plancher></type_isolation_plancher>
         <type_pose_ouverture>TUNNEL</type_pose_ouverture>
         <presence_retour_isolation>0</presence_retour_isolation>
-        <largeur_dormant>5</largeur_dormant>
+        <largeur_dormant>50</largeur_dormant>
         <kpt>0.31</kpt>
     </row>
     <row>
@@ -1662,7 +1662,7 @@
         <type_isolation_plancher></type_isolation_plancher>
         <type_pose_ouverture>TUNNEL</type_pose_ouverture>
         <presence_retour_isolation>0</presence_retour_isolation>
-        <largeur_dormant>10</largeur_dormant>
+        <largeur_dormant>100</largeur_dormant>
         <kpt>0.19</kpt>
     </row>
     <row>
@@ -1671,7 +1671,7 @@
         <type_isolation_plancher></type_isolation_plancher>
         <type_pose_ouverture>NU_INTERIEUR</type_pose_ouverture>
         <presence_retour_isolation>0</presence_retour_isolation>
-        <largeur_dormant>5</largeur_dormant>
+        <largeur_dormant>50</largeur_dormant>
         <kpt>0</kpt>
     </row>
     <row>
@@ -1680,7 +1680,7 @@
         <type_isolation_plancher></type_isolation_plancher>
         <type_pose_ouverture>NU_INTERIEUR</type_pose_ouverture>
         <presence_retour_isolation>0</presence_retour_isolation>
-        <largeur_dormant>10</largeur_dormant>
+        <largeur_dormant>100</largeur_dormant>
         <kpt>0</kpt>
     </row>
     <row>
@@ -1689,7 +1689,7 @@
         <type_isolation_plancher></type_isolation_plancher>
         <type_pose_ouverture>NU_EXTERIEUR</type_pose_ouverture>
         <presence_retour_isolation>1</presence_retour_isolation>
-        <largeur_dormant>5</largeur_dormant>
+        <largeur_dormant>50</largeur_dormant>
         <kpt>0.2</kpt>
     </row>
     <row>
@@ -1698,7 +1698,7 @@
         <type_isolation_plancher></type_isolation_plancher>
         <type_pose_ouverture>NU_EXTERIEUR</type_pose_ouverture>
         <presence_retour_isolation>1</presence_retour_isolation>
-        <largeur_dormant>10</largeur_dormant>
+        <largeur_dormant>100</largeur_dormant>
         <kpt>0.18</kpt>
     </row>
     <row>
@@ -1707,7 +1707,7 @@
         <type_isolation_plancher></type_isolation_plancher>
         <type_pose_ouverture>TUNNEL</type_pose_ouverture>
         <presence_retour_isolation>1</presence_retour_isolation>
-        <largeur_dormant>5</largeur_dormant>
+        <largeur_dormant>50</largeur_dormant>
         <kpt>0.16</kpt>
     </row>
     <row>
@@ -1716,7 +1716,7 @@
         <type_isolation_plancher></type_isolation_plancher>
         <type_pose_ouverture>TUNNEL</type_pose_ouverture>
         <presence_retour_isolation>1</presence_retour_isolation>
-        <largeur_dormant>10</largeur_dormant>
+        <largeur_dormant>100</largeur_dormant>
         <kpt>0.13</kpt>
     </row>
     <row>
@@ -1725,7 +1725,7 @@
         <type_isolation_plancher></type_isolation_plancher>
         <type_pose_ouverture>NU_INTERIEUR</type_pose_ouverture>
         <presence_retour_isolation>1</presence_retour_isolation>
-        <largeur_dormant>5</largeur_dormant>
+        <largeur_dormant>50</largeur_dormant>
         <kpt>0</kpt>
     </row>
     <row>
@@ -1734,7 +1734,7 @@
         <type_isolation_plancher></type_isolation_plancher>
         <type_pose_ouverture>NU_INTERIEUR</type_pose_ouverture>
         <presence_retour_isolation>1</presence_retour_isolation>
-        <largeur_dormant>10</largeur_dormant>
+        <largeur_dormant>100</largeur_dormant>
         <kpt>0</kpt>
     </row>
     <row>
@@ -1743,7 +1743,7 @@
         <type_isolation_plancher></type_isolation_plancher>
         <type_pose_ouverture>NU_EXTERIEUR</type_pose_ouverture>
         <presence_retour_isolation>0</presence_retour_isolation>
-        <largeur_dormant>5</largeur_dormant>
+        <largeur_dormant>50</largeur_dormant>
         <kpt>0.2</kpt>
     </row>
     <row>
@@ -1752,7 +1752,7 @@
         <type_isolation_plancher></type_isolation_plancher>
         <type_pose_ouverture>NU_EXTERIEUR</type_pose_ouverture>
         <presence_retour_isolation>0</presence_retour_isolation>
-        <largeur_dormant>10</largeur_dormant>
+        <largeur_dormant>100</largeur_dormant>
         <kpt>0.2</kpt>
     </row>
     <row>
@@ -1761,7 +1761,7 @@
         <type_isolation_plancher></type_isolation_plancher>
         <type_pose_ouverture>TUNNEL</type_pose_ouverture>
         <presence_retour_isolation>0</presence_retour_isolation>
-        <largeur_dormant>5</largeur_dormant>
+        <largeur_dormant>50</largeur_dormant>
         <kpt>0.2</kpt>
     </row>
     <row>
@@ -1770,7 +1770,7 @@
         <type_isolation_plancher></type_isolation_plancher>
         <type_pose_ouverture>TUNNEL</type_pose_ouverture>
         <presence_retour_isolation>0</presence_retour_isolation>
-        <largeur_dormant>10</largeur_dormant>
+        <largeur_dormant>100</largeur_dormant>
         <kpt>0.19</kpt>
     </row>
     <row>
@@ -1779,7 +1779,7 @@
         <type_isolation_plancher></type_isolation_plancher>
         <type_pose_ouverture>NU_INTERIEUR</type_pose_ouverture>
         <presence_retour_isolation>0</presence_retour_isolation>
-        <largeur_dormant>5</largeur_dormant>
+        <largeur_dormant>50</largeur_dormant>
         <kpt>0</kpt>
     </row>
     <row>
@@ -1788,7 +1788,7 @@
         <type_isolation_plancher></type_isolation_plancher>
         <type_pose_ouverture>NU_INTERIEUR</type_pose_ouverture>
         <presence_retour_isolation>0</presence_retour_isolation>
-        <largeur_dormant>10</largeur_dormant>
+        <largeur_dormant>100</largeur_dormant>
         <kpt>0</kpt>
     </row>
     <row>
@@ -1797,7 +1797,7 @@
         <type_isolation_plancher></type_isolation_plancher>
         <type_pose_ouverture>NU_EXTERIEUR</type_pose_ouverture>
         <presence_retour_isolation>1</presence_retour_isolation>
-        <largeur_dormant>5</largeur_dormant>
+        <largeur_dormant>50</largeur_dormant>
         <kpt>0</kpt>
     </row>
     <row>
@@ -1806,7 +1806,7 @@
         <type_isolation_plancher></type_isolation_plancher>
         <type_pose_ouverture>NU_EXTERIEUR</type_pose_ouverture>
         <presence_retour_isolation>1</presence_retour_isolation>
-        <largeur_dormant>5</largeur_dormant>
+        <largeur_dormant>50</largeur_dormant>
         <kpt>0</kpt>
     </row>
     <row>
@@ -1815,7 +1815,7 @@
         <type_isolation_plancher></type_isolation_plancher>
         <type_pose_ouverture>NU_EXTERIEUR</type_pose_ouverture>
         <presence_retour_isolation>1</presence_retour_isolation>
-        <largeur_dormant>10</largeur_dormant>
+        <largeur_dormant>100</largeur_dormant>
         <kpt>0</kpt>
     </row>
     <row>
@@ -1824,7 +1824,7 @@
         <type_isolation_plancher></type_isolation_plancher>
         <type_pose_ouverture>NU_EXTERIEUR</type_pose_ouverture>
         <presence_retour_isolation>1</presence_retour_isolation>
-        <largeur_dormant>10</largeur_dormant>
+        <largeur_dormant>100</largeur_dormant>
         <kpt>0</kpt>
     </row>
     <row>
@@ -1833,7 +1833,7 @@
         <type_isolation_plancher></type_isolation_plancher>
         <type_pose_ouverture>TUNNEL</type_pose_ouverture>
         <presence_retour_isolation>1</presence_retour_isolation>
-        <largeur_dormant>5</largeur_dormant>
+        <largeur_dormant>50</largeur_dormant>
         <kpt>0.19</kpt>
     </row>
     <row>
@@ -1842,7 +1842,7 @@
         <type_isolation_plancher></type_isolation_plancher>
         <type_pose_ouverture>TUNNEL</type_pose_ouverture>
         <presence_retour_isolation>1</presence_retour_isolation>
-        <largeur_dormant>5</largeur_dormant>
+        <largeur_dormant>50</largeur_dormant>
         <kpt>0.19</kpt>
     </row>
     <row>
@@ -1851,7 +1851,7 @@
         <type_isolation_plancher></type_isolation_plancher>
         <type_pose_ouverture>TUNNEL</type_pose_ouverture>
         <presence_retour_isolation>1</presence_retour_isolation>
-        <largeur_dormant>10</largeur_dormant>
+        <largeur_dormant>100</largeur_dormant>
         <kpt>0.15</kpt>
     </row>
     <row>
@@ -1860,7 +1860,7 @@
         <type_isolation_plancher></type_isolation_plancher>
         <type_pose_ouverture>TUNNEL</type_pose_ouverture>
         <presence_retour_isolation>1</presence_retour_isolation>
-        <largeur_dormant>10</largeur_dormant>
+        <largeur_dormant>100</largeur_dormant>
         <kpt>0.15</kpt>
     </row>
     <row>
@@ -1869,7 +1869,7 @@
         <type_isolation_plancher></type_isolation_plancher>
         <type_pose_ouverture>NU_INTERIEUR</type_pose_ouverture>
         <presence_retour_isolation>1</presence_retour_isolation>
-        <largeur_dormant>5</largeur_dormant>
+        <largeur_dormant>50</largeur_dormant>
         <kpt>0.2</kpt>
     </row>
     <row>
@@ -1878,7 +1878,7 @@
         <type_isolation_plancher></type_isolation_plancher>
         <type_pose_ouverture>NU_INTERIEUR</type_pose_ouverture>
         <presence_retour_isolation>1</presence_retour_isolation>
-        <largeur_dormant>5</largeur_dormant>
+        <largeur_dormant>50</largeur_dormant>
         <kpt>0.2</kpt>
     </row>
     <row>
@@ -1887,7 +1887,7 @@
         <type_isolation_plancher></type_isolation_plancher>
         <type_pose_ouverture>NU_INTERIEUR</type_pose_ouverture>
         <presence_retour_isolation>1</presence_retour_isolation>
-        <largeur_dormant>10</largeur_dormant>
+        <largeur_dormant>100</largeur_dormant>
         <kpt>0.2</kpt>
     </row>
     <row>
@@ -1896,7 +1896,7 @@
         <type_isolation_plancher></type_isolation_plancher>
         <type_pose_ouverture>NU_INTERIEUR</type_pose_ouverture>
         <presence_retour_isolation>1</presence_retour_isolation>
-        <largeur_dormant>10</largeur_dormant>
+        <largeur_dormant>100</largeur_dormant>
         <kpt>0.2</kpt>
     </row>
     <row>
@@ -1905,7 +1905,7 @@
         <type_isolation_plancher></type_isolation_plancher>
         <type_pose_ouverture>NU_EXTERIEUR</type_pose_ouverture>
         <presence_retour_isolation>0</presence_retour_isolation>
-        <largeur_dormant>5</largeur_dormant>
+        <largeur_dormant>50</largeur_dormant>
         <kpt>0</kpt>
     </row>
     <row>
@@ -1914,7 +1914,7 @@
         <type_isolation_plancher></type_isolation_plancher>
         <type_pose_ouverture>NU_EXTERIEUR</type_pose_ouverture>
         <presence_retour_isolation>0</presence_retour_isolation>
-        <largeur_dormant>5</largeur_dormant>
+        <largeur_dormant>50</largeur_dormant>
         <kpt>0</kpt>
     </row>
     <row>
@@ -1923,7 +1923,7 @@
         <type_isolation_plancher></type_isolation_plancher>
         <type_pose_ouverture>NU_EXTERIEUR</type_pose_ouverture>
         <presence_retour_isolation>0</presence_retour_isolation>
-        <largeur_dormant>10</largeur_dormant>
+        <largeur_dormant>100</largeur_dormant>
         <kpt>0</kpt>
     </row>
     <row>
@@ -1932,7 +1932,7 @@
         <type_isolation_plancher></type_isolation_plancher>
         <type_pose_ouverture>NU_EXTERIEUR</type_pose_ouverture>
         <presence_retour_isolation>0</presence_retour_isolation>
-        <largeur_dormant>10</largeur_dormant>
+        <largeur_dormant>100</largeur_dormant>
         <kpt>0</kpt>
     </row>
     <row>
@@ -1941,7 +1941,7 @@
         <type_isolation_plancher></type_isolation_plancher>
         <type_pose_ouverture>TUNNEL</type_pose_ouverture>
         <presence_retour_isolation>0</presence_retour_isolation>
-        <largeur_dormant>5</largeur_dormant>
+        <largeur_dormant>50</largeur_dormant>
         <kpt>0.2</kpt>
     </row>
     <row>
@@ -1950,7 +1950,7 @@
         <type_isolation_plancher></type_isolation_plancher>
         <type_pose_ouverture>TUNNEL</type_pose_ouverture>
         <presence_retour_isolation>0</presence_retour_isolation>
-        <largeur_dormant>5</largeur_dormant>
+        <largeur_dormant>50</largeur_dormant>
         <kpt>0.2</kpt>
     </row>
     <row>
@@ -1959,7 +1959,7 @@
         <type_isolation_plancher></type_isolation_plancher>
         <type_pose_ouverture>TUNNEL</type_pose_ouverture>
         <presence_retour_isolation>0</presence_retour_isolation>
-        <largeur_dormant>10</largeur_dormant>
+        <largeur_dormant>100</largeur_dormant>
         <kpt>0.2</kpt>
     </row>
     <row>
@@ -1968,7 +1968,7 @@
         <type_isolation_plancher></type_isolation_plancher>
         <type_pose_ouverture>TUNNEL</type_pose_ouverture>
         <presence_retour_isolation>0</presence_retour_isolation>
-        <largeur_dormant>10</largeur_dormant>
+        <largeur_dormant>100</largeur_dormant>
         <kpt>0.2</kpt>
     </row>
     <row>
@@ -1977,7 +1977,7 @@
         <type_isolation_plancher></type_isolation_plancher>
         <type_pose_ouverture>NU_INTERIEUR</type_pose_ouverture>
         <presence_retour_isolation>0</presence_retour_isolation>
-        <largeur_dormant>5</largeur_dormant>
+        <largeur_dormant>50</largeur_dormant>
         <kpt>0.2</kpt>
     </row>
     <row>
@@ -1986,7 +1986,7 @@
         <type_isolation_plancher></type_isolation_plancher>
         <type_pose_ouverture>NU_INTERIEUR</type_pose_ouverture>
         <presence_retour_isolation>0</presence_retour_isolation>
-        <largeur_dormant>5</largeur_dormant>
+        <largeur_dormant>50</largeur_dormant>
         <kpt>0.2</kpt>
     </row>
     <row>
@@ -1995,7 +1995,7 @@
         <type_isolation_plancher></type_isolation_plancher>
         <type_pose_ouverture>NU_INTERIEUR</type_pose_ouverture>
         <presence_retour_isolation>0</presence_retour_isolation>
-        <largeur_dormant>10</largeur_dormant>
+        <largeur_dormant>100</largeur_dormant>
         <kpt>0.2</kpt>
     </row>
     <row>
@@ -2004,7 +2004,7 @@
         <type_isolation_plancher></type_isolation_plancher>
         <type_pose_ouverture>NU_INTERIEUR</type_pose_ouverture>
         <presence_retour_isolation>0</presence_retour_isolation>
-        <largeur_dormant>10</largeur_dormant>
+        <largeur_dormant>100</largeur_dormant>
         <kpt>0.2</kpt>
     </row>
 </table>

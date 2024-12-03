@@ -2890,4 +2890,184 @@
         <qp0><![CDATA[Pn * (E + F * logPn) / 100 * Pn]]></qp0>
         <pveilleuse></pveilleuse>
     </row>
+    <row>
+        <type_generateur>POELE_BOUILLEUR</type_generateur>
+        <energie_generateur>BOIS_BUCHE</energie_generateur>
+        <annee_installation_generateur gt="" gte="" lt="" lte="2011" />
+        <pn gt="" gte="" lt="" lte="70" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[47 + 6 * logPn]]></rpn>
+        <qp0><![CDATA[0.07 * Pn * (Pn ^ -0.3)]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>POELE_BOUILLEUR</type_generateur>
+        <energie_generateur>BOIS_BUCHE</energie_generateur>
+        <annee_installation_generateur gt="" gte="" lt="" lte="2011" />
+        <pn gt="70" gte="" lt="" lte="400" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[58]]></rpn>
+        <qp0><![CDATA[1.4]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>POELE_BOUILLEUR</type_generateur>
+        <energie_generateur>BOIS_BUCHE</energie_generateur>
+        <annee_installation_generateur gt="" gte="" lt="" lte="2011" />
+        <pn gt="400" gte="" lt="" lte="" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[58]]></rpn>
+        <qp0><![CDATA[0.8]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>POELE_BOUILLEUR</type_generateur>
+        <energie_generateur>BOIS_BUCHE</energie_generateur>
+        <annee_installation_generateur gt="" gte="2012" lt="" lte="" />
+        <pn gt="" gte="" lt="" lte="70" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[57 + 6 * logPn]]></rpn>
+        <qp0><![CDATA[0.085 * Pn * (Pn ^ -0.4)]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>POELE_BOUILLEUR</type_generateur>
+        <energie_generateur>BOIS_BUCHE</energie_generateur>
+        <annee_installation_generateur gt="" gte="2012" lt="" lte="" />
+        <pn gt="70" gte="" lt="" lte="400" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[68]]></rpn>
+        <qp0><![CDATA[1.1]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>POELE_BOUILLEUR</type_generateur>
+        <energie_generateur>BOIS_BUCHE</energie_generateur>
+        <annee_installation_generateur gt="" gte="2012" lt="" lte="" />
+        <pn gt="400" gte="" lt="" lte="" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[68]]></rpn>
+        <qp0><![CDATA[0.5]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>POELE_BOUILLEUR</type_generateur>
+        <energie_generateur>BOIS_GRANULE</energie_generateur>
+        <annee_installation_generateur gt="" gte="" lt="" lte="2011" />
+        <pn gt="" gte="" lt="" lte="70" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[47 + 6 * logPn]]></rpn>
+        <qp0><![CDATA[0.08 * Pn * (Pn ^ -0.3)]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>POELE_BOUILLEUR</type_generateur>
+        <energie_generateur>BOIS_GRANULE</energie_generateur>
+        <annee_installation_generateur gt="" gte="" lt="" lte="2011" />
+        <pn gt="70" gte="" lt="" lte="400" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[58]]></rpn>
+        <qp0><![CDATA[1.4]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>POELE_BOUILLEUR</type_generateur>
+        <energie_generateur>BOIS_GRANULE</energie_generateur>
+        <annee_installation_generateur gt="" gte="" lt="" lte="2011" />
+        <pn gt="400" gte="" lt="" lte="" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[58]]></rpn>
+        <qp0><![CDATA[0.8]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>POELE_BOUILLEUR</type_generateur>
+        <energie_generateur>BOIS_GRANULE</energie_generateur>
+        <annee_installation_generateur gt="" gte="2012" lt="" lte="" />
+        <pn gt="" gte="" lt="" lte="70" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[67 + 6 * logPn]]></rpn>
+        <qp0><![CDATA[0.085 * Pn * (Pn ^ -0.4)]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>POELE_BOUILLEUR</type_generateur>
+        <energie_generateur>BOIS_GRANULE</energie_generateur>
+        <annee_installation_generateur gt="" gte="2012" lt="" lte="" />
+        <pn gt="70" gte="" lt="" lte="400" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[78]]></rpn>
+        <qp0><![CDATA[1.1]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>POELE_BOUILLEUR</type_generateur>
+        <energie_generateur>BOIS_GRANULE</energie_generateur>
+        <annee_installation_generateur gt="" gte="2012" lt="" lte="" />
+        <pn gt="400" gte="" lt="" lte="" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[78]]></rpn>
+        <qp0><![CDATA[0.5]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>POELE_BOUILLEUR</type_generateur>
+        <energie_generateur>BOIS_PLAQUETTE</energie_generateur>
+        <annee_installation_generateur gt="" gte="" lt="" lte="2011" />
+        <pn gt="" gte="" lt="" lte="70" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[47 + 6 * logPn]]></rpn>
+        <qp0><![CDATA[0.07 * Pn * (Pn ^ -0.3)]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>POELE_BOUILLEUR</type_generateur>
+        <energie_generateur>BOIS_PLAQUETTE</energie_generateur>
+        <annee_installation_generateur gt="" gte="" lt="" lte="2011" />
+        <pn gt="70" gte="" lt="" lte="400" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[58]]></rpn>
+        <qp0><![CDATA[1.4]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>POELE_BOUILLEUR</type_generateur>
+        <energie_generateur>BOIS_PLAQUETTE</energie_generateur>
+        <annee_installation_generateur gt="" gte="" lt="" lte="2011" />
+        <pn gt="400" gte="" lt="" lte="" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[58]]></rpn>
+        <qp0><![CDATA[0.8]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>POELE_BOUILLEUR</type_generateur>
+        <energie_generateur>BOIS_PLAQUETTE</energie_generateur>
+        <annee_installation_generateur gt="" gte="2012" lt="" lte="" />
+        <pn gt="" gte="" lt="" lte="70" />
+        <pn_max></pn_max>
+        <rpn><![CDATA[57 + 6 * logPn]]></rpn>
+        <qp0><![CDATA[0.085 * Pn * (Pn ^ -0.4)]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>POELE_BOUILLEUR</type_generateur>
+        <energie_generateur>BOIS_PLAQUETTE</energie_generateur>
+        <annee_installation_generateur gt="" gte="2012" lt="" lte="" />
+        <pn gt="70" gte="" lt="" lte="400" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[68]]></rpn>
+        <qp0><![CDATA[1.1]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
+    <row>
+        <type_generateur>POELE_BOUILLEUR</type_generateur>
+        <energie_generateur>BOIS_PLAQUETTE</energie_generateur>
+        <annee_installation_generateur gt="" gte="2012" lt="" lte="" />
+        <pn gt="400" gte="" lt="" lte="" />
+        <pn_max>70</pn_max>
+        <rpn><![CDATA[68]]></rpn>
+        <qp0><![CDATA[0.5]]></qp0>
+        <pveilleuse></pveilleuse>
+    </row>
 </table>

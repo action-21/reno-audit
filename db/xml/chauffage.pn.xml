@@ -8,7 +8,7 @@
     </row>
     <row>
         <type_chaudiere>CHAUDIERE_MURALE</type_chaudiere>
-        <pdim gt="50" gte="" lt="" lte="10" />
+        <pdim gt="5" gte="" lt="" lte="10" />
         <annee_installation_generateur gt="" gte="" lt="" lte="2005" />
         <pn>18</pn>
     </row>
@@ -62,7 +62,7 @@
     </row>
     <row>
         <type_chaudiere>CHAUDIERE_MURALE</type_chaudiere>
-        <pdim gt="50" gte="" lt="" lte="10" />
+        <pdim gt="5" gte="" lt="" lte="10" />
         <annee_installation_generateur gt="2005" gte="" lt="" lte="" />
         <pn>10</pn>
     </row>
@@ -116,7 +116,7 @@
     </row>
     <row>
         <type_chaudiere>CHAUDIERE_SOL</type_chaudiere>
-        <pdim gt="50" gte="" lt="" lte="10" />
+        <pdim gt="5" gte="" lt="" lte="10" />
         <annee_installation_generateur gt="" gte="" lt="" lte="" />
         <pn>18</pn>
     </row>

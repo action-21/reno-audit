@@ -5,7 +5,7 @@
         <isolation />
         <nature_menuiserie />
         <type_vitrage />
-        <taux_vitrage lt="" lte="" gt="" gte="" />
+        <taux_vitrage lt="" lte="" gt="" gte="">0</taux_vitrage>
         <uporte>1.5</uporte>
     </row>
     <row>
@@ -13,7 +13,7 @@
         <isolation>INCONNU</isolation>
         <nature_menuiserie>PVC</nature_menuiserie>
         <type_vitrage />
-        <taux_vitrage lt="" lte="" gt="" gte="" />
+        <taux_vitrage lt="" lte="" gt="" gte="">0</taux_vitrage>
         <uporte>3.5</uporte>
     </row>
     <row>
@@ -21,7 +21,7 @@
         <isolation>INCONNU</isolation>
         <nature_menuiserie>BOIS</nature_menuiserie>
         <type_vitrage />
-        <taux_vitrage lt="" lte="" gt="" gte="" />
+        <taux_vitrage lt="" lte="" gt="" gte="">0</taux_vitrage>
         <uporte>3.5</uporte>
     </row>
     <row>
@@ -29,7 +29,7 @@
         <isolation>INCONNU</isolation>
         <nature_menuiserie>BOIS_METAL</nature_menuiserie>
         <type_vitrage />
-        <taux_vitrage lt="" lte="" gt="" gte="" />
+        <taux_vitrage lt="" lte="" gt="" gte="">0</taux_vitrage>
         <uporte>3.5</uporte>
     </row>
     <row>
@@ -37,7 +37,7 @@
         <isolation>INCONNU</isolation>
         <nature_menuiserie>METAL</nature_menuiserie>
         <type_vitrage />
-        <taux_vitrage lt="" lte="" gt="" gte="" />
+        <taux_vitrage lt="" lte="" gt="" gte="">0</taux_vitrage>
         <uporte>5.8</uporte>
     </row>
     <row>
@@ -237,7 +237,7 @@
         <isolation>NON_ISOLE</isolation>
         <nature_menuiserie>PVC</nature_menuiserie>
         <type_vitrage />
-        <taux_vitrage lt="" lte="" gt="" gte="" />
+        <taux_vitrage lt="" lte="" gt="" gte="">0</taux_vitrage>
         <uporte>3.5</uporte>
     </row>
     <row>
@@ -245,7 +245,7 @@
         <isolation>NON_ISOLE</isolation>
         <nature_menuiserie>BOIS</nature_menuiserie>
         <type_vitrage />
-        <taux_vitrage lt="" lte="" gt="" gte="" />
+        <taux_vitrage lt="" lte="" gt="" gte="">0</taux_vitrage>
         <uporte>3.5</uporte>
     </row>
     <row>
@@ -253,7 +253,7 @@
         <isolation>NON_ISOLE</isolation>
         <nature_menuiserie>BOIS_METAL</nature_menuiserie>
         <type_vitrage />
-        <taux_vitrage lt="" lte="" gt="" gte="" />
+        <taux_vitrage lt="" lte="" gt="" gte="">0</taux_vitrage>
         <uporte>3.5</uporte>
     </row>
     <row>
@@ -261,7 +261,7 @@
         <isolation>NON_ISOLE</isolation>
         <nature_menuiserie>METAL</nature_menuiserie>
         <type_vitrage />
-        <taux_vitrage lt="" lte="" gt="" gte="" />
+        <taux_vitrage lt="" lte="" gt="" gte="">0</taux_vitrage>
         <uporte>5.8</uporte>
     </row>
     <row>
@@ -533,7 +533,7 @@
         <isolation>ISOLE</isolation>
         <nature_menuiserie></nature_menuiserie>
         <type_vitrage>DOUBLE_VITRAGE</type_vitrage>
-        <taux_vitrage lt="" lte="" gt="" gte="" />
+        <taux_vitrage lt="" lte="" gt="" gte="">0</taux_vitrage>
         <uporte>1.5</uporte>
     </row>
     <row>
@@ -541,7 +541,7 @@
         <isolation>ISOLE</isolation>
         <nature_menuiserie></nature_menuiserie>
         <type_vitrage>TRIPLE_VITRAGE</type_vitrage>
-        <taux_vitrage lt="" lte="" gt="" gte="" />
+        <taux_vitrage lt="" lte="" gt="" gte="">0</taux_vitrage>
         <uporte>1.5</uporte>
     </row>
 </table>

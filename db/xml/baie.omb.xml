@@ -310,6 +310,34 @@
     </row>
     <row>
         <type_masque_lointain>NON_HOMOGENE</type_masque_lointain>
+        <secteur>SECTEUR_LATERAL_OUEST</secteur>
+        <orientation_baie>SUD</orientation_baie>
+        <hauteur_masque_alpha gt="" gte="" lt="15" lte="" />
+        <omb>0</omb>
+    </row>
+    <row>
+        <type_masque_lointain>NON_HOMOGENE</type_masque_lointain>
+        <secteur>SECTEUR_LATERAL_OUEST</secteur>
+        <orientation_baie>SUD</orientation_baie>
+        <hauteur_masque_alpha gt="" gte="15" lt="30" lte="" />
+        <omb>4</omb>
+    </row>
+    <row>
+        <type_masque_lointain>NON_HOMOGENE</type_masque_lointain>
+        <secteur>SECTEUR_LATERAL_OUEST</secteur>
+        <orientation_baie>SUD</orientation_baie>
+        <hauteur_masque_alpha gt="" gte="30" lt="60" lte="" />
+        <omb>13</omb>
+    </row>
+    <row>
+        <type_masque_lointain>NON_HOMOGENE</type_masque_lointain>
+        <secteur>SECTEUR_LATERAL_OUEST</secteur>
+        <orientation_baie>SUD</orientation_baie>
+        <hauteur_masque_alpha gt="" gte="60" lt="" lte="" />
+        <omb>15</omb>
+    </row>
+    <row>
+        <type_masque_lointain>NON_HOMOGENE</type_masque_lointain>
         <secteur>SECTEUR_LATERAL_SUD</secteur>
         <orientation_baie>OUEST</orientation_baie>
         <hauteur_masque_alpha gt="" gte="" lt="15" lte="" />
